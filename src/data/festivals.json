@@ -1,0 +1,42 @@
+[
+  {
+    "id": "palace-french",
+    "name": "Palace French Film Festival",
+    "venue": "Palace Cinemas (multiple locations)",
+    "startDate": "2026-03-05",
+    "endDate": "2026-04-09",
+    "description": "A curated selection of the best new French cinema, featuring dramas, comedies, and documentaries direct from Cannes and beyond.",
+    "ticketUrl": "https://www.palacecinemas.com.au/festivals/french-film-festival/",
+    "accentColor": "#1e3a8a"
+  },
+  {
+    "id": "sydney-film-festival",
+    "name": "Sydney Film Festival",
+    "venue": "State Theatre & various venues",
+    "startDate": "2026-06-10",
+    "endDate": "2026-06-21",
+    "description": "Australia's premier film festival featuring world premieres, international competition films, retrospectives, and special events across Sydney.",
+    "ticketUrl": "https://www.sff.org.au",
+    "accentColor": "#dc2626"
+  },
+  {
+    "id": "flickerfest",
+    "name": "Flickerfest International Short Film Festival",
+    "venue": "Bondi Pavilion",
+    "startDate": "2026-01-16",
+    "endDate": "2026-01-25",
+    "description": "Australia's only Academy Award accredited short film festival, showcasing the best short films from around the world at Bondi Beach.",
+    "ticketUrl": "https://www.flickerfest.com.au",
+    "accentColor": "#059669"
+  },
+  {
+    "id": "japanese-film-fest",
+    "name": "Japanese Film Festival",
+    "venue": "Event Cinemas George St",
+    "startDate": "2026-10-15",
+    "endDate": "2026-11-02",
+    "description": "Celebrating the best of contemporary and classic Japanese cinema, from anime blockbusters to intimate dramas.",
+    "ticketUrl": "https://japanesefilmfestival.net",
+    "accentColor": "#b91c1c"
+  }
+]
