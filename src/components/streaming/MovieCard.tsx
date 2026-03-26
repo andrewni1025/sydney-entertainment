@@ -88,19 +88,19 @@ export default function MovieCard({ movie, index }: MovieCardProps) {
         </div>
       </div>
 
-      {/* Info section — below poster, solid dark background */}
-      <div className="p-4 space-y-3">
+      {/* Info section — below poster */}
+      <div className="p-3 sm:p-4 space-y-2 sm:space-y-3">
         {/* Title & meta */}
         <div>
-          <h3 className="font-[family-name:var(--font-heading)] text-sm font-bold text-white leading-tight line-clamp-1">
+          <h3 className="font-[family-name:var(--font-heading)] text-[12px] sm:text-sm font-bold text-white leading-tight line-clamp-1">
             {movie.title}
           </h3>
-          <div className="flex items-center gap-2 mt-1">
-            <span className="text-white/35 text-xs">{year}</span>
-            {movie.genres.slice(0, 2).map((g) => (
+          <div className="flex items-center gap-1.5 mt-0.5 sm:mt-1">
+            <span className="text-white/35 text-[10px] sm:text-xs">{year}</span>
+            {movie.genres.slice(0, 1).map((g) => (
               <span
                 key={g}
-                className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/8 text-white/45"
+                className="text-[9px] sm:text-[10px] px-1 sm:px-1.5 py-0.5 rounded-full bg-white/8 text-white/45 hidden sm:inline"
               >
                 {g}
               </span>
@@ -111,12 +111,13 @@ export default function MovieCard({ movie, index }: MovieCardProps) {
         {/* Divider */}
         <div className="h-px bg-white/8" />
 
-        {/* Triple ratings — clear on dark background */}
+        {/* Triple ratings */}
         <div className="flex items-center justify-between">
           <RatingRing
             score={movie.ratings.imdb}
             color="#f5c518"
             label="IMDb"
+            size={42}
             displayValue={
               movie.ratings.imdb !== null
                 ? (movie.ratings.imdb / 10).toFixed(1)
@@ -126,7 +127,8 @@ export default function MovieCard({ movie, index }: MovieCardProps) {
           <RatingRing
             score={movie.ratings.rottenTomatoes}
             color={movie.ratings.rtFresh ? "#6ac045" : "#fa320a"}
-            label="Tomatoes"
+            label="RT"
+            size={42}
             displayValue={
               movie.ratings.rottenTomatoes !== null
                 ? `${movie.ratings.rottenTomatoes}%`
@@ -138,6 +140,7 @@ export default function MovieCard({ movie, index }: MovieCardProps) {
             score={movie.ratings.douban}
             color="#00b51d"
             label="Douban"
+            size={42}
             displayValue={formatDoubanScore(movie.ratings.doubanOriginal)}
             icon={<DoubanIcon />}
           />

@@ -15,8 +15,8 @@ interface RatingRingProps {
 export default function RatingRing({
   score,
   maxScore = 100,
-  size = 52,
-  strokeWidth = 3,
+  size = 42,
+  strokeWidth = 2.5,
   color,
   label,
   displayValue,
@@ -62,17 +62,16 @@ export default function RatingRing({
         {/* Center value */}
         <div className="absolute inset-0 flex items-center justify-center">
           {score !== null ? (
-            <span className="text-xs font-bold text-white">
+            <span className="text-[10px] font-bold text-white">
               {displayValue ?? score}
             </span>
           ) : (
-            <span className="text-xs text-white/30">—</span>
+            <span className="text-[10px] text-white/30">—</span>
           )}
         </div>
       </div>
-      <div className="flex items-center gap-0.5 text-[10px] text-white/40">
-        {icon && <span className="text-sm leading-none">{icon}</span>}
-        <span>{label}</span>
+      <div className="flex items-center gap-0.5 text-[9px] text-white/40">
+        {icon ? <span className="text-sm leading-none">{icon}</span> : <span>{label}</span>}
       </div>
     </div>
   );
