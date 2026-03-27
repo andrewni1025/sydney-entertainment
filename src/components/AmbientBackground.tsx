@@ -10,50 +10,42 @@ interface AmbientBackgroundProps {
   mode: "cinema" | "streaming";
 }
 
-// Background gradients — dramatic shifts by time + mode
+// Background gradients — VISIBLE color shifts between modes and times
 const timeGradients: Record<TimeOfDay, { cinema: string; streaming: string }> = {
   night: {
-    // Night Out: deep navy, city-at-2am feel
-    cinema: "linear-gradient(135deg, #020820 0%, #0a1535 40%, #03061a 100%)",
-    // Night In: warm cocoa darkness
-    streaming: "linear-gradient(135deg, #1a0e02 0%, #120a04 40%, #0d0800 100%)",
+    cinema: "linear-gradient(160deg, #060d2a 0%, #0c1840 35%, #141e50 65%, #080e28 100%)",
+    streaming: "linear-gradient(160deg, #1c1008 0%, #221508 35%, #1a1005 65%, #120a02 100%)",
   },
   dawn: {
-    // Night Out: pre-dawn purple-blue, stumbling out of a late bar
-    cinema: "linear-gradient(135deg, #1a1040 0%, #201848 40%, #0d0a28 100%)",
-    // Night In: early morning amber, coffee vibes
-    streaming: "linear-gradient(135deg, #201005 0%, #1a0d03 40%, #150a00 100%)",
+    cinema: "linear-gradient(160deg, #151040 0%, #1e1855 35%, #281e60 65%, #100a30 100%)",
+    streaming: "linear-gradient(160deg, #251808 0%, #2a1a0a 35%, #201208 65%, #180e05 100%)",
   },
   day: {
-    // Night Out: bright blue-grey daylight reflected off buildings
-    cinema: "linear-gradient(135deg, #0e1525 0%, #121a30 40%, #0a1020 100%)",
-    // Night In: warm afternoon sun through curtains
-    streaming: "linear-gradient(135deg, #1a1208 0%, #151005 40%, #100c02 100%)",
+    cinema: "linear-gradient(160deg, #0a1530 0%, #101e45 35%, #152550 65%, #0c1228 100%)",
+    streaming: "linear-gradient(160deg, #201810 0%, #251c12 35%, #1e160d 65%, #151008 100%)",
   },
   dusk: {
-    // Night Out: golden hour turning purple, getting ready to go out
-    cinema: "linear-gradient(135deg, #1a0e28 0%, #201540 40%, #100a20 100%)",
-    // Night In: sunset on the couch, cosy orange
-    streaming: "linear-gradient(135deg, #201208 0%, #1a0e05 40%, #150a00 100%)",
+    cinema: "linear-gradient(160deg, #1a1045 0%, #251560 35%, #201050 65%, #120a30 100%)",
+    streaming: "linear-gradient(160deg, #281510 0%, #301a10 35%, #221008 65%, #1a0c05 100%)",
   },
 };
 
-// Weather overlays - applied as additional tint on top
+// Weather tint overlay
 function getWeatherOverlay(weather: string | null, isCinema: boolean): string | null {
   if (weather === "rain" || weather === "storm") {
     return isCinema
-      ? "radial-gradient(ellipse at 50% 30%, rgba(40,60,120,0.3), transparent 80%)"
-      : "radial-gradient(ellipse at 50% 30%, rgba(80,70,50,0.2), transparent 80%)";
+      ? "linear-gradient(180deg, rgba(20,30,60,0.5) 0%, rgba(30,40,80,0.3) 50%, transparent 100%)"
+      : "linear-gradient(180deg, rgba(40,35,25,0.4) 0%, rgba(50,40,30,0.2) 50%, transparent 100%)";
   }
   if (weather === "cloud" || weather === "fog") {
     return isCinema
-      ? "radial-gradient(ellipse at 50% 40%, rgba(60,70,90,0.2), transparent 70%)"
-      : "radial-gradient(ellipse at 50% 40%, rgba(80,70,50,0.15), transparent 70%)";
+      ? "radial-gradient(ellipse at 50% 30%, rgba(50,60,90,0.3), transparent 70%)"
+      : "radial-gradient(ellipse at 50% 30%, rgba(80,65,40,0.25), transparent 70%)";
   }
   if (weather === "clear") {
     return isCinema
-      ? "radial-gradient(ellipse at 80% 10%, rgba(60,80,150,0.15), transparent 60%)"
-      : "radial-gradient(ellipse at 80% 10%, rgba(200,150,50,0.1), transparent 60%)";
+      ? "radial-gradient(ellipse at 75% 15%, rgba(40,60,140,0.2), transparent 55%)"
+      : "radial-gradient(ellipse at 75% 15%, rgba(200,140,40,0.15), transparent 55%)";
   }
   return null;
 }
@@ -132,73 +124,71 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
 
       {isCinema ? (
         <>
-          {/* NIGHT OUT: City lights bokeh — scattered glowing dots */}
+          {/* NIGHT OUT: Strong blue/indigo city glow */}
           <div className="absolute inset-0">
-            {/* Large soft glow - like distant city light */}
+            {/* Main blue glow — bottom, like city lights reflected on clouds */}
             <motion.div
-              className="absolute w-[600px] h-[300px] blur-[120px] opacity-[0.12]"
-              style={{ bottom: "5%", left: "10%", mixBlendMode: "screen" }}
-              animate={{ background: "radial-gradient(ellipse, rgba(60,120,255,0.7), transparent 70%)" }}
+              className="absolute w-[800px] h-[400px] blur-[100px] opacity-[0.20]"
+              style={{ bottom: "-5%", left: "5%", mixBlendMode: "screen" }}
+              animate={{ background: "radial-gradient(ellipse, rgba(40,80,220,0.8), transparent 65%)" }}
               transition={{ duration: 1 }}
             />
+            {/* Secondary purple glow — right side */}
             <motion.div
-              className="absolute w-[400px] h-[250px] blur-[100px] opacity-[0.08]"
-              style={{ bottom: "15%", right: "15%", mixBlendMode: "screen" }}
-              animate={{ background: "radial-gradient(ellipse, rgba(100,80,255,0.6), transparent 70%)" }}
+              className="absolute w-[500px] h-[400px] blur-[100px] opacity-[0.15]"
+              style={{ bottom: "10%", right: "5%", mixBlendMode: "screen" }}
+              animate={{ background: "radial-gradient(ellipse, rgba(80,50,200,0.7), transparent 65%)" }}
               transition={{ duration: 1 }}
             />
+            {/* Top moonlight */}
             <motion.div
-              className="absolute w-[500px] h-[500px] blur-[140px] opacity-[0.06]"
-              style={{ top: "-10%", right: "20%", mixBlendMode: "screen" }}
-              animate={{ background: "radial-gradient(circle, rgba(160,180,255,0.5), transparent 60%)" }}
+              className="absolute w-[600px] h-[400px] blur-[120px] opacity-[0.10]"
+              style={{ top: "-15%", right: "15%", mixBlendMode: "screen" }}
+              animate={{ background: "radial-gradient(circle, rgba(120,150,255,0.5), transparent 55%)" }}
               transition={{ duration: 1 }}
             />
           </div>
-
-          {/* Skyline more visible in Night Out mode */}
-          <SydneySkyline opacity={timeOfDay === "night" ? 0.06 : 0.04} />
+          <SydneySkyline opacity={timeOfDay === "night" ? 0.08 : 0.05} />
         </>
       ) : (
         <>
-          {/* COSY NIGHT IN: Soft warm ambient — like lamplight in a dark room */}
-          {/* Bottom glow — subtle, warm, diffuse */}
+          {/* COSY NIGHT IN: Visible warm amber/orange glow */}
+          {/* Main warm glow — bottom, like floor lamp */}
           <motion.div
-            className="absolute w-full h-[50%] blur-[120px] opacity-[0.10]"
-            style={{ bottom: "-15%", left: 0, mixBlendMode: "screen" }}
+            className="absolute w-[800px] h-[500px] blur-[100px] opacity-[0.18]"
+            style={{ bottom: "-10%", left: "10%", mixBlendMode: "screen" }}
             animate={{
-              background: "radial-gradient(ellipse at 50% 100%, rgba(220,140,40,0.6), transparent 65%)",
+              background: "radial-gradient(ellipse at 50% 80%, rgba(255,140,30,0.7), transparent 60%)",
             }}
             transition={{ duration: 1 }}
           />
-          {/* Side warmth — like a soft reading lamp */}
+          {/* Reading lamp — top left warm spot */}
           <motion.div
-            className="absolute w-[350px] h-[350px] blur-[110px] opacity-[0.07]"
-            style={{ top: "15%", left: "8%", mixBlendMode: "screen" }}
+            className="absolute w-[400px] h-[400px] blur-[90px] opacity-[0.12]"
+            style={{ top: "5%", left: "5%", mixBlendMode: "screen" }}
             animate={{
-              background: "radial-gradient(circle, rgba(240,180,50,0.4), transparent 60%)",
+              background: "radial-gradient(circle, rgba(255,180,50,0.5), transparent 55%)",
             }}
             transition={{ duration: 1 }}
           />
-          {/* Subtle center warmth */}
+          {/* Subtle right warmth */}
           <motion.div
-            className="absolute w-[500px] h-[300px] blur-[140px] opacity-[0.04]"
-            style={{ top: "30%", right: "20%", mixBlendMode: "screen" }}
+            className="absolute w-[400px] h-[300px] blur-[110px] opacity-[0.08]"
+            style={{ top: "40%", right: "10%", mixBlendMode: "screen" }}
             animate={{
-              background: "radial-gradient(ellipse, rgba(220,160,80,0.3), transparent 60%)",
+              background: "radial-gradient(ellipse, rgba(220,120,40,0.4), transparent 55%)",
             }}
-            transition={{ duration: 1.5 }}
+            transition={{ duration: 1 }}
           />
-
-          {/* Skyline dimmed in cosy mode */}
-          <SydneySkyline opacity={0.02} />
+          <SydneySkyline opacity={0.025} />
         </>
       )}
 
-      {/* Subtle vignette effect for both modes */}
+      {/* Vignette */}
       <div
         className="absolute inset-0"
         style={{
-          background: "radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.4) 100%)",
+          background: "radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.5) 100%)",
         }}
       />
     </div>
