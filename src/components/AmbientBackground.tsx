@@ -10,23 +10,31 @@ interface AmbientBackgroundProps {
   mode: "cinema" | "streaming";
 }
 
-// Background gradients — VISIBLE color shifts between modes and times
+// Background gradients — each time period has DISTINCTLY different colors
 const timeGradients: Record<TimeOfDay, { cinema: string; streaming: string }> = {
   night: {
-    cinema: "linear-gradient(160deg, #060d2a 0%, #0c1840 35%, #141e50 65%, #080e28 100%)",
-    streaming: "linear-gradient(160deg, #1c1008 0%, #221508 35%, #1a1005 65%, #120a02 100%)",
+    // Deep dark navy — late night city
+    cinema: "linear-gradient(160deg, #050a20 0%, #0a1230 35%, #0e1840 65%, #060a1a 100%)",
+    // Deep chocolate — midnight cosy
+    streaming: "linear-gradient(160deg, #150c02 0%, #1a1005 35%, #120a02 65%, #0d0800 100%)",
   },
   dawn: {
-    cinema: "linear-gradient(160deg, #151040 0%, #1e1855 35%, #281e60 65%, #100a30 100%)",
-    streaming: "linear-gradient(160deg, #251808 0%, #2a1a0a 35%, #201208 65%, #180e05 100%)",
+    // Purple-rose — early morning sky
+    cinema: "linear-gradient(160deg, #1a0e35 0%, #2a1550 35%, #351a5a 65%, #150a30 100%)",
+    // Warm amber sunrise
+    streaming: "linear-gradient(160deg, #2a1808 0%, #35200a 35%, #2a1808 65%, #201005 100%)",
   },
   day: {
-    cinema: "linear-gradient(160deg, #0a1530 0%, #101e45 35%, #152550 65%, #0c1228 100%)",
-    streaming: "linear-gradient(160deg, #201810 0%, #251c12 35%, #1e160d 65%, #151008 100%)",
+    // Brighter steel blue — daylight
+    cinema: "linear-gradient(160deg, #101830 0%, #182548 35%, #1e2d55 65%, #121a35 100%)",
+    // Light warm tan — afternoon sunlight
+    streaming: "linear-gradient(160deg, #2a2015 0%, #302618 35%, #282012 65%, #1e180d 100%)",
   },
   dusk: {
-    cinema: "linear-gradient(160deg, #1a1045 0%, #251560 35%, #201050 65%, #120a30 100%)",
-    streaming: "linear-gradient(160deg, #281510 0%, #301a10 35%, #221008 65%, #1a0c05 100%)",
+    // Deep purple-orange sunset
+    cinema: "linear-gradient(160deg, #201048 0%, #301560 35%, #281055 65%, #180a38 100%)",
+    // Warm sunset orange
+    streaming: "linear-gradient(160deg, #302010 0%, #382515 35%, #2a1a0a 65%, #201208 100%)",
   },
 };
 
