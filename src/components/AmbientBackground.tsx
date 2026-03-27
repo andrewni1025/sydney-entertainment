@@ -108,15 +108,14 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
       {(condition === "clear" && (timeOfDay === "day" || timeOfDay === "dawn")) && <SunGlowEffect />}
       {timeOfDay === "night" && condition !== "rain" && condition !== "storm" && <StarsEffect />}
 
-      {/* Weather + time badge */}
+      {/* Weather badge — visible pill */}
       {weather && (
-        <div className="absolute top-4 right-4 text-[10px] text-white/20 flex items-center gap-1.5">
-          <span>{timeOfDay === "night" ? "🌙" : timeOfDay === "dawn" ? "🌅" : timeOfDay === "day" ? "☀️" : "🌇"}</span>
-          <span>{weather.temp}°C</span>
-          <span>·</span>
-          <span>{weather.description}</span>
-          <span>·</span>
-          <span>Sydney</span>
+        <div className="absolute top-4 right-4 flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.06] border border-white/[0.08] backdrop-blur-md">
+          <span className="text-base">
+            {condition === "rain" ? "🌧️" : condition === "storm" ? "⛈️" : condition === "cloud" ? "☁️" : condition === "fog" ? "🌫️" : timeOfDay === "night" ? "🌙" : timeOfDay === "dawn" ? "🌅" : timeOfDay === "dusk" ? "🌇" : "☀️"}
+          </span>
+          <span className="text-white/50 text-xs font-medium">{weather.temp}°C</span>
+          <span className="text-white/30 text-[10px]">{weather.description}</span>
         </div>
       )}
 
