@@ -10,42 +10,52 @@ interface AmbientBackgroundProps {
   mode: "cinema" | "streaming";
 }
 
-// Background gradients based on time of day
+// Background gradients — dramatic shifts by time + mode
 const timeGradients: Record<TimeOfDay, { cinema: string; streaming: string }> = {
   night: {
-    cinema: "linear-gradient(135deg, #030818 0%, #0a1025 40%, #050a1a 100%)",
-    streaming: "linear-gradient(135deg, #120800 0%, #0d0600 40%, #0a0500 100%)",
+    // Night Out: deep navy, city-at-2am feel
+    cinema: "linear-gradient(135deg, #020820 0%, #0a1535 40%, #03061a 100%)",
+    // Night In: warm cocoa darkness
+    streaming: "linear-gradient(135deg, #1a0e02 0%, #120a04 40%, #0d0800 100%)",
   },
   dawn: {
-    cinema: "linear-gradient(135deg, #0d1028 0%, #141830 40%, #0a0f22 100%)",
-    streaming: "linear-gradient(135deg, #1a0e05 0%, #150a02 40%, #100800 100%)",
+    // Night Out: pre-dawn purple-blue, stumbling out of a late bar
+    cinema: "linear-gradient(135deg, #1a1040 0%, #201848 40%, #0d0a28 100%)",
+    // Night In: early morning amber, coffee vibes
+    streaming: "linear-gradient(135deg, #201005 0%, #1a0d03 40%, #150a00 100%)",
   },
   day: {
-    cinema: "linear-gradient(135deg, #0a0e1a 0%, #0d1020 40%, #060a15 100%)",
-    streaming: "linear-gradient(135deg, #140e05 0%, #0f0a03 40%, #0a0700 100%)",
+    // Night Out: bright blue-grey daylight reflected off buildings
+    cinema: "linear-gradient(135deg, #0e1525 0%, #121a30 40%, #0a1020 100%)",
+    // Night In: warm afternoon sun through curtains
+    streaming: "linear-gradient(135deg, #1a1208 0%, #151005 40%, #100c02 100%)",
   },
   dusk: {
-    cinema: "linear-gradient(135deg, #0d0a18 0%, #100d20 40%, #08061a 100%)",
-    streaming: "linear-gradient(135deg, #180e00 0%, #120800 40%, #0d0500 100%)",
+    // Night Out: golden hour turning purple, getting ready to go out
+    cinema: "linear-gradient(135deg, #1a0e28 0%, #201540 40%, #100a20 100%)",
+    // Night In: sunset on the couch, cosy orange
+    streaming: "linear-gradient(135deg, #201208 0%, #1a0e05 40%, #150a00 100%)",
   },
 };
 
-// Orb colors: cinema = cool city lights, streaming = warm cosy amber
-function getOrbColors(weather: string | null, isCinema: boolean) {
+// Weather overlays - applied as additional tint on top
+function getWeatherOverlay(weather: string | null, isCinema: boolean): string | null {
   if (weather === "rain" || weather === "storm") {
     return isCinema
-      ? ["rgba(80,120,200,0.25)", "rgba(60,100,180,0.2)", "rgba(70,90,160,0.15)"]
-      : ["rgba(200,150,80,0.2)", "rgba(180,120,60,0.15)", "rgba(160,100,50,0.1)"];
+      ? "radial-gradient(ellipse at 50% 30%, rgba(40,60,120,0.3), transparent 80%)"
+      : "radial-gradient(ellipse at 50% 30%, rgba(80,70,50,0.2), transparent 80%)";
   }
   if (weather === "cloud" || weather === "fog") {
     return isCinema
-      ? ["rgba(120,140,180,0.2)", "rgba(100,120,160,0.15)", "rgba(80,100,140,0.1)"]
-      : ["rgba(180,140,80,0.15)", "rgba(160,120,70,0.1)", "rgba(140,100,60,0.08)"];
+      ? "radial-gradient(ellipse at 50% 40%, rgba(60,70,90,0.2), transparent 70%)"
+      : "radial-gradient(ellipse at 50% 40%, rgba(80,70,50,0.15), transparent 70%)";
   }
-  // Clear / default
-  return isCinema
-    ? ["rgba(80,140,255,0.25)", "rgba(100,120,220,0.2)", "rgba(60,100,200,0.15)"]
-    : ["rgba(251,146,60,0.25)", "rgba(234,124,40,0.2)", "rgba(200,120,50,0.15)"];
+  if (weather === "clear") {
+    return isCinema
+      ? "radial-gradient(ellipse at 80% 10%, rgba(60,80,150,0.15), transparent 60%)"
+      : "radial-gradient(ellipse at 80% 10%, rgba(200,150,50,0.1), transparent 60%)";
+  }
+  return null;
 }
 
 export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
@@ -66,6 +76,7 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
     : timeGradients[timeOfDay].streaming;
 
   const condition = weather?.condition;
+  const weatherOverlay = getWeatherOverlay(condition ?? null, isCinema);
 
   // Only render base gradient on server; all effects render client-only
   if (!mounted) {
@@ -85,6 +96,16 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
         transition={{ duration: 1.5 }}
       />
 
+      {/* Weather-based color overlay */}
+      {weatherOverlay && (
+        <motion.div
+          className="absolute inset-0"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, background: weatherOverlay }}
+          transition={{ duration: 2 }}
+        />
+      )}
+
       {/* Weather effects */}
       {(condition === "rain" || condition === "storm") && (
         <RainEffect intensity={condition === "storm" ? "heavy" : "normal"} />
@@ -95,9 +116,10 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
       {(condition === "clear" && (timeOfDay === "day" || timeOfDay === "dawn")) && <SunGlowEffect />}
       {timeOfDay === "night" && condition !== "rain" && condition !== "storm" && <StarsEffect />}
 
-      {/* Weather info badge */}
+      {/* Weather + time badge */}
       {weather && (
         <div className="absolute top-4 right-4 text-[10px] text-white/20 flex items-center gap-1.5">
+          <span>{timeOfDay === "night" ? "🌙" : timeOfDay === "dawn" ? "🌅" : timeOfDay === "day" ? "☀️" : "🌇"}</span>
           <span>{weather.temp}°C</span>
           <span>·</span>
           <span>{weather.description}</span>
