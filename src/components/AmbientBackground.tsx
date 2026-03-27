@@ -114,23 +114,22 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
           <div className="absolute inset-0">
             {/* Large soft glow - like distant city light */}
             <motion.div
-              className="absolute w-[600px] h-[300px] blur-[150px] opacity-[0.07]"
+              className="absolute w-[600px] h-[300px] blur-[120px] opacity-[0.12]"
               style={{ bottom: "5%", left: "10%", mixBlendMode: "screen" }}
-              animate={{ background: "radial-gradient(ellipse, rgba(80,140,255,0.6), transparent 70%)" }}
-              transition={{ duration: 1.5 }}
+              animate={{ background: "radial-gradient(ellipse, rgba(60,120,255,0.7), transparent 70%)" }}
+              transition={{ duration: 1 }}
             />
             <motion.div
-              className="absolute w-[400px] h-[250px] blur-[120px] opacity-[0.05]"
+              className="absolute w-[400px] h-[250px] blur-[100px] opacity-[0.08]"
               style={{ bottom: "15%", right: "15%", mixBlendMode: "screen" }}
-              animate={{ background: "radial-gradient(ellipse, rgba(120,100,255,0.5), transparent 70%)" }}
-              transition={{ duration: 1.5 }}
+              animate={{ background: "radial-gradient(ellipse, rgba(100,80,255,0.6), transparent 70%)" }}
+              transition={{ duration: 1 }}
             />
-            {/* Top subtle light - like moonlight */}
             <motion.div
-              className="absolute w-[500px] h-[500px] blur-[160px] opacity-[0.04]"
+              className="absolute w-[500px] h-[500px] blur-[140px] opacity-[0.06]"
               style={{ top: "-10%", right: "20%", mixBlendMode: "screen" }}
-              animate={{ background: "radial-gradient(circle, rgba(180,200,255,0.5), transparent 60%)" }}
-              transition={{ duration: 1.5 }}
+              animate={{ background: "radial-gradient(circle, rgba(160,180,255,0.5), transparent 60%)" }}
+              transition={{ duration: 1 }}
             />
           </div>
 
@@ -142,21 +141,21 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
           {/* COSY NIGHT IN: Soft warm ambient — like lamplight in a dark room */}
           {/* Bottom glow — subtle, warm, diffuse */}
           <motion.div
-            className="absolute w-full h-[50%] blur-[140px] opacity-[0.05]"
+            className="absolute w-full h-[50%] blur-[120px] opacity-[0.10]"
             style={{ bottom: "-15%", left: 0, mixBlendMode: "screen" }}
             animate={{
-              background: "radial-gradient(ellipse at 50% 100%, rgba(200,130,50,0.5), transparent 65%)",
+              background: "radial-gradient(ellipse at 50% 100%, rgba(220,140,40,0.6), transparent 65%)",
             }}
-            transition={{ duration: 1.5 }}
+            transition={{ duration: 1 }}
           />
           {/* Side warmth — like a soft reading lamp */}
           <motion.div
-            className="absolute w-[350px] h-[350px] blur-[130px] opacity-[0.04]"
+            className="absolute w-[350px] h-[350px] blur-[110px] opacity-[0.07]"
             style={{ top: "15%", left: "8%", mixBlendMode: "screen" }}
             animate={{
-              background: "radial-gradient(circle, rgba(220,170,60,0.3), transparent 60%)",
+              background: "radial-gradient(circle, rgba(240,180,50,0.4), transparent 60%)",
             }}
-            transition={{ duration: 1.5 }}
+            transition={{ duration: 1 }}
           />
           {/* Subtle center warmth */}
           <motion.div
