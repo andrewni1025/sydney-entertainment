@@ -110,12 +110,12 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
 
       {/* Weather badge — visible pill */}
       {weather && (
-        <div className="absolute top-4 right-4 flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/[0.06] border border-white/[0.08] backdrop-blur-md">
-          <span className="text-base">
+        <div className="absolute top-3 right-3 sm:top-4 sm:right-4 flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full bg-white/[0.06] border border-white/[0.08] backdrop-blur-md">
+          <span className="text-xs sm:text-base">
             {condition === "rain" ? "🌧️" : condition === "storm" ? "⛈️" : condition === "cloud" ? "☁️" : condition === "fog" ? "🌫️" : timeOfDay === "night" ? "🌙" : timeOfDay === "dawn" ? "🌅" : timeOfDay === "dusk" ? "🌇" : "☀️"}
           </span>
-          <span className="text-white/50 text-xs font-medium">{weather.temp}°C</span>
-          <span className="text-white/30 text-[10px]">{weather.description}</span>
+          <span className="text-white/50 text-[10px] sm:text-xs font-medium">{weather.temp}°</span>
+          <span className="text-white/30 text-[9px] sm:text-[10px] hidden sm:inline">{weather.description}</span>
         </div>
       )}
 
