@@ -43,7 +43,40 @@ export function useSydneyWeather(): SydneyWeather | null {
 
   useEffect(() => {
     async function fetchWeather() {
-      // Try wttr.in first
+      // Primary: Open-Meteo (more accurate, free, reliable)
+      try {
+        const res = await fetch(
+          "https://api.open-meteo.com/v1/forecast?latitude=-33.87&longitude=151.21&current=temperature_2m,weather_code&timezone=Australia/Sydney",
+          { signal: AbortSignal.timeout(5000) }
+        );
+        if (res.ok) {
+          const data = await res.json();
+          const current = data?.current;
+          if (current) {
+            const wmoCode = current.weather_code ?? 0;
+            let condition: SydneyWeather["condition"] = "clear";
+            let desc = "Clear";
+            if (wmoCode >= 95) { condition = "storm"; desc = "Thunderstorm"; }
+            else if (wmoCode >= 80) { condition = "rain"; desc = "Rain showers"; }
+            else if (wmoCode >= 61) { condition = "rain"; desc = "Rain"; }
+            else if (wmoCode >= 51) { condition = "rain"; desc = "Drizzle"; }
+            else if (wmoCode >= 45) { condition = "fog"; desc = "Foggy"; }
+            else if (wmoCode >= 3) { condition = "cloud"; desc = "Cloudy"; }
+            else if (wmoCode >= 1) { condition = "cloud"; desc = "Partly cloudy"; }
+
+            setWeather({
+              condition,
+              temp: Math.round(current.temperature_2m) || 20,
+              description: desc,
+            });
+            return;
+          }
+        }
+      } catch {
+        // Fall through to backup
+      }
+
+      // Backup: wttr.in
       try {
         const res = await fetch("https://wttr.in/Sydney?format=j1", {
           signal: AbortSignal.timeout(5000),
@@ -59,43 +92,10 @@ export function useSydneyWeather(): SydneyWeather | null {
               temp: parseInt(current.temp_C) || 20,
               description: desc,
             });
-            return;
           }
         }
       } catch {
-        // Fall through to backup
-      }
-
-      // Backup: Open-Meteo (free, no key, reliable)
-      try {
-        const res = await fetch(
-          "https://api.open-meteo.com/v1/forecast?latitude=-33.87&longitude=151.21&current=temperature_2m,weather_code&timezone=Australia/Sydney",
-          { signal: AbortSignal.timeout(5000) }
-        );
-        if (res.ok) {
-          const data = await res.json();
-          const current = data?.current;
-          if (current) {
-            const wmoCode = current.weather_code ?? 0;
-            // WMO weather codes → our conditions
-            let condition: SydneyWeather["condition"] = "clear";
-            let desc = "Clear";
-            if (wmoCode >= 95) { condition = "storm"; desc = "Thunderstorm"; }
-            else if (wmoCode >= 61) { condition = "rain"; desc = "Rain"; }
-            else if (wmoCode >= 51) { condition = "rain"; desc = "Drizzle"; }
-            else if (wmoCode >= 45) { condition = "fog"; desc = "Foggy"; }
-            else if (wmoCode >= 3) { condition = "cloud"; desc = "Cloudy"; }
-            else if (wmoCode >= 1) { condition = "cloud"; desc = "Partly cloudy"; }
-
-            setWeather({
-              condition,
-              temp: Math.round(current.temperature_2m) || 20,
-              description: desc,
-            });
-          }
-        }
-      } catch {
-        // No weather data available
+        // No weather data
       }
     }
 
