@@ -24,7 +24,7 @@ export function RainEffect({ intensity = "normal" }: { intensity?: "light" | "no
     left: `${seededRandom(i * 7 + 1) * 100}%`,
     delay: `${seededRandom(i * 13 + 2) * 2}s`,
     duration: `${0.4 + seededRandom(i * 17 + 3) * 0.3}s`,
-    opacity: 0.15 + seededRandom(i * 23 + 4) * 0.2,
+    opacity: 0.2 + seededRandom(i * 23 + 4) * 0.3,
     width: seededRandom(i * 31 + 5) > 0.7 ? 2 : 1,
   }));
 
@@ -97,13 +97,13 @@ export function CloudsEffect() {
   const mounted = useClientOnly();
   if (!mounted) return null;
 
-  const clouds = Array.from({ length: 5 }, (_, i) => ({
+  const clouds = Array.from({ length: 8 }, (_, i) => ({
     id: i,
-    top: `${10 + seededRandom(i * 53 + 600) * 30}%`,
-    size: 200 + seededRandom(i * 59 + 700) * 300,
-    opacity: 0.03 + seededRandom(i * 61 + 800) * 0.04,
-    duration: `${40 + seededRandom(i * 67 + 900) * 30}s`,
-    delay: `${-seededRandom(i * 71 + 1000) * 40}s`,
+    top: `${5 + seededRandom(i * 53 + 600) * 35}%`,
+    size: 300 + seededRandom(i * 59 + 700) * 400,
+    opacity: 0.08 + seededRandom(i * 61 + 800) * 0.10,
+    duration: `${30 + seededRandom(i * 67 + 900) * 25}s`,
+    delay: `${-seededRandom(i * 71 + 1000) * 30}s`,
   }));
 
   return (
@@ -115,8 +115,8 @@ export function CloudsEffect() {
           style={{
             top: cloud.top,
             width: `${cloud.size}px`,
-            height: `${cloud.size * 0.4}px`,
-            background: `radial-gradient(ellipse, rgba(200,200,220,${cloud.opacity}), transparent 70%)`,
+            height: `${cloud.size * 0.35}px`,
+            background: `radial-gradient(ellipse, rgba(180,190,210,${cloud.opacity}), rgba(150,160,180,${cloud.opacity * 0.4}) 50%, transparent 75%)`,
             animation: `cloudDrift ${cloud.duration} linear ${cloud.delay} infinite`,
           }}
         />

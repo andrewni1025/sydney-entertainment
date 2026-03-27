@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useSydneyWeather, getTimeOfDay, type TimeOfDay } from "@/lib/weather";
-import { RainEffect, StarsEffect, CloudsEffect, SunGlowEffect } from "./WeatherEffects";
+import { RainEffect, StarsEffect, CloudsEffect } from "./WeatherEffects";
 import SydneySkyline from "./SydneySkyline";
 
 interface AmbientBackgroundProps {
@@ -75,10 +75,9 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
     ? timeGradients[timeOfDay].cinema
     : timeGradients[timeOfDay].streaming;
 
-  const condition = weather?.condition;
-  const weatherOverlay = getWeatherOverlay(condition ?? null, isCinema);
+  const condition = weather?.condition ?? null;
+  const weatherOverlay = getWeatherOverlay(condition, isCinema);
 
-  // Only render base gradient on server; all effects render client-only
   if (!mounted) {
     return (
       <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
@@ -86,6 +85,14 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
       </div>
     );
   }
+
+  const isNight = timeOfDay === "night";
+  const isDawn = timeOfDay === "dawn";
+  const isDusk = timeOfDay === "dusk";
+  const isDay = timeOfDay === "day";
+  const isClear = condition === "clear" || !condition;
+  const isRain = condition === "rain" || condition === "storm";
+  const isCloudy = condition === "cloud" || condition === "fog";
 
   return (
     <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
@@ -106,90 +113,95 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
         />
       )}
 
-      {/* Weather effects */}
-      {(condition === "rain" || condition === "storm") && (
-        <RainEffect intensity={condition === "storm" ? "heavy" : "normal"} />
+      {/* === iOS WEATHER-STYLE ELEMENTS === */}
+
+      {/* SUN — visible warm glow for clear day/dawn/dusk */}
+      {isClear && !isNight && (
+        <motion.div
+          className="absolute w-[150px] h-[150px] sm:w-[280px] sm:h-[280px]"
+          style={{
+            top: isDay ? "3%" : "50%",
+            right: isDay ? "10%" : isDawn ? "15%" : "10%",
+          }}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.5 }}
+        >
+          <div className="absolute inset-0 rounded-full blur-[60px]" style={{
+            background: isDay
+              ? "radial-gradient(circle, rgba(255,220,100,0.35), rgba(255,180,50,0.15) 50%, transparent 70%)"
+              : isDawn
+              ? "radial-gradient(circle, rgba(255,150,80,0.4), rgba(255,100,50,0.15) 50%, transparent 70%)"
+              : "radial-gradient(circle, rgba(255,120,60,0.4), rgba(255,80,30,0.15) 50%, transparent 70%)",
+          }} />
+          <div className="absolute rounded-full blur-[15px]" style={{
+            top: "30%", left: "30%", width: "40%", height: "40%",
+            background: isDay
+              ? "radial-gradient(circle, rgba(255,240,180,0.6), transparent 70%)"
+              : "radial-gradient(circle, rgba(255,180,100,0.5), transparent 70%)",
+          }} />
+        </motion.div>
       )}
-      {condition === "cloud" && <CloudsEffect />}
-      {condition === "fog" && <CloudsEffect />}
-      {(condition === "clear" && timeOfDay === "night") && <StarsEffect />}
-      {(condition === "clear" && (timeOfDay === "day" || timeOfDay === "dawn")) && <SunGlowEffect />}
-      {timeOfDay === "night" && condition !== "rain" && condition !== "storm" && <StarsEffect />}
 
-      {/* Weather badge — visible pill */}
-      {/* Weather badge removed — now in page header */}
+      {/* MOON — clear night */}
+      {isClear && isNight && (
+        <motion.div
+          className="absolute w-[50px] h-[50px] sm:w-[90px] sm:h-[90px]"
+          style={{ top: "6%", right: "12%" }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 2 }}
+        >
+          <div className="absolute inset-0 rounded-full blur-[30px]"
+            style={{ background: "radial-gradient(circle, rgba(200,210,255,0.3), transparent 60%)" }} />
+          <div className="absolute rounded-full blur-[3px]" style={{
+            top: "25%", left: "25%", width: "50%", height: "50%",
+            background: "radial-gradient(circle, rgba(220,225,255,0.6), rgba(180,190,230,0.2) 70%, transparent)",
+          }} />
+        </motion.div>
+      )}
 
-      {/* ===== MODE-SPECIFIC BACKGROUNDS ===== */}
+      {/* STARS — night */}
+      {isNight && <StarsEffect />}
 
-      {isCinema ? (
+      {/* CLOUDS — overcast */}
+      {isCloudy && <CloudsEffect />}
+
+      {/* RAIN + dark clouds overlay */}
+      {isRain && (
         <>
-          {/* NIGHT OUT: Strong blue/indigo city glow */}
-          <div className="absolute inset-0">
-            {/* Main blue glow — bottom, like city lights reflected on clouds */}
-            <motion.div
-              className="absolute w-[800px] h-[400px] blur-[100px] opacity-[0.20]"
-              style={{ bottom: "-5%", left: "5%", mixBlendMode: "screen" }}
-              animate={{ background: "radial-gradient(ellipse, rgba(40,80,220,0.8), transparent 65%)" }}
-              transition={{ duration: 1 }}
-            />
-            {/* Secondary purple glow — right side */}
-            <motion.div
-              className="absolute w-[500px] h-[400px] blur-[100px] opacity-[0.15]"
-              style={{ bottom: "10%", right: "5%", mixBlendMode: "screen" }}
-              animate={{ background: "radial-gradient(ellipse, rgba(80,50,200,0.7), transparent 65%)" }}
-              transition={{ duration: 1 }}
-            />
-            {/* Top moonlight */}
-            <motion.div
-              className="absolute w-[600px] h-[400px] blur-[120px] opacity-[0.10]"
-              style={{ top: "-15%", right: "15%", mixBlendMode: "screen" }}
-              animate={{ background: "radial-gradient(circle, rgba(120,150,255,0.5), transparent 55%)" }}
-              transition={{ duration: 1 }}
-            />
-          </div>
-          <SydneySkyline opacity={timeOfDay === "night" ? 0.08 : 0.05} />
-        </>
-      ) : (
-        <>
-          {/* COSY NIGHT IN: Visible warm amber/orange glow */}
-          {/* Main warm glow — bottom, like floor lamp */}
-          <motion.div
-            className="absolute w-[800px] h-[500px] blur-[100px] opacity-[0.18]"
-            style={{ bottom: "-10%", left: "10%", mixBlendMode: "screen" }}
-            animate={{
-              background: "radial-gradient(ellipse at 50% 80%, rgba(255,140,30,0.7), transparent 60%)",
-            }}
-            transition={{ duration: 1 }}
-          />
-          {/* Reading lamp — top left warm spot */}
-          <motion.div
-            className="absolute w-[400px] h-[400px] blur-[90px] opacity-[0.12]"
-            style={{ top: "5%", left: "5%", mixBlendMode: "screen" }}
-            animate={{
-              background: "radial-gradient(circle, rgba(255,180,50,0.5), transparent 55%)",
-            }}
-            transition={{ duration: 1 }}
-          />
-          {/* Subtle right warmth */}
-          <motion.div
-            className="absolute w-[400px] h-[300px] blur-[110px] opacity-[0.08]"
-            style={{ top: "40%", right: "10%", mixBlendMode: "screen" }}
-            animate={{
-              background: "radial-gradient(ellipse, rgba(220,120,40,0.4), transparent 55%)",
-            }}
-            transition={{ duration: 1 }}
-          />
-          <SydneySkyline opacity={0.025} />
+          <RainEffect intensity={condition === "storm" ? "heavy" : "normal"} />
+          <div className="absolute inset-x-0 top-0 h-[40%]"
+            style={{ background: "linear-gradient(180deg, rgba(15,20,30,0.6), transparent)" }} />
         </>
       )}
+
+      {/* Dawn/Dusk horizon glow */}
+      {(isDawn || isDusk) && isClear && (
+        <div className="absolute inset-x-0 bottom-0 h-[40%]" style={{
+          background: isDawn
+            ? "linear-gradient(0deg, rgba(255,120,50,0.15), rgba(200,80,120,0.08) 50%, transparent)"
+            : "linear-gradient(0deg, rgba(255,100,30,0.18), rgba(180,60,100,0.08) 50%, transparent)",
+        }} />
+      )}
+
+      {/* Mode tint — subtle cool/warm overlay */}
+      <motion.div
+        className="absolute inset-0"
+        animate={{
+          background: isCinema
+            ? "linear-gradient(180deg, rgba(20,40,100,0.1), transparent 50%)"
+            : "linear-gradient(180deg, rgba(100,60,20,0.1), transparent 50%)",
+        }}
+        transition={{ duration: 1 }}
+      />
+
+      {/* Sydney skyline */}
+      <SydneySkyline opacity={isNight ? 0.07 : isRain ? 0.03 : 0.05} />
 
       {/* Vignette */}
-      <div
-        className="absolute inset-0"
-        style={{
-          background: "radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.5) 100%)",
-        }}
-      />
+      <div className="absolute inset-0"
+        style={{ background: "radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.45) 100%)" }} />
     </div>
   );
 }
