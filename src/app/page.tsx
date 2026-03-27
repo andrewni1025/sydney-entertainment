@@ -8,6 +8,7 @@ import StreamingMode from "@/components/streaming/StreamingMode";
 
 const AmbientBackground = dynamic(() => import("@/components/AmbientBackground"), { ssr: false });
 const ModeToggle = dynamic(() => import("@/components/ModeToggle"), { ssr: false });
+const WeatherBadge = dynamic(() => import("@/components/WeatherBadge"), { ssr: false });
 
 export default function Home() {
   const [mode, setMode] = useState<"cinema" | "streaming">("cinema");
@@ -16,8 +17,13 @@ export default function Home() {
     <div className="relative flex flex-1 flex-col items-center min-h-screen">
       <AmbientBackground mode={mode} />
 
-      {/* Hero module — compact, cohesive */}
-      <header className="relative z-10 w-full max-w-6xl mx-auto px-4 pt-8 pb-2 text-center">
+      {/* Hero module */}
+      <header className="relative z-10 w-full max-w-6xl mx-auto px-4 pt-6 pb-2 text-center">
+        {/* Weather — top right, static position */}
+        <div className="flex justify-end mb-2">
+          <WeatherBadge />
+        </div>
+
         {/* Brand */}
         <motion.div
           className="flex items-center justify-center gap-2.5 mb-3"
