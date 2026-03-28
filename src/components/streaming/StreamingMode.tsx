@@ -8,6 +8,7 @@ import GenreFilter from "./GenreFilter";
 import LanguageFilter from "./LanguageFilter";
 import MovieGrid from "./MovieGrid";
 import type { MovieData } from "./MovieCard";
+import DailyPick from "./DailyPick";
 
 const GENRE_LABELS: Record<number, string> = {
   28: "Action", 35: "Comedy", 10749: "Romance", 878: "Sci-Fi",
@@ -72,7 +73,10 @@ export default function StreamingMode() {
 
   return (
     <div>
-      {/* Headline — warm,居家感 */}
+      {/* Daily Pick — hero recommendation */}
+      <DailyPick />
+
+      {/* Headline */}
       <h2 className="font-[family-name:var(--font-heading)] text-2xl sm:text-3xl font-bold text-white text-center mb-1.5">
         What should you watch <span className="text-orange-300/70">tonight</span>?
       </h2>
