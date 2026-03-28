@@ -28,20 +28,32 @@ function getDailyPool(): TopMovie[] {
   );
   if (allThree.length === 0) return [];
 
-  // Date-based seed
+  // Score each movie: ratings + recency bonus
+  const currentYear = new Date().getFullYear();
+  const scored = allThree.map((m) => {
+    const avg = ((m.imdb ?? 0) + (m.rottenTomatoes ?? 0) + (m.douban ?? 0)) / 3;
+    const year = parseInt(m.releaseDate?.slice(0, 4) ?? "2000");
+    // Recency bonus: movies from last 20 years get up to +10 points
+    const recency = Math.max(0, Math.min(10, (year - (currentYear - 25)) / 2.5));
+    return { movie: m, score: avg + recency };
+  });
+
+  // Sort by score descending, take top 30 as candidates
+  scored.sort((a, b) => b.score - a.score);
+  const candidates = scored.slice(0, 30);
+
+  // Date-based seed to pick 5 from top 30
   const today = new Date();
   const seed = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
 
-  // Fisher-Yates shuffle with seed
-  const pool = [...allThree];
   let s = seed;
-  for (let i = pool.length - 1; i > 0; i--) {
+  for (let i = candidates.length - 1; i > 0; i--) {
     s = ((s * 1103515245 + 12345) & 0x7fffffff);
     const j = s % (i + 1);
-    [pool[i], pool[j]] = [pool[j], pool[i]];
+    [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
   }
 
-  return pool.slice(0, 5);
+  return candidates.slice(0, 5).map((c) => c.movie);
 }
 
 // Generate a recommendation reason based on ratings
