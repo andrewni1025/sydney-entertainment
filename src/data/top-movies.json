@@ -1398,7 +1398,8 @@
     "doubanOriginal": 8.5,
     "providers": [
       385
-    ]
+    ],
+    "titleZh": "爆裂鼓手"
   },
   {
     "id": 1184918,
@@ -1429,7 +1430,8 @@
     "providers": [
       8,
       385
-    ]
+    ],
+    "titleZh": "荒野机器人"
   },
   {
     "id": 441130,
@@ -1456,7 +1458,8 @@
     "rtFresh": true,
     "douban": 80,
     "doubanOriginal": 8.0,
-    "providers": []
+    "providers": [],
+    "titleZh": "狼行者"
   },
   {
     "id": 10681,
@@ -1484,7 +1487,8 @@
     "doubanOriginal": 8.4,
     "providers": [
       337
-    ]
+    ],
+    "titleZh": "机器人总动员"
   },
   {
     "id": 19,
@@ -1508,7 +1512,8 @@
     "rtFresh": true,
     "douban": 82,
     "doubanOriginal": 8.2,
-    "providers": []
+    "providers": [],
+    "titleZh": "大都会"
   },
   {
     "id": 15584,
@@ -1532,7 +1537,8 @@
     "rtFresh": true,
     "douban": 85,
     "doubanOriginal": 8.5,
-    "providers": []
+    "providers": [],
+    "titleZh": "一封关于父亲的信"
   },
   {
     "id": 147,
@@ -1554,7 +1560,8 @@
     "rtFresh": true,
     "douban": 80,
     "doubanOriginal": 8.0,
-    "providers": []
+    "providers": [],
+    "titleZh": "四百击"
   },
   {
     "id": 962,

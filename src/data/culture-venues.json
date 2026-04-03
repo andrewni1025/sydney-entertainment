@@ -298,6 +298,126 @@
         "description": "英国当代舞面最重要的编舞家之一Hofesh Shechter携新作来沪，狂野能量×极简美学。",
         "ticketUrl": "https://www.smartshanghai.com/event/hofesh-shechter-company-presents-theatre-of-dreams-at-international-dance-center",
         "accentColor": "#7c3aed"
+      },
+      {
+        "id": "sh-mum",
+        "name": "冰岛电子乐队Múm上海专场",
+        "type": "performance",
+        "dateRange": "2026-04-06",
+        "startDate": "2026-04-06",
+        "endDate": "2026-04-06",
+        "venue": "VAS ear",
+        "description": "冰岛实验电子乐队Múm中国巡演上海站。柔和人声×故障电子×实验采样，梦境般的现场体验。",
+        "ticketUrl": "https://www.smartshanghai.com/event/new-noise-presents-mum-live-in-shanghai-2026-04-06",
+        "accentColor": "#6366f1"
+      },
+      {
+        "id": "sh-bonobo",
+        "name": "Bonobo DJ Set 上海专场",
+        "type": "performance",
+        "dateRange": "2026-05-04",
+        "startDate": "2026-05-04",
+        "endDate": "2026-05-04",
+        "venue": "VAS ear",
+        "description": "英国电子音乐大师Bonobo携沉浸式DJ Set来沪，搭档中国电子音乐先锋吴卓玲。",
+        "ticketUrl": "https://www.smartshanghai.com/event/kiloglow-taste-series-bonobo-dj-set-2026-live-in-shanghai-2026-05-04",
+        "accentColor": "#0ea5e9"
+      },
+      {
+        "id": "sh-kerala-dust",
+        "name": "Kerala Dust 上海首演",
+        "type": "performance",
+        "dateRange": "2026-04-14",
+        "startDate": "2026-04-14",
+        "endDate": "2026-04-14",
+        "venue": "VAS ear",
+        "description": "伦敦起源、柏林定居的迷幻电子乐队首次来华，融合现场即兴与迷幻音景，一场视听如梦的迟夜始发。",
+        "ticketUrl": "https://www.smartshanghai.com/event/kiloglow-presents-kerala-dust-2026-live-in-shanghai-2026-04-14",
+        "accentColor": "#a855f7"
+      },
+      {
+        "id": "sh-english-teacher",
+        "name": "英国独立摇滚 English Teacher 上海专场",
+        "type": "performance",
+        "dateRange": "2026-05-03",
+        "startDate": "2026-05-03",
+        "endDate": "2026-05-03",
+        "venue": "Modern Sky Lab",
+        "description": "英国后朋克新锐English Teacher中国巡演上海站。犯利歌词×动态器乐，2024 Mercury Prize奖得主。",
+        "ticketUrl": "https://www.smartshanghai.com/event/kiloglow-taste-series-english-teacher-2026-live-in-shanghai",
+        "accentColor": "#ef4444"
+      },
+      {
+        "id": "sh-pixies",
+        "name": "Pixies 40周年世界巡演上海站（已售罄）",
+        "type": "performance",
+        "dateRange": "2026-05-06 ~ 05-07",
+        "startDate": "2026-05-06",
+        "endDate": "2026-05-07",
+        "venue": "VAS est",
+        "description": "Pixies成立40周年世界巡演上海站！从《Where Is My Mind》到《Debaser》，另类摇滚祖师级现场。已售罄。",
+        "ticketUrl": "https://www.smartshanghai.com/event/pixies-40th-anniversary-tour-in-shanghai",
+        "accentColor": "#1e1e1e"
+      },
+      {
+        "id": "sh-johnny-marr",
+        "name": "Johnny Marr 上海专场（已售罄）",
+        "type": "performance",
+        "dateRange": "2026-05-05",
+        "startDate": "2026-05-05",
+        "endDate": "2026-05-05",
+        "venue": "Modern Sky Lab",
+        "description": "The Smiths传奇吉他手 Johnny Marr 上海专场。从独立摇滚经典到个人新作，一个晚上尽收。已售罄。",
+        "ticketUrl": "https://www.smartshanghai.com/event/sold-out-johnny-marr-live-in-shanghai-2026-2026-05-05",
+        "accentColor": "#374151"
+      },
+      {
+        "id": "sh-versailles",
+        "name": "凡尔赛宫皇家歌剧院音乐会",
+        "type": "performance",
+        "dateRange": "2026-05-09",
+        "startDate": "2026-05-09",
+        "endDate": "2026-05-09",
+        "venue": "西岸大剧院",
+        "description": "法国凡尔赛宫皇家歌剧院×皇家歌剧学院首次联合来沪，巴洛克与古典经典音乐会。",
+        "ticketUrl": "https://www.smartshanghai.com/event/opera-royal-chateau-de-versailles-2026-05-09",
+        "accentColor": "#d4a76a"
+      },
+      {
+        "id": "sh-salonen",
+        "name": "萨洛潘指挥巴黎管弦乐团",
+        "type": "performance",
+        "dateRange": "2026-04-17 ~ 04-18",
+        "startDate": "2026-04-17",
+        "endDate": "2026-04-18",
+        "venue": "上海东方艺术中心",
+        "description": "当代最重要的指挥家之一萨洛潘携巴黎管弦乐团来沪，小提琴家卡普岚担纲独奏。两晚连演。",
+        "ticketUrl": "https://www.smartshanghai.com/event/esa-pekka-salonen-orchestre-de-paris",
+        "accentColor": "#2563eb"
+      },
+      {
+        "id": "sh-silk-road",
+        "name": "丝绸之路·大唐回音",
+        "type": "performance",
+        "dateRange": "2026-04-17 / 05-04",
+        "startDate": "2026-04-17",
+        "endDate": "2026-05-04",
+        "venue": "长江剧场",
+        "description": "用复原古乐器和解读古谱的方式，重现唐代丝绸之路音乐。历史性归位演出，穿越千年的声音旅程。",
+        "ticketUrl": "https://www.smartshanghai.com/event/music-of-the-silk-road-echoes-of-the-tang-at-changjiang-theatre",
+        "accentColor": "#b45309"
+      },
+      {
+        "id": "sh-richard-clayderman",
+        "name": "理查德·克莱德曼上海音乐会",
+        "type": "performance",
+        "dateRange": "2026-07-17",
+        "startDate": "2026-07-17",
+        "endDate": "2026-07-17",
+        "venue": "上海东方艺术中心",
+        "description": "“钢琴王子”理查德·克莱德曼上海音乐会，《秋日私语》《梦中的婚礼》等经典曲目。",
+        "ticketUrl": "https://www.smartshanghai.com/event/richard-clayderman-live-in-shanghai-2026-2026-07-17",
+        "accentColor": "#9333ea"
       }
     ]
   },
@@ -404,6 +524,66 @@
         "description": "听一曲吴侬软语的评弹，是最苏州的文化体验。周末下午场最佳，配一壶碧螺春。",
         "ticketUrl": "https://www.szmuseum.com",
         "accentColor": "#a78bfa"
+      },
+      {
+        "id": "sz-garden-night",
+        "name": "拙政园夜花园季",
+        "type": "exhibition",
+        "dateRange": "2026-04-01 ~ 05-31",
+        "startDate": "2026-04-01",
+        "endDate": "2026-05-31",
+        "venue": "拙政园",
+        "description": "世界文化遗产拙政园春季夜花园开放，灯光与园林交织，夜游古典园林的独特体验。牌照开到晚上9点。",
+        "ticketUrl": "https://www.szpark.com",
+        "accentColor": "#059669"
+      },
+      {
+        "id": "sz-suzhou-museum-east",
+        "name": "苏博西馆“吴中博物”特展",
+        "type": "exhibition",
+        "dateRange": "2026-03-15 ~ 06-15",
+        "startDate": "2026-03-15",
+        "endDate": "2026-06-15",
+        "venue": "苏州博物馆西馆",
+        "description": "苏博西馆年度大展，系统展示吴地文明从良渚到明清的文化脉络。贝聂铭建筑朗的展厅本身就很出片。",
+        "ticketUrl": "https://www.szmuseum.com",
+        "accentColor": "#0284c7"
+      },
+      {
+        "id": "sz-kunqu-garden",
+        "name": "沧浪亭实景昆曲《浮生六记》",
+        "type": "performance",
+        "dateRange": "2026-04-10 ~ 05-20",
+        "startDate": "2026-04-10",
+        "endDate": "2026-05-20",
+        "venue": "沧浪亭",
+        "description": "在世界文化遗产沧浪亭内实景演出昆曲《浮生六记》，观众随沈复夫妇游园。苏州最美沉浸式演出，强烈建议提前抢票。",
+        "ticketUrl": "https://www.kunopera.com.cn",
+        "accentColor": "#10b981"
+      },
+      {
+        "id": "sz-sscac-concert",
+        "name": "苏州文化艺术中心春季音乐季",
+        "type": "performance",
+        "dateRange": "2026-04-01 ~ 06-30",
+        "startDate": "2026-04-01",
+        "endDate": "2026-06-30",
+        "venue": "苏州文化艺术中心",
+        "description": "金鸡湖畔的文化地标，春季音乐季引进国内外交响乐团、室内乐、民乐等多元演出。",
+        "ticketUrl": "https://www.sscac.com.cn",
+        "accentColor": "#7c3aed"
+      },
+      {
+        "id": "sz-pingjiang-walk",
+        "name": "平江路文化夜行",
+        "type": "exhibition",
+        "dateRange": "每周五六晚间",
+        "startDate": "2025-01-01",
+        "endDate": "2027-12-31",
+        "venue": "平江路历史街区",
+        "description": "苏州最美古街的周末文化夜行。临河茶馆、手作工块、小型评弹与昆曲演出穿插其中。完全免费。",
+        "ticketUrl": "https://www.szmuseum.com",
+        "accentColor": "#f59e0b"
       }
     ]
   },
@@ -509,6 +689,66 @@
         "venue": "运河五号创意街区",
         "description": "本地手作人和独立品牌的周末聚集地。逛市集、喝咖啡、看小型展览，常州青年的周末标配。",
         "ticketUrl": "https://www.yunhe5.com",
+        "accentColor": "#f59e0b"
+      },
+      {
+        "id": "cz-tianning-temple",
+        "name": "天宁寺春季佛教文化节",
+        "type": "exhibition",
+        "dateRange": "2026-04-01 ~ 05-15",
+        "startDate": "2026-04-01",
+        "endDate": "2026-05-15",
+        "venue": "天宁宝塔 / 天宁寺",
+        "description": "以153米天宁宝塔为核心的春季文化活动，含佛教艺术展、素食体验、古琴雅集。塔上观景可俯瞰全城。",
+        "ticketUrl": "https://www.cztnsi.com",
+        "accentColor": "#d97706"
+      },
+      {
+        "id": "cz-dinosaur-night",
+        "name": "恐龙园奇妙夜",
+        "type": "performance",
+        "dateRange": "2026-04-05 ~ 05-31 周末",
+        "startDate": "2026-04-05",
+        "endDate": "2026-05-31",
+        "venue": "中华恐龙园",
+        "description": "恐龙园周末夜场特别活动：灯光秀、花车巡游、恐龙主题无人机表演。适合全家晚间出动。",
+        "ticketUrl": "https://www.cnpark.net",
+        "accentColor": "#16a34a"
+      },
+      {
+        "id": "cz-modern-art",
+        "name": "常州当代艺术展",
+        "type": "exhibition",
+        "dateRange": "2026-03-20 ~ 06-20",
+        "startDate": "2026-03-20",
+        "endDate": "2026-06-20",
+        "venue": "常州美术馆",
+        "description": "常州美术馆年度大展，集合长三角地区新锐当代艺术家作品。免费参观。",
+        "ticketUrl": "https://www.czmuseum.com",
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "cz-yancheng-spring",
+        "name": "淌城春秋乐园春季嘉年华",
+        "type": "performance",
+        "dateRange": "2026-04-01 ~ 05-05",
+        "startDate": "2026-04-01",
+        "endDate": "2026-05-05",
+        "venue": "淌城春秋乐园",
+        "description": "常州的另一个主题乐园，春季嘉年华含古装巡游、备兵骑马秀、水上飞人表演。历史与娱乐的完美结合。",
+        "ticketUrl": "https://www.yanchengpark.com",
+        "accentColor": "#b91c1c"
+      },
+      {
+        "id": "cz-qingguo-concert",
+        "name": "青果巷·运河音乐夜",
+        "type": "performance",
+        "dateRange": "2026-04-12 / 04-26 / 05-10",
+        "startDate": "2026-04-12",
+        "endDate": "2026-05-10",
+        "venue": "青果巷历史街区",
+        "description": "在明清古建筑群中听音乐。每两周一场的运河音乐夜，含民谣、古典、独立音乐等多元风格。免费。",
+        "ticketUrl": "https://www.czqgl.com",
         "accentColor": "#f59e0b"
       }
     ]
