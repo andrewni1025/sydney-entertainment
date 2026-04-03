@@ -59,11 +59,16 @@
   66% { transform: translate(-30px, -20px) scale(0.95); }
 }
 
+html {
+  background-color: #050510;
+}
+
 body {
   background: linear-gradient(135deg, #0d0015 0%, #020a1a 50%, #0a0018 100%);
   color: var(--color-foreground);
   font-family: var(--font-body), system-ui, sans-serif;
   min-height: 100vh;
+  min-height: 100dvh;
   overflow-x: hidden;
 }
 
