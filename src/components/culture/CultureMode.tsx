@@ -51,18 +51,22 @@ export default function CultureMode() {
   const museums = cityData.museums;
   const events = cityData.events;
 
-  // Active & upcoming events
+  // Active & upcoming events (show events ending in the future)
   const activeEvents = today
-    ? events.filter((e) => e.startDate <= today && e.endDate >= today)
+    ? events.filter((e) => e.endDate >= today)
     : events;
+
+  // Split into ongoing vs upcoming
+  const ongoingEvents = today ? activeEvents.filter((e) => e.startDate <= today) : activeEvents;
+  const upcomingEvents = today ? activeEvents.filter((e) => e.startDate > today) : [];
 
   // Filter museums by area
   const filteredMuseums = area === "all" ? museums : museums.filter((m) => m.area === area);
 
   // Filter events by area if they have the field, otherwise show all
-  const areaFilteredEvents = area === "all"
-    ? activeEvents
-    : activeEvents.filter((e) => {
+  const filterByArea = (evts: CultureEvent[]) => area === "all"
+    ? evts
+    : evts.filter((e) => {
         const evt = e as unknown as Record<string, unknown>;
         return !evt.area || evt.area === area;
       });
@@ -71,13 +75,16 @@ export default function CultureMode() {
   const showEvents = tab === "all" || tab === "exhibition" || tab === "performance";
   const showMuseums = tab === "all" || tab === "museum";
 
-  const filteredEvents = showEvents
-    ? areaFilteredEvents.filter((e) => {
+  const filterByTab = (evts: CultureEvent[]) => showEvents
+    ? evts.filter((e) => {
         if (tab === "exhibition") return e.type === "exhibition" || e.type === "festival";
         if (tab === "performance") return e.type === "performance";
         return true;
       })
     : [];
+
+  const filteredOngoing = filterByTab(filterByArea(ongoingEvents));
+  const filteredUpcoming = filterByTab(filterByArea(upcomingEvents));
 
   const tabs: { value: Tab; label: string; icon: string }[] = [
     { value: "all", label: "全部", icon: "✨" },
@@ -125,8 +132,8 @@ export default function CultureMode() {
         </div>
       </div>
 
-      {/* Active events banner */}
-      {filteredEvents.length > 0 && showEvents && (
+      {/* Active events */}
+      {filteredOngoing.length > 0 && showEvents && (
         <div className="mb-6">
           <div className="flex items-center gap-2 mb-3">
             <span className="text-white/15 text-[10px] uppercase tracking-wider">正在进行</span>
@@ -134,7 +141,45 @@ export default function CultureMode() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <AnimatePresence>
-              {filteredEvents.map((event, i) => (
+              {filteredOngoing.map((event, i) => (
+                <motion.a
+                  key={event.id}
+                  href={event.ticketUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: i * 0.08 }}
+                  className="group block glass rounded-xl p-4 hover:border-white/20 transition-all duration-300"
+                >
+                  <div className="flex items-start justify-between mb-2">
+                    <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-medium" style={{ background: `${event.accentColor}15`, color: event.accentColor }}>
+                      {event.type === "exhibition" ? "🖼️ 展览" : event.type === "performance" ? "🎭 演出" : "🎬 电影节"}
+                    </span>
+                    <span className="text-white/20 text-[10px]">{event.dateRange}</span>
+                  </div>
+                  <h3 className="font-[family-name:var(--font-heading)] font-bold text-white text-sm mb-1 group-hover:text-gold/80 transition-colors">
+                    {event.name}
+                  </h3>
+                  <p className="text-white/30 text-[11px] mb-2">📍 {event.venue}</p>
+                  <p className="text-white/40 text-[12px] leading-relaxed line-clamp-2">{event.description}</p>
+                </motion.a>
+              ))}
+            </AnimatePresence>
+          </div>
+        </div>
+      )}
+
+      {/* Upcoming events */}
+      {filteredUpcoming.length > 0 && showEvents && (
+        <div className="mb-6">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="text-white/15 text-[10px] uppercase tracking-wider">即将到来</span>
+            <div className="flex-1 h-px bg-white/[0.04]" />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <AnimatePresence>
+              {filteredUpcoming.map((event, i) => (
                 <motion.a
                   key={event.id}
                   href={event.ticketUrl}
@@ -179,7 +224,7 @@ export default function CultureMode() {
       )}
 
       {/* Empty state */}
-      {filteredEvents.length === 0 && (!showMuseums || filteredMuseums.length === 0) && (
+      {filteredOngoing.length === 0 && filteredUpcoming.length === 0 && (!showMuseums || filteredMuseums.length === 0) && (
         <div className="text-center py-16 text-white/30">
           <p className="text-lg mb-2">暂无匹配内容</p>
           <p className="text-sm">试试其他分类或地区</p>
