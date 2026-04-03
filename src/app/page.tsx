@@ -3,15 +3,34 @@
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import { AnimatePresence, motion } from "framer-motion";
-import CinemaMode from "@/components/cinema/CinemaMode";
-import StreamingMode from "@/components/streaming/StreamingMode";
+import { useCity } from "@/lib/CityContext";
+import CitySelector from "@/components/CitySelector";
 
 const AmbientBackground = dynamic(() => import("@/components/AmbientBackground"), { ssr: false });
 const ModeToggle = dynamic(() => import("@/components/ModeToggle"), { ssr: false });
 const WeatherBadge = dynamic(() => import("@/components/WeatherBadge"), { ssr: false });
+const CultureMode = dynamic(() => import("@/components/culture/CultureMode"), { ssr: false });
+const CinemaMode = dynamic(() => import("@/components/cinema/CinemaMode"), { ssr: false });
+const StreamingMode = dynamic(() => import("@/components/streaming/StreamingMode"), { ssr: false });
 
 export default function Home() {
   const [mode, setMode] = useState<"cinema" | "streaming">("cinema");
+  const { city, isLanding, clearCity } = useCity();
+
+  // Landing page — city selection
+  if (isLanding) {
+    return (
+      <div className="relative flex flex-1 flex-col items-center justify-center min-h-screen">
+        <AmbientBackground mode="cinema" />
+        <div className="relative z-10 w-full">
+          <CitySelector />
+        </div>
+      </div>
+    );
+  }
+
+  const isChinese = city.locale === "zh";
+  const isCultureMode = city.goingOutMode === "culture";
 
   return (
     <div className="relative flex flex-1 flex-col items-center min-h-screen">
@@ -19,8 +38,17 @@ export default function Home() {
 
       {/* Hero module */}
       <header className="relative z-10 w-full max-w-6xl mx-auto px-4 pt-6 pb-2 text-center">
-        {/* Weather — top right, static position */}
-        <div className="flex justify-end mb-2">
+        {/* Top bar: back + weather */}
+        <div className="flex items-center justify-between mb-2">
+          <button
+            onClick={clearCity}
+            className="flex items-center gap-1.5 text-white/20 hover:text-white/40 text-[11px] transition-colors cursor-pointer"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M15 18l-6-6 6-6" />
+            </svg>
+            {isChinese ? "切换城市" : "Cities"}
+          </button>
           <WeatherBadge />
         </div>
 
@@ -31,8 +59,10 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.4 }}
         >
-          <span className="text-3xl sm:text-4xl">🌉</span>
-          <span className="font-[family-name:var(--font-heading)] text-white/25 text-sm sm:text-base font-semibold tracking-[0.15em]">Sydney Entertainment Hub</span>
+          <span className="text-3xl sm:text-4xl">{city.emoji}</span>
+          <span className="font-[family-name:var(--font-heading)] text-white/25 text-sm sm:text-base font-semibold tracking-[0.15em]">
+            {city.nameZh ? `${city.nameZh} Entertainment` : "Sydney Entertainment Hub"}
+          </span>
         </motion.div>
 
         {/* Toggle — part of hero, tight spacing */}
@@ -51,17 +81,17 @@ export default function Home() {
         <AnimatePresence mode="wait">
           {mode === "cinema" ? (
             <motion.div
-              key="cinema"
+              key={`going-out-${city.id}`}
               initial={{ opacity: 0, x: -60 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 60 }}
               transition={{ duration: 0.4, ease: "easeInOut" }}
             >
-              <CinemaMode />
+              {isCultureMode ? <CultureMode /> : <CinemaMode />}
             </motion.div>
           ) : (
             <motion.div
-              key="streaming"
+              key={`staying-in-${city.id}`}
               initial={{ opacity: 0, x: 60 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -60 }}

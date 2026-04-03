@@ -2,39 +2,89 @@
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { useSydneyWeather, getTimeOfDay, type TimeOfDay } from "@/lib/weather";
+import { useCityWeather, getTimeOfDay, type TimeOfDay } from "@/lib/weather";
+import { useCity } from "@/lib/CityContext";
 import { RainEffect, StarsEffect, CloudsEffect } from "./WeatherEffects";
-import SydneySkyline from "./SydneySkyline";
+import CitySkyline from "./CitySkyline";
 
 interface AmbientBackgroundProps {
   mode: "cinema" | "streaming";
 }
 
-// Background gradients — each time period has DISTINCTLY different colors
-const timeGradients: Record<TimeOfDay, { cinema: string; streaming: string }> = {
-  night: {
-    // Deep dark navy — late night city
-    cinema: "linear-gradient(160deg, #050a20 0%, #0a1230 35%, #0e1840 65%, #060a1a 100%)",
-    // Deep chocolate — midnight cosy
-    streaming: "linear-gradient(160deg, #150c02 0%, #1a1005 35%, #120a02 65%, #0d0800 100%)",
+// Background gradients — DRAMATICALLY different per city
+// Sydney: ocean blue/navy, Shanghai: crimson/scarlet, Suzhou: jade/emerald, Changzhou: electric violet
+const cityTimeGradients: Record<string, Record<TimeOfDay, { cinema: string; streaming: string }>> = {
+  sydney: {
+    night: {
+      cinema: "linear-gradient(160deg, #020818 0%, #061230 35%, #0a1a45 65%, #030610 100%)",
+      streaming: "linear-gradient(160deg, #150c02 0%, #1a1005 35%, #120a02 65%, #0d0800 100%)",
+    },
+    dawn: {
+      cinema: "linear-gradient(160deg, #0a1540 0%, #153068 35%, #1a3878 65%, #081030 100%)",
+      streaming: "linear-gradient(160deg, #2a1808 0%, #35200a 35%, #2a1808 65%, #201005 100%)",
+    },
+    day: {
+      cinema: "linear-gradient(160deg, #0c1a40 0%, #153060 35%, #1a3870 65%, #0e1838 100%)",
+      streaming: "linear-gradient(160deg, #2a2015 0%, #302618 35%, #282012 65%, #1e180d 100%)",
+    },
+    dusk: {
+      cinema: "linear-gradient(160deg, #101050 0%, #1a1870 35%, #151460 65%, #0c0a40 100%)",
+      streaming: "linear-gradient(160deg, #302010 0%, #382515 35%, #2a1a0a 65%, #201208 100%)",
+    },
   },
-  dawn: {
-    // Purple-rose — early morning sky
-    cinema: "linear-gradient(160deg, #1a0e35 0%, #2a1550 35%, #351a5a 65%, #150a30 100%)",
-    // Warm amber sunrise
-    streaming: "linear-gradient(160deg, #2a1808 0%, #35200a 35%, #2a1808 65%, #201005 100%)",
+  shanghai: {
+    night: {
+      cinema: "linear-gradient(160deg, #180208 0%, #300515 35%, #3d0820 65%, #120208 100%)",
+      streaming: "linear-gradient(160deg, #1a0808 0%, #251012 35%, #1a0808 65%, #120505 100%)",
+    },
+    dawn: {
+      cinema: "linear-gradient(160deg, #350818 0%, #501530 35%, #5a1838 65%, #280610 100%)",
+      streaming: "linear-gradient(160deg, #2a1510 0%, #381a10 35%, #2a1510 65%, #201008 100%)",
+    },
+    day: {
+      cinema: "linear-gradient(160deg, #280510 0%, #451025 35%, #50122a 65%, #200410 100%)",
+      streaming: "linear-gradient(160deg, #281818 0%, #352018 35%, #281815 65%, #1e1510 100%)",
+    },
+    dusk: {
+      cinema: "linear-gradient(160deg, #400818 0%, #600e30 35%, #500a28 65%, #300510 100%)",
+      streaming: "linear-gradient(160deg, #351815 0%, #4a2018 35%, #351510 65%, #251008 100%)",
+    },
   },
-  day: {
-    // Brighter steel blue — daylight
-    cinema: "linear-gradient(160deg, #101830 0%, #182548 35%, #1e2d55 65%, #121a35 100%)",
-    // Light warm tan — afternoon sunlight
-    streaming: "linear-gradient(160deg, #2a2015 0%, #302618 35%, #282012 65%, #1e180d 100%)",
+  suzhou: {
+    night: {
+      cinema: "linear-gradient(160deg, #021208 0%, #052510 35%, #083018 65%, #020e06 100%)",
+      streaming: "linear-gradient(160deg, #0a0f08 0%, #121a08 35%, #0e1505 65%, #080c05 100%)",
+    },
+    dawn: {
+      cinema: "linear-gradient(160deg, #082818 0%, #104530 35%, #125038 65%, #061a10 100%)",
+      streaming: "linear-gradient(160deg, #1a1a08 0%, #28250a 35%, #1a1a08 65%, #151205 100%)",
+    },
+    day: {
+      cinema: "linear-gradient(160deg, #052015 0%, #0a3828 35%, #0c4530 65%, #041a12 100%)",
+      streaming: "linear-gradient(160deg, #1a2012 0%, #253018 35%, #1e2815 65%, #151a0d 100%)",
+    },
+    dusk: {
+      cinema: "linear-gradient(160deg, #083520 0%, #105540 35%, #0c4530 65%, #062a18 100%)",
+      streaming: "linear-gradient(160deg, #252215 0%, #302a18 35%, #252010 65%, #181508 100%)",
+    },
   },
-  dusk: {
-    // Deep purple-orange sunset
-    cinema: "linear-gradient(160deg, #201048 0%, #301560 35%, #281055 65%, #180a38 100%)",
-    // Warm sunset orange
-    streaming: "linear-gradient(160deg, #302010 0%, #382515 35%, #2a1a0a 65%, #201208 100%)",
+  changzhou: {
+    night: {
+      cinema: "linear-gradient(160deg, #0a0220 0%, #180840 35%, #200a50 65%, #080218 100%)",
+      streaming: "linear-gradient(160deg, #120810 0%, #1a1018 35%, #120810 65%, #0d0508 100%)",
+    },
+    dawn: {
+      cinema: "linear-gradient(160deg, #1a0845 0%, #301570 35%, #381878 65%, #150640 100%)",
+      streaming: "linear-gradient(160deg, #201510 0%, #2a1a12 35%, #201510 65%, #181008 100%)",
+    },
+    day: {
+      cinema: "linear-gradient(160deg, #150838 0%, #281560 35%, #301870 65%, #120630 100%)",
+      streaming: "linear-gradient(160deg, #201a18 0%, #282015 35%, #221a12 65%, #1a150d 100%)",
+    },
+    dusk: {
+      cinema: "linear-gradient(160deg, #200a55 0%, #381580 35%, #301070 65%, #180845 100%)",
+      streaming: "linear-gradient(160deg, #281a18 0%, #30201a 35%, #251812 65%, #1a1008 100%)",
+    },
   },
 };
 
@@ -60,20 +110,22 @@ function getWeatherOverlay(weather: string | null, isCinema: boolean): string | 
 
 export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
   const isCinema = mode === "cinema";
-  const weather = useSydneyWeather();
+  const { city } = useCity();
+  const weather = useCityWeather(city);
   const [timeOfDay, setTimeOfDay] = useState<TimeOfDay>("night");
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
-    setTimeOfDay(getTimeOfDay());
-    const interval = setInterval(() => setTimeOfDay(getTimeOfDay()), 60000);
+    setTimeOfDay(getTimeOfDay(city.timezone));
+    const interval = setInterval(() => setTimeOfDay(getTimeOfDay(city.timezone)), 60000);
     return () => clearInterval(interval);
-  }, []);
+  }, [city.timezone]);
 
+  const cityGradients = cityTimeGradients[city.id] ?? cityTimeGradients.sydney;
   const gradient = isCinema
-    ? timeGradients[timeOfDay].cinema
-    : timeGradients[timeOfDay].streaming;
+    ? cityGradients[timeOfDay].cinema
+    : cityGradients[timeOfDay].streaming;
 
   const condition = weather?.condition ?? null;
   const weatherOverlay = getWeatherOverlay(condition, isCinema);
@@ -185,19 +237,20 @@ export default function AmbientBackground({ mode }: AmbientBackgroundProps) {
         }} />
       )}
 
-      {/* Mode tint — subtle cool/warm overlay */}
+      {/* City accent glow — distinctive color identity per city */}
       <motion.div
         className="absolute inset-0"
+        key={city.id}
         animate={{
           background: isCinema
-            ? "linear-gradient(180deg, rgba(20,40,100,0.1), transparent 50%)"
-            : "linear-gradient(180deg, rgba(100,60,20,0.1), transparent 50%)",
+            ? `radial-gradient(ellipse at 30% 20%, ${city.accentColor}18, transparent 60%), linear-gradient(180deg, ${city.accentColor}0a, transparent 40%)`
+            : `radial-gradient(ellipse at 70% 80%, ${city.accentColor}10, transparent 50%)`,
         }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1.5 }}
       />
 
-      {/* Sydney skyline */}
-      <SydneySkyline opacity={isNight ? 0.07 : isRain ? 0.03 : 0.05} />
+      {/* City skyline */}
+      <CitySkyline cityId={city.id} opacity={isNight ? 0.07 : isRain ? 0.03 : 0.05} />
 
       {/* Vignette */}
       <div className="absolute inset-0"

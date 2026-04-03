@@ -24,7 +24,8 @@
     "providers": [
       21,
       385
-    ]
+    ],
+    "titleZh": "教父"
   },
   {
     "id": 389,
@@ -46,7 +47,8 @@
     "rtFresh": true,
     "douban": 90,
     "doubanOriginal": 9,
-    "providers": []
+    "providers": [],
+    "titleZh": "十二怒汉"
   },
   {
     "id": 424,
@@ -74,12 +76,13 @@
     "doubanOriginal": 9,
     "providers": [
       385
-    ]
+    ],
+    "titleZh": "辛德勒的名单"
   },
   {
     "id": 429,
     "title": "The Good, the Bad and the Ugly",
-    "overview": "While the Civil War rages on between the Union and the Confederacy, three men \u2013 a quiet loner, a ruthless hitman, and a Mexican bandit \u2013 comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
+    "overview": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
     "posterPath": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
     "releaseDate": "1966-12-23",
     "genres": [
@@ -99,7 +102,8 @@
     "providers": [
       21,
       385
-    ]
+    ],
+    "titleZh": "黄金三镖客"
   },
   {
     "id": 240,
@@ -126,7 +130,8 @@
     "providers": [
       21,
       385
-    ]
+    ],
+    "titleZh": "教父2"
   },
   {
     "id": 155,
@@ -152,12 +157,13 @@
     "rtFresh": true,
     "douban": 91,
     "doubanOriginal": 9.1,
-    "providers": []
+    "providers": [],
+    "titleZh": "蝙蝠侠：黑暗骑士"
   },
   {
     "id": 122,
     "title": "The Lord of the Rings: The Return of the King",
-    "overview": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.\u200b",
+    "overview": "As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men. Yet, the sole hope for triumph over evil lies with a brave hobbit, Frodo, who, accompanied by his loyal friend Sam and the hideous, wretched Gollum, ventures deep into the very dark heart of Mordor on his seemingly impossible quest to destroy the Ring of Power.​",
     "posterPath": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
     "releaseDate": "2003-12-17",
     "genres": [
@@ -180,7 +186,8 @@
     "doubanOriginal": 9.0,
     "providers": [
       21
-    ]
+    ],
+    "titleZh": "指环王3：王者无敌"
   },
   {
     "id": 496243,
@@ -208,7 +215,8 @@
     "doubanOriginal": 8.5,
     "providers": [
       8
-    ]
+    ],
+    "titleZh": "寄生虫"
   },
   {
     "id": 567,
@@ -234,7 +242,8 @@
     "doubanOriginal": 8.5,
     "providers": [
       385
-    ]
+    ],
+    "titleZh": "后窗"
   },
   {
     "id": 289,
@@ -258,7 +267,8 @@
     "rtFresh": true,
     "douban": 85,
     "doubanOriginal": 8.5,
-    "providers": []
+    "providers": [],
+    "titleZh": "卡萨布兰卡"
   },
   {
     "id": 278,
@@ -284,7 +294,8 @@
     "doubanOriginal": 9.3,
     "providers": [
       8
-    ]
+    ],
+    "titleZh": "肖申克的救赎"
   },
   {
     "id": 399106,
@@ -310,7 +321,8 @@
     "doubanOriginal": 8.3,
     "providers": [
       337
-    ]
+    ],
+    "titleZh": "鹬"
   },
   {
     "id": 832,
@@ -336,7 +348,8 @@
     "rtFresh": true,
     "douban": 83,
     "doubanOriginal": 8.3,
-    "providers": []
+    "providers": [],
+    "titleZh": "M就是凶手"
   },
   {
     "id": 862,
@@ -365,12 +378,13 @@
     "doubanOriginal": 8.3,
     "providers": [
       337
-    ]
+    ],
+    "titleZh": "玩具总动员"
   },
   {
     "id": 372058,
     "title": "Your Name.",
-    "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki\u2019s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+    "overview": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
     "posterPath": "/q719jXXEzOoYaps6babgKnONONX.jpg",
     "releaseDate": "2016-08-26",
     "genres": [
@@ -391,7 +405,8 @@
     "rtFresh": true,
     "douban": 84,
     "doubanOriginal": 8.4,
-    "providers": []
+    "providers": [],
+    "titleZh": "你的名字。"
   },
   {
     "id": 3090,
@@ -417,7 +432,8 @@
     "rtFresh": true,
     "douban": 82,
     "doubanOriginal": 8.2,
-    "providers": []
+    "providers": [],
+    "titleZh": "碧血金沙"
   },
   {
     "id": 33602,
@@ -441,7 +457,8 @@
     "rtFresh": true,
     "douban": 82,
     "doubanOriginal": 8.2,
-    "providers": []
+    "providers": [],
+    "titleZh": "自闭历程"
   },
   {
     "id": 274,
@@ -470,7 +487,8 @@
     "providers": [
       21,
       385
-    ]
+    ],
+    "titleZh": "沉默的羔羊"
   },
   {
     "id": 335,
@@ -496,12 +514,13 @@
     "doubanOriginal": 8.5,
     "providers": [
       8
-    ]
+    ],
+    "titleZh": "西部往事"
   },
   {
     "id": 354912,
     "title": "Coco",
-    "overview": "Despite his family\u2019s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
+    "overview": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
     "posterPath": "/6Ryitt95xrO8KXuqRGm1fUuNwqF.jpg",
     "releaseDate": "2017-10-27",
     "genres": [
@@ -525,12 +544,13 @@
     "doubanOriginal": 8.4,
     "providers": [
       337
-    ]
+    ],
+    "titleZh": "寻梦环游记"
   },
   {
     "id": 5156,
     "title": "Bicycle Thieves",
-    "overview": "Unemployed Antonio is elated when he finally finds work hanging posters around war-torn Rome. However on his first day, his bicycle\u2014essential to his work\u2014gets stolen. His job is doomed unless he can find the thief. With the help of his son, Antonio combs the city, becoming desperate for justice.",
+    "overview": "Unemployed Antonio is elated when he finally finds work hanging posters around war-torn Rome. However on his first day, his bicycle—essential to his work—gets stolen. His job is doomed unless he can find the thief. With the help of his son, Antonio combs the city, becoming desperate for justice.",
     "posterPath": "/iPdVqIpmR3bRvOQJPrn4pr2KR3q.jpg",
     "releaseDate": "1948-07-21",
     "genres": [
@@ -547,7 +567,8 @@
     "rtFresh": true,
     "douban": 82,
     "doubanOriginal": 8.2,
-    "providers": []
+    "providers": [],
+    "titleZh": "偷自行车的人"
   },
   {
     "id": 823754,
@@ -569,11 +590,12 @@
     "imdb": 86,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 86,
+    "doubanOriginal": 8.6,
     "providers": [
       8
-    ]
+    ],
+    "titleZh": "博·伯翰：隔离在家"
   },
   {
     "id": 76,
@@ -595,9 +617,10 @@
     "imdb": 81,
     "rottenTomatoes": 100,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
-    "providers": []
+    "douban": 81,
+    "doubanOriginal": 8.1,
+    "providers": [],
+    "titleZh": "爱在黎明破晓前"
   },
   {
     "id": 14160,
@@ -622,11 +645,12 @@
     "imdb": 83,
     "rottenTomatoes": 98,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 83,
+    "doubanOriginal": 8.3,
     "providers": [
       337
-    ]
+    ],
+    "titleZh": "飞屋环游记"
   },
   {
     "id": 26317,
@@ -646,9 +670,10 @@
     "imdb": 83,
     "rottenTomatoes": 98,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
-    "providers": []
+    "douban": 83,
+    "doubanOriginal": 8.3,
+    "providers": [],
+    "titleZh": "持摄影机的人"
   },
   {
     "id": 12,
@@ -676,7 +701,8 @@
     "doubanOriginal": 8.2,
     "providers": [
       337
-    ]
+    ],
+    "titleZh": "海底总动员"
   },
   {
     "id": 10193,
@@ -704,7 +730,8 @@
     "doubanOriginal": 8.3,
     "providers": [
       337
-    ]
+    ],
+    "titleZh": "玩具总动员3"
   },
   {
     "id": 2118,
@@ -734,7 +761,8 @@
     "providers": [
       337,
       21
-    ]
+    ],
+    "titleZh": "洛城机密"
   },
   {
     "id": 121,
@@ -762,7 +790,8 @@
     "doubanOriginal": 8.8,
     "providers": [
       21
-    ]
+    ],
+    "titleZh": "指环王2：双塔奇兵"
   },
   {
     "id": 680,
@@ -786,13 +815,14 @@
     "imdb": 88,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 88,
+    "doubanOriginal": 8.8,
     "providers": [
       8,
       21,
       385
-    ]
+    ],
+    "titleZh": "低俗小说"
   },
   {
     "id": 12477,
@@ -820,12 +850,13 @@
     "doubanOriginal": 8.5,
     "providers": [
       8
-    ]
+    ],
+    "titleZh": "萤火虫之墓"
   },
   {
     "id": 423,
     "title": "The Pianist",
-    "overview": "The true story of pianist W\u0142adys\u0142aw Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a caf\u00e9; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
+    "overview": "The true story of pianist Władysław Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
     "posterPath": "/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg",
     "releaseDate": "2002-09-17",
     "genres": [
@@ -846,12 +877,13 @@
     "doubanOriginal": 8.5,
     "providers": [
       21
-    ]
+    ],
+    "titleZh": "钢琴家"
   },
   {
     "id": 569094,
     "title": "Spider-Man: Across the Spider-Verse",
-    "overview": "After reuniting with Gwen Stacy, Brooklyn\u2019s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+    "overview": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
     "posterPath": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
     "releaseDate": "2023-05-31",
     "genres": [
@@ -875,7 +907,8 @@
     "doubanOriginal": 8.5,
     "providers": [
       8
-    ]
+    ],
+    "titleZh": "蜘蛛侠：纵横宇宙"
   },
   {
     "id": 1585,
@@ -903,7 +936,8 @@
     "doubanOriginal": 8.6,
     "providers": [
       385
-    ]
+    ],
+    "titleZh": "生活多美好"
   },
   {
     "id": 975,
@@ -927,7 +961,8 @@
     "rtFresh": true,
     "douban": 84,
     "doubanOriginal": 8.4,
-    "providers": []
+    "providers": [],
+    "titleZh": "光荣之路"
   },
   {
     "id": 857,
@@ -957,7 +992,8 @@
       8,
       21,
       385
-    ]
+    ],
+    "titleZh": "拯救大兵瑞恩"
   },
   {
     "id": 489,
@@ -981,7 +1017,8 @@
     "doubanOriginal": 8.4,
     "providers": [
       21
-    ]
+    ],
+    "titleZh": "心灵捕手"
   },
   {
     "id": 81481,
@@ -1005,7 +1042,8 @@
     "doubanOriginal": 8.0,
     "providers": [
       8
-    ]
+    ],
+    "titleZh": "熔炉"
   },
   {
     "id": 149871,
@@ -1033,7 +1071,8 @@
     "doubanOriginal": 8.0,
     "providers": [
       8
-    ]
+    ],
+    "titleZh": "辉夜姬物语"
   },
   {
     "id": 996,
@@ -1059,12 +1098,13 @@
     "doubanOriginal": 8.3,
     "providers": [
       385
-    ]
+    ],
+    "titleZh": "双重赔偿"
   },
   {
     "id": 31225,
     "title": "Paris Is Burning",
-    "overview": "Where does voguing come from, and what, exactly, is throwing shade? This landmark documentary provides a vibrant snapshot of the 1980s through the eyes of New York City's African American and Latinx Harlem drag-ball scene. Made over seven years, PARIS IS BURNING offers an intimate portrait of rival fashion \"houses,\" from fierce contests for trophies to house mothers offering sustenance in a world rampant with homophobia, transphobia, racism, AIDS, and poverty. Featuring legendary voguers, drag queens, and trans women \u2014 including Willi Ninja, Pepper LaBeija, Dorian Corey, and Venus Xtravaganza.",
+    "overview": "Where does voguing come from, and what, exactly, is throwing shade? This landmark documentary provides a vibrant snapshot of the 1980s through the eyes of New York City's African American and Latinx Harlem drag-ball scene. Made over seven years, PARIS IS BURNING offers an intimate portrait of rival fashion \"houses,\" from fierce contests for trophies to house mothers offering sustenance in a world rampant with homophobia, transphobia, racism, AIDS, and poverty. Featuring legendary voguers, drag queens, and trans women — including Willi Ninja, Pepper LaBeija, Dorian Corey, and Venus Xtravaganza.",
     "posterPath": "/90rCWH41mj9hjHUEy2SOHfuAOl3.jpg",
     "releaseDate": "1991-03-13",
     "genres": [
@@ -1081,7 +1121,8 @@
     "rtFresh": true,
     "douban": 82,
     "doubanOriginal": 8.2,
-    "providers": []
+    "providers": [],
+    "titleZh": "巴黎在燃烧"
   },
   {
     "id": 213,
@@ -1105,7 +1146,8 @@
     "rtFresh": true,
     "douban": 83,
     "doubanOriginal": 8.3,
-    "providers": []
+    "providers": [],
+    "titleZh": "西北偏北"
   },
   {
     "id": 17295,
@@ -1131,7 +1173,8 @@
     "rtFresh": true,
     "douban": 81,
     "doubanOriginal": 8.1,
-    "providers": []
+    "providers": [],
+    "titleZh": "阿尔及尔之战"
   },
   {
     "id": 654,
@@ -1157,12 +1200,13 @@
     "rtFresh": true,
     "douban": 81,
     "doubanOriginal": 8.1,
-    "providers": []
+    "providers": [],
+    "titleZh": "码头风云"
   },
   {
     "id": 10191,
     "title": "How to Train Your Dragon",
-    "overview": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast \u2013 which he names Toothless \u2013 much to the chagrin of his warrior father.",
+    "overview": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.",
     "posterPath": "/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg",
     "releaseDate": "2010-03-18",
     "genres": [
@@ -1188,12 +1232,13 @@
       8,
       21,
       385
-    ]
+    ],
+    "titleZh": "驯龙高手"
   },
   {
     "id": 783675,
     "title": "The First Slam Dunk",
-    "overview": "Shohoku's \u201cspeedster\u201d and point guard, Ryota Miyagi, always plays with brains and lightning speed, running circles around his opponents while feigning composure. In his second year of high school, Ryota plays with the Shohoku High School basketball team along with Sakuragi, Rukawa, Akagi, and Mitsui as they take the stage at the Inter-High School National Championship. And now, they are on the brink of challenging the reigning champions, Sannoh Kogyo High School.",
+    "overview": "Shohoku's “speedster” and point guard, Ryota Miyagi, always plays with brains and lightning speed, running circles around his opponents while feigning composure. In his second year of high school, Ryota plays with the Shohoku High School basketball team along with Sakuragi, Rukawa, Akagi, and Mitsui as they take the stage at the Inter-High School National Championship. And now, they are on the brink of challenging the reigning champions, Sannoh Kogyo High School.",
     "posterPath": "/7i3EBXY87HdHagCoFbmjHQ8DlkG.jpg",
     "releaseDate": "2022-12-03",
     "genres": [
@@ -1216,7 +1261,8 @@
     "doubanOriginal": 8.0,
     "providers": [
       8
-    ]
+    ],
+    "titleZh": "灌篮高手"
   },
   {
     "id": 903,
@@ -1240,7 +1286,8 @@
     "rtFresh": true,
     "douban": 80,
     "doubanOriginal": 8.0,
-    "providers": []
+    "providers": [],
+    "titleZh": "铁窗喋血"
   },
   {
     "id": 44639,
@@ -1266,7 +1313,8 @@
     "doubanOriginal": 8.2,
     "providers": [
       8
-    ]
+    ],
+    "titleZh": "监守自盗"
   },
   {
     "id": 14813,
@@ -1292,7 +1340,8 @@
     "doubanOriginal": 8.0,
     "providers": [
       337
-    ]
+    ],
+    "titleZh": "米奇的圣诞颂歌"
   },
   {
     "id": 120,
@@ -1320,7 +1369,8 @@
     "doubanOriginal": 8.9,
     "providers": [
       21
-    ]
+    ],
+    "titleZh": "指环王1：护戒使者"
   },
   {
     "id": 244786,
@@ -1410,8 +1460,8 @@
   },
   {
     "id": 10681,
-    "title": "WALL\u00b7E",
-    "overview": "After hundreds of years doing what he was built for, WALL\u2022E\u2014 a robot designed to clean up the earth\u2014discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL\u2022E has inadvertently stumbled upon the key to the planet's future, and races back to space to report to the humans. Meanwhile, WALL\u2022E chases EVE across the galaxy and sets into motion one of the most imaginative adventures ever brought to the big screen.",
+    "title": "WALL·E",
+    "overview": "After hundreds of years doing what he was built for, WALL•E— a robot designed to clean up the earth—discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL•E has inadvertently stumbled upon the key to the planet's future, and races back to space to report to the humans. Meanwhile, WALL•E chases EVE across the galaxy and sets into motion one of the most imaginative adventures ever brought to the big screen.",
     "posterPath": "/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
     "releaseDate": "2008-06-22",
     "genres": [
@@ -1903,7 +1953,7 @@
   {
     "id": 361743,
     "title": "Top Gun: Maverick",
-    "overview": "After more than thirty years of service as one of the Navy\u2019s top aviators, and dodging the advancement in rank that would ground him, Pete \u201cMaverick\u201d Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+    "overview": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
     "posterPath": "/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
     "releaseDate": "2022-05-21",
     "genres": [
@@ -1996,8 +2046,8 @@
     "imdb": 84,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 84,
+    "doubanOriginal": 8.4,
     "providers": [
       337
     ]
@@ -2005,7 +2055,7 @@
   {
     "id": 85,
     "title": "Raiders of the Lost Ark",
-    "overview": "When Dr. Indiana Jones \u2013 the tweed-suited professor who just happens to be a celebrated archaeologist \u2013 is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+    "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
     "posterPath": "/ceG9VzoRAVGwivFU403Wc3AHRys.jpg",
     "releaseDate": "1981-06-12",
     "genres": [
@@ -2022,8 +2072,8 @@
     "imdb": 84,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 84,
+    "doubanOriginal": 8.4,
     "providers": [
       21,
       385
@@ -2047,8 +2097,8 @@
     "imdb": 82,
     "rottenTomatoes": 96,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": []
   },
   {
@@ -2135,7 +2185,7 @@
   {
     "id": 411019,
     "title": "I Am Not Your Negro",
-    "overview": "Working from the text of James Baldwin\u2019s unfinished final novel, director Raoul Peck creates a meditation on what it means to be Black in the United States.",
+    "overview": "Working from the text of James Baldwin’s unfinished final novel, director Raoul Peck creates a meditation on what it means to be Black in the United States.",
     "posterPath": "/zwd0Zti7BvY1mO0mTPzM0fRrtc6.jpg",
     "releaseDate": "2017-02-03",
     "genres": [
@@ -2522,8 +2572,8 @@
     "imdb": 80,
     "rottenTomatoes": 97,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": []
   },
   {
@@ -2687,7 +2737,7 @@
   {
     "id": 2062,
     "title": "Ratatouille",
-    "overview": "Remy, a rat living in Paris, possesses a palate far more refined than that of his fellow comrades. He dreams of becoming a chef, determined to create culinary masterpieces rather than scavenge for scraps. When fate deposits him in the sewers beneath one of Paris\u2019s most famous restaurants, he finds himself ideally placed to fulfill his dream. Forming an unusual alliance with a bumbling young kitchen worker, Remy begins a daring culinary double life. Together, they must outwit the scheming Head Chef Skinner, evade Remy\u2019s disapproving colony, and impress renowned food critic Anton Ego, who strikes fear in the hearts of chefs all throughout France.",
+    "overview": "Remy, a rat living in Paris, possesses a palate far more refined than that of his fellow comrades. He dreams of becoming a chef, determined to create culinary masterpieces rather than scavenge for scraps. When fate deposits him in the sewers beneath one of Paris’s most famous restaurants, he finds himself ideally placed to fulfill his dream. Forming an unusual alliance with a bumbling young kitchen worker, Remy begins a daring culinary double life. Together, they must outwit the scheming Head Chef Skinner, evade Remy’s disapproving colony, and impress renowned food critic Anton Ego, who strikes fear in the hearts of chefs all throughout France.",
     "posterPath": "/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg",
     "releaseDate": "2007-06-28",
     "genres": [
@@ -2767,7 +2817,7 @@
   {
     "id": 393559,
     "title": "My Life as a Zucchini",
-    "overview": "After his mother\u2019s death, Zucchini is befriended by a kind police officer, Raymond, who accompanies him to his new foster home filled with other orphans his age. There, with the help of his newfound friends, Zucchini eventually learns to trust and love as he searches for a new family of his own.",
+    "overview": "After his mother’s death, Zucchini is befriended by a kind police officer, Raymond, who accompanies him to his new foster home filled with other orphans his age. There, with the help of his newfound friends, Zucchini eventually learns to trust and love as he searches for a new family of his own.",
     "posterPath": "/2uu8fIzl76C9MFiUQhjKYSLKVq.jpg",
     "releaseDate": "2016-09-22",
     "genres": [
@@ -2873,7 +2923,7 @@
   {
     "id": 845,
     "title": "Strangers on a Train",
-    "overview": "A charming psychopath tries to coerce a tennis star into his theory that two strangers can commit the perfect crime by exchanging murders\u2014each killing the other\u2019s most-hated person.",
+    "overview": "A charming psychopath tries to coerce a tennis star into his theory that two strangers can commit the perfect crime by exchanging murders—each killing the other’s most-hated person.",
     "posterPath": "/ihC083U7ef56Ui4x0P0dobojrZ1.jpg",
     "releaseDate": "1951-06-27",
     "genres": [
@@ -2897,7 +2947,7 @@
   {
     "id": 510,
     "title": "One Flew Over the Cuckoo's Nest",
-    "overview": "A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients\u2014and an enemy to the cruel, domineering nurse who runs the ward.",
+    "overview": "A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients—and an enemy to the cruel, domineering nurse who runs the ward.",
     "posterPath": "/kjWsMh72V6d8KRLV4EOoSJLT1H7.jpg",
     "releaseDate": "1975-11-19",
     "genres": [
@@ -3054,7 +3104,7 @@
   {
     "id": 810693,
     "title": "Jujutsu Kaisen 0",
-    "overview": "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem\u2014his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?",
+    "overview": "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?",
     "posterPath": "/23oJaeBh0FDk2mQ2P240PU9Xxfh.jpg",
     "releaseDate": "2021-12-24",
     "genres": [
@@ -3102,8 +3152,8 @@
     "imdb": 79,
     "rottenTomatoes": 97,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": []
   },
   {
@@ -3126,8 +3176,8 @@
     "imdb": 83,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 83,
+    "doubanOriginal": 8.3,
     "providers": []
   },
   {
@@ -3154,8 +3204,8 @@
     "imdb": 80,
     "rottenTomatoes": 96,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": [
       8
     ]
@@ -3163,7 +3213,7 @@
   {
     "id": 76203,
     "title": "12 Years a Slave",
-    "overview": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon\u2019s chance meeting with a Canadian abolitionist will forever alter his life.",
+    "overview": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist will forever alter his life.",
     "posterPath": "/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
     "releaseDate": "2013-10-18",
     "genres": [
@@ -3189,7 +3239,7 @@
   {
     "id": 234,
     "title": "The Cabinet of Dr. Caligari",
-    "overview": "Francis, a young man, recalls in his memory the horrible experiences he and his fianc\u00e9e Jane recently went through. Francis and his friend Alan visit The Cabinet of Dr. Caligari, an exhibit where the mysterious doctor shows the somnambulist Cesare, and awakens him for some moments from his death-like sleep.",
+    "overview": "Francis, a young man, recalls in his memory the horrible experiences he and his fiancée Jane recently went through. Francis and his friend Alan visit The Cabinet of Dr. Caligari, an exhibit where the mysterious doctor shows the somnambulist Cesare, and awakens him for some moments from his death-like sleep.",
     "posterPath": "/myK9DeIsXWGKgUTZyGXg2IfFk0W.jpg",
     "releaseDate": "1920-02-27",
     "genres": [
@@ -3289,8 +3339,8 @@
     "imdb": 80,
     "rottenTomatoes": 96,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": []
   },
   {
@@ -3565,8 +3615,8 @@
     "imdb": 78,
     "rottenTomatoes": 98,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       337,
       21
@@ -3605,7 +3655,7 @@
   {
     "id": 840430,
     "title": "The Holdovers",
-    "overview": "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go. Eventually, he forms an unlikely bond with one of them \u2014 a damaged, brainy troublemaker \u2014 and with the school\u2019s head cook, who has just lost a son in Vietnam.",
+    "overview": "A curmudgeonly instructor at a New England prep school is forced to remain on campus during Christmas break to babysit the handful of students with nowhere to go. Eventually, he forms an unlikely bond with one of them — a damaged, brainy troublemaker — and with the school’s head cook, who has just lost a son in Vietnam.",
     "posterPath": "/VHSzNBTwxV8vh7wylo7O9CLdac.jpg",
     "releaseDate": "2023-10-27",
     "genres": [
@@ -3629,7 +3679,7 @@
   {
     "id": 261,
     "title": "Cat on a Hot Tin Roof",
-    "overview": "An alcoholic ex-football player drinks his days away, having failed to come to terms with his sexuality and his real feelings for his football buddy who died after an ambiguous accident. His wife is crucified by her desperation to make him desire her: but he resists the affections of his wife. His reunion with his father\u2014who is dying of cancer\u2014jogs a host of memories and revelations for both father and son.",
+    "overview": "An alcoholic ex-football player drinks his days away, having failed to come to terms with his sexuality and his real feelings for his football buddy who died after an ambiguous accident. His wife is crucified by her desperation to make him desire her: but he resists the affections of his wife. His reunion with his father—who is dying of cancer—jogs a host of memories and revelations for both father and son.",
     "posterPath": "/5djZZECgqDGuSI1INmrdAcGRBb0.jpg",
     "releaseDate": "1958-08-29",
     "genres": [
@@ -3888,8 +3938,8 @@
     "imdb": 82,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": [
       385
     ]
@@ -3916,8 +3966,8 @@
     "imdb": 82,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": [
       21
     ]
@@ -3940,8 +3990,8 @@
     "imdb": 81,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       385
     ]
@@ -3966,8 +4016,8 @@
     "imdb": 78,
     "rottenTomatoes": 97,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": []
   },
   {
@@ -3992,8 +4042,8 @@
     "imdb": 81,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       21
     ]
@@ -4020,8 +4070,8 @@
     "imdb": 80,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": [
       385
     ]
@@ -4046,8 +4096,8 @@
     "imdb": 81,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": []
   },
   {
@@ -4068,8 +4118,8 @@
     "imdb": 80,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": []
   },
   {
@@ -4095,8 +4145,8 @@
     "imdb": 80,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": [
       337
     ]
@@ -4124,8 +4174,8 @@
     "imdb": 79,
     "rottenTomatoes": 96,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": []
   },
   {
@@ -4148,8 +4198,8 @@
     "imdb": 78,
     "rottenTomatoes": 97,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": []
   },
   {
@@ -4172,8 +4222,8 @@
     "imdb": 79,
     "rottenTomatoes": 96,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": []
   },
   {
@@ -4198,8 +4248,8 @@
     "imdb": 78,
     "rottenTomatoes": 97,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       8
     ]
@@ -4207,7 +4257,7 @@
   {
     "id": 265297,
     "title": "The Salt of the Earth",
-    "overview": "During the last forty years, the photographer Sebasti\u00e3o Salgado has been travelling through the continents, in the footsteps of an ever-changing humanity. He has witnessed the major events of our recent history: international conflicts, starvations and exodus\u2026 He is now embarking on the discovery of pristine territories, of the wild fauna and flora, of grandiose landscapes: a huge photographic project which is a tribute to the planet's beauty. Salgado's life and work are revealed to us by his son, Juliano, who went with him during his last journeys, and by Wim Wenders, a photographer himself.",
+    "overview": "During the last forty years, the photographer Sebastião Salgado has been travelling through the continents, in the footsteps of an ever-changing humanity. He has witnessed the major events of our recent history: international conflicts, starvations and exodus… He is now embarking on the discovery of pristine territories, of the wild fauna and flora, of grandiose landscapes: a huge photographic project which is a tribute to the planet's beauty. Salgado's life and work are revealed to us by his son, Juliano, who went with him during his last journeys, and by Wim Wenders, a photographer himself.",
     "posterPath": "/jRmQNj8NacAHJnzwfvFvglKSGB6.jpg",
     "releaseDate": "2014-08-29",
     "genres": [
@@ -4249,8 +4299,8 @@
     "imdb": 74,
     "rottenTomatoes": 100,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 74,
+    "doubanOriginal": 7.4,
     "providers": []
   },
   {
@@ -4271,8 +4321,8 @@
     "imdb": 82,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": [
       21,
       385
@@ -4298,8 +4348,8 @@
     "imdb": 81,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       21
     ]
@@ -4327,8 +4377,8 @@
     "imdb": 76,
     "rottenTomatoes": 98,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 76,
+    "doubanOriginal": 7.6,
     "providers": []
   },
   {
@@ -4353,8 +4403,8 @@
     "imdb": 81,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       21,
       385
@@ -4363,7 +4413,7 @@
   {
     "id": 29264,
     "title": "The Exterminating Angel",
-    "overview": "After a lavish dinner party, the guests find themselves unable to depart... and, over the next few days, all of their elaborate societal pretenses and fa\u00e7ades deteriorate as they are reduced to living like animals.",
+    "overview": "After a lavish dinner party, the guests find themselves unable to depart... and, over the next few days, all of their elaborate societal pretenses and façades deteriorate as they are reduced to living like animals.",
     "posterPath": "/qqZXHvBFxUpo8Pfbyvgh4SYMiWm.jpg",
     "releaseDate": "1962-05-16",
     "genres": [
@@ -4382,8 +4432,8 @@
     "imdb": 80,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": []
   },
   {
@@ -4408,8 +4458,8 @@
     "imdb": 79,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": [
       21
     ]
@@ -4436,14 +4486,14 @@
     "imdb": 80,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": []
   },
   {
     "id": 682110,
     "title": "My Octopus Teacher",
-    "overview": "After years of swimming every day in the freezing ocean at the tip of Africa, Craig Foster meets an unlikely teacher: a young octopus who displays remarkable curiosity. Visiting her den and tracking her movements for months on end he eventually wins the animal\u2019s trust and they develop a never-before-seen bond between human and wild animal.",
+    "overview": "After years of swimming every day in the freezing ocean at the tip of Africa, Craig Foster meets an unlikely teacher: a young octopus who displays remarkable curiosity. Visiting her den and tracking her movements for months on end he eventually wins the animal’s trust and they develop a never-before-seen bond between human and wild animal.",
     "posterPath": "/hvTVZb7hBC8tZAGoEhH5eiMJu2B.jpg",
     "releaseDate": "2020-09-04",
     "genres": [
@@ -4458,8 +4508,8 @@
     "imdb": 81,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       8
     ]
@@ -4487,8 +4537,8 @@
     "imdb": 79,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": [
       21
     ]
@@ -4515,8 +4565,8 @@
     "imdb": 79,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": [
       337
     ]
@@ -4543,8 +4593,8 @@
     "imdb": 81,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       337
     ]
@@ -4573,14 +4623,14 @@
     "imdb": 80,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": []
   },
   {
     "id": 1366,
     "title": "Rocky",
-    "overview": "Rocky Balboa is a Philadelphia club fighter who seems to be going nowhere. But when a stroke of fate puts him in the ring with a world heavyweight champion, Rocky knows that it's his one shot at the big time \u2014 a once-in-a-lifetime opportunity to go the distance and come out a winner!",
+    "overview": "Rocky Balboa is a Philadelphia club fighter who seems to be going nowhere. But when a stroke of fate puts him in the ring with a world heavyweight champion, Rocky knows that it's his one shot at the big time — a once-in-a-lifetime opportunity to go the distance and come out a winner!",
     "posterPath": "/hEjK9A9BkNXejFW4tfacVAEHtkn.jpg",
     "releaseDate": "1976-12-03",
     "genres": [
@@ -4595,8 +4645,8 @@
     "imdb": 81,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       21
     ]
@@ -4621,8 +4671,8 @@
     "imdb": 76,
     "rottenTomatoes": 98,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 76,
+    "doubanOriginal": 7.6,
     "providers": []
   },
   {
@@ -4643,8 +4693,8 @@
     "imdb": 79,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": [
       8
     ]
@@ -4669,8 +4719,8 @@
     "imdb": 80,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": []
   },
   {
@@ -4695,8 +4745,8 @@
     "imdb": 78,
     "rottenTomatoes": 96,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       8
     ]
@@ -4721,8 +4771,8 @@
     "imdb": 77,
     "rottenTomatoes": 97,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 77,
+    "doubanOriginal": 7.7,
     "providers": []
   },
   {
@@ -4747,8 +4797,8 @@
     "imdb": 77,
     "rottenTomatoes": 97,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 77,
+    "doubanOriginal": 7.7,
     "providers": []
   },
   {
@@ -4771,8 +4821,8 @@
     "imdb": 74,
     "rottenTomatoes": 100,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 75,
+    "doubanOriginal": 7.5,
     "providers": [
       8
     ]
@@ -4799,8 +4849,8 @@
     "imdb": 80,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": [
       385
     ]
@@ -4808,7 +4858,7 @@
   {
     "id": 19404,
     "title": "Dilwale Dulhania Le Jayenge",
-    "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fianc\u00e9. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+    "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
     "posterPath": "/2CAL2433ZeIihfX1Hb2139CX0pW.jpg",
     "releaseDate": "1995-10-20",
     "genres": [
@@ -4836,7 +4886,7 @@
   {
     "id": 283566,
     "title": "Evangelion: 3.0+1.0 Thrice Upon a Time",
-    "overview": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each lives a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon\u2014one that will prove to be the true end of Evangelion.",
+    "overview": "In the aftermath of the Fourth Impact, stranded without their Evangelions, Shinji, Asuka and Rei find refuge in one of the rare pockets of humanity that still exist on the ruined planet Earth. There, each lives a life far different from their days as an Evangelion pilot. However, the danger to the world is far from over. A new impact is looming on the horizon—one that will prove to be the true end of Evangelion.",
     "posterPath": "/md5wZRRj8biHrGtyitgBZo7674t.jpg",
     "releaseDate": "2021-03-08",
     "genres": [
@@ -4907,8 +4957,8 @@
     "imdb": 81,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       8
     ]
@@ -4933,8 +4983,8 @@
     "imdb": 83,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 83,
+    "doubanOriginal": 8.3,
     "providers": [
       337,
       21
@@ -4984,8 +5034,8 @@
     "imdb": 82,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": [
       21
     ]
@@ -5012,14 +5062,14 @@
     "imdb": 83,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 83,
+    "doubanOriginal": 8.3,
     "providers": []
   },
   {
     "id": 1955,
     "title": "The Elephant Man",
-    "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous fa\u00e7ade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.",
+    "overview": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.",
     "posterPath": "/u0wpPYjuSt8DIe1Y3Vapnh8jcKE.jpg",
     "releaseDate": "1980-10-09",
     "genres": [
@@ -5036,8 +5086,8 @@
     "imdb": 82,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": []
   },
   {
@@ -5062,8 +5112,8 @@
     "imdb": 78,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       21
     ]
@@ -5071,7 +5121,7 @@
   {
     "id": 120467,
     "title": "The Grand Budapest Hotel",
-    "overview": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted prot\u00e9g\u00e9. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+    "overview": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
     "posterPath": "/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
     "releaseDate": "2014-02-26",
     "genres": [
@@ -5088,8 +5138,8 @@
     "imdb": 81,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       8,
       337
@@ -5117,8 +5167,8 @@
     "imdb": 81,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       337,
       21
@@ -5144,8 +5194,8 @@
     "imdb": 82,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": [
       385
     ]
@@ -5172,8 +5222,8 @@
     "imdb": 78,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       8
     ]
@@ -5181,7 +5231,7 @@
   {
     "id": 1084736,
     "title": "The Count of Monte Cristo",
-    "overview": "Edmond Dant\u00e8s becomes the target of a sinister plot and is arrested on his wedding day for a crime he did not commit. After 14 years in the island prison of Ch\u00e2teau d\u2019If, he manages a daring escape. Now rich beyond his dreams, he assumes the identity of the Count of Monte-Cristo and exacts his revenge on the three men who betrayed him.",
+    "overview": "Edmond Dantès becomes the target of a sinister plot and is arrested on his wedding day for a crime he did not commit. After 14 years in the island prison of Château d’If, he manages a daring escape. Now rich beyond his dreams, he assumes the identity of the Count of Monte-Cristo and exacts his revenge on the three men who betrayed him.",
     "posterPath": "/sAT1P3FGhtJ68anUyJScnMu8t1l.jpg",
     "releaseDate": "2024-06-28",
     "genres": [
@@ -5200,8 +5250,8 @@
     "imdb": 76,
     "rottenTomatoes": 97,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 76,
+    "doubanOriginal": 7.6,
     "providers": [
       21
     ]
@@ -5209,7 +5259,7 @@
   {
     "id": 961,
     "title": "The General",
-    "overview": "During America\u2019s Civil War, Union spies steal engineer Johnny Gray's beloved locomotive, 'The General'\u2014with Johnnie's lady love aboard an attached boxcar\u2014and he single-handedly must do all in his power to both get The General back and to rescue Annabelle.",
+    "overview": "During America’s Civil War, Union spies steal engineer Johnny Gray's beloved locomotive, 'The General'—with Johnnie's lady love aboard an attached boxcar—and he single-handedly must do all in his power to both get The General back and to rescue Annabelle.",
     "posterPath": "/nIp4gIXogCjfB1QABNsWwa9gSca.jpg",
     "releaseDate": "1926-12-25",
     "genres": [
@@ -5230,14 +5280,14 @@
     "imdb": 81,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": []
   },
   {
     "id": 194,
-    "title": "Am\u00e9lie",
-    "overview": "At a tiny Parisian caf\u00e9, the adorable yet painfully shy Am\u00e9lie accidentally discovers a gift for helping others. Soon Amelie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
+    "title": "Amélie",
+    "overview": "At a tiny Parisian café, the adorable yet painfully shy Amélie accidentally discovers a gift for helping others. Soon Amelie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
     "posterPath": "/nSxDa3M9aMvGVLoItzWTepQ5h5d.jpg",
     "releaseDate": "2001-04-25",
     "genres": [
@@ -5254,8 +5304,8 @@
     "imdb": 83,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 83,
+    "doubanOriginal": 8.3,
     "providers": [
       21
     ]
@@ -5357,8 +5407,8 @@
     "imdb": 80,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": []
   },
   {
@@ -5381,8 +5431,8 @@
     "imdb": 78,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       21,
       385
@@ -5410,8 +5460,8 @@
     "imdb": 76,
     "rottenTomatoes": 97,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 76,
+    "doubanOriginal": 7.6,
     "providers": [
       8
     ]
@@ -5436,8 +5486,8 @@
     "imdb": 81,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       21
     ]
@@ -5466,8 +5516,8 @@
     "imdb": 77,
     "rottenTomatoes": 96,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 77,
+    "doubanOriginal": 7.7,
     "providers": [
       8
     ]
@@ -5490,8 +5540,8 @@
     "imdb": 79,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": []
   },
   {
@@ -5514,8 +5564,8 @@
     "imdb": 78,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       8
     ]
@@ -5542,8 +5592,8 @@
     "imdb": 78,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       8,
       21
@@ -5571,8 +5621,8 @@
     "imdb": 78,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": []
   },
   {
@@ -5597,8 +5647,8 @@
     "imdb": 79,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": []
   },
   {
@@ -5623,8 +5673,8 @@
     "imdb": 79,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": [
       337
     ]
@@ -5649,8 +5699,8 @@
     "imdb": 80,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": [
       21
     ]
@@ -5677,8 +5727,8 @@
     "imdb": 79,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": [
       21
     ]
@@ -5703,8 +5753,8 @@
     "imdb": 85,
     "rottenTomatoes": 87,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 85,
+    "doubanOriginal": 8.5,
     "providers": [
       385
     ]
@@ -5712,7 +5762,7 @@
   {
     "id": 629,
     "title": "The Usual Suspects",
-    "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor \u2013 leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+    "overview": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
     "posterPath": "/99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
     "releaseDate": "1995-07-19",
     "genres": [
@@ -5731,8 +5781,8 @@
     "imdb": 85,
     "rottenTomatoes": 87,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 85,
+    "doubanOriginal": 8.5,
     "providers": [
       21
     ]
@@ -5757,8 +5807,8 @@
     "imdb": 75,
     "rottenTomatoes": 97,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 75,
+    "doubanOriginal": 7.5,
     "providers": [
       337
     ]
@@ -5785,8 +5835,8 @@
     "imdb": 79,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": [
       385
     ]
@@ -5813,8 +5863,8 @@
     "imdb": 82,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": []
   },
   {
@@ -5839,8 +5889,8 @@
     "imdb": 83,
     "rottenTomatoes": 89,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 83,
+    "doubanOriginal": 8.3,
     "providers": [
       8
     ]
@@ -5867,8 +5917,8 @@
     "imdb": 76,
     "rottenTomatoes": 96,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 76,
+    "doubanOriginal": 7.6,
     "providers": []
   },
   {
@@ -5894,8 +5944,8 @@
     "imdb": 79,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": [
       337,
       21
@@ -5921,8 +5971,8 @@
     "imdb": 79,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": []
   },
   {
@@ -5948,8 +5998,8 @@
     "imdb": 72,
     "rottenTomatoes": 100,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 72,
+    "doubanOriginal": 7.2,
     "providers": [
       8
     ]
@@ -5972,8 +6022,8 @@
     "imdb": 76,
     "rottenTomatoes": 96,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 76,
+    "doubanOriginal": 7.6,
     "providers": []
   },
   {
@@ -5994,8 +6044,8 @@
     "imdb": 76,
     "rottenTomatoes": 96,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 76,
+    "doubanOriginal": 7.6,
     "providers": [
       8
     ]
@@ -6077,8 +6127,8 @@
     "imdb": 81,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       337
     ]
@@ -6086,7 +6136,7 @@
   {
     "id": 381284,
     "title": "Hidden Figures",
-    "overview": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson \u2013 brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history \u2013 the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
+    "overview": "The untold story of Katherine G. Johnson, Dorothy Vaughan and Mary Jackson – brilliant African-American women working at NASA and serving as the brains behind one of the greatest operations in history – the launch of astronaut John Glenn into orbit. The visionary trio crossed all gender and race lines to inspire generations to dream big.",
     "posterPath": "/9lfz2W2uGjyow3am00rsPJ8iOyq.jpg",
     "releaseDate": "2016-12-10",
     "genres": [
@@ -6103,8 +6153,8 @@
     "imdb": 78,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       337
     ]
@@ -6112,7 +6162,7 @@
   {
     "id": 521,
     "title": "Dial M for Murder",
-    "overview": "When her American lover visits London, a wealthy woman\u2019s jealous husband hatches a plan to murder her and inherit her fortune.",
+    "overview": "When her American lover visits London, a wealthy woman’s jealous husband hatches a plan to murder her and inherit her fortune.",
     "posterPath": "/2gDCAgl2iBQNuJuk6p2xtuS1ewg.jpg",
     "releaseDate": "1954-05-29",
     "genres": [
@@ -6129,8 +6179,8 @@
     "imdb": 81,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": []
   },
   {
@@ -6155,8 +6205,8 @@
     "imdb": 80,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": [
       337
     ]
@@ -6164,7 +6214,7 @@
   {
     "id": 25376,
     "title": "The Secret in Their Eyes",
-    "overview": "Hoping to put to rest years of unease concerning a past case, retired criminal investigator Benjam\u00edn begins writing a novel based on the unsolved mystery of a newlywed\u2019s rape and murder. With the help of a former colleague, judge Irene, he attempts to make sense of the past.",
+    "overview": "Hoping to put to rest years of unease concerning a past case, retired criminal investigator Benjamín begins writing a novel based on the unsolved mystery of a newlywed’s rape and murder. With the help of a former colleague, judge Irene, he attempts to make sense of the past.",
     "posterPath": "/dkeAwfZzwL3WvToydE3CXiY80E0.jpg",
     "releaseDate": "2009-08-13",
     "genres": [
@@ -6183,8 +6233,8 @@
     "imdb": 82,
     "rottenTomatoes": 89,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": []
   },
   {
@@ -6205,16 +6255,16 @@
     "imdb": 81,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       21
     ]
   },
   {
     "id": 81,
-    "title": "Nausica\u00e4 of the Valley of the Wind",
-    "overview": "After a global war, the seaside kingdom known as the Valley of the Wind remains one of the last strongholds on Earth untouched by a poisonous jungle and the powerful insects that guard it. Led by the courageous Princess Nausica\u00e4, the people of the Valley engage in an epic struggle to restore the bond between humanity and Earth.",
+    "title": "Nausicaä of the Valley of the Wind",
+    "overview": "After a global war, the seaside kingdom known as the Valley of the Wind remains one of the last strongholds on Earth untouched by a poisonous jungle and the powerful insects that guard it. Led by the courageous Princess Nausicaä, the people of the Valley engage in an epic struggle to restore the bond between humanity and Earth.",
     "posterPath": "/tcrkfB8SRPQCgwI88hQScua6nxh.jpg",
     "releaseDate": "1984-03-11",
     "genres": [
@@ -6233,8 +6283,8 @@
     "imdb": 80,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": [
       8
     ]
@@ -6556,7 +6606,7 @@
   {
     "id": 432976,
     "title": "Icarus",
-    "overview": "While investigating the furtive world of illegal doping in sports, director Bryan Fogel connects with renegade Russian scientist Dr. Grigory Rodchenkov\u2014a pillar of his country\u2019s \u201canti-doping\u201d program. Over dozens of Skype calls, urine samples, and badly administered hormone injections, Fogel and Rodchenkov grow closer despite shocking allegations that place Rodchenkov at the center of Russia\u2019s state-sponsored Olympic doping program.",
+    "overview": "While investigating the furtive world of illegal doping in sports, director Bryan Fogel connects with renegade Russian scientist Dr. Grigory Rodchenkov—a pillar of his country’s “anti-doping” program. Over dozens of Skype calls, urine samples, and badly administered hormone injections, Fogel and Rodchenkov grow closer despite shocking allegations that place Rodchenkov at the center of Russia’s state-sponsored Olympic doping program.",
     "posterPath": "/x5azMi1KvZWbBbfjmGqpHNGqjH.jpg",
     "releaseDate": "2017-06-03",
     "genres": [
@@ -6579,8 +6629,8 @@
   },
   {
     "id": 499,
-    "title": "Cl\u00e9o from 5 to 7",
-    "overview": "Agn\u00e8s Varda eloquently captures Paris in the sixties with this real-time portrait of a singer set adrift in the city as she awaits test results of a biopsy. A chronicle of the minutes of one woman\u2019s life, Cl\u00e9o from 5 to 7 is a spirited mix of vivid v\u00e9rit\u00e9 and melodrama, featuring a score by Michel Legrand and cameos by Jean-Luc Godard and Anna Karina.",
+    "title": "Cléo from 5 to 7",
+    "overview": "Agnès Varda eloquently captures Paris in the sixties with this real-time portrait of a singer set adrift in the city as she awaits test results of a biopsy. A chronicle of the minutes of one woman’s life, Cléo from 5 to 7 is a spirited mix of vivid vérité and melodrama, featuring a score by Michel Legrand and cameos by Jean-Luc Godard and Anna Karina.",
     "posterPath": "/oelBStY4xpguaplRv15P3Za7Xsr.jpg",
     "releaseDate": "1962-04-11",
     "genres": [
@@ -6918,8 +6968,8 @@
     "imdb": 78,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       8,
       21,
@@ -6948,8 +6998,8 @@
     "imdb": 76,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 76,
+    "doubanOriginal": 7.6,
     "providers": [
       8
     ]
@@ -6976,8 +7026,8 @@
     "imdb": 78,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 77,
+    "doubanOriginal": 7.7,
     "providers": [
       337
     ]
@@ -7002,8 +7052,8 @@
     "imdb": 79,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": [
       8,
       21
@@ -7029,8 +7079,8 @@
     "imdb": 77,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 77,
+    "doubanOriginal": 7.7,
     "providers": []
   },
   {
@@ -7051,8 +7101,8 @@
     "imdb": 79,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": []
   },
   {
@@ -7099,8 +7149,8 @@
     "imdb": 83,
     "rottenTomatoes": 86,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 83,
+    "doubanOriginal": 8.3,
     "providers": [
       337,
       21
@@ -7128,8 +7178,8 @@
     "imdb": 84,
     "rottenTomatoes": 85,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 84,
+    "doubanOriginal": 8.4,
     "providers": [
       337
     ]
@@ -7156,8 +7206,8 @@
     "imdb": 81,
     "rottenTomatoes": 88,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       8,
       337,
@@ -7167,7 +7217,7 @@
   {
     "id": 1376434,
     "title": "Predator: Killer of Killers",
-    "overview": "While three of the fiercest warriors in human history\u2014a Viking raider, a ninja in feudal Japan, and a WWII pilot\u2014are killers in their own right, they are merely prey for their new opponent: the ultimate killer of killers.",
+    "overview": "While three of the fiercest warriors in human history—a Viking raider, a ninja in feudal Japan, and a WWII pilot—are killers in their own right, they are merely prey for their new opponent: the ultimate killer of killers.",
     "posterPath": "/2XDQa6EmFHSA37j1t0w88vpWqj9.jpg",
     "releaseDate": "2025-06-05",
     "genres": [
@@ -7187,8 +7237,8 @@
     "imdb": 74,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 74,
+    "doubanOriginal": 7.4,
     "providers": [
       337
     ]
@@ -7215,8 +7265,8 @@
     "imdb": 81,
     "rottenTomatoes": 88,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": [
       8
     ]
@@ -7244,8 +7294,8 @@
     "imdb": 75,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 75,
+    "doubanOriginal": 7.5,
     "providers": []
   },
   {
@@ -7268,8 +7318,8 @@
     "imdb": 78,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": []
   },
   {
@@ -7294,8 +7344,8 @@
     "imdb": 78,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       337
     ]
@@ -7320,8 +7370,8 @@
     "imdb": 78,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       337
     ]
@@ -7424,8 +7474,8 @@
     "imdb": 82,
     "rottenTomatoes": 86,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": []
   },
   {
@@ -7448,8 +7498,8 @@
     "imdb": 78,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       8
     ]
@@ -7476,8 +7526,8 @@
     "imdb": 82,
     "rottenTomatoes": 86,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": [
       337
     ]
@@ -7505,8 +7555,8 @@
     "imdb": 76,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 76,
+    "doubanOriginal": 7.6,
     "providers": [
       8
     ]
@@ -7514,7 +7564,7 @@
   {
     "id": 597,
     "title": "Titanic",
-    "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fianc\u00e9. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death\u2014on its first and last voyage\u2014on April 15, 1912.",
+    "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912.",
     "posterPath": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
     "releaseDate": "1997-12-18",
     "genres": [
@@ -7531,8 +7581,8 @@
     "imdb": 80,
     "rottenTomatoes": 88,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": [
       337,
       21
@@ -7541,7 +7591,7 @@
   {
     "id": 10674,
     "title": "Mulan",
-    "overview": "When Imperial China calls one man from every family to defend the empire from invading Huns, a young woman disguises herself as a soldier to take her ailing father\u2019s place. Facing ruthless invaders, brutal training, and the risk of execution if discovered, she must decide who she truly is\u2014 and what she\u2019s willing to fight for.",
+    "overview": "When Imperial China calls one man from every family to defend the empire from invading Huns, a young woman disguises herself as a soldier to take her ailing father’s place. Facing ruthless invaders, brutal training, and the risk of execution if discovered, she must decide who she truly is— and what she’s willing to fight for.",
     "posterPath": "/jAbexAtB0aSfP5Ay4TpWHARyVnG.jpg",
     "releaseDate": "1998-06-18",
     "genres": [
@@ -7560,8 +7610,8 @@
     "imdb": 77,
     "rottenTomatoes": 91,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 77,
+    "doubanOriginal": 7.7,
     "providers": [
       337
     ]
@@ -7569,7 +7619,7 @@
   {
     "id": 665,
     "title": "Ben-Hur",
-    "overview": "In ancient Judea, a Jewish aristocrat opposing Roman occupation of his homeland reunites with his childhood friend, now a Roman commander \u2014 setting in motion a saga of betrayal, adventure, tragedy, revenge, and faith.",
+    "overview": "In ancient Judea, a Jewish aristocrat opposing Roman occupation of his homeland reunites with his childhood friend, now a Roman commander — setting in motion a saga of betrayal, adventure, tragedy, revenge, and faith.",
     "posterPath": "/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg",
     "releaseDate": "1959-11-18",
     "genres": [
@@ -7588,8 +7638,8 @@
     "imdb": 81,
     "rottenTomatoes": 87,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": []
   },
   {
@@ -7614,8 +7664,8 @@
     "imdb": 78,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       337
     ]
@@ -7623,7 +7673,7 @@
   {
     "id": 430424,
     "title": "See You Up There",
-    "overview": "In November 1918, a few days before the Armistice, when Lieutenant Pradelle orders a senseless attack, he causes a useless disaster; but his outrageous act also binds the lives of two soldiers who have nothing more in common than the battlefield: \u00c9douard saves Albert, although at a high cost. They become companions in misfortune who will attempt to survive in a changing world. Pradelle, in his own way, does the same.",
+    "overview": "In November 1918, a few days before the Armistice, when Lieutenant Pradelle orders a senseless attack, he causes a useless disaster; but his outrageous act also binds the lives of two soldiers who have nothing more in common than the battlefield: Édouard saves Albert, although at a high cost. They become companions in misfortune who will attempt to survive in a changing world. Pradelle, in his own way, does the same.",
     "posterPath": "/pkO5YoznMR9neuHVzhxHK9JJpAj.jpg",
     "releaseDate": "2017-10-25",
     "genres": [
@@ -7642,8 +7692,8 @@
     "imdb": 74,
     "rottenTomatoes": 94,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 74,
+    "doubanOriginal": 7.4,
     "providers": []
   },
   {
@@ -7668,8 +7718,8 @@
     "imdb": 80,
     "rottenTomatoes": 88,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": [
       21
     ]
@@ -7692,8 +7742,8 @@
     "imdb": 80,
     "rottenTomatoes": 88,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 80,
+    "doubanOriginal": 8.0,
     "providers": [
       21
     ]
@@ -7721,8 +7771,8 @@
     "imdb": 79,
     "rottenTomatoes": 89,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 79,
+    "doubanOriginal": 7.9,
     "providers": [
       21
     ]
@@ -7751,8 +7801,8 @@
     "imdb": 78,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       337
     ]
@@ -7777,8 +7827,8 @@
     "imdb": 78,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       8
     ]
@@ -7786,7 +7836,7 @@
   {
     "id": 13,
     "title": "Forrest Gump",
-    "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events\u2014in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
+    "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
     "posterPath": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
     "releaseDate": "1994-06-23",
     "genres": [
@@ -7834,8 +7884,8 @@
     "imdb": 75,
     "rottenTomatoes": 92,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 75,
+    "doubanOriginal": 7.5,
     "providers": [
       337
     ]
@@ -7860,14 +7910,14 @@
     "imdb": 81,
     "rottenTomatoes": 86,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": []
   },
   {
     "id": 24,
     "title": "Kill Bill: Vol. 1",
-    "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle \u2013 but she lives to plot her vengeance.",
+    "overview": "An assassin is shot by her ruthless employer, Bill, and other members of their assassination circle – but she lives to plot her vengeance.",
     "posterPath": "/v7TaX8kXMXs5yFFGR41guUDNcnB.jpg",
     "releaseDate": "2003-10-10",
     "genres": [
@@ -7884,8 +7934,8 @@
     "imdb": 82,
     "rottenTomatoes": 85,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": [
       8,
       337,
@@ -8192,7 +8242,7 @@
   {
     "id": 100402,
     "title": "Captain America: The Winter Soldier",
-    "overview": "After the cataclysmic events in New York with The Avengers, Steve Rogers, aka Captain America is living quietly in Washington, D.C. and trying to adjust to the modern world. But when a S.H.I.E.L.D. colleague comes under attack, Steve becomes embroiled in a web of intrigue that threatens to put the world at risk. Joining forces with the Black Widow, Captain America struggles to expose the ever-widening conspiracy while fighting off professional assassins sent to silence him at every turn. When the full scope of the villainous plot is revealed, Captain America and the Black Widow enlist the help of a new ally, the Falcon. However, they soon find themselves up against an unexpected and formidable enemy\u2014the Winter Soldier.",
+    "overview": "After the cataclysmic events in New York with The Avengers, Steve Rogers, aka Captain America is living quietly in Washington, D.C. and trying to adjust to the modern world. But when a S.H.I.E.L.D. colleague comes under attack, Steve becomes embroiled in a web of intrigue that threatens to put the world at risk. Joining forces with the Black Widow, Captain America struggles to expose the ever-widening conspiracy while fighting off professional assassins sent to silence him at every turn. When the full scope of the villainous plot is revealed, Captain America and the Black Widow enlist the help of a new ally, the Falcon. However, they soon find themselves up against an unexpected and formidable enemy—the Winter Soldier.",
     "posterPath": "/tVFRpFw3xTedgPGqxW0AOI8Qhh0.jpg",
     "releaseDate": "2014-03-20",
     "genres": [
@@ -8395,8 +8445,8 @@
     "imdb": 83,
     "rottenTomatoes": 83,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 83,
+    "doubanOriginal": 8.3,
     "providers": [
       337
     ]
@@ -8423,8 +8473,8 @@
     "imdb": 71,
     "rottenTomatoes": 95,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 71,
+    "doubanOriginal": 7.1,
     "providers": [
       21
     ]
@@ -8449,8 +8499,8 @@
     "imdb": 82,
     "rottenTomatoes": 84,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 82,
+    "doubanOriginal": 8.2,
     "providers": [
       21,
       385
@@ -8476,8 +8526,8 @@
     "imdb": 81,
     "rottenTomatoes": 85,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 81,
+    "doubanOriginal": 8.1,
     "providers": []
   },
   {
@@ -8502,8 +8552,8 @@
     "imdb": 83,
     "rottenTomatoes": null,
     "rtFresh": false,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 83,
+    "doubanOriginal": 8.3,
     "providers": [
       21
     ]
@@ -8511,7 +8561,7 @@
   {
     "id": 527774,
     "title": "Raya and the Last Dragon",
-    "overview": "Long ago, in the fantasy world of Kumandra, humans and dragons lived together in harmony. But when an evil force threatened the land, the dragons sacrificed themselves to save humanity. Now, 500 years later, that same evil has returned and it\u2019s up to a lone warrior, Raya, to track down the legendary last dragon to restore the fractured land and its divided people.",
+    "overview": "Long ago, in the fantasy world of Kumandra, humans and dragons lived together in harmony. But when an evil force threatened the land, the dragons sacrificed themselves to save humanity. Now, 500 years later, that same evil has returned and it’s up to a lone warrior, Raya, to track down the legendary last dragon to restore the fractured land and its divided people.",
     "posterPath": "/5nVhgCzxKbK47OLIKxCR1syulOn.jpg",
     "releaseDate": "2021-03-03",
     "genres": [
@@ -8532,8 +8582,8 @@
     "imdb": 73,
     "rottenTomatoes": 93,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 73,
+    "doubanOriginal": 7.3,
     "providers": [
       337
     ]
@@ -8560,8 +8610,8 @@
     "imdb": 83,
     "rottenTomatoes": null,
     "rtFresh": false,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 83,
+    "doubanOriginal": 8.3,
     "providers": [
       337
     ]
@@ -8589,8 +8639,8 @@
     "imdb": 78,
     "rottenTomatoes": 88,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 78,
+    "doubanOriginal": 7.8,
     "providers": [
       8
     ]
@@ -8615,8 +8665,8 @@
     "imdb": 76,
     "rottenTomatoes": 90,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 76,
+    "doubanOriginal": 7.6,
     "providers": []
   },
   {
@@ -8639,8 +8689,8 @@
     "imdb": 77,
     "rottenTomatoes": 89,
     "rtFresh": true,
-    "douban": null,
-    "doubanOriginal": null,
+    "douban": 77,
+    "doubanOriginal": 7.7,
     "providers": [
       8
     ]
@@ -8787,7 +8837,7 @@
   {
     "id": 406997,
     "title": "Wonder",
-    "overview": "The story of August Pullman \u2013 a boy with facial differences \u2013 who enters fifth grade, attending a mainstream elementary school for the first time.",
+    "overview": "The story of August Pullman – a boy with facial differences – who enters fifth grade, attending a mainstream elementary school for the first time.",
     "posterPath": "/sONh3LYGFcVDTy8pm1tbSOB13Li.jpg",
     "releaseDate": "2017-11-13",
     "genres": [
@@ -8868,7 +8918,7 @@
   {
     "id": 59440,
     "title": "Warrior",
-    "overview": "The youngest son of an alcoholic former boxer returns home, where he's trained by his father for competition in a mixed martial arts tournament \u2013 a path that puts the fighter on a collision course with his estranged, older brother.",
+    "overview": "The youngest son of an alcoholic former boxer returns home, where he's trained by his father for competition in a mixed martial arts tournament – a path that puts the fighter on a collision course with his estranged, older brother.",
     "posterPath": "/iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg",
     "releaseDate": "2011-09-09",
     "genres": [
@@ -8920,7 +8970,7 @@
   {
     "id": 674,
     "title": "Harry Potter and the Goblet of Fire",
-    "overview": "When his name emerges from the Goblet of Fire, Harry Potter becomes a competitor in a grueling battle for glory among three wizarding schools\u2014the Triwizard Tournament. But since Harry never submitted his name for the Tournament, who did? Now Harry must confront a deadly dragon, fierce water demons, and an enchanted maze only to find himself in the cruel grasp of He Who Must Not Be Named.",
+    "overview": "When his name emerges from the Goblet of Fire, Harry Potter becomes a competitor in a grueling battle for glory among three wizarding schools—the Triwizard Tournament. But since Harry never submitted his name for the Tournament, who did? Now Harry must confront a deadly dragon, fierce water demons, and an enchanted maze only to find himself in the cruel grasp of He Who Must Not Be Named.",
     "posterPath": "/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
     "releaseDate": "2005-11-16",
     "genres": [
@@ -8944,7 +8994,7 @@
   {
     "id": 508943,
     "title": "Luca",
-    "overview": "Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water\u2019s surface.",
+    "overview": "Luca and his best friend Alberto experience an unforgettable summer on the Italian Riviera. But all the fun is threatened by a deeply-held secret: they are sea monsters from another world just below the water’s surface.",
     "posterPath": "/9x4i9uKGXt8IiiIF5Ey0DIoY738.jpg",
     "releaseDate": "2021-06-17",
     "genres": [
@@ -9211,7 +9261,7 @@
   {
     "id": 393,
     "title": "Kill Bill: Vol. 2",
-    "overview": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do \u2026 but kill Bill.",
+    "overview": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do … but kill Bill.",
     "posterPath": "/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
     "releaseDate": "2004-04-16",
     "genres": [
@@ -9265,7 +9315,7 @@
   {
     "id": 166428,
     "title": "How to Train Your Dragon: The Hidden World",
-    "overview": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless\u2019 discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup\u2019s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
+    "overview": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
     "posterPath": "/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
     "releaseDate": "2019-01-03",
     "genres": [
@@ -9370,7 +9420,7 @@
   {
     "id": 799766,
     "title": "Better Man",
-    "overview": "Follow Robbie Williams' journey from childhood, to being the youngest member of chart-topping boyband Take That, through to his unparalleled achievements as a record-breaking solo artist \u2013 all the while confronting the challenges that stratospheric fame and success can bring.",
+    "overview": "Follow Robbie Williams' journey from childhood, to being the youngest member of chart-topping boyband Take That, through to his unparalleled achievements as a record-breaking solo artist – all the while confronting the challenges that stratospheric fame and success can bring.",
     "posterPath": "/fbGCmMp0HlYnAPv28GOENPShezM.jpg",
     "releaseDate": "2024-12-06",
     "genres": [
@@ -9394,7 +9444,7 @@
   {
     "id": 146233,
     "title": "Prisoners",
-    "overview": "Keller Dover is facing every parent\u2019s worst nightmare. His six-year-old daughter, Anna, is missing, together with her young friend, Joy, and as minutes turn to hours, panic sets in. The only lead is a dilapidated RV that had earlier been parked on their street.",
+    "overview": "Keller Dover is facing every parent’s worst nightmare. His six-year-old daughter, Anna, is missing, together with her young friend, Joy, and as minutes turn to hours, panic sets in. The only lead is a dilapidated RV that had earlier been parked on their street.",
     "posterPath": "/jsS3a3ep2KyBVmmiwaz3LvK49b1.jpg",
     "releaseDate": "2013-09-19",
     "genres": [
@@ -9816,7 +9866,7 @@
   {
     "id": 1002185,
     "title": "A Million Miles Away",
-    "overview": "The life of engineer and former NASA astronaut Jos\u00e9 M. Hern\u00e1ndez, the first migrant farmworker to go to space.",
+    "overview": "The life of engineer and former NASA astronaut José M. Hernández, the first migrant farmworker to go to space.",
     "posterPath": "/kMI3tgxLAZbzGOVlorUBva0kriS.jpg",
     "releaseDate": "2023-09-08",
     "genres": [
@@ -9839,8 +9889,8 @@
   },
   {
     "id": 101,
-    "title": "L\u00e9on: The Professional",
-    "overview": "L\u00e9on, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda's thoughts turn to revenge, and she considers following in L\u00e9on's footsteps.",
+    "title": "Léon: The Professional",
+    "overview": "Léon, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda's thoughts turn to revenge, and she considers following in Léon's footsteps.",
     "posterPath": "/bxB2q91nKYp8JNzqE7t7TWBVupB.jpg",
     "releaseDate": "1994-09-14",
     "genres": [
@@ -10053,7 +10103,7 @@
   {
     "id": 117,
     "title": "The Untouchables",
-    "overview": "Elliot Ness, an ambitious prohibition agent, is determined to take down Al Capone. In order to achieve this goal, he forms a group given the nickname \u201cThe Untouchables\u201d.",
+    "overview": "Elliot Ness, an ambitious prohibition agent, is determined to take down Al Capone. In order to achieve this goal, he forms a group given the nickname “The Untouchables”.",
     "posterPath": "/sfMVTmd5irneaZOmQVdB8gFlId3.jpg",
     "releaseDate": "1987-06-03",
     "genres": [
@@ -10133,7 +10183,7 @@
   {
     "id": 9912,
     "title": "The World's Fastest Indian",
-    "overview": "The life story of New Zealander Burt Munro, who spent years building a 1920 Indian motorcycle\u2014a bike which helped him set the land-speed world record at Utah's Bonneville Salt Flats in 1967.",
+    "overview": "The life story of New Zealander Burt Munro, who spent years building a 1920 Indian motorcycle—a bike which helped him set the land-speed world record at Utah's Bonneville Salt Flats in 1967.",
     "posterPath": "/vUIwPFAAXeCUuS040uGC0xSatcG.jpg",
     "releaseDate": "2005-10-12",
     "genres": [
@@ -10211,7 +10261,7 @@
   {
     "id": 77338,
     "title": "The Intouchables",
-    "overview": "A true story of two men who should never have met \u2013 a quadriplegic aristocrat who was injured in a paragliding accident and a young man from the projects.",
+    "overview": "A true story of two men who should never have met – a quadriplegic aristocrat who was injured in a paragliding accident and a young man from the projects.",
     "posterPath": "/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg",
     "releaseDate": "2011-11-02",
     "genres": [
@@ -10237,7 +10287,7 @@
   {
     "id": 740996,
     "title": "BLACKPINK: Light Up the Sky",
-    "overview": "Record-shattering Korean girl band BLACKPINK tell their story \u2014  and detail the hard fought journey of the dreams and trials behind their meteoric rise.",
+    "overview": "Record-shattering Korean girl band BLACKPINK tell their story —  and detail the hard fought journey of the dreams and trials behind their meteoric rise.",
     "posterPath": "/wwrvjmcgkDyB2RbCbIVLXZf82pl.jpg",
     "releaseDate": "2020-10-14",
     "genres": [
@@ -10664,7 +10714,7 @@
   {
     "id": 911430,
     "title": "F1",
-    "overview": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team\u2014and mentor a young hotshot driver\u2014while chasing one more chance at glory.",
+    "overview": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
     "posterPath": "/vqBmyAj0Xm9LnS1xe1MSlMAJyHq.jpg",
     "releaseDate": "2025-06-25",
     "genres": [
@@ -10712,7 +10762,7 @@
   {
     "id": 671,
     "title": "Harry Potter and the Philosopher's Stone",
-    "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard\u2014with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths\u2014and about the villain who's to blame.",
+    "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard—with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths—and about the villain who's to blame.",
     "posterPath": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
     "releaseDate": "2001-11-16",
     "genres": [
@@ -10736,7 +10786,7 @@
   {
     "id": 615457,
     "title": "Nobody",
-    "overview": "Hutch Mansell, a suburban dad, overlooked husband, nothing neighbor \u2014 a \"nobody.\" When two thieves break into his home one night, Hutch's unknown long-simmering rage is ignited and propels him on a brutal path that will uncover dark secrets he fought to leave behind.",
+    "overview": "Hutch Mansell, a suburban dad, overlooked husband, nothing neighbor — a \"nobody.\" When two thieves break into his home one night, Hutch's unknown long-simmering rage is ignited and propels him on a brutal path that will uncover dark secrets he fought to leave behind.",
     "posterPath": "/oBgWY00bEFeZ9N25wWVyuQddbAo.jpg",
     "releaseDate": "2021-03-18",
     "genres": [
@@ -10890,7 +10940,7 @@
   {
     "id": 851644,
     "title": "20th Century Girl",
-    "overview": "In 1999, a teen girl keeps close tabs on a boy in school on behalf of her deeply smitten best friend \u2013 then she gets swept up in a love story of her own.",
+    "overview": "In 1999, a teen girl keeps close tabs on a boy in school on behalf of her deeply smitten best friend – then she gets swept up in a love story of her own.",
     "posterPath": "/od22ftNnyag0TTxcnJhlsu3aLoU.jpg",
     "releaseDate": "2022-10-06",
     "genres": [
@@ -11135,7 +11185,7 @@
   {
     "id": 522627,
     "title": "The Gentlemen",
-    "overview": "American expat Mickey Pearson has built a highly profitable marijuana empire in London. When word gets out that he\u2019s looking to cash out of the business forever it triggers plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+    "overview": "American expat Mickey Pearson has built a highly profitable marijuana empire in London. When word gets out that he’s looking to cash out of the business forever it triggers plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
     "posterPath": "/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
     "releaseDate": "2020-01-01",
     "genres": [
@@ -11353,7 +11403,7 @@
   {
     "id": 627725,
     "title": "The Banker",
-    "overview": "In the 1960s, two entrepreneurs hatch an ingenious business plan to fight for housing integration\u2014and equal access to the American Dream.",
+    "overview": "In the 1960s, two entrepreneurs hatch an ingenious business plan to fight for housing integration—and equal access to the American Dream.",
     "posterPath": "/biXzsw22U6vSd0XktmZwAOc4uik.jpg",
     "releaseDate": "2020-03-06",
     "genres": [
@@ -11454,7 +11504,7 @@
   {
     "id": 10637,
     "title": "Remember the Titans",
-    "overview": "After leading his football team to 15 winning seasons, coach Bill Yoast is demoted and replaced by Herman Boone \u2013 tough, opinionated and as different from the beloved Yoast as he could be. The two men learn to overcome their differences and turn a group of hostile young men into champions.",
+    "overview": "After leading his football team to 15 winning seasons, coach Bill Yoast is demoted and replaced by Herman Boone – tough, opinionated and as different from the beloved Yoast as he could be. The two men learn to overcome their differences and turn a group of hostile young men into champions.",
     "posterPath": "/825ohvC4wZ3gCuncCaqkWeQnK8h.jpg",
     "releaseDate": "2000-09-29",
     "genres": [
@@ -11560,7 +11610,7 @@
   {
     "id": 337404,
     "title": "Cruella",
-    "overview": "In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are able to build a life for themselves on the London streets. One day, Estella\u2019s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.",
+    "overview": "In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are able to build a life for themselves on the London streets. One day, Estella’s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.",
     "posterPath": "/hjS9mH8KvRiGHgjk6VUZH7OT0Ng.jpg",
     "releaseDate": "2021-05-26",
     "genres": [
@@ -11618,7 +11668,7 @@
   {
     "id": 488623,
     "title": "Forgotten",
-    "overview": "Jin-seok, 21-year-old, moves into a new house with his family. He suffers from a slight schizophrenia but he carries an ordinary life under the warm care of the family. His older brother Yu-seok is a decent college student, a mentor, and role model for Jin-seok.  One night, his beloved brother is kidnapped by unidentified assailants before Jin-seok's eye. Jin-seok can\u2019t recognize their faces, but can remember only the VIN that matches with no car. After long silence of 19 days, suddenly Yu-seok returns home, but remembers nothing which had happened in the meantime. And soon Jin-seok feels Yu-seok is a total stranger.",
+    "overview": "Jin-seok, 21-year-old, moves into a new house with his family. He suffers from a slight schizophrenia but he carries an ordinary life under the warm care of the family. His older brother Yu-seok is a decent college student, a mentor, and role model for Jin-seok.  One night, his beloved brother is kidnapped by unidentified assailants before Jin-seok's eye. Jin-seok can’t recognize their faces, but can remember only the VIN that matches with no car. After long silence of 19 days, suddenly Yu-seok returns home, but remembers nothing which had happened in the meantime. And soon Jin-seok feels Yu-seok is a total stranger.",
     "posterPath": "/cBgj41y1RvmW1zJCEX0uNWL0UjW.jpg",
     "releaseDate": "2017-11-29",
     "genres": [
@@ -11672,7 +11722,7 @@
   {
     "id": 579245,
     "title": "The Specials",
-    "overview": "For twenty years, Bruno and Malik have lived in a different world\u2014the world of autistic children and teens. In charge of two separate nonprofit organizations (The Hatch & The Shelter), they train young people from underprivileged areas to be caregivers for extreme cases that have been refused by all other institutions. It\u2019s an exceptional partnership, outside of traditional settings, for some quite extraordinary characters.",
+    "overview": "For twenty years, Bruno and Malik have lived in a different world—the world of autistic children and teens. In charge of two separate nonprofit organizations (The Hatch & The Shelter), they train young people from underprivileged areas to be caregivers for extreme cases that have been refused by all other institutions. It’s an exceptional partnership, outside of traditional settings, for some quite extraordinary characters.",
     "posterPath": "/zJziqrnSOzKiV0TrNVZ3AS0NMKI.jpg",
     "releaseDate": "2019-10-23",
     "genres": [
@@ -11772,7 +11822,7 @@
   {
     "id": 755812,
     "title": "Miraculous World: New York, United HeroeZ",
-    "overview": "Marinette\u2019s class is headed to New York, the city of superheroes, for French-American Friendship Week.",
+    "overview": "Marinette’s class is headed to New York, the city of superheroes, for French-American Friendship Week.",
     "posterPath": "/9YbyvcrHmY2SVbdfXpb8mC4Fy0g.jpg",
     "releaseDate": "2020-09-25",
     "genres": [
@@ -11855,7 +11905,7 @@
   {
     "id": 413594,
     "title": "Sword Art Online the Movie: Ordinal Scale",
-    "overview": "In 2026, a new machine called the Augma is developed to compete against the NerveGear and its successor, the Amusphere. A next-gen wearable device, the Augma doesn't have a full-dive function like its predecessors. Instead, it uses Augmented Reality to get players into the game. It is safe, user-friendly and lets users play while they are conscious, making it an instant hit on the market. The most popular game on the system is \u201cOrdinal Scale\u201d an ARMMORPG developed exclusively for the Augma. Asuna and the gang have already been playing OS for a while, by the time Kirito decides to join them. They\u2019re about to find out that Ordinal Scale isn\u2019t all fun and games\u2026",
+    "overview": "In 2026, a new machine called the Augma is developed to compete against the NerveGear and its successor, the Amusphere. A next-gen wearable device, the Augma doesn't have a full-dive function like its predecessors. Instead, it uses Augmented Reality to get players into the game. It is safe, user-friendly and lets users play while they are conscious, making it an instant hit on the market. The most popular game on the system is “Ordinal Scale” an ARMMORPG developed exclusively for the Augma. Asuna and the gang have already been playing OS for a while, by the time Kirito decides to join them. They’re about to find out that Ordinal Scale isn’t all fun and games…",
     "posterPath": "/2szdEK0Mr0RG0nWGFVTseNQHbnP.jpg",
     "releaseDate": "2017-02-18",
     "genres": [
@@ -11883,7 +11933,7 @@
   {
     "id": 458220,
     "title": "Palmer",
-    "overview": "After 12 years in prison, former high school football star Eddie Palmer returns home to put his life back together\u2014and forms an unlikely bond with Sam, an outcast boy from a troubled home. But Eddie's past threatens to ruin his new life and family.",
+    "overview": "After 12 years in prison, former high school football star Eddie Palmer returns home to put his life back together—and forms an unlikely bond with Sam, an outcast boy from a troubled home. But Eddie's past threatens to ruin his new life and family.",
     "posterPath": "/xSDdRAjxKAGi8fUBLOqSrBhJmF0.jpg",
     "releaseDate": "2021-01-28",
     "genres": [
@@ -12287,7 +12337,7 @@
   {
     "id": 424694,
     "title": "Bohemian Rhapsody",
-    "overview": "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet \u2013 finding a way to keep the band together amid the success and excess.",
+    "overview": "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.",
     "posterPath": "/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg",
     "releaseDate": "2018-10-24",
     "genres": [
@@ -12314,7 +12364,7 @@
   {
     "id": 626332,
     "title": "Flamin' Hot",
-    "overview": "The inspiring true story of Richard Monta\u00f1ez, the Frito Lay janitor who channeled his Mexican American heritage and upbringing to turn the iconic Flamin' Hot Cheetos into a snack that disrupted the food industry and became a global pop culture phenomenon.",
+    "overview": "The inspiring true story of Richard Montañez, the Frito Lay janitor who channeled his Mexican American heritage and upbringing to turn the iconic Flamin' Hot Cheetos into a snack that disrupted the food industry and became a global pop culture phenomenon.",
     "posterPath": "/a7KyFMPXj0iY4EoLq1PIGU1WJPw.jpg",
     "releaseDate": "2023-03-11",
     "genres": [
@@ -12370,7 +12420,7 @@
   {
     "id": 966220,
     "title": "Sniper: The White Raven",
-    "overview": "Mykola is an eccentric pacifist who wants to be useful to humanity. When the war begins in Donbas, Mykola\u2019s naive world is collapsing as the militants kill his pregnant wife and burn his home to the ground. Recovered, he makes a cardinal decision and gets enlisted in a sniper company. Having met his wife\u2019s killers, he emotionally breaks down and arranges \u201csniper terror\u201d for the enemy.",
+    "overview": "Mykola is an eccentric pacifist who wants to be useful to humanity. When the war begins in Donbas, Mykola’s naive world is collapsing as the militants kill his pregnant wife and burn his home to the ground. Recovered, he makes a cardinal decision and gets enlisted in a sniper company. Having met his wife’s killers, he emotionally breaks down and arranges “sniper terror” for the enemy.",
     "posterPath": "/295gZzTXMvuiIG0U19h4M44PXxI.jpg",
     "releaseDate": "2022-05-03",
     "genres": [
@@ -12420,7 +12470,7 @@
   {
     "id": 152742,
     "title": "The Best Offer",
-    "overview": "Virgil Oldman is a world renowned antiques expert and auctioneer. An eccentric genius, he leads a solitary life, going to extreme lengths to keep his distance from the messiness of human relationships. When appointed by the beautiful but emotionally damaged Claire to oversee the valuation and sale of her family\u2019s priceless art collection, Virgil allows himself to form an attachment to her \u2013 and soon he is engulfed by a passion which will rock his bland existence to the core.",
+    "overview": "Virgil Oldman is a world renowned antiques expert and auctioneer. An eccentric genius, he leads a solitary life, going to extreme lengths to keep his distance from the messiness of human relationships. When appointed by the beautiful but emotionally damaged Claire to oversee the valuation and sale of her family’s priceless art collection, Virgil allows himself to form an attachment to her – and soon he is engulfed by a passion which will rock his bland existence to the core.",
     "posterPath": "/ibDGPgUZn6vxHiSgt2xeQyFp8Np.jpg",
     "releaseDate": "2013-01-01",
     "genres": [
@@ -12576,7 +12626,7 @@
   {
     "id": 527641,
     "title": "Five Feet Apart",
-    "overview": "Seventeen-year-old Stella spends most of her time in the hospital as a cystic fibrosis patient. Her life is full of routines, boundaries and self-control \u2014 all of which get put to the test when she meets Will, an impossibly charming teen who has the same illness. There's an instant flirtation, though restrictions dictate that they must maintain a safe distance between them. As their connection intensifies, so does the temptation to throw the rules out the window and embrace that attraction.",
+    "overview": "Seventeen-year-old Stella spends most of her time in the hospital as a cystic fibrosis patient. Her life is full of routines, boundaries and self-control — all of which get put to the test when she meets Will, an impossibly charming teen who has the same illness. There's an instant flirtation, though restrictions dictate that they must maintain a safe distance between them. As their connection intensifies, so does the temptation to throw the rules out the window and embrace that attraction.",
     "posterPath": "/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg",
     "releaseDate": "2019-03-14",
     "genres": [
@@ -12600,7 +12650,7 @@
   {
     "id": 296096,
     "title": "Me Before You",
-    "overview": "Lou Clark, a directionless 26-year-old from the English countryside, takes a job at the local castle as a caregiver and companion to a wealthy young banker, Will Traynor. Wheelchair-bound from an accident two years prior, the once adventurous Will has all but given up \u2014 that is until Lou determines to show him that life is worth living.",
+    "overview": "Lou Clark, a directionless 26-year-old from the English countryside, takes a job at the local castle as a caregiver and companion to a wealthy young banker, Will Traynor. Wheelchair-bound from an accident two years prior, the once adventurous Will has all but given up — that is until Lou determines to show him that life is worth living.",
     "posterPath": "/Ia3dzj5LnCj1ZBdlVeJrbKJQxG.jpg",
     "releaseDate": "2016-06-01",
     "genres": [
@@ -12757,7 +12807,7 @@
   {
     "id": 522924,
     "title": "The Art of Racing in the Rain",
-    "overview": "A family dog \u2013 with a near-human soul and a philosopher's mind \u2013 evaluates his life through the lessons learned by his human owner, a race-car driver.",
+    "overview": "A family dog – with a near-human soul and a philosopher's mind – evaluates his life through the lessons learned by his human owner, a race-car driver.",
     "posterPath": "/mi5VN4ww0JZgRFJIaPxxTGKjUg7.jpg",
     "releaseDate": "2019-08-08",
     "genres": [
@@ -12809,7 +12859,7 @@
   {
     "id": 1426776,
     "title": "STRAW",
-    "overview": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point \u2014 and into a shocking act of desperation.",
+    "overview": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
     "posterPath": "/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
     "releaseDate": "2025-06-05",
     "genres": [
@@ -12916,7 +12966,7 @@
   {
     "id": 744114,
     "title": "My Policeman",
-    "overview": "In the late 1990s, the arrival of elderly invalid Patrick into Marion and Tom\u2019s home triggers the exploration of seismic events from 40 years previous: the passionate relationship between Tom and Patrick at a time when homosexuality was illegal.",
+    "overview": "In the late 1990s, the arrival of elderly invalid Patrick into Marion and Tom’s home triggers the exploration of seismic events from 40 years previous: the passionate relationship between Tom and Patrick at a time when homosexuality was illegal.",
     "posterPath": "/wdbiMjXd4CxPfCx4r4Jfy8cGec0.jpg",
     "releaseDate": "2022-10-20",
     "genres": [
@@ -12942,7 +12992,7 @@
   {
     "id": 164558,
     "title": "One Direction: This Is Us",
-    "overview": "\"One Direction: This Is Us\" is a captivating and intimate all-access look at life on the road for the global music phenomenon. Weaved with stunning live concert footage, this inspiring feature film tells the remarkable story of Niall, Zayn, Liam, Harry and Louis' meteoric rise to fame, from their humble hometown beginnings and competing on the X-Factor, to conquering the world and performing at London\u2019s famed O2 Arena. Hear it from the boys themselves and see through their own eyes what it's really like to be One Direction.",
+    "overview": "\"One Direction: This Is Us\" is a captivating and intimate all-access look at life on the road for the global music phenomenon. Weaved with stunning live concert footage, this inspiring feature film tells the remarkable story of Niall, Zayn, Liam, Harry and Louis' meteoric rise to fame, from their humble hometown beginnings and competing on the X-Factor, to conquering the world and performing at London’s famed O2 Arena. Hear it from the boys themselves and see through their own eyes what it's really like to be One Direction.",
     "posterPath": "/b720e7DW3nqRJaUH9xpTtvYhnUj.jpg",
     "releaseDate": "2013-08-20",
     "genres": [
@@ -12968,7 +13018,7 @@
   {
     "id": 715931,
     "title": "Emancipation",
-    "overview": "Inspired by the gripping true story of a man who would do anything for his family\u2014and for freedom. When Peter, an enslaved man, risks his life to escape and return to his family, he embarks on a perilous journey of love and endurance.",
+    "overview": "Inspired by the gripping true story of a man who would do anything for his family—and for freedom. When Peter, an enslaved man, risks his life to escape and return to his family, he embarks on a perilous journey of love and endurance.",
     "posterPath": "/s9sUK1vAaOcxJfKzNTszrNkPhkH.jpg",
     "releaseDate": "2022-12-02",
     "genres": [
@@ -13184,7 +13234,7 @@
   {
     "id": 323272,
     "title": "War Room",
-    "overview": "The family-friendly movie explores the transformational role prayer plays in the lives of the Jordan family. Tony and Elizabeth Jordan, a middle-class couple who seemingly have it all \u2013 great jobs, a beautiful daughter, their dream home. But appearances can be deceiving. In reality, the Jordan\u2019s marriage has become a war zone and their daughter is collateral damage. With the help of Miss Clara, an older, wiser woman, Elizabeth discovers she can start fighting for her family instead of against them. Through a newly energized faith, Elizabeth and Tony\u2019s real enemy doesn\u2019t have a prayer.",
+    "overview": "The family-friendly movie explores the transformational role prayer plays in the lives of the Jordan family. Tony and Elizabeth Jordan, a middle-class couple who seemingly have it all – great jobs, a beautiful daughter, their dream home. But appearances can be deceiving. In reality, the Jordan’s marriage has become a war zone and their daughter is collateral damage. With the help of Miss Clara, an older, wiser woman, Elizabeth discovers she can start fighting for her family instead of against them. Through a newly energized faith, Elizabeth and Tony’s real enemy doesn’t have a prayer.",
     "posterPath": "/unxQeVUi5DH01r7ZNvAHwpvX7UK.jpg",
     "releaseDate": "2015-08-28",
     "genres": [

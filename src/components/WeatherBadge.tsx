@@ -1,15 +1,17 @@
 "use client";
 
-import { useSydneyWeather, getTimeOfDay } from "@/lib/weather";
+import { useCityWeather, getTimeOfDay } from "@/lib/weather";
+import { useCity } from "@/lib/CityContext";
 import { useState, useEffect } from "react";
 
 export default function WeatherBadge() {
-  const weather = useSydneyWeather();
+  const { city } = useCity();
+  const weather = useCityWeather(city);
   const [timeOfDay, setTimeOfDay] = useState("night");
 
   useEffect(() => {
-    setTimeOfDay(getTimeOfDay());
-  }, []);
+    setTimeOfDay(getTimeOfDay(city.timezone));
+  }, [city.timezone]);
 
   if (!weather) return null;
 
@@ -21,7 +23,7 @@ export default function WeatherBadge() {
       <span>{icon}</span>
       <span className="text-white/40 font-medium">{weather.temp}°</span>
       <span className="hidden sm:inline">{weather.description}</span>
-      <span className="hidden sm:inline">· Sydney</span>
+      <span className="hidden sm:inline">· {city.nameZh ?? city.name}</span>
     </div>
   );
 }

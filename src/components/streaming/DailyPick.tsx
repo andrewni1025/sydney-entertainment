@@ -5,10 +5,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import topMovies from "@/data/top-movies.json";
 import RatingRing from "./RatingRing";
 import { formatDoubanScore } from "@/lib/ratings";
+import { useCity } from "@/lib/CityContext";
 
 interface TopMovie {
   id: number;
   title: string;
+  titleZh?: string;
   overview: string;
   posterPath: string | null;
   releaseDate: string;
@@ -81,6 +83,8 @@ function DoubanIcon() {
 }
 
 export default function DailyPick() {
+  const { city } = useCity();
+  const isZh = city.locale === "zh";
   const [pool, setPool] = useState<TopMovie[]>([]);
   const [index, setIndex] = useState(0);
   const [mounted, setMounted] = useState(false);
@@ -121,7 +125,7 @@ export default function DailyPick() {
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center gap-2">
           <span className="text-base">🎯</span>
-          <span className="text-white/50 text-xs font-semibold uppercase tracking-wider">Today&apos;s Pick</span>
+          <span className="text-white/50 text-xs font-semibold uppercase tracking-wider">{isZh ? "今日推荐" : "Today's Pick"}</span>
         </div>
         <button
           onClick={handleSwap}
@@ -131,7 +135,7 @@ export default function DailyPick() {
             <path d="M1 4v6h6" /><path d="M23 20v-6h-6" />
             <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15" />
           </svg>
-          Not feeling it? Try another
+          {isZh ? "换一部试试" : "Not feeling it? Try another"}
         </button>
       </div>
 
@@ -168,7 +172,7 @@ export default function DailyPick() {
             <div className="flex-1 flex flex-col justify-between min-w-0">
               <div>
                 <h3 className="font-[family-name:var(--font-heading)] text-xl sm:text-2xl font-bold text-white leading-tight mb-1">
-                  {movie.title}
+                  {isZh && movie.titleZh ? movie.titleZh : movie.title}
                 </h3>
                 <div className="flex items-center gap-2 mb-3">
                   <span className="text-white/30 text-xs">{year}</span>

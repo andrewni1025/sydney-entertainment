@@ -1,0 +1,516 @@
+{
+  "shanghai": {
+    "museums": [
+      {
+        "id": "shanghai-museum",
+        "name": "上海博物馆",
+        "type": "museum",
+        "area": "puxi",
+        "tagline": "中国古代艺术的殿堂",
+        "description": "人民广场标志建筑，藏有12万件珍贵文物。青铜器、陶瓷、书画收藏享誉世界。新东馆已于2024年开放。",
+        "highlights": [
+          "青铜器馆",
+          "陶瓷馆",
+          "书画馆"
+        ],
+        "address": "上海市黄浦区人民大道201号",
+        "website": "https://www.shanghaimuseum.net",
+        "free": true
+      },
+      {
+        "id": "power-station-art",
+        "name": "上海当代艺术博物馆（PSA）",
+        "type": "gallery",
+        "area": "puxi",
+        "tagline": "工业遗产里的当代艺术",
+        "description": "由南市发电厂改建，是中国大陆首个公立当代艺术博物馆。上海双年展主场馆，165米烟囱是标志。",
+        "highlights": [
+          "上海双年展",
+          "当代艺术大展",
+          "165米烟囱观景"
+        ],
+        "address": "上海市黄浦区苗江路678号",
+        "website": "https://www.powerstationofart.com",
+        "free": true
+      },
+      {
+        "id": "long-museum-west",
+        "name": "龙美术馆（西岸馆）",
+        "type": "gallery",
+        "area": "xuhui",
+        "tagline": "西岸艺术地标",
+        "description": "由刘益谦、王薇夫妇创办的私人美术馆。清水混凝土建筑本身就是艺术品，常设中国当代艺术及革命时期经典作品。",
+        "highlights": [
+          "当代艺术大展",
+          "清水混凝土建筑",
+          "西岸文化走廊"
+        ],
+        "address": "上海市徐汇区龙腾大道3398号",
+        "website": "https://www.thelongmuseum.org",
+        "free": false
+      },
+      {
+        "id": "rockbund-art-museum",
+        "name": "上海外滩美术馆",
+        "type": "gallery",
+        "area": "puxi",
+        "tagline": "外滩源的艺术实验场",
+        "description": "坐落于历史建筑亚洲文会大楼内，聚焦亚洲当代艺术与社会议题。小而精的展览空间，策展水准极高。",
+        "highlights": [
+          "当代艺术展",
+          "历史建筑",
+          "学术讲座"
+        ],
+        "address": "上海市黄浦区虎丘路20号",
+        "website": "https://www.rockbundartmuseum.org",
+        "free": false
+      },
+      {
+        "id": "moca-shanghai",
+        "name": "上海当代艺术馆（MoCA）",
+        "type": "gallery",
+        "area": "jing-an",
+        "tagline": "人民公园里的玻璃盒子",
+        "description": "位于人民公园内的透明建筑，专注于当代艺术与设计跨界展览。经常有国际级别的沉浸式体验展。",
+        "highlights": [
+          "沉浸式体验展",
+          "设计跨界",
+          "人民公园地标"
+        ],
+        "address": "上海市黄浦区南京西路231号",
+        "website": "https://www.mocashanghai.org",
+        "free": false
+      }
+    ],
+    "events": [
+      {
+        "id": "sh-siff-2026",
+        "name": "上海国际电影节",
+        "type": "festival",
+        "dateRange": "2026-06-13 ~ 06-22",
+        "startDate": "2026-06-13",
+        "endDate": "2026-06-22",
+        "venue": "上海大剧院 / 各大影院",
+        "description": "中国唯一的A类国际电影节，金爵奖评选、国际影展、大师班一应俱全。抢票堪比春运。",
+        "ticketUrl": "https://www.siff.com",
+        "accentColor": "#dc2626"
+      },
+      {
+        "id": "sh-spring-art-2026",
+        "name": "西岸艺术与设计博览会",
+        "type": "exhibition",
+        "dateRange": "2026-03-20 ~ 05-10",
+        "startDate": "2026-03-20",
+        "endDate": "2026-05-10",
+        "venue": "西岸艺术中心",
+        "description": "汇集国内外顶级画廊和艺术机构的年度艺博会，西岸文化走廊的重磅活动。",
+        "ticketUrl": "https://www.westbund.com",
+        "accentColor": "#8b5cf6"
+      },
+      {
+        "id": "sh-drama-season",
+        "name": "上海话剧艺术中心春季演出季",
+        "type": "performance",
+        "dateRange": "2026-03-01 ~ 05-31",
+        "startDate": "2026-03-01",
+        "endDate": "2026-05-31",
+        "venue": "安福路话剧艺术中心",
+        "description": "上海最具影响力的话剧舞台，春季档涵盖原创话剧、经典重排和实验戏剧。安福路文艺地标。",
+        "ticketUrl": "https://www.sdac.com.cn",
+        "accentColor": "#f59e0b"
+      },
+      {
+        "id": "sh-teamlab",
+        "name": "teamLab无界上海",
+        "type": "exhibition",
+        "dateRange": "常设展",
+        "startDate": "2025-01-01",
+        "endDate": "2027-12-31",
+        "venue": "上海teamLab无界美术馆",
+        "description": "全球最大的teamLab沉浸式数字艺术空间。光影流转，步入画中世界。",
+        "ticketUrl": "https://www.teamlab.art",
+        "accentColor": "#06b6d4"
+      },
+      {
+        "id": "sh-culture-square",
+        "name": "上海文化广场音乐剧季",
+        "type": "performance",
+        "dateRange": "2026-03-15 ~ 06-15",
+        "startDate": "2026-03-15",
+        "endDate": "2026-06-15",
+        "venue": "上海文化广场",
+        "description": "上海最重要的音乐剧舞台，春季档汇集中文版音乐剧、原创作品和海外引进剧目。安福路商圈文艺核心。",
+        "ticketUrl": "https://www.shcsq.com",
+        "accentColor": "#ec4899"
+      },
+      {
+        "id": "sh-grand-theatre",
+        "name": "上海大剧院芭蕾舞季",
+        "type": "performance",
+        "dateRange": "2026-04-01 ~ 05-30",
+        "startDate": "2026-04-01",
+        "endDate": "2026-05-30",
+        "venue": "上海大剧院",
+        "description": "人民广场标志性剧院，春季芭蕾舞季引进国际顶尖芭蕾舞团经典剧目和新锐当代舞作品。",
+        "ticketUrl": "https://www.shgtheatre.com",
+        "accentColor": "#f472b6"
+      },
+      {
+        "id": "sh-majestic",
+        "name": "上海美琦大戏院演出季",
+        "type": "performance",
+        "dateRange": "2026-03-01 ~ 06-30",
+        "startDate": "2026-03-01",
+        "endDate": "2026-06-30",
+        "venue": "美琦大戏院",
+        "description": "始建于1941年的Art Deco剧院，复古与当代交融。春季档涵盖脱口秀、独立音乐现场和先锋话剧。",
+        "ticketUrl": "https://www.meiqi1941.com",
+        "accentColor": "#a855f7"
+      },
+      {
+        "id": "sh-himalayas",
+        "name": "喜马拉雅美术馆新展",
+        "type": "exhibition",
+        "dateRange": "2026-03-20 ~ 06-20",
+        "startDate": "2026-03-20",
+        "endDate": "2026-06-20",
+        "venue": "证大喜马拉雅美术馆",
+        "description": "浦东文化新地标的春季大展，聚焦东亚当代艺术与新媒体创作。建筑本身由矶崎新设计。",
+        "ticketUrl": "https://www.himalayasart.cn",
+        "accentColor": "#14b8a6"
+      },
+      {
+        "id": "sh-sleep-no-more",
+        "name": "不眠之夜 Sleep No More",
+        "type": "performance",
+        "dateRange": "常驻演出",
+        "startDate": "2025-01-01",
+        "endDate": "2027-12-31",
+        "venue": "McKinnon Hotel（南京西路）",
+        "description": "全球现象级沉浸式戴尽戏剧，改编自《麦克白》。戴上白色面具，在五层楼的黑暗酒店中自由探索。上海文化必体验。",
+        "ticketUrl": "https://www.smartshanghai.com/event/punchdrunk-sleep-no-more-mckinnon-hotel",
+        "accentColor": "#1e1e1e"
+      },
+      {
+        "id": "sh-don-juan",
+        "name": "法语音乐剧《唐璎》",
+        "type": "performance",
+        "dateRange": "2026-04-10 ~ 04-19",
+        "startDate": "2026-04-10",
+        "endDate": "2026-04-19",
+        "venue": "上海文化广场",
+        "description": "法国经典音乐剧《唐璎》上海站。拜伦之爱、荡子白骑士的浪漫传奇，法语原版演唱，文化广场热门档。",
+        "ticketUrl": "https://www.smartshanghai.com/event/french-musical-don-juan",
+        "accentColor": "#dc2626"
+      },
+      {
+        "id": "sh-swan-lake",
+        "name": "俄罗斯国家芭蕾舞团《天鹅湖》",
+        "type": "performance",
+        "dateRange": "2026-04-17 ~ 04-19",
+        "startDate": "2026-04-17",
+        "endDate": "2026-04-19",
+        "venue": "上海国际舞蹈中心",
+        "description": "俄罗斯国家芭蕾舞团携柴可夫斯基经典《天鹅湖》亡临上海。三晚连演，古典芭蕾天花板级剧目。",
+        "ticketUrl": "https://www.smartshanghai.com/event/swan-lake-by-the-russian-state-ballet",
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "sh-kunqu-floating",
+        "name": "昆曲《浮生六记》",
+        "type": "performance",
+        "dateRange": "2026-04-04 ~ 04-05",
+        "startDate": "2026-04-04",
+        "endDate": "2026-04-05",
+        "venue": "上海大剧院",
+        "description": "沈复同名散文改编的昆曲新作，今晚就在上海大剧院上演。吴侬软语演绎明清才子佳人的浮生若梦。",
+        "ticketUrl": "https://www.smartshanghai.com/event/kunqu-opera-six-records-of-a-floating-life",
+        "accentColor": "#059669"
+      },
+      {
+        "id": "sh-die-walkure",
+        "name": "瓦格纳歌剧《女武神》",
+        "type": "performance",
+        "dateRange": "2026-04-24 ~ 04-26",
+        "startDate": "2026-04-24",
+        "endDate": "2026-04-26",
+        "venue": "上海大剧院",
+        "description": "瓦格纳《尼伯龙根的指环》系列第二部，上海大剧院全本上演。史诗级歌剧体验，放票即秒。",
+        "ticketUrl": "https://www.smartshanghai.com/event/die-walkuere-opera-in-three-acts-by-richard-wagner",
+        "accentColor": "#b91c1c"
+      },
+      {
+        "id": "sh-wetman",
+        "name": "舞剧《布雨人2·爱的宣言》",
+        "type": "performance",
+        "dateRange": "2026-05-08 ~ 05-22",
+        "startDate": "2026-05-08",
+        "endDate": "2026-05-22",
+        "venue": "MIFA 1862",
+        "description": "现象级舞剧《布雨人》续作，在雨中起舞的浪漫与感动。MIFA 1862船厂剧场×水舞台，视觉震撼。",
+        "ticketUrl": "https://www.smartshanghai.com/event/dance-drama-wetman-show-in-the-rain-at-mifa-1862",
+        "accentColor": "#0ea5e9"
+      },
+      {
+        "id": "sh-fotografiska",
+        "name": "Fotografiska 影像艺术中心",
+        "type": "exhibition",
+        "dateRange": "常设展",
+        "startDate": "2025-01-01",
+        "endDate": "2027-12-31",
+        "venue": "Fotografiska（南京东路）",
+        "description": "瑞典知名影像艺术机构的上海馆，位于外滩附近的历史建筑内。常设多个国际摄影大展，顶层餐厅可看江景。",
+        "ticketUrl": "https://www.smartshanghai.com/event/fotografiska-general-entrance-ticket-at-fotografiska",
+        "accentColor": "#f59e0b"
+      },
+      {
+        "id": "sh-map-pudong",
+        "name": "浦东美术馆（MAP）",
+        "type": "exhibition",
+        "dateRange": "常设展",
+        "startDate": "2025-01-01",
+        "endDate": "2027-12-31",
+        "venue": "浦东美术馆",
+        "description": "陆家嘴滨江新地标，由让·努维尔设计。常设当代艺术大展，建筑本身就是浦东天际线的一部分。",
+        "ticketUrl": "https://www.smartshanghai.com/event/museum-of-art-pudong-at-map",
+        "accentColor": "#6366f1"
+      },
+      {
+        "id": "sh-yue-opera",
+        "name": "沉浸式越剧《红楼梦》",
+        "type": "performance",
+        "dateRange": "2026-03-25 ~ 04-06",
+        "startDate": "2026-03-25",
+        "endDate": "2026-04-06",
+        "venue": "长江剧场",
+        "description": "经典越剧IP的沉浸式新编，观众穿行于大观园场景之中。宝玉黛玉近在咫尺，上海最热门的沉浸式演出之一。",
+        "ticketUrl": "https://www.smartshanghai.com/event/immersive-yue-opera-a-dream-of-red-mansions-at-changjiang-theatre",
+        "accentColor": "#e11d48"
+      },
+      {
+        "id": "sh-hofesh",
+        "name": "Hofesh Shechter《梦境剧场》",
+        "type": "performance",
+        "dateRange": "2026-05-01 ~ 05-03",
+        "startDate": "2026-05-01",
+        "endDate": "2026-05-03",
+        "venue": "上海国际舞蹈中心",
+        "description": "英国当代舞面最重要的编舞家之一Hofesh Shechter携新作来沪，狂野能量×极简美学。",
+        "ticketUrl": "https://www.smartshanghai.com/event/hofesh-shechter-company-presents-theatre-of-dreams-at-international-dance-center",
+        "accentColor": "#7c3aed"
+      }
+    ]
+  },
+  "suzhou": {
+    "museums": [
+      {
+        "id": "suzhou-museum",
+        "name": "苏州博物馆",
+        "type": "museum",
+        "area": "gusu",
+        "tagline": "贝聿铭的封山之作",
+        "description": "建筑大师贝聿铭设计，将现代几何美学与苏州园林传统完美融合。馆藏以吴文化为核心，建筑本身就是最大的展品。",
+        "highlights": [
+          "贝聿铭建筑",
+          "吴文化精品",
+          "园林式庭院"
+        ],
+        "address": "苏州市姑苏区东北街204号",
+        "website": "https://www.szmuseum.com",
+        "free": true
+      },
+      {
+        "id": "suzhou-silk-museum",
+        "name": "苏州丝绸博物馆",
+        "type": "museum",
+        "area": "gusu",
+        "tagline": "丝绸之路的东方起点",
+        "description": "中国第一座丝绸专题博物馆，展示从养蚕到织锦的完整工艺。苏绣、宋锦等非遗技艺在此活态传承。",
+        "highlights": [
+          "丝绸工艺展示",
+          "苏绣非遗",
+          "宋锦织造"
+        ],
+        "address": "苏州市姑苏区人民路2001号",
+        "website": "https://www.szsilkmuseum.com",
+        "free": true
+      },
+      {
+        "id": "suzhou-art-museum",
+        "name": "苏州美术馆",
+        "type": "gallery",
+        "area": "gusu",
+        "tagline": "姑苏城里的艺术窗口",
+        "description": "苏州最重要的公立美术馆，常设书画展和当代艺术展。位于北寺塔附近，看展后可顺路赏塔。",
+        "highlights": [
+          "当代美术展",
+          "书画展",
+          "公共教育活动"
+        ],
+        "address": "苏州市姑苏区人民路2075号",
+        "website": "https://www.szam.org",
+        "free": true
+      },
+      {
+        "id": "suzhou-kunqu-museum",
+        "name": "中国昆曲博物馆",
+        "type": "museum",
+        "area": "gusu",
+        "tagline": "六百年昆曲活化石",
+        "description": "全晋会馆内的昆曲专题博物馆。周末常有昆曲实景演出，在古戏台上看一折，感受六百年传承。",
+        "highlights": [
+          "昆曲实景演出",
+          "古戏台体验",
+          "昆曲服饰展"
+        ],
+        "address": "苏州市姑苏区中张家巷14号",
+        "website": "https://www.kunopera.com.cn",
+        "free": true
+      }
+    ],
+    "events": [
+      {
+        "id": "sz-kunqu-spring",
+        "name": "春季昆曲演出季",
+        "type": "performance",
+        "dateRange": "2026-03-15 ~ 05-15",
+        "startDate": "2026-03-15",
+        "endDate": "2026-05-15",
+        "venue": "苏州昆剧院 / 沧浪亭",
+        "description": "苏州昆剧院春季驻场演出，包含《牡丹亭》《长生殿》等经典折子戏。沧浪亭实景版一票难求。",
+        "ticketUrl": "https://www.kunopera.com.cn",
+        "accentColor": "#059669"
+      },
+      {
+        "id": "sz-jinji-art",
+        "name": "金鸡湖双年展",
+        "type": "exhibition",
+        "dateRange": "2026-04-01 ~ 07-31",
+        "startDate": "2026-04-01",
+        "endDate": "2026-07-31",
+        "venue": "苏州文化艺术中心",
+        "description": "园区文化地标级展览，汇集当代艺术与城市空间实验。金鸡湖畔的视觉盛宴。",
+        "ticketUrl": "https://www.sscac.com.cn",
+        "accentColor": "#3b82f6"
+      },
+      {
+        "id": "sz-pingtan",
+        "name": "苏州评弹专场",
+        "type": "performance",
+        "dateRange": "每周五六日",
+        "startDate": "2025-01-01",
+        "endDate": "2027-12-31",
+        "venue": "平江路评弹博物馆 / 光裕书场",
+        "description": "听一曲吴侬软语的评弹，是最苏州的文化体验。周末下午场最佳，配一壶碧螺春。",
+        "ticketUrl": "https://www.szmuseum.com",
+        "accentColor": "#a78bfa"
+      }
+    ]
+  },
+  "changzhou": {
+    "museums": [
+      {
+        "id": "cz-museum",
+        "name": "常州博物馆",
+        "type": "museum",
+        "area": "tianning",
+        "tagline": "龙城三千年",
+        "description": "常州最大的综合性博物馆，良渚文化玉器和明清书画是镇馆之宝。自然标本馆适合亲子游。",
+        "highlights": [
+          "良渚文化玉器",
+          "明清书画",
+          "自然标本馆"
+        ],
+        "address": "常州市天宁区龙城大道1288号",
+        "website": "https://www.czmuseum.com",
+        "free": true
+      },
+      {
+        "id": "cz-liu-haisu",
+        "name": "刘海粟美术馆",
+        "type": "gallery",
+        "area": "tianning",
+        "tagline": "美术教育先驱的艺术殿堂",
+        "description": "为纪念常州籍艺术大师刘海粟而建。收藏其油画、国画作品及近现代美术文献，不定期举办当代艺术展。",
+        "highlights": [
+          "刘海粟作品",
+          "近现代美术",
+          "当代艺术展"
+        ],
+        "address": "常州市天宁区龙城大道1288号",
+        "website": "https://www.czmuseum.com",
+        "free": true
+      },
+      {
+        "id": "cz-qingguo-lane",
+        "name": "青果巷历史文化街区",
+        "type": "museum",
+        "area": "tianning",
+        "tagline": "常州的活历史",
+        "description": "常州老城厢的文化核心，明清建筑群保存完好。瞿秋白、赵元任故居在此，是龙城最有底蕴的一条巷子。",
+        "highlights": [
+          "明清古建筑",
+          "名人故居",
+          "运河文化"
+        ],
+        "address": "常州市天宁区青果巷",
+        "website": "https://www.czqgl.com",
+        "free": true
+      },
+      {
+        "id": "cz-canal-museum",
+        "name": "运河五号创意街区",
+        "type": "gallery",
+        "area": "zhonglou",
+        "tagline": "工业遗址上的文创园",
+        "description": "由常州第五毛纺织厂改建的创意园区。聚集独立工作室、小型画廊和咖啡馆，是常州青年文艺据点。",
+        "highlights": [
+          "独立画廊",
+          "文创市集",
+          "工业遗址"
+        ],
+        "address": "常州市钟楼区三堡街141号",
+        "website": "https://www.yunhe5.com",
+        "free": true
+      }
+    ],
+    "events": [
+      {
+        "id": "cz-dino-expo",
+        "name": "中华恐龙园春季特展",
+        "type": "exhibition",
+        "dateRange": "2026-03-01 ~ 05-31",
+        "startDate": "2026-03-01",
+        "endDate": "2026-05-31",
+        "venue": "中华恐龙园",
+        "description": "恐龙园王牌IP春季大展，融合古生物科普与沉浸式体验。适合全家出动。",
+        "ticketUrl": "https://www.cnpark.net",
+        "accentColor": "#16a34a"
+      },
+      {
+        "id": "cz-opera-spring",
+        "name": "常州大剧院春季演出季",
+        "type": "performance",
+        "dateRange": "2026-03-01 ~ 06-30",
+        "startDate": "2026-03-01",
+        "endDate": "2026-06-30",
+        "venue": "常州大剧院",
+        "description": "涵盖交响乐、话剧、舞剧等多元演出。春季档通常有国内巡演团的精彩剧目。",
+        "ticketUrl": "https://www.czdjy.com",
+        "accentColor": "#e11d48"
+      },
+      {
+        "id": "cz-canal-market",
+        "name": "运河五号周末文创市集",
+        "type": "exhibition",
+        "dateRange": "每周六日",
+        "startDate": "2025-01-01",
+        "endDate": "2027-12-31",
+        "venue": "运河五号创意街区",
+        "description": "本地手作人和独立品牌的周末聚集地。逛市集、喝咖啡、看小型展览，常州青年的周末标配。",
+        "ticketUrl": "https://www.yunhe5.com",
+        "accentColor": "#f59e0b"
+      }
+    ]
+  }
+}

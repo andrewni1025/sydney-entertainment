@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
+import { useCity } from "@/lib/CityContext";
 
 interface ModeToggleProps {
   mode: "cinema" | "streaming";
@@ -9,6 +10,20 @@ interface ModeToggleProps {
 
 export default function ModeToggle({ mode, onToggle }: ModeToggleProps) {
   const isCinema = mode === "cinema";
+  const { city } = useCity();
+  const isZh = city.locale === "zh";
+  const isCulture = city.goingOutMode === "culture";
+
+  const outLabel = isZh ? "出门看看" : "Night Out";
+  const outShort = isZh ? "出门" : "Out";
+  const outEmoji = isCulture ? "🎭" : "🌃";
+  const inLabel = isZh ? "在家观影" : "Cosy Night In";
+  const inShort = isZh ? "在家" : "In";
+  const subtitle = isCinema
+    ? (isZh
+      ? (isCulture ? "展览 · 演出 · 博物馆 · 美术馆" : "精选影院，按你的心情匹配")
+      : "Sydney's best cinemas, matched to your mood")
+    : (isZh ? "沙发上的好片推荐" : "Sofa-ready picks across your streaming apps");
 
   return (
     <div className="flex flex-col items-center gap-4">
@@ -30,9 +45,9 @@ export default function ModeToggle({ mode, onToggle }: ModeToggleProps) {
             />
           )}
           <span className={`relative z-10 flex items-center gap-2 text-sm font-[family-name:var(--font-heading)] font-semibold transition-colors duration-300 ${isCinema ? "text-gold" : "text-white/30"}`}>
-            <span className="text-lg">🌃</span>
-            <span className="hidden sm:inline">Night Out</span>
-            <span className="sm:hidden">Out</span>
+            <span className="text-lg">{outEmoji}</span>
+            <span className="hidden sm:inline">{outLabel}</span>
+            <span className="sm:hidden">{outShort}</span>
           </span>
         </button>
 
@@ -53,8 +68,8 @@ export default function ModeToggle({ mode, onToggle }: ModeToggleProps) {
           )}
           <span className={`relative z-10 flex items-center gap-2 text-sm font-[family-name:var(--font-heading)] font-semibold transition-colors duration-300 ${!isCinema ? "text-orange-300" : "text-white/30"}`}>
             <span className="text-lg">🛋️</span>
-            <span className="hidden sm:inline">Cosy Night In</span>
-            <span className="sm:hidden">In</span>
+            <span className="hidden sm:inline">{inLabel}</span>
+            <span className="sm:hidden">{inShort}</span>
           </span>
         </button>
       </div>
@@ -68,9 +83,7 @@ export default function ModeToggle({ mode, onToggle }: ModeToggleProps) {
           exit={{ opacity: 0, y: -4 }}
           className="text-white/20 text-[11px] text-center"
         >
-          {isCinema
-            ? "Sydney's best cinemas, matched to your mood"
-            : "Sofa-ready picks across your streaming apps"}
+          {subtitle}
         </motion.p>
       </AnimatePresence>
     </div>

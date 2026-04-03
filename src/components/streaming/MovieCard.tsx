@@ -6,9 +6,12 @@ import type { AggregatedRatings } from "@/lib/ratings";
 import { formatDoubanScore } from "@/lib/ratings";
 import { PROVIDER_INFO } from "@/lib/tmdb";
 
+import { useCity } from "@/lib/CityContext";
+
 export interface MovieData {
   id: number;
   title: string;
+  titleZh?: string;
   overview: string;
   posterUrl: string;
   releaseDate: string;
@@ -34,6 +37,9 @@ function DoubanIcon() {
 }
 
 export default function MovieCard({ movie, index }: MovieCardProps) {
+  const { city } = useCity();
+  const isZh = city.locale === "zh";
+  const displayTitle = isZh && movie.titleZh ? movie.titleZh : movie.title;
   const year = movie.releaseDate?.slice(0, 4) || "";
 
   return (
@@ -93,7 +99,7 @@ export default function MovieCard({ movie, index }: MovieCardProps) {
         {/* Title & meta */}
         <div>
           <h3 className="font-[family-name:var(--font-heading)] text-[12px] sm:text-sm font-bold text-white leading-tight line-clamp-1">
-            {movie.title}
+            {displayTitle}
           </h3>
           <div className="flex items-center gap-1.5 mt-0.5 sm:mt-1">
             <span className="text-white/35 text-[10px] sm:text-xs">{year}</span>
