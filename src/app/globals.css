@@ -60,16 +60,19 @@
 }
 
 html {
-  background-color: #050510;
+  background-color: #0a0018;
+  overscroll-behavior: none;
 }
 
 body {
   background: linear-gradient(135deg, #0d0015 0%, #020a1a 50%, #0a0018 100%);
+  background-attachment: fixed;
   color: var(--color-foreground);
   font-family: var(--font-body), system-ui, sans-serif;
   min-height: 100vh;
   min-height: 100dvh;
   overflow-x: hidden;
+  overscroll-behavior-y: none;
 }
 
 /* Film grain overlay applied to body::before */
