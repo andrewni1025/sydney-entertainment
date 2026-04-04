@@ -7,26 +7,30 @@ import { useCity } from "@/lib/CityContext";
 import { useCityWeather } from "@/lib/weather";
 import CitySkyline from "./CitySkyline";
 
-const cityCardStyles: Record<string, { gradient: string; hoverGlow: string; orbColor: string }> = {
+const cityCardStyles: Record<string, { gradient: string; hoverGlow: string; orbColor: string; photo: string }> = {
   sydney: {
     gradient: "linear-gradient(135deg, rgba(228,184,78,0.06), rgba(228,184,78,0.01))",
     hoverGlow: "rgba(228,184,78,0.2)",
     orbColor: "rgba(228,184,78,0.15)",
+    photo: "/cities/sydney.jpg",
   },
   shanghai: {
     gradient: "linear-gradient(135deg, rgba(244,63,94,0.06), rgba(244,63,94,0.01))",
     hoverGlow: "rgba(244,63,94,0.2)",
     orbColor: "rgba(244,63,94,0.15)",
+    photo: "/cities/shanghai.jpg",
   },
   suzhou: {
     gradient: "linear-gradient(135deg, rgba(16,185,129,0.06), rgba(16,185,129,0.01))",
     hoverGlow: "rgba(16,185,129,0.2)",
     orbColor: "rgba(16,185,129,0.15)",
+    photo: "/cities/suzhou.png",
   },
   changzhou: {
     gradient: "linear-gradient(135deg, rgba(139,92,246,0.06), rgba(139,92,246,0.01))",
     hoverGlow: "rgba(139,92,246,0.2)",
     orbColor: "rgba(139,92,246,0.15)",
+    photo: "/cities/changzhou.jpeg",
   },
 };
 
@@ -69,16 +73,28 @@ function CityCard({ city, index }: { city: CityConfig; index: number }) {
       className="group relative block w-full text-left rounded-2xl overflow-hidden cursor-pointer transition-all duration-500 hover:scale-[1.03]"
       style={{
         background: styles.gradient,
-        border: `1px solid ${city.accentColor}12`,
+        border: `1px solid ${city.accentColor}25`,
       }}
       whileHover={{
         boxShadow: `0 16px 60px ${styles.hoverGlow}`,
-        borderColor: `${city.accentColor}35`,
+        borderColor: `${city.accentColor}50`,
       }}
     >
+      {/* Background photo */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src={styles.photo}
+          alt=""
+          className="w-full h-full object-cover transition-all duration-700"
+          style={{ opacity: hovered ? 0.35 : 0.2, filter: "saturate(0.7) brightness(1.1)" }}
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30" />
+      </div>
+
       <CardOrb color={styles.orbColor} active={hovered} />
 
-      <div className="relative p-6 sm:p-8">
+      <div className="relative z-10 p-6 sm:p-8">
         {/* City header */}
         <div className="flex items-center gap-3 mb-3">
           <motion.span
@@ -91,9 +107,9 @@ function CityCard({ city, index }: { city: CityConfig; index: number }) {
           <div>
             <h2 className="font-[family-name:var(--font-heading)] text-xl sm:text-2xl font-bold text-white group-hover:text-white transition-colors">
               {city.nameZh ? `${city.nameZh}` : city.name}
-              {city.nameZh && <span className="text-white/20 text-sm ml-2 font-normal">{city.name}</span>}
+              {city.nameZh && <span className="text-white/35 text-sm ml-2 font-normal">{city.name}</span>}
             </h2>
-            <p className="text-[13px] mt-0.5 transition-colors duration-300" style={{ color: hovered ? `${city.accentColor}cc` : `${city.accentColor}80` }}>
+            <p className="text-[13px] mt-0.5 transition-colors duration-300" style={{ color: hovered ? `${city.accentColor}ee` : `${city.accentColor}aa` }}>
               {city.tagline}
             </p>
             <CityWeatherBadge city={city} />
@@ -101,7 +117,7 @@ function CityCard({ city, index }: { city: CityConfig; index: number }) {
         </div>
 
         {/* Description */}
-        <p className="text-white/35 text-[13px] leading-relaxed mb-4 line-clamp-2">
+        <p className="text-white/45 text-[13px] leading-relaxed mb-4 line-clamp-2">
           {city.description}
         </p>
 
@@ -110,19 +126,19 @@ function CityCard({ city, index }: { city: CityConfig; index: number }) {
           <div className="flex gap-2">
             {city.goingOutMode === "cinema" ? (
               <>
-                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 text-white/30">🎬 Cinema</span>
-                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 text-white/30">🍿 Streaming</span>
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/8 text-white/40">🎬 Cinema</span>
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/8 text-white/40">🍿 Streaming</span>
               </>
             ) : (
               <>
-                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 text-white/30">🎭 展览演出</span>
-                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 text-white/30">🎬 在家观影</span>
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/8 text-white/40">🎭 展览演出</span>
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/8 text-white/40">🎬 在家观影</span>
               </>
             )}
           </div>
           <motion.span
             className="inline-flex items-center gap-1.5 text-xs font-semibold px-4 py-2 rounded-full transition-all duration-300"
-            style={{ color: city.accentColor, border: `1px solid ${city.accentColor}30` }}
+            style={{ color: city.accentColor, background: `${city.accentColor}10`, border: `1px solid ${city.accentColor}40` }}
             animate={{ gap: hovered ? "10px" : "6px" }}
           >
             {city.locale === "zh" ? "进入" : "Explore"}
@@ -193,7 +209,7 @@ function TypingText() {
     <AnimatePresence mode="wait">
       <motion.p
         key={current}
-        className="text-white/20 text-xs h-4"
+        className="text-white/35 text-xs h-4"
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -8 }}
@@ -233,7 +249,7 @@ export default function CitySelector() {
         >
           🌉
         </motion.span>
-        <h1 className="font-[family-name:var(--font-heading)] text-white/20 text-base sm:text-lg font-semibold tracking-[0.2em] mb-2">
+        <h1 className="font-[family-name:var(--font-heading)] text-white/50 text-lg sm:text-xl font-semibold tracking-[0.2em] mb-2">
           ENTERTAINMENT HUB
         </h1>
         <TypingText />
