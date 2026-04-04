@@ -477,7 +477,7 @@
           "公共教育活动"
         ],
         "address": "苏州市姑苏区人民路2075号",
-        "website": "https://www.dianping.com/search/keyword/6/0_%E8%8B%8F%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86",
+        "website": "https://uri.amap.com/search?keyword=%E8%8B%8F%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86",
         "free": true
       },
       {
@@ -493,7 +493,7 @@
           "昆曲服饰展"
         ],
         "address": "苏州市姑苏区中张家巷14号",
-        "website": "https://www.dianping.com/search/keyword/6/0_%E8%8B%8F%E5%B7%9E%E6%98%86%E6%9B%B2%E5%8D%9A%E7%89%A9%E9%A6%86",
+        "website": "https://uri.amap.com/search?keyword=%E8%8B%8F%E5%B7%9E%E6%98%86%E6%9B%B2%E5%8D%9A%E7%89%A9%E9%A6%86",
         "free": true
       }
     ],
@@ -507,7 +507,7 @@
         "endDate": "2026-05-15",
         "venue": "苏州昆剧院 / 沧浪亭",
         "description": "苏州昆剧院春季驻场演出，包含《牡丹亭》《长生殿》等经典折子戏。沧浪亭实景版一票难求。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/6/0_%E8%8B%8F%E5%B7%9E%E6%98%86%E6%9B%B2",
+        "ticketUrl": "https://m.damai.cn/shows/search.html?keyword=%E8%8B%8F%E5%B7%9E%E6%98%86%E6%9B%B2",
         "accentColor": "#059669"
       },
       {
@@ -531,7 +531,7 @@
         "endDate": "2027-12-31",
         "venue": "平江路评弹博物馆 / 光裕书场",
         "description": "听一曲吴侬软语的评弹，是最苏州的文化体验。周末下午场最佳，配一壶碧螺春。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/6/0_%E8%8B%8F%E5%B7%9E%E8%AF%84%E5%BC%B9%E5%8D%9A%E7%89%A9%E9%A6%86",
+        "ticketUrl": "https://m.damai.cn/shows/search.html?keyword=%E8%8B%8F%E5%B7%9E%E8%AF%84%E5%BC%B9",
         "accentColor": "#a78bfa"
       },
       {
@@ -543,7 +543,7 @@
         "endDate": "2026-05-31",
         "venue": "拙政园",
         "description": "世界文化遗产拙政园春季夜花园开放，灯光与园林交织，夜游古典园林的独特体验。牌照开到晚上9点。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/6/0_%E8%8B%8F%E5%B7%9E%E5%9B%AD%E6%9E%97%20%E6%8B%99%E6%94%BF%E5%9B%AD",
+        "ticketUrl": "https://m.damai.cn/shows/search.html?keyword=%E8%8B%8F%E5%B7%9E%E5%9B%AD%E6%9E%97%20%E5%A4%9C%E6%B8%B8",
         "accentColor": "#059669"
       },
       {
@@ -567,7 +567,7 @@
         "endDate": "2026-05-20",
         "venue": "沧浪亭",
         "description": "在世界文化遗产沧浪亭内实景演出昆曲《浮生六记》，观众随沈复夫妇游园。苏州最美沉浸式演出，强烈建议提前抢票。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/6/0_%E6%B2%A7%E6%B5%AA%E4%BA%AD%20%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0",
+        "ticketUrl": "https://m.damai.cn/shows/search.html?keyword=%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0%20%E6%B2%A7%E6%B5%AA%E4%BA%AD",
         "accentColor": "#10b981",
         "tag": "hot"
       },
@@ -592,7 +592,7 @@
         "endDate": "2027-12-31",
         "venue": "平江路历史街区",
         "description": "苏州最美古街的周末文化夜行。临河茶馆、手作工块、小型评弹与昆曲演出穿插其中。完全免费。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/6/0_%E5%B9%B3%E6%B1%9F%E8%B7%AF",
+        "ticketUrl": "https://uri.amap.com/search?keyword=%E5%B9%B3%E6%B1%9F%E8%B7%AF%E5%8E%86%E5%8F%B2%E8%A1%97%E5%8C%BA",
         "accentColor": "#f59e0b",
         "tag": "free"
       }
@@ -613,7 +613,7 @@
           "自然标本馆"
         ],
         "address": "常州市天宁区龙城大道1288号",
-        "website": "https://www.dianping.com/search/keyword/31/0_%E5%B8%B8%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86",
+        "website": "https://uri.amap.com/search?keyword=%E5%B8%B8%E5%B7%9E%E5%8D%9A%E7%89%A9%E9%A6%86",
         "free": true
       },
       {
@@ -629,7 +629,7 @@
           "当代艺术展"
         ],
         "address": "常州市天宁区龙城大道1288号",
-        "website": "https://www.dianping.com/search/keyword/31/0_%E5%88%98%E6%B5%B7%E7%B2%9F%E7%BE%8E%E6%9C%AF%E9%A6%86%20%E5%B8%B8%E5%B7%9E",
+        "website": "https://uri.amap.com/search?keyword=%E5%88%98%E6%B5%B7%E7%B2%9F%E7%BE%8E%E6%9C%AF%E9%A6%86%20%E5%B8%B8%E5%B7%9E",
         "free": true
       },
       {
@@ -645,7 +645,7 @@
           "运河文化"
         ],
         "address": "常州市天宁区青果巷",
-        "website": "https://www.dianping.com/search/keyword/31/0_%E9%9D%92%E6%9E%9C%E5%B7%B7",
+        "website": "https://uri.amap.com/search?keyword=%E9%9D%92%E6%9E%9C%E5%B7%B7%20%E5%B8%B8%E5%B7%9E",
         "free": true
       },
       {
@@ -661,7 +661,7 @@
           "工业遗址"
         ],
         "address": "常州市钟楼区三堡街141号",
-        "website": "https://www.dianping.com/search/keyword/31/0_%E8%BF%90%E6%B2%B3%E4%BA%94%E5%8F%B7%E5%88%9B%E6%84%8F%E8%A1%97%E5%8C%BA",
+        "website": "https://uri.amap.com/search?keyword=%E8%BF%90%E6%B2%B3%E4%BA%94%E5%8F%B7%E5%88%9B%E6%84%8F%E8%A1%97%E5%8C%BA",
         "free": true
       }
     ],
@@ -687,7 +687,7 @@
         "endDate": "2026-06-30",
         "venue": "常州大剧院",
         "description": "涵盖交响乐、话剧、舞剧等多元演出。春季档通常有国内巡演团的精彩剧目。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/31/0_%E5%B8%B8%E5%B7%9E%E5%A4%A7%E5%89%A7%E9%99%A2",
+        "ticketUrl": "https://m.damai.cn/shows/search.html?keyword=%E5%B8%B8%E5%B7%9E%E5%A4%A7%E5%89%A7%E9%99%A2",
         "accentColor": "#e11d48"
       },
       {
@@ -699,7 +699,7 @@
         "endDate": "2027-12-31",
         "venue": "运河五号创意街区",
         "description": "本地手作人和独立品牌的周末聚集地。逛市集、喝咖啡、看小型展览，常州青年的周末标配。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/31/0_%E8%BF%90%E6%B2%B3%E4%BA%94%E5%8F%B7%E5%88%9B%E6%84%8F%E8%A1%97%E5%8C%BA",
+        "ticketUrl": "https://uri.amap.com/search?keyword=%E8%BF%90%E6%B2%B3%E4%BA%94%E5%8F%B7%E5%88%9B%E6%84%8F%E8%A1%97%E5%8C%BA",
         "accentColor": "#f59e0b"
       },
       {
@@ -711,7 +711,7 @@
         "endDate": "2026-05-15",
         "venue": "天宁宝塔 / 天宁寺",
         "description": "以153米天宁宝塔为核心的春季文化活动，含佛教艺术展、素食体验、古琴雅集。塔上观景可俯瞰全城。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/31/0_%E5%A4%A9%E5%AE%81%E5%AF%BA",
+        "ticketUrl": "https://uri.amap.com/search?keyword=%E5%A4%A9%E5%AE%81%E5%AF%BA%20%E5%B8%B8%E5%B7%9E",
         "accentColor": "#d97706"
       },
       {
@@ -736,7 +736,7 @@
         "endDate": "2026-06-20",
         "venue": "常州美术馆",
         "description": "常州美术馆年度大展，集合长三角地区新锐当代艺术家作品。免费参观。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/31/0_%E5%B8%B8%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86",
+        "ticketUrl": "https://uri.amap.com/search?keyword=%E5%B8%B8%E5%B7%9E%E7%BE%8E%E6%9C%AF%E9%A6%86",
         "accentColor": "#ec4899"
       },
       {
@@ -748,7 +748,7 @@
         "endDate": "2026-05-05",
         "venue": "淌城春秋乐园",
         "description": "常州的另一个主题乐园，春季嘉年华含古装巡游、备兵骑马秀、水上飞人表演。历史与娱乐的完美结合。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/31/0_%E6%B7%B9%E5%9F%8E%E6%98%A5%E7%A7%8B%E4%B9%90%E5%9B%AD",
+        "ticketUrl": "https://m.damai.cn/shows/search.html?keyword=%E6%B7%B9%E5%9F%8E%E6%98%A5%E7%A7%8B%E4%B9%90%E5%9B%AD",
         "accentColor": "#b91c1c"
       },
       {
@@ -760,7 +760,7 @@
         "endDate": "2026-05-10",
         "venue": "青果巷历史街区",
         "description": "在明清古建筑群中听音乐。每两周一场的运河音乐夜，含民谣、古典、独立音乐等多元风格。免费。",
-        "ticketUrl": "https://www.dianping.com/search/keyword/31/0_%E9%9D%92%E6%9E%9C%E5%B7%B7",
+        "ticketUrl": "https://m.damai.cn/shows/search.html?keyword=%E9%9D%92%E6%9E%9C%E5%B7%B7%20%E5%B8%B8%E5%B7%9E",
         "accentColor": "#f59e0b",
         "tag": "free"
       }
