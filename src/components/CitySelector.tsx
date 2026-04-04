@@ -80,16 +80,26 @@ function CityCard({ city, index }: { city: CityConfig; index: number }) {
         borderColor: `${city.accentColor}50`,
       }}
     >
+      {/* Top highlight line */}
+      <div className="absolute top-0 inset-x-0 h-px z-20" style={{ background: `linear-gradient(90deg, transparent, ${city.accentColor}40, transparent)` }} />
+
       {/* Background photo */}
       <div className="absolute inset-0 z-0">
         <img
           src={styles.photo}
           alt=""
           className="w-full h-full object-cover transition-all duration-700"
-          style={{ opacity: hovered ? 0.35 : 0.2, filter: "saturate(0.7) brightness(1.1)" }}
+          style={{ opacity: hovered ? 0.55 : 0.4, filter: "saturate(0.8) brightness(1.05)", transform: hovered ? "scale(1.03)" : "scale(1)" }}
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30" />
+        {/* City-tinted gradient overlay */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background: `linear-gradient(to top, ${city.accentColor}cc 0%, ${city.accentColor}40 40%, transparent 70%)`,
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent" />
       </div>
 
       <CardOrb color={styles.orbColor} active={hovered} />
@@ -105,7 +115,7 @@ function CityCard({ city, index }: { city: CityConfig; index: number }) {
             {city.emoji}
           </motion.span>
           <div>
-            <h2 className="font-[family-name:var(--font-heading)] text-xl sm:text-2xl font-bold text-white group-hover:text-white transition-colors">
+            <h2 className="font-[family-name:var(--font-heading)] text-xl sm:text-2xl font-bold text-white group-hover:text-white transition-colors" style={{ textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
               {city.nameZh ? `${city.nameZh}` : city.name}
               {city.nameZh && <span className="text-white/35 text-sm ml-2 font-normal">{city.name}</span>}
             </h2>
@@ -117,7 +127,7 @@ function CityCard({ city, index }: { city: CityConfig; index: number }) {
         </div>
 
         {/* Description */}
-        <p className="text-white/45 text-[13px] leading-relaxed mb-4 line-clamp-2">
+        <p className="text-white/50 text-[13px] leading-relaxed mb-4 line-clamp-2" style={{ textShadow: "0 1px 4px rgba(0,0,0,0.4)" }}>
           {city.description}
         </p>
 
