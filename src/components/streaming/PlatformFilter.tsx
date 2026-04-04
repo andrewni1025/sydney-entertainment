@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { PROVIDER_INFO } from "@/lib/tmdb";
+import { useCity } from "@/lib/CityContext";
 
 interface PlatformFilterProps {
   active: number | null; // provider ID, null = all
@@ -9,16 +10,19 @@ interface PlatformFilterProps {
 }
 
 const platforms = [
-  { id: null, name: "All", short: "ALL", color: "#ffffff" },
+  { id: null, name: "All", nameZh: "全部", short: "ALL", color: "#ffffff" },
   ...Object.entries(PROVIDER_INFO).map(([id, info]) => ({
     id: Number(id),
     name: info.name,
+    nameZh: info.name,
     short: info.short,
     color: info.color,
   })),
 ];
 
 export default function PlatformFilter({ active, onChange }: PlatformFilterProps) {
+  const { city } = useCity();
+  const isZh = city.locale === "zh";
   return (
     <div className="flex flex-wrap gap-2">
       {platforms.map((p) => {
@@ -45,7 +49,7 @@ export default function PlatformFilter({ active, onChange }: PlatformFilterProps
                 {p.short}
               </span>
             )}
-            {p.name}
+            {isZh ? p.nameZh : p.name}
           </motion.button>
         );
       })}

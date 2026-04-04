@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useCity } from "@/lib/CityContext";
 
 export type SortOption = "trending" | "top_rated" | "new";
 
@@ -9,13 +10,15 @@ interface SortFilterProps {
   onChange: (sort: SortOption) => void;
 }
 
-const options: { value: SortOption; label: string; icon: string; desc: string }[] = [
-  { value: "trending", label: "Trending", icon: "🔥", desc: "What everyone's watching" },
-  { value: "top_rated", label: "Top Rated", icon: "⭐", desc: "Highest rated, 500+ votes" },
-  { value: "new", label: "New Releases", icon: "🆕", desc: "Recently released" },
+const options: { value: SortOption; label: string; labelZh: string; icon: string; desc: string; descZh: string }[] = [
+  { value: "trending", label: "Trending", labelZh: "热门", icon: "🔥", desc: "What everyone's watching", descZh: "大家都在看" },
+  { value: "top_rated", label: "Top Rated", labelZh: "最高分", icon: "⭐", desc: "Highest rated, 500+ votes", descZh: "三平台高分精选" },
+  { value: "new", label: "New Releases", labelZh: "最新", icon: "🆕", desc: "Recently released", descZh: "近期上映" },
 ];
 
 export default function SortFilter({ active, onChange }: SortFilterProps) {
+  const { city } = useCity();
+  const isZh = city.locale === "zh";
   return (
     <div className="flex justify-center gap-3 mb-6">
       {options.map((o) => {
@@ -37,8 +40,8 @@ export default function SortFilter({ active, onChange }: SortFilterProps) {
             `}
           >
             <span className="text-lg">{o.icon}</span>
-            <span className="font-semibold">{o.label}</span>
-            <span className="text-[10px] text-white/30 hidden sm:block">{o.desc}</span>
+            <span className="font-semibold">{isZh ? o.labelZh : o.label}</span>
+            <span className="text-[10px] text-white/30 hidden sm:block">{isZh ? o.descZh : o.desc}</span>
           </motion.button>
         );
       })}

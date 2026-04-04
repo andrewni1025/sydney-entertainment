@@ -1,22 +1,24 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useCity } from "@/lib/CityContext";
 
 export interface Language {
   code: string;
   label: string;
+  labelZh: string;
   flag: string;
 }
 
 export const LANGUAGES: Language[] = [
-  { code: "", label: "All", flag: "🌍" },
-  { code: "en", label: "English", flag: "🇬🇧" },
-  { code: "zh", label: "Chinese", flag: "🇨🇳" },
-  { code: "ja", label: "Japanese", flag: "🇯🇵" },
-  { code: "ko", label: "Korean", flag: "🇰🇷" },
-  { code: "fr", label: "French", flag: "🇫🇷" },
-  { code: "hi", label: "Hindi", flag: "🇮🇳" },
-  { code: "es", label: "Spanish", flag: "🇪🇸" },
+  { code: "", label: "All", labelZh: "全部", flag: "🌍" },
+  { code: "en", label: "English", labelZh: "英语", flag: "🇬🇧" },
+  { code: "zh", label: "Chinese", labelZh: "中文", flag: "🇨🇳" },
+  { code: "ja", label: "Japanese", labelZh: "日语", flag: "🇯🇵" },
+  { code: "ko", label: "Korean", labelZh: "韩语", flag: "🇰🇷" },
+  { code: "fr", label: "French", labelZh: "法语", flag: "🇫🇷" },
+  { code: "hi", label: "Hindi", labelZh: "印地语", flag: "🇮🇳" },
+  { code: "es", label: "Spanish", labelZh: "西班牙语", flag: "🇪🇸" },
 ];
 
 interface LanguageFilterProps {
@@ -25,6 +27,8 @@ interface LanguageFilterProps {
 }
 
 export default function LanguageFilter({ active, onChange }: LanguageFilterProps) {
+  const { city } = useCity();
+  const isZh = city.locale === "zh";
   return (
     <div className="flex flex-wrap justify-center gap-2">
       {LANGUAGES.map((l) => {
@@ -44,7 +48,7 @@ export default function LanguageFilter({ active, onChange }: LanguageFilterProps
             `}
           >
             <span className="mr-1">{l.flag}</span>
-            {l.label}
+            {isZh ? l.labelZh : l.label}
           </motion.button>
         );
       })}

@@ -149,7 +149,7 @@ export default function StreamingMode() {
                 onClick={() => setGenre(0)}
                 className="flex items-center gap-1 px-2 py-0.5 rounded bg-white/[0.03] text-white/25 text-[10px] cursor-pointer hover:text-white/40"
               >
-                {GENRE_LABELS[genre] ?? (isZh ? GENRE_LABELS_ZH[genre] : "Genre")} <span className="opacity-30">✕</span>
+                {isZh ? (GENRE_LABELS_ZH[genre] ?? GENRE_LABELS[genre] ?? "类型") : (GENRE_LABELS[genre] ?? "Genre")} <span className="opacity-30">✕</span>
               </button>
             )}
             {language && (

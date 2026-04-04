@@ -1,25 +1,27 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useCity } from "@/lib/CityContext";
 
 export interface Genre {
   id: number;
   label: string;
+  labelZh: string;
   icon: string;
 }
 
 export const GENRES: Genre[] = [
-  { id: 0, label: "All", icon: "🎞️" },
-  { id: 28, label: "Action", icon: "💥" },
-  { id: 35, label: "Comedy", icon: "😂" },
-  { id: 10749, label: "Romance", icon: "💕" },
-  { id: 878, label: "Sci-Fi", icon: "🚀" },
-  { id: 27, label: "Horror", icon: "👻" },
-  { id: 53, label: "Thriller", icon: "🔪" },
-  { id: 18, label: "Drama", icon: "🎭" },
-  { id: 16, label: "Animation", icon: "🧸" },
-  { id: 99, label: "Documentary", icon: "📹" },
-  { id: 14, label: "Fantasy", icon: "🧙" },
+  { id: 0, label: "All", labelZh: "全部", icon: "🎞️" },
+  { id: 28, label: "Action", labelZh: "动作", icon: "💥" },
+  { id: 35, label: "Comedy", labelZh: "喜剧", icon: "😂" },
+  { id: 10749, label: "Romance", labelZh: "爱情", icon: "💕" },
+  { id: 878, label: "Sci-Fi", labelZh: "科幻", icon: "🚀" },
+  { id: 27, label: "Horror", labelZh: "恐怖", icon: "👻" },
+  { id: 53, label: "Thriller", labelZh: "悬疑", icon: "🔪" },
+  { id: 18, label: "Drama", labelZh: "剧情", icon: "🎭" },
+  { id: 16, label: "Animation", labelZh: "动画", icon: "🧸" },
+  { id: 99, label: "Documentary", labelZh: "纪录片", icon: "📹" },
+  { id: 14, label: "Fantasy", labelZh: "奇幻", icon: "🧙" },
 ];
 
 interface GenreFilterProps {
@@ -28,6 +30,8 @@ interface GenreFilterProps {
 }
 
 export default function GenreFilter({ active, onChange }: GenreFilterProps) {
+  const { city } = useCity();
+  const isZh = city.locale === "zh";
   return (
     <div className="flex flex-wrap justify-center gap-2">
       {GENRES.map((g) => {
@@ -47,7 +51,7 @@ export default function GenreFilter({ active, onChange }: GenreFilterProps) {
             `}
           >
             <span className="mr-1">{g.icon}</span>
-            {g.label}
+            {isZh ? g.labelZh : g.label}
           </motion.button>
         );
       })}
