@@ -4,7 +4,6 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import { AnimatePresence, motion } from "framer-motion";
 import { useCity } from "@/lib/CityContext";
-import CitySelector from "@/components/CitySelector";
 
 const AmbientBackground = dynamic(() => import("@/components/AmbientBackground"), { ssr: false });
 const ModeToggle = dynamic(() => import("@/components/ModeToggle"), { ssr: false });
@@ -12,6 +11,7 @@ const WeatherBadge = dynamic(() => import("@/components/WeatherBadge"), { ssr: f
 const CultureMode = dynamic(() => import("@/components/culture/CultureMode"), { ssr: false });
 const CinemaMode = dynamic(() => import("@/components/cinema/CinemaMode"), { ssr: false });
 const StreamingMode = dynamic(() => import("@/components/streaming/StreamingMode"), { ssr: false });
+const CitySelector = dynamic(() => import("@/components/CitySelector"), { ssr: false });
 
 export default function Home() {
   const [mode, setMode] = useState<"cinema" | "streaming">("cinema");
