@@ -9,7 +9,7 @@ import VenueCard from "./VenueCard";
 type Tab = "all" | "exhibition" | "performance" | "museum";
 type AreaFilter = string;
 
-function getEventTag(event: { tag?: string; name: string; dateRange: string; id: string }, today: string): { label: string; color: string } | null {
+function getEventTag(event: { tag?: string; name: string; dateRange: string }): { label: string; color: string } | null {
   if (event.tag) {
     const tagMap: Record<string, { label: string; color: string }> = {
       hot: { label: "🔥 热门", color: "#ef4444" },
@@ -21,14 +21,8 @@ function getEventTag(event: { tag?: string; name: string; dateRange: string; id:
   }
   // Auto-detect
   if (event.name.includes("售罄") || event.name.includes("Sold Out")) return { label: "已售罄", color: "#6b7280" };
-  if (event.dateRange.includes("每周") || event.dateRange.includes("常设") || event.dateRange.includes("常驻")) return { label: "免费/常设", color: "#10b981" };
-  // Ending soon (within 7 days)
-  if (today) {
-    const endMatch = event.id; // just to use today
-    if (endMatch) {
-      // Can't easily parse endDate here, skip
-    }
-  }
+  if (event.dateRange.includes("常设")) return { label: "常设", color: "#10b981" };
+  if (event.dateRange.includes("常驻")) return { label: "常驻", color: "#3b82f6" };
   return null;
 }
 
@@ -167,8 +161,8 @@ export default function CultureMode() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <AnimatePresence>
               {filteredOngoing.map((event, i) => {
-                const tag = getEventTag(event, today);
-                const navUrl = `https://maps.apple.com/?q=${encodeURIComponent(event.venue)}`;
+                const tag = getEventTag(event);
+                const navUrl = `https://maps.apple.com/?q=${encodeURIComponent(event.address || event.venue)}`;
                 return (
                 <motion.div
                   key={event.id}
@@ -224,8 +218,8 @@ export default function CultureMode() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <AnimatePresence>
               {filteredUpcoming.map((event, i) => {
-                const tag = getEventTag(event, today);
-                const navUrl = `https://maps.apple.com/?q=${encodeURIComponent(event.venue)}`;
+                const tag = getEventTag(event);
+                const navUrl = `https://maps.apple.com/?q=${encodeURIComponent(event.address || event.venue)}`;
                 return (
                 <motion.div
                   key={event.id}

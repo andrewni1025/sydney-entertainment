@@ -1,25 +1,36 @@
-import json, os, sys, time, urllib.request, urllib.error
+import json, os, sys, time, urllib.error, urllib.request
+from pathlib import Path
 
 BATCH_SIZE = int(sys.argv[1]) if len(sys.argv) > 1 else 50
 
-TMDB_KEY = os.environ.get('TMDB_API_KEY', '')
+ROOT = Path(__file__).resolve().parents[2]
+ENV_PATH = ROOT / ".env.local"
+MOVIES_PATH = ROOT / "src" / "data" / "top-movies.json"
+
+
+def load_tmdb_key() -> str:
+    env_key = os.environ.get("TMDB_API_KEY", "")
+    if env_key:
+        return env_key
+
+    if ENV_PATH.exists():
+        with ENV_PATH.open(encoding="utf-8") as env_file:
+            for line in env_file:
+                if line.startswith("TMDB_API_KEY="):
+                    return line.split("=", 1)[1].strip().strip('"').strip("'")
+
+    return ""
+
+
+TMDB_KEY = load_tmdb_key()
 if not TMDB_KEY:
-    # Try .env.local
-    env_path = '/Users/andrewni/SydneyEntertainment/sydney-entertainment/.env.local'
-    if os.path.exists(env_path):
-        with open(env_path) as f:
-            for line in f:
-                if line.startswith('TMDB_API_KEY='):
-                    TMDB_KEY = line.split('=', 1)[1].strip().strip('"').strip("'")
+    print("ERROR: No TMDB_API_KEY found")
+    raise SystemExit(1)
 
-if not TMDB_KEY:
-    print('ERROR: No TMDB_API_KEY found')
-    exit(1)
+print(f"TMDB key: {TMDB_KEY[:8]}...")
 
-print(f'TMDB key: {TMDB_KEY[:8]}...')
-
-base = '/Users/andrewni/SydneyEntertainment/sydney-entertainment/src/data/'
-movies = json.load(open(base + 'top-movies.json'))
+with MOVIES_PATH.open(encoding="utf-8") as movies_file:
+    movies = json.load(movies_file)
 
 # Fetch Chinese titles from TMDB
 added = 0
@@ -60,9 +71,11 @@ for i, m in enumerate(movies):
     if added > 0 and added % 10 == 0:
         print(f'  added={added}')
         # Save incrementally every 10
-        json.dump(movies, open(base + 'top-movies.json', 'w'), indent=2, ensure_ascii=False)
+        with MOVIES_PATH.open('w', encoding='utf-8') as movies_file:
+            json.dump(movies, movies_file, indent=2, ensure_ascii=False)
 
 print(f'Done: added={added}, errors={errors}, skipped={skipped}')
 
-json.dump(movies, open(base + 'top-movies.json', 'w'), indent=2, ensure_ascii=False)
+with MOVIES_PATH.open('w', encoding='utf-8') as movies_file:
+    json.dump(movies, movies_file, indent=2, ensure_ascii=False)
 print('Saved!')

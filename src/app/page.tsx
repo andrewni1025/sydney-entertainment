@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { AnimatePresence, motion } from "framer-motion";
 import { useCity } from "@/lib/CityContext";
@@ -14,14 +14,15 @@ const StreamingMode = dynamic(() => import("@/components/streaming/StreamingMode
 const CitySelector = dynamic(() => import("@/components/CitySelector"), { ssr: false });
 
 export default function Home() {
-  const [mode, setMode] = useState<"cinema" | "streaming">(() => {
-    if (typeof window !== "undefined") {
-      const saved = localStorage.getItem("entertainmentMode");
-      if (saved === "cinema" || saved === "streaming") return saved;
-    }
-    return "cinema";
-  });
+  const [mode, setMode] = useState<"cinema" | "streaming">("cinema");
   const { city, isLanding, clearCity } = useCity();
+
+  useEffect(() => {
+    const saved = localStorage.getItem("entertainmentMode");
+    if (saved === "cinema" || saved === "streaming") {
+      setMode(saved);
+    }
+  }, []);
 
   const handleModeToggle = (m: "cinema" | "streaming") => {
     setMode(m);

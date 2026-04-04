@@ -20,6 +20,7 @@ interface TopMovie {
   title: string;
   titleZh?: string;
   overview: string;
+  overviewZh?: string;
   posterPath: string | null;
   releaseDate: string;
   genres: string[];
@@ -130,6 +131,7 @@ export default function DailyPick() {
   if (!mounted || pool.length === 0) return null;
 
   const movie = pool[index];
+  const overview = isZh && movie.overviewZh ? movie.overviewZh : movie.overview;
   const year = movie.releaseDate?.slice(0, 4) || "";
   const posterUrl = movie.posterPath
     ? `https://image.tmdb.org/t/p/w780${movie.posterPath}`
@@ -203,7 +205,7 @@ export default function DailyPick() {
                   ))}
                 </div>
                 <p className="text-white/40 text-sm leading-relaxed line-clamp-3 mb-3">
-                  {movie.overview}
+                  {overview || (isZh ? "暂无简介" : "No synopsis available.")}
                 </p>
                 {/* Recommendation reason */}
                 <p className="text-orange-300/60 text-xs italic mb-4">
