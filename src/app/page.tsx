@@ -14,8 +14,19 @@ const StreamingMode = dynamic(() => import("@/components/streaming/StreamingMode
 const CitySelector = dynamic(() => import("@/components/CitySelector"), { ssr: false });
 
 export default function Home() {
-  const [mode, setMode] = useState<"cinema" | "streaming">("cinema");
+  const [mode, setMode] = useState<"cinema" | "streaming">(() => {
+    if (typeof window !== "undefined") {
+      const saved = localStorage.getItem("entertainmentMode");
+      if (saved === "cinema" || saved === "streaming") return saved;
+    }
+    return "cinema";
+  });
   const { city, isLanding, clearCity } = useCity();
+
+  const handleModeToggle = (m: "cinema" | "streaming") => {
+    setMode(m);
+    localStorage.setItem("entertainmentMode", m);
+  };
 
   // Landing page — city selection
   if (isLanding) {
@@ -33,7 +44,13 @@ export default function Home() {
   const isCultureMode = city.goingOutMode === "culture";
 
   return (
-    <div className="relative flex flex-1 flex-col items-center min-h-screen">
+    <motion.div
+      className="relative flex flex-1 flex-col items-center min-h-screen"
+      key={city.id}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <AmbientBackground mode={mode} />
 
       {/* Hero module */}
@@ -72,7 +89,7 @@ export default function Home() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2, duration: 0.4 }}
         >
-          <ModeToggle mode={mode} onToggle={setMode} />
+          <ModeToggle mode={mode} onToggle={handleModeToggle} />
         </motion.div>
       </header>
 
@@ -116,6 +133,6 @@ export default function Home() {
           </a>
         </p>
       </footer>
-    </div>
+    </motion.div>
   );
 }

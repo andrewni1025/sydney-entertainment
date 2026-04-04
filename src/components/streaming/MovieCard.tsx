@@ -13,12 +13,21 @@ export interface MovieData {
   title: string;
   titleZh?: string;
   overview: string;
+  overviewZh?: string;
   posterUrl: string;
   releaseDate: string;
   genres: string[];
   ratings: AggregatedRatings;
   providers: number[];
 }
+
+const GENRE_ZH: Record<string, string> = {
+  Action: "动作", Comedy: "喜剧", Romance: "爱情", "Sci-Fi": "科幻",
+  "Science Fiction": "科幻", Horror: "恐怖", Thriller: "悬疑", Drama: "剧情",
+  Animation: "动画", Documentary: "纪录片", Fantasy: "奇幻",
+  Adventure: "冒险", Crime: "犯罪", Mystery: "悬疑", War: "战争",
+  Family: "家庭", History: "历史", Music: "音乐", Western: "西部",
+};
 
 interface MovieCardProps {
   movie: MovieData;
@@ -89,7 +98,7 @@ export default function MovieCard({ movie, index }: MovieCardProps) {
         {/* Synopsis overlay on hover */}
         <div className="absolute inset-0 flex items-center justify-center bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-5">
           <p className="text-white/80 text-xs leading-relaxed line-clamp-[8] text-center">
-            {movie.overview || "No synopsis available."}
+            {(isZh && movie.overviewZh) ? movie.overviewZh : movie.overview || (isZh ? "暂无简介" : "No synopsis available.")}
           </p>
         </div>
       </div>
@@ -108,7 +117,7 @@ export default function MovieCard({ movie, index }: MovieCardProps) {
                 key={g}
                 className="text-[9px] sm:text-[10px] px-1 sm:px-1.5 py-0.5 rounded-full bg-white/8 text-white/45 hidden sm:inline"
               >
-                {g}
+                {isZh ? (GENRE_ZH[g] ?? g) : g}
               </span>
             ))}
           </div>

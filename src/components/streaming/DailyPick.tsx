@@ -7,6 +7,14 @@ import RatingRing from "./RatingRing";
 import { formatDoubanScore } from "@/lib/ratings";
 import { useCity } from "@/lib/CityContext";
 
+const GENRE_ZH: Record<string, string> = {
+  Action: "\u52a8\u4f5c", Comedy: "\u559c\u5267", Romance: "\u7231\u60c5", "Sci-Fi": "\u79d1\u5e7b",
+  "Science Fiction": "\u79d1\u5e7b", Horror: "\u6050\u6016", Thriller: "\u60ac\u7591", Drama: "\u5267\u60c5",
+  Animation: "\u52a8\u753b", Documentary: "\u7eaa\u5f55\u7247", Fantasy: "\u5947\u5e7b",
+  Adventure: "\u5192\u9669", Crime: "\u72af\u7f6a", Mystery: "\u60ac\u7591", War: "\u6218\u4e89",
+  Family: "\u5bb6\u5ead", History: "\u5386\u53f2", Music: "\u97f3\u4e50", Western: "\u897f\u90e8",
+};
+
 interface TopMovie {
   id: number;
   title: string;
@@ -23,19 +31,23 @@ interface TopMovie {
   providers: number[];
 }
 
-// Get today's pool of 5 movies (deterministic by date)
-function getDailyPool(): TopMovie[] {
+// Get today's pool of 5 movies (deterministic by date, Douban-weighted for CN)
+function getDailyPool(isZh: boolean): TopMovie[] {
   const allThree = (topMovies as TopMovie[]).filter(
     (m) => m.imdb !== null && m.rottenTomatoes !== null && m.douban !== null
   );
   if (allThree.length === 0) return [];
 
-  // Score each movie: ratings + recency bonus
   const currentYear = new Date().getFullYear();
   const scored = allThree.map((m) => {
-    const avg = ((m.imdb ?? 0) + (m.rottenTomatoes ?? 0) + (m.douban ?? 0)) / 3;
+    const imdb = m.imdb ?? 0;
+    const rt = m.rottenTomatoes ?? 0;
+    const douban = m.douban ?? 0;
+    // CN cities: weight Douban 40%, others 30% each. EN: equal thirds
+    const avg = isZh
+      ? imdb * 0.3 + rt * 0.3 + douban * 0.4
+      : (imdb + rt + douban) / 3;
     const year = parseInt(m.releaseDate?.slice(0, 4) ?? "2000");
-    // Recency bonus: movies from last 20 years get up to +10 points
     const recency = Math.max(0, Math.min(10, (year - (currentYear - 25)) / 2.5));
     return { movie: m, score: avg + recency };
   });
@@ -59,11 +71,21 @@ function getDailyPool(): TopMovie[] {
 }
 
 // Generate a recommendation reason based on ratings
-function getRecommendReason(movie: TopMovie): string {
+function getRecommendReason(movie: TopMovie, isZh: boolean): string {
   const imdb = movie.imdb ?? 0;
   const rt = movie.rottenTomatoes ?? 0;
   const douban = movie.douban ?? 0;
   const avg = Math.round((imdb + rt + douban) / 3);
+
+  if (isZh) {
+    if (avg >= 90) return "三平台90+，公认神作";
+    if (imdb >= 85 && douban >= 85) return "IMDb和豆瓣双高分，跨文化经典";
+    if (douban >= 85) return "豆瓣高分佳作，深受中国观众喜爱";
+    if (rt >= 95) return "烂番茄近满分，影评人一致好评";
+    if (imdb >= 85) return "IMDb高分经典，全球影迷推荐";
+    if (rt >= 85 && douban >= 80) return "影评人与观众口碑双赢";
+    return "多平台高分推荐";
+  }
 
   if (avg >= 90) return "Triple 90+ — a masterpiece by any standard";
   if (imdb >= 85 && douban >= 85) return "IMDb & Douban both rate it highly — cross-cultural classic";
@@ -91,7 +113,7 @@ export default function DailyPick() {
 
   useEffect(() => {
     setMounted(true);
-    const dailyPool = getDailyPool();
+    const dailyPool = getDailyPool(isZh);
     setPool(dailyPool);
 
     // Restore today's selection from localStorage
@@ -177,7 +199,7 @@ export default function DailyPick() {
                 <div className="flex items-center gap-2 mb-3">
                   <span className="text-white/30 text-xs">{year}</span>
                   {movie.genres.slice(0, 3).map((g) => (
-                    <span key={g} className="text-[10px] px-1.5 py-0.5 rounded bg-white/8 text-white/40">{g}</span>
+                    <span key={g} className="text-[10px] px-1.5 py-0.5 rounded bg-white/8 text-white/40">{isZh ? (GENRE_ZH[g] ?? g) : g}</span>
                   ))}
                 </div>
                 <p className="text-white/40 text-sm leading-relaxed line-clamp-3 mb-3">
@@ -185,7 +207,7 @@ export default function DailyPick() {
                 </p>
                 {/* Recommendation reason */}
                 <p className="text-orange-300/60 text-xs italic mb-4">
-                  &ldquo;{getRecommendReason(movie)}&rdquo;
+                  &ldquo;{getRecommendReason(movie, isZh)}&rdquo;
                 </p>
               </div>
 

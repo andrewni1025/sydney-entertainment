@@ -129,7 +129,8 @@
         "venue": "上海teamLab无界美术馆",
         "description": "全球最大的teamLab沉浸式数字艺术空间。光影流转，步入画中世界。",
         "ticketUrl": "https://www.teamlab.art",
-        "accentColor": "#06b6d4"
+        "accentColor": "#06b6d4",
+        "tag": "hot"
       },
       {
         "id": "sh-culture-square",
@@ -189,7 +190,8 @@
         "venue": "McKinnon Hotel（南京西路）",
         "description": "全球现象级沉浸式戴尽戏剧，改编自《麦克白》。戴上白色面具，在五层楼的黑暗酒店中自由探索。上海文化必体验。",
         "ticketUrl": "https://www.smartshanghai.com/event/punchdrunk-sleep-no-more-mckinnon-hotel",
-        "accentColor": "#1e1e1e"
+        "accentColor": "#1e1e1e",
+        "tag": "hot"
       },
       {
         "id": "sh-don-juan",
@@ -201,7 +203,8 @@
         "venue": "上海文化广场",
         "description": "法国经典音乐剧《唐璎》上海站。拜伦之爱、荡子白骑士的浪漫传奇，法语原版演唱，文化广场热门档。",
         "ticketUrl": "https://www.smartshanghai.com/event/french-musical-don-juan",
-        "accentColor": "#dc2626"
+        "accentColor": "#dc2626",
+        "tag": "hot"
       },
       {
         "id": "sh-swan-lake",
@@ -213,7 +216,8 @@
         "venue": "上海国际舞蹈中心",
         "description": "俄罗斯国家芭蕾舞团携柴可夫斯基经典《天鹅湖》亡临上海。三晚连演，古典芭蕾天花板级剧目。",
         "ticketUrl": "https://www.smartshanghai.com/event/swan-lake-by-the-russian-state-ballet",
-        "accentColor": "#3b82f6"
+        "accentColor": "#3b82f6",
+        "tag": "hot"
       },
       {
         "id": "sh-kunqu-floating",
@@ -261,7 +265,8 @@
         "venue": "Fotografiska（南京东路）",
         "description": "瑞典知名影像艺术机构的上海馆，位于外滩附近的历史建筑内。常设多个国际摄影大展，顶层餐厅可看江景。",
         "ticketUrl": "https://www.smartshanghai.com/event/fotografiska-general-entrance-ticket-at-fotografiska",
-        "accentColor": "#f59e0b"
+        "accentColor": "#f59e0b",
+        "tag": "free"
       },
       {
         "id": "sh-map-pudong",
@@ -273,7 +278,8 @@
         "venue": "浦东美术馆",
         "description": "陆家嘴滨江新地标，由让·努维尔设计。常设当代艺术大展，建筑本身就是浦东天际线的一部分。",
         "ticketUrl": "https://www.smartshanghai.com/event/museum-of-art-pudong-at-map",
-        "accentColor": "#6366f1"
+        "accentColor": "#6366f1",
+        "tag": "free"
       },
       {
         "id": "sh-yue-opera",
@@ -285,7 +291,8 @@
         "venue": "长江剧场",
         "description": "经典越剧IP的沉浸式新编，观众穿行于大观园场景之中。宝玉黛玉近在咫尺，上海最热门的沉浸式演出之一。",
         "ticketUrl": "https://www.smartshanghai.com/event/immersive-yue-opera-a-dream-of-red-mansions-at-changjiang-theatre",
-        "accentColor": "#e11d48"
+        "accentColor": "#e11d48",
+        "tag": "hot"
       },
       {
         "id": "sh-hofesh",
@@ -357,7 +364,8 @@
         "venue": "VAS est",
         "description": "Pixies成立40周年世界巡演上海站！从《Where Is My Mind》到《Debaser》，另类摇滚祖师级现场。已售罄。",
         "ticketUrl": "https://www.smartshanghai.com/event/pixies-40th-anniversary-tour-in-shanghai",
-        "accentColor": "#1e1e1e"
+        "accentColor": "#1e1e1e",
+        "tag": "sold-out"
       },
       {
         "id": "sh-johnny-marr",
@@ -369,7 +377,8 @@
         "venue": "Modern Sky Lab",
         "description": "The Smiths传奇吉他手 Johnny Marr 上海专场。从独立摇滚经典到个人新作，一个晚上尽收。已售罄。",
         "ticketUrl": "https://www.smartshanghai.com/event/sold-out-johnny-marr-live-in-shanghai-2026-2026-05-05",
-        "accentColor": "#374151"
+        "accentColor": "#374151",
+        "tag": "sold-out"
       },
       {
         "id": "sh-versailles",
@@ -559,7 +568,8 @@
         "venue": "沧浪亭",
         "description": "在世界文化遗产沧浪亭内实景演出昆曲《浮生六记》，观众随沈复夫妇游园。苏州最美沉浸式演出，强烈建议提前抢票。",
         "ticketUrl": "https://www.kunopera.com.cn",
-        "accentColor": "#10b981"
+        "accentColor": "#10b981",
+        "tag": "hot"
       },
       {
         "id": "sz-sscac-concert",
@@ -583,7 +593,8 @@
         "venue": "平江路历史街区",
         "description": "苏州最美古街的周末文化夜行。临河茶馆、手作工块、小型评弹与昆曲演出穿插其中。完全免费。",
         "ticketUrl": "https://www.szmuseum.com",
-        "accentColor": "#f59e0b"
+        "accentColor": "#f59e0b",
+        "tag": "free"
       }
     ]
   },
@@ -713,7 +724,8 @@
         "venue": "中华恐龙园",
         "description": "恐龙园周末夜场特别活动：灯光秀、花车巡游、恐龙主题无人机表演。适合全家晚间出动。",
         "ticketUrl": "https://www.cnpark.net",
-        "accentColor": "#16a34a"
+        "accentColor": "#16a34a",
+        "tag": "hot"
       },
       {
         "id": "cz-modern-art",
@@ -749,7 +761,8 @@
         "venue": "青果巷历史街区",
         "description": "在明清古建筑群中听音乐。每两周一场的运河音乐夜，含民谣、古典、独立音乐等多元风格。免费。",
         "ticketUrl": "https://www.czqgl.com",
-        "accentColor": "#f59e0b"
+        "accentColor": "#f59e0b",
+        "tag": "free"
       }
     ]
   }

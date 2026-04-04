@@ -7,7 +7,7 @@ import topMoviesData from "@/data/top-movies.json";
 
 // Pre-loaded top movies from JSON (built offline with build-movie-cache.ts)
 const TOP_MOVIES = topMoviesData as Array<{
-  id: number; title: string; titleZh?: string; overview: string; posterPath: string | null;
+  id: number; title: string; titleZh?: string; overview: string; overviewZh?: string; posterPath: string | null;
   releaseDate: string; genres: string[]; genreIds: number[]; language: string;
   imdbId: string | null; tmdbScore: number;
   imdb: number | null; rottenTomatoes: number | null; rtFresh: boolean;
@@ -78,6 +78,7 @@ function serveFromLocal(
     title: m.title,
     titleZh: m.titleZh,
     overview: m.overview,
+    overviewZh: m.overviewZh,
     posterUrl: m.posterPath ? `https://image.tmdb.org/t/p/w500${m.posterPath}` : "/placeholder-poster.svg",
     releaseDate: m.releaseDate,
     genres: m.genres,

@@ -16,14 +16,25 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sydney Entertainment Hub — Cinema & Streaming Guide",
+  title: "Sydney Entertainment Hub — Cinema, Culture & Streaming",
   description:
-    "Your guide to Sydney's best cinemas and what to stream tonight. Triple-rated with IMDb, Rotten Tomatoes & Douban scores.",
+    "Sydney · Shanghai · Suzhou · Changzhou — your multi-city guide to cinemas, exhibitions, performances, and what to stream tonight. Triple-rated with IMDb, Rotten Tomatoes & Douban.",
   openGraph: {
     title: "Sydney Entertainment Hub",
-    description: "Going out or staying in? Sydney's cinema & streaming guide.",
+    description: "Going out or staying in? Multi-city cinema, culture & streaming guide.",
     type: "website",
+    siteName: "Sydney Entertainment Hub",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sydney Entertainment Hub",
+    description: "Multi-city cinema, culture & streaming guide — Sydney · Shanghai · Suzhou · Changzhou",
+  },
+  metadataBase: new URL("https://sydneycinema.xyz"),
+};
+
+export const viewport = {
+  themeColor: "#0a0018",
 };
 
 export default function RootLayout({

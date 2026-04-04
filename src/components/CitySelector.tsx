@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cityList, type CityConfig } from "@/lib/cities";
 import { useCity } from "@/lib/CityContext";
+import { useCityWeather } from "@/lib/weather";
+import CitySkyline from "./CitySkyline";
 
 const cityCardStyles: Record<string, { gradient: string; hoverGlow: string; orbColor: string }> = {
   sydney: {
@@ -37,6 +39,17 @@ function CardOrb({ color, active }: { color: string; active: boolean }) {
       animate={{ opacity: active ? 1 : 0, scale: active ? 1.1 : 0.8 }}
       transition={{ duration: 0.6 }}
     />
+  );
+}
+
+function CityWeatherBadge({ city }: { city: CityConfig }) {
+  const weather = useCityWeather(city);
+  if (!weather) return null;
+  const icon = weather.condition === "rain" ? "🌧" : weather.condition === "storm" ? "⛈" : weather.condition === "cloud" ? "☁️" : weather.condition === "fog" ? "🌫" : "☀️";
+  return (
+    <span className="text-white/25 text-[10px]">
+      {icon} {weather.temp}°
+    </span>
   );
 }
 
@@ -83,6 +96,7 @@ function CityCard({ city, index }: { city: CityConfig; index: number }) {
             <p className="text-[13px] mt-0.5 transition-colors duration-300" style={{ color: hovered ? `${city.accentColor}cc` : `${city.accentColor}80` }}>
               {city.tagline}
             </p>
+            <CityWeatherBadge city={city} />
           </div>
         </div>
 
@@ -195,6 +209,15 @@ export default function CitySelector() {
   return (
     <div className="relative w-full max-w-4xl mx-auto px-4 py-8">
       <FloatingParticles />
+
+      {/* Composite skyline background — all 4 cities faintly overlaid */}
+      <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+        {cityList.map((c, i) => (
+          <div key={c.id} style={{ opacity: 0.02 + i * 0.005, transform: `translateX(${i * 5 - 8}%)` }}>
+            <CitySkyline cityId={c.id} opacity={0.04} />
+          </div>
+        ))}
+      </div>
 
       {/* Brand — larger, more dramatic */}
       <motion.div
