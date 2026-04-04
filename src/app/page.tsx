@@ -133,6 +133,9 @@ export default function Home() {
             JustWatch
           </a>
         </p>
+        <p className="mt-2 text-white/15">
+          Feedback? <a href="mailto:entertainmenthub.feedback@gmail.com" className="underline hover:text-white/30">entertainmenthub.feedback@gmail.com</a>
+        </p>
       </footer>
     </motion.div>
   );

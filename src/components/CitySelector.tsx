@@ -273,14 +273,17 @@ export default function CitySelector() {
       </div>
 
       {/* Footer */}
-      <motion.p
-        className="text-center text-white/10 text-[10px] mt-12"
+      <motion.div
+        className="text-center mt-12"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8 }}
       >
-        More cities coming soon
-      </motion.p>
+        <p className="text-white/10 text-[10px]">More cities coming soon</p>
+        <p className="text-white/15 text-[10px] mt-2">
+          Feedback? <a href="mailto:entertainmenthub.feedback@gmail.com" className="underline hover:text-white/30">entertainmenthub.feedback@gmail.com</a>
+        </p>
+      </motion.div>
     </div>
   );
 }
