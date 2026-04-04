@@ -234,7 +234,7 @@ export default function CitySelector() {
           🌉
         </motion.span>
         <h1 className="font-[family-name:var(--font-heading)] text-white/20 text-base sm:text-lg font-semibold tracking-[0.2em] mb-2">
-          SYDNEY ENTERTAINMENT HUB
+          ENTERTAINMENT HUB
         </h1>
         <TypingText />
       </motion.div>
