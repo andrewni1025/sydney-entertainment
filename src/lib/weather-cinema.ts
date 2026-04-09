@@ -225,8 +225,9 @@ export function pickWeatherMovie(
   const candidates = scored.slice(0, 20);
   if (candidates.length === 0) return null;
 
-  // Date + weather seed for determinism
-  const seed = dateSeed() + condition.length * 100 + timeOfDay.length * 10;
+  // Date + weather + city seed for determinism
+  const cityHash = (cityId ?? "").split("").reduce((h, c) => h * 31 + c.charCodeAt(0), 0);
+  const seed = dateSeed() + condition.length * 100 + timeOfDay.length * 10 + cityHash;
   let s = seed;
   for (let i = candidates.length - 1; i > 0; i--) {
     s = ((s * 1103515245 + 12345) & 0x7fffffff);
