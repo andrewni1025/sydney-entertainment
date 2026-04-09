@@ -1,15 +1,5 @@
 [
   {
-    "id": "palace-french",
-    "name": "Palace French Film Festival",
-    "venue": "Palace Cinemas (multiple locations)",
-    "startDate": "2026-03-05",
-    "endDate": "2026-04-09",
-    "description": "A curated selection of the best new French cinema, featuring dramas, comedies, and documentaries direct from Cannes and beyond.",
-    "ticketUrl": "https://www.palacecinemas.com.au/festivals/french-film-festival/",
-    "accentColor": "#1e3a8a"
-  },
-  {
     "id": "sydney-film-festival",
     "name": "Sydney Film Festival",
     "venue": "State Theatre & various venues",
@@ -20,14 +10,14 @@
     "accentColor": "#dc2626"
   },
   {
-    "id": "flickerfest",
-    "name": "Flickerfest International Short Film Festival",
-    "venue": "Bondi Pavilion",
-    "startDate": "2026-01-16",
-    "endDate": "2026-01-25",
-    "description": "Australia's only Academy Award accredited short film festival, showcasing the best short films from around the world at Bondi Beach.",
-    "ticketUrl": "https://www.flickerfest.com.au",
-    "accentColor": "#059669"
+    "id": "revelation-film-fest",
+    "name": "Revelation Perth International Film Festival",
+    "venue": "Luna Palace Cinemas & various venues",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-19",
+    "description": "One of Australia's longest-running independent film festivals, showcasing bold and boundary-pushing cinema from around the world.",
+    "ticketUrl": "https://www.revelationfilmfest.org",
+    "accentColor": "#7c3aed"
   },
   {
     "id": "japanese-film-fest",
@@ -38,5 +28,15 @@
     "description": "Celebrating the best of contemporary and classic Japanese cinema, from anime blockbusters to intimate dramas.",
     "ticketUrl": "https://japanesefilmfestival.net",
     "accentColor": "#b91c1c"
+  },
+  {
+    "id": "miff",
+    "name": "Melbourne International Film Festival",
+    "venue": "Various venues across Melbourne",
+    "startDate": "2026-08-06",
+    "endDate": "2026-08-23",
+    "description": "One of the oldest film festivals in the world, MIFF showcases the best in international and Australian cinema with 300+ films across 18 days.",
+    "ticketUrl": "https://miff.com.au",
+    "accentColor": "#0ea5e9"
   }
 ]

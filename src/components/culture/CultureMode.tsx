@@ -105,21 +105,32 @@ export default function CultureMode() {
   const filteredOngoing = filterByTab(filterByArea(ongoingEvents));
   const filteredUpcoming = filterByTab(filterByArea(upcomingEvents));
 
+  const isJa = city.locale === "ja";
+
+  // Localized labels
+  const l = {
+    exhibition: isJa ? "🖼️ 展覧会" : "🖼️ 展览",
+    performance: isJa ? "🎭 公演" : "🎭 演出",
+    festival: "🎬 映画祭",
+    ticket: isJa ? "🎫 チケット" : "🎫 购票",
+    nav: isJa ? "🗺️ 地図" : "🗺️ 导航",
+  };
+
   const tabs: { value: Tab; label: string; icon: string }[] = [
-    { value: "all", label: "全部", icon: "✨" },
-    { value: "exhibition", label: "展览", icon: "🖼️" },
-    { value: "performance", label: "演出", icon: "🎭" },
-    { value: "museum", label: "场馆", icon: "🏛️" },
+    { value: "all", label: isJa ? "すべて" : "全部", icon: "✨" },
+    { value: "exhibition", label: isJa ? "展覧会" : "展览", icon: "🖼️" },
+    { value: "performance", label: isJa ? "公演" : "演出", icon: "🎭" },
+    { value: "museum", label: isJa ? "施設" : "场馆", icon: "🏛️" },
   ];
 
   return (
     <div>
       <h2 className="font-[family-name:var(--font-heading)] text-2xl sm:text-3xl font-bold text-white text-center mb-1">
         {city.nameZh ?? city.name}
-        <span style={{ color: city.accentColor + "cc" }}>，出门看什么？</span>
+        <span style={{ color: city.accentColor + "cc" }}>{isJa ? "、何を観る？" : "，出门看什么？"}</span>
       </h2>
       <p className="text-white/25 text-[11px] text-center mb-5">
-        展览 · 演出 · 博物馆 · 美术馆 — 精选文化去处
+        {isJa ? "展覧会 · 公演 · 美術館 · 博物館 — 厳選カルチャースポット" : "展览 · 演出 · 博物馆 · 美术馆 — 精选文化去处"}
       </p>
 
       {/* Tab + Area filters */}
@@ -155,7 +166,7 @@ export default function CultureMode() {
       {filteredOngoing.length > 0 && showEvents && (
         <div className="mb-6">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-white/15 text-[10px] uppercase tracking-wider">正在进行</span>
+            <span className="text-white/15 text-[10px] uppercase tracking-wider">{isJa ? "開催中" : "正在进行"}</span>
             <div className="flex-1 h-px bg-white/[0.04]" />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -174,7 +185,7 @@ export default function CultureMode() {
                   <div className="flex items-start justify-between mb-2">
                     <div className="flex items-center gap-1.5">
                       <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-medium" style={{ background: `${event.accentColor}15`, color: event.accentColor }}>
-                        {event.type === "exhibition" ? "🖼️ 展览" : event.type === "performance" ? "🎭 演出" : "🎬 电影节"}
+                        {event.type === "exhibition" ? l.exhibition : event.type === "performance" ? l.performance : l.festival}
                       </span>
                       {tag && <span className="px-1.5 py-0.5 rounded text-[9px] font-bold" style={{ background: `${tag.color}20`, color: tag.color }}>{tag.label}</span>}
                     </div>
@@ -191,13 +202,13 @@ export default function CultureMode() {
                       style={{ background: `${event.accentColor}20`, color: event.accentColor, border: `1px solid ${event.accentColor}30` }}
                       onClick={(e) => e.stopPropagation()}
                     >
-                      🎫 购票
+                      {l.ticket}
                     </a>
                     <a href={navUrl} target="_blank" rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-[11px] font-medium text-white/40 bg-white/[0.04] hover:bg-white/[0.08] hover:text-white/60 transition-all duration-200"
                       onClick={(e) => e.stopPropagation()}
                     >
-                      🗺️ 导航
+                      {l.nav}
                     </a>
                   </div>
                 </motion.div>
@@ -212,7 +223,7 @@ export default function CultureMode() {
       {filteredUpcoming.length > 0 && showEvents && (
         <div className="mb-6">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-white/15 text-[10px] uppercase tracking-wider">即将到来</span>
+            <span className="text-white/15 text-[10px] uppercase tracking-wider">{isJa ? "近日開催" : "即将到来"}</span>
             <div className="flex-1 h-px bg-white/[0.04]" />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -231,7 +242,7 @@ export default function CultureMode() {
                   <div className="flex items-start justify-between mb-2">
                     <div className="flex items-center gap-1.5">
                       <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-medium" style={{ background: `${event.accentColor}15`, color: event.accentColor }}>
-                        {event.type === "exhibition" ? "🖼️ 展览" : event.type === "performance" ? "🎭 演出" : "🎬 电影节"}
+                        {event.type === "exhibition" ? l.exhibition : event.type === "performance" ? l.performance : l.festival}
                       </span>
                       {tag && <span className="px-1.5 py-0.5 rounded text-[9px] font-bold" style={{ background: `${tag.color}20`, color: tag.color }}>{tag.label}</span>}
                     </div>
@@ -248,13 +259,13 @@ export default function CultureMode() {
                       style={{ background: `${event.accentColor}20`, color: event.accentColor, border: `1px solid ${event.accentColor}30` }}
                       onClick={(e) => e.stopPropagation()}
                     >
-                      🎫 购票
+                      {l.ticket}
                     </a>
                     <a href={navUrl} target="_blank" rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-[11px] font-medium text-white/40 bg-white/[0.04] hover:bg-white/[0.08] hover:text-white/60 transition-all duration-200"
                       onClick={(e) => e.stopPropagation()}
                     >
-                      🗺️ 导航
+                      {l.nav}
                     </a>
                   </div>
                 </motion.div>
@@ -269,7 +280,7 @@ export default function CultureMode() {
       {showMuseums && filteredMuseums.length > 0 && (
         <div>
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-white/15 text-[10px] uppercase tracking-wider">值得一去</span>
+            <span className="text-white/15 text-[10px] uppercase tracking-wider">{isJa ? "おすすめスポット" : "值得一去"}</span>
             <div className="flex-1 h-px bg-white/[0.04]" />
           </div>
           <div className="flex flex-col gap-5">
@@ -283,8 +294,8 @@ export default function CultureMode() {
       {/* Empty state */}
       {filteredOngoing.length === 0 && filteredUpcoming.length === 0 && (!showMuseums || filteredMuseums.length === 0) && (
         <div className="text-center py-16 text-white/30">
-          <p className="text-lg mb-2">暂无匹配内容</p>
-          <p className="text-sm">试试其他分类或地区</p>
+          <p className="text-lg mb-2">{isJa ? "該当なし" : "暂无匹配内容"}</p>
+          <p className="text-sm">{isJa ? "他のカテゴリをお試しください" : "试试其他分类或地区"}</p>
         </div>
       )}
     </div>

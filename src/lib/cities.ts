@@ -8,7 +8,7 @@ export interface CityConfig {
   timezone: string;
   wttrName: string;
   country: string;
-  locale: "en" | "zh";
+  locale: "en" | "zh" | "ja";
   tagline: string;
   description: string;
   accentColor: string;
@@ -107,6 +107,29 @@ export const cities: Record<string, CityConfig> = {
       { value: "zhonglou", label: "钟楼区" },
       { value: "xinbei", label: "新北区" },
       { value: "wujin", label: "武进区" },
+    ],
+  },
+  tokyo: {
+    id: "tokyo",
+    name: "Tokyo",
+    nameZh: "东京",
+    emoji: "🗼",
+    latitude: 35.68,
+    longitude: 139.69,
+    timezone: "Asia/Tokyo",
+    wttrName: "Tokyo",
+    country: "JP",
+    locale: "ja",
+    tagline: "東京カルチャーガイド",
+    description: "六本木の美術館から渋谷のライブハウスまで、下北沢の小劇場から浅草の伝統芸能まで——東京の文化を一望。",
+    accentColor: "#e11d48",
+    goingOutMode: "culture",
+    areas: [
+      { value: "all", label: "すべて" },
+      { value: "shibuya", label: "渋谷" },
+      { value: "shinjuku", label: "新宿" },
+      { value: "roppongi", label: "六本木" },
+      { value: "asakusa", label: "浅草" },
     ],
   },
 };

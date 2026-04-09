@@ -42,6 +42,8 @@ export default function Home() {
   }
 
   const isChinese = city.locale === "zh";
+  const isJapanese = city.locale === "ja";
+  const isAsian = isChinese || isJapanese;
   const isCultureMode = city.goingOutMode === "culture";
 
   return (
@@ -65,7 +67,7 @@ export default function Home() {
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M15 18l-6-6 6-6" />
             </svg>
-            {isChinese ? "切换城市" : "Cities"}
+            {isJapanese ? "都市切替" : isChinese ? "切换城市" : "Cities"}
           </button>
           <WeatherBadge />
         </div>
@@ -79,7 +81,7 @@ export default function Home() {
         >
           <span className="text-3xl sm:text-4xl">{city.emoji}</span>
           <span className="font-[family-name:var(--font-heading)] text-white/25 text-sm sm:text-base font-semibold tracking-[0.15em]">
-            {city.nameZh ? `${city.nameZh} Entertainment` : "Sydney Entertainment Hub"}
+            {city.nameZh ? `${city.nameZh} Entertainment` : city.locale === "ja" ? `${city.name} Entertainment` : "Sydney Entertainment Hub"}
           </span>
         </motion.div>
 

@@ -12,18 +12,21 @@ export default function ModeToggle({ mode, onToggle }: ModeToggleProps) {
   const isCinema = mode === "cinema";
   const { city } = useCity();
   const isZh = city.locale === "zh";
+  const isJa = city.locale === "ja";
   const isCulture = city.goingOutMode === "culture";
 
-  const outLabel = isZh ? "出门看看" : "Night Out";
-  const outShort = isZh ? "出门" : "Out";
+  const outLabel = isJa ? "お出かけ" : isZh ? "出门看看" : "Night Out";
+  const outShort = isJa ? "外出" : isZh ? "出门" : "Out";
   const outEmoji = isCulture ? "🎭" : "🌃";
-  const inLabel = isZh ? "在家观影" : "Cosy Night In";
-  const inShort = isZh ? "在家" : "In";
+  const inLabel = isJa ? "おうち映画" : isZh ? "在家观影" : "Cosy Night In";
+  const inShort = isJa ? "家" : isZh ? "在家" : "In";
   const subtitle = isCinema
-    ? (isZh
+    ? (isJa
+      ? (isCulture ? "展覧会 · 公演 · 美術館 · 博物館" : "東京のベストシネマ")
+      : isZh
       ? (isCulture ? "展览 · 演出 · 博物馆 · 美术馆" : "精选影院，按你的心情匹配")
       : "Sydney's best cinemas, matched to your mood")
-    : (isZh ? "沙发上的好片推荐" : "Sofa-ready picks across your streaming apps");
+    : (isJa ? "ストリーミングで今夜の一本" : isZh ? "沙发上的好片推荐" : "Sofa-ready picks across your streaming apps");
 
   return (
     <div className="flex flex-col items-center gap-4">

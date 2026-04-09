@@ -32,6 +32,12 @@ const cityCardStyles: Record<string, { gradient: string; hoverGlow: string; orbC
     orbColor: "rgba(139,92,246,0.15)",
     photo: "/cities/changzhou.jpeg",
   },
+  tokyo: {
+    gradient: "linear-gradient(135deg, rgba(225,29,72,0.06), rgba(225,29,72,0.01))",
+    hoverGlow: "rgba(225,29,72,0.2)",
+    orbColor: "rgba(225,29,72,0.15)",
+    photo: "/cities/tokyo.jpg",
+  },
 };
 
 /* Floating orb behind each card on hover */
@@ -141,8 +147,8 @@ function CityCard({ city, index }: { city: CityConfig; index: number }) {
               </>
             ) : (
               <>
-                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/8 text-white/40">🎭 展览演出</span>
-                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/8 text-white/40">🎬 在家观影</span>
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/8 text-white/40">🎭 {city.locale === "ja" ? "展覧会・公演" : "展览演出"}</span>
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-white/8 text-white/40">🎬 {city.locale === "ja" ? "おうち映画" : "在家观影"}</span>
               </>
             )}
           </div>
@@ -151,7 +157,7 @@ function CityCard({ city, index }: { city: CityConfig; index: number }) {
             style={{ color: city.accentColor, background: `${city.accentColor}10`, border: `1px solid ${city.accentColor}40` }}
             animate={{ gap: hovered ? "10px" : "6px" }}
           >
-            {city.locale === "zh" ? "进入" : "Explore"}
+            {city.locale === "ja" ? "入る" : city.locale === "zh" ? "进入" : "Explore"}
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
@@ -267,9 +273,15 @@ export default function CitySelector() {
 
       {/* City grid */}
       <div className="relative grid grid-cols-1 sm:grid-cols-2 gap-4">
-        {cityList.map((city, i) => (
-          <CityCard key={city.id} city={city} index={i} />
-        ))}
+        {cityList.map((city, i) => {
+          const isLast = i === cityList.length - 1;
+          const isOddTotal = cityList.length % 2 !== 0;
+          return (
+            <div key={city.id} className={isLast && isOddTotal ? "sm:col-span-2" : ""}>
+              <CityCard city={city} index={i} />
+            </div>
+          );
+        })}
       </div>
 
       {/* Footer */}

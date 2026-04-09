@@ -12,7 +12,7 @@ interface AmbientBackgroundProps {
 }
 
 // Background gradients — DRAMATICALLY different per city
-// Sydney: ocean blue/navy, Shanghai: crimson/scarlet, Suzhou: jade/emerald, Changzhou: electric violet
+// Sydney: ocean blue/navy, Shanghai: crimson/scarlet, Suzhou: jade/emerald, Changzhou: electric violet, Tokyo: rose/cherry
 const cityTimeGradients: Record<string, Record<TimeOfDay, { cinema: string; streaming: string }>> = {
   sydney: {
     night: {
@@ -84,6 +84,24 @@ const cityTimeGradients: Record<string, Record<TimeOfDay, { cinema: string; stre
     dusk: {
       cinema: "linear-gradient(160deg, #200a55 0%, #381580 35%, #301070 65%, #180845 100%)",
       streaming: "linear-gradient(160deg, #281a18 0%, #30201a 35%, #251812 65%, #1a1008 100%)",
+    },
+  },
+  tokyo: {
+    night: {
+      cinema: "linear-gradient(160deg, #100010 0%, #200820 35%, #2a0a30 65%, #0a0008 100%)",
+      streaming: "linear-gradient(160deg, #150808 0%, #1e0e10 35%, #150808 65%, #0d0505 100%)",
+    },
+    dawn: {
+      cinema: "linear-gradient(160deg, #200818 0%, #381530 35%, #401838 65%, #180610 100%)",
+      streaming: "linear-gradient(160deg, #251510 0%, #301a15 35%, #251510 65%, #1a0d08 100%)",
+    },
+    day: {
+      cinema: "linear-gradient(160deg, #180615 0%, #2a1028 35%, #321230 65%, #140510 100%)",
+      streaming: "linear-gradient(160deg, #221815 0%, #2a2018 35%, #221815 65%, #1a1210 100%)",
+    },
+    dusk: {
+      cinema: "linear-gradient(160deg, #250a20 0%, #401540 35%, #381238 65%, #1a0815 100%)",
+      streaming: "linear-gradient(160deg, #2a1815 0%, #351e18 35%, #281510 65%, #1e0e08 100%)",
     },
   },
 };

@@ -220,16 +220,17 @@
         "tag": "hot"
       },
       {
-        "id": "sh-kunqu-floating",
-        "name": "昆曲《浮生六记》",
+        "id": "sh-kunqu-peony",
+        "name": "昆曲《牡丹亭》全本",
         "type": "performance",
-        "dateRange": "2026-04-04 ~ 04-05",
-        "startDate": "2026-04-04",
-        "endDate": "2026-04-05",
+        "dateRange": "2026-04-18 ~ 04-20",
+        "startDate": "2026-04-18",
+        "endDate": "2026-04-20",
         "venue": "上海大剧院",
-        "description": "沈复同名散文改编的昆曲新作，今晚就在上海大剧院上演。吴侬软语演绎明清才子佳人的浮生若梦。",
-        "ticketUrl": "https://www.smartshanghai.com/event/kunqu-opera-six-records-of-a-floating-life",
-        "accentColor": "#059669"
+        "description": "汤显祖经典名作全本三夜连演，上昆名角倾情出演。昆曲四百年不衰之作，梦回牡丹亭。",
+        "ticketUrl": "https://www.shgtheatre.com",
+        "accentColor": "#059669",
+        "tag": "hot"
       },
       {
         "id": "sh-die-walkure",
@@ -285,11 +286,11 @@
         "id": "sh-yue-opera",
         "name": "沉浸式越剧《红楼梦》",
         "type": "performance",
-        "dateRange": "2026-03-25 ~ 04-06",
-        "startDate": "2026-03-25",
-        "endDate": "2026-04-06",
+        "dateRange": "2026-04-18 ~ 04-27",
+        "startDate": "2026-04-18",
+        "endDate": "2026-04-27",
         "venue": "长江剧场",
-        "description": "经典越剧IP的沉浸式新编，观众穿行于大观园场景之中。宝玉黛玉近在咫尺，上海最热门的沉浸式演出之一。",
+        "description": "经典越剧IP的沉浸式新编，观众穿行于大观园场景之中。宝玉黛玉近在咫尺，上海最热门的沉浸式演出之一。第二轮加演！",
         "ticketUrl": "https://www.smartshanghai.com/event/immersive-yue-opera-a-dream-of-red-mansions-at-changjiang-theatre",
         "accentColor": "#e11d48",
         "tag": "hot"
@@ -307,15 +308,15 @@
         "accentColor": "#7c3aed"
       },
       {
-        "id": "sh-mum",
-        "name": "冰岛电子乐队Múm上海专场",
+        "id": "sh-jazz-week",
+        "name": "上海爵士音乐周",
         "type": "performance",
-        "dateRange": "2026-04-06",
-        "startDate": "2026-04-06",
-        "endDate": "2026-04-06",
-        "venue": "VAS ear",
-        "description": "冰岛实验电子乐队Múm中国巡演上海站。柔和人声×故障电子×实验采样，梦境般的现场体验。",
-        "ticketUrl": "https://www.smartshanghai.com/event/new-noise-presents-mum-live-in-shanghai-2026-04-06",
+        "dateRange": "2026-04-15 ~ 04-20",
+        "startDate": "2026-04-15",
+        "endDate": "2026-04-20",
+        "venue": "JZ Club & 各场地",
+        "description": "上海最具影响力的爵士音乐节，国内外爵士音乐家齐聚魔都。多场地联动，一周沉浸式爵士体验。",
+        "ticketUrl": "https://www.jzfestival.com",
         "accentColor": "#6366f1"
       },
       {
@@ -763,6 +764,281 @@
         "ticketUrl": "https://m.damai.cn/shows/search.html?keyword=%E9%9D%92%E6%9E%9C%E5%B7%B7%20%E5%B8%B8%E5%B7%9E",
         "accentColor": "#f59e0b",
         "tag": "free"
+      }
+    ]
+  },
+  "tokyo": {
+    "museums": [
+      {
+        "id": "tokyo-national-museum",
+        "name": "東京国立博物館",
+        "type": "museum",
+        "area": "asakusa",
+        "tagline": "日本最古の博物館",
+        "description": "上野公園内にある日本最大の博物館。国宝・重要文化財を多数収蔵し、日本美術の通史を一望できる。",
+        "highlights": [
+          "国宝展示室",
+          "日本美術の名品",
+          "東洋館"
+        ],
+        "address": "東京都台東区上野公園13-9",
+        "website": "https://www.tnm.jp",
+        "free": false
+      },
+      {
+        "id": "mori-art-museum",
+        "name": "森美術館",
+        "type": "gallery",
+        "area": "roppongi",
+        "tagline": "六本木ヒルズの現代アート",
+        "description": "六本木ヒルズ53階の現代美術館。国際的な企画展と東京の夜景を同時に楽しめる。深夜22時まで開館。",
+        "highlights": [
+          "現代アート企画展",
+          "東京シティビュー",
+          "深夜開館"
+        ],
+        "address": "東京都港区六本木6-10-1",
+        "website": "https://www.mori.art.museum",
+        "free": false
+      },
+      {
+        "id": "teamlab-borderless",
+        "name": "チームラボボーダレス",
+        "type": "gallery",
+        "area": "roppongi",
+        "tagline": "境界のないデジタルアート",
+        "description": "麻布台ヒルズに移転した没入型デジタルアートミュージアム。作品が部屋を超えて移動する唯一無二の体験。",
+        "highlights": [
+          "没入型デジタルアート",
+          "インタラクティブ空間",
+          "麻布台ヒルズ"
+        ],
+        "address": "東京都港区麻布台1-2-4",
+        "website": "https://www.teamlab.art/e/borderless-azabudai/",
+        "free": false
+      },
+      {
+        "id": "nezu-museum",
+        "name": "根津美術館",
+        "type": "museum",
+        "area": "shibuya",
+        "tagline": "都心の日本庭園と古美術",
+        "description": "表参道の喧騒を抜けた先にある静寂の美術館。東洋古美術のコレクションと広大な日本庭園が見事。",
+        "highlights": [
+          "尾形光琳・燕子花図屏風",
+          "日本庭園",
+          "東洋古美術"
+        ],
+        "address": "東京都港区南青山6-5-1",
+        "website": "https://www.nezu-muse.or.jp",
+        "free": false
+      },
+      {
+        "id": "nact",
+        "name": "国立新美術館",
+        "type": "gallery",
+        "area": "roppongi",
+        "tagline": "日本最大の展示スペース",
+        "description": "黒川紀章設計の波打つガラス外観が象徴的。常設コレクションを持たず、大規模企画展に特化した美術館。カフェも人気。",
+        "highlights": [
+          "大規模企画展",
+          "黒川紀章建築",
+          "六本木アートトライアングル"
+        ],
+        "address": "東京都港区六本木7-22-2",
+        "website": "https://www.nact.jp",
+        "free": false
+      },
+      {
+        "id": "mot",
+        "name": "東京都現代美術館",
+        "type": "gallery",
+        "area": "shibuya",
+        "tagline": "清澄白河の現代アート拠点",
+        "description": "5000点以上の現代美術コレクション。建築・デザイン・ファッションまで幅広い企画展を開催。木場公園隣接。",
+        "highlights": [
+          "現代美術コレクション",
+          "企画展",
+          "ミュージアムショップ"
+        ],
+        "address": "東京都江東区三好4-1-1",
+        "website": "https://www.mot-art-museum.jp",
+        "free": false
+      }
+    ],
+    "events": [
+      {
+        "id": "tk-kabuki-apr",
+        "name": "歌舞伎座 四月大歌舞伎",
+        "type": "performance",
+        "dateRange": "2026-04-02 ~ 04-26",
+        "startDate": "2026-04-02",
+        "endDate": "2026-04-26",
+        "venue": "歌舞伎座",
+        "description": "銀座の歌舞伎座で毎月上演。一幕見席なら1000円台から気軽に歌舞伎体験ができる。日本の伝統芸能の最高峰。",
+        "ticketUrl": "https://www.kabuki-bito.jp/theaters/kabukiza",
+        "accentColor": "#dc2626",
+        "tag": "hot"
+      },
+      {
+        "id": "tk-mori-exhibit",
+        "name": "森美術館 春季企画展",
+        "type": "exhibition",
+        "dateRange": "2026-03-20 ~ 06-15",
+        "startDate": "2026-03-20",
+        "endDate": "2026-06-15",
+        "venue": "森美術館",
+        "description": "六本木ヒルズ53階で開催の国際現代アート展。展望台チケットとのセット券もあり。深夜22時まで。",
+        "ticketUrl": "https://www.mori.art.museum",
+        "accentColor": "#2563eb"
+      },
+      {
+        "id": "tk-teamlab",
+        "name": "チームラボボーダレス 麻布台ヒルズ",
+        "type": "exhibition",
+        "dateRange": "常設展",
+        "startDate": "2024-01-01",
+        "endDate": "2027-12-31",
+        "venue": "チームラボボーダレス 麻布台ヒルズ",
+        "description": "世界で最も来場者の多い美術館が麻布台ヒルズに移転。70以上の作品群が境界なく連続する没入体験。",
+        "ticketUrl": "https://www.teamlab.art/e/borderless-azabudai/",
+        "accentColor": "#7c3aed",
+        "tag": "hot"
+      },
+      {
+        "id": "tk-meiji-shrine",
+        "name": "明治神宮 春の大祭",
+        "type": "performance",
+        "dateRange": "2026-04-29 ~ 05-03",
+        "startDate": "2026-04-29",
+        "endDate": "2026-05-03",
+        "venue": "明治神宮",
+        "description": "毎年GW期間中に開催される明治神宮の例大祭。能楽・舞楽・流鏑馬など日本の伝統芸能を無料で鑑賞。",
+        "ticketUrl": "https://www.meijijingu.or.jp",
+        "accentColor": "#059669",
+        "tag": "free"
+      },
+      {
+        "id": "tk-tnm-spring",
+        "name": "東京国立博物館 春の特別展",
+        "type": "exhibition",
+        "dateRange": "2026-03-15 ~ 06-08",
+        "startDate": "2026-03-15",
+        "endDate": "2026-06-08",
+        "venue": "東京国立博物館",
+        "description": "日本最大の博物館で開催の春季特別展。国宝・重要文化財を含む企画展示。上野公園の桜と一緒に。",
+        "ticketUrl": "https://www.tnm.jp",
+        "accentColor": "#b45309"
+      },
+      {
+        "id": "tk-shimokita-theater",
+        "name": "下北沢演劇祭 2026春",
+        "type": "performance",
+        "dateRange": "2026-04-10 ~ 05-10",
+        "startDate": "2026-04-10",
+        "endDate": "2026-05-10",
+        "venue": "下北沢 本多劇場ほか",
+        "description": "東京の小劇場カルチャー聖地・下北沢で春に開催。若手劇団から老舗まで、複数劇場で同時多発的に上演。",
+        "ticketUrl": "https://www.honda-geki.com",
+        "accentColor": "#f59e0b"
+      },
+      {
+        "id": "tk-shinjuku-jazz",
+        "name": "新宿ピットイン ジャズライブ",
+        "type": "performance",
+        "dateRange": "毎日開催",
+        "startDate": "2025-01-01",
+        "endDate": "2027-12-31",
+        "venue": "新宿ピットイン",
+        "description": "1966年創業の伝説的ジャズクラブ。毎日昼・夜2回の生演奏。日本ジャズの歴史がここにある。",
+        "ticketUrl": "https://pit-inn.com",
+        "accentColor": "#0891b2"
+      },
+      {
+        "id": "tk-sanja-matsuri",
+        "name": "浅草三社祭",
+        "type": "performance",
+        "dateRange": "2026-05-15 ~ 05-17",
+        "startDate": "2026-05-15",
+        "endDate": "2026-05-17",
+        "venue": "浅草寺・浅草神社",
+        "description": "東京を代表する祭り。100基以上の神輿が浅草の街を練り歩く圧巻の三日間。観覧無料。",
+        "ticketUrl": "https://www.asakusajinja.jp",
+        "accentColor": "#dc2626",
+        "tag": "hot"
+      },
+      {
+        "id": "tk-takarazuka",
+        "name": "宝塚歌劇 東京宝塚劇場公演",
+        "type": "performance",
+        "dateRange": "通年上演",
+        "startDate": "2025-01-01",
+        "endDate": "2027-12-31",
+        "venue": "東京宝塚劇場",
+        "description": "日比谷の東京宝塚劇場で通年上演。華やかな衣装と圧巻のステージ。花・月・雪・星・宙の5組が交代で公演。",
+        "ticketUrl": "https://kageki.hankyu.co.jp/theater/tokyo/",
+        "accentColor": "#ec4899",
+        "tag": "hot"
+      },
+      {
+        "id": "tk-nact-spring",
+        "name": "国立新美術館 2026春の大型展",
+        "type": "exhibition",
+        "dateRange": "2026-04-01 ~ 07-20",
+        "startDate": "2026-04-01",
+        "endDate": "2026-07-20",
+        "venue": "国立新美術館",
+        "description": "六本木の国立新美術館で開催の春季大型企画展。日本最大の展示室で体験するスケール感は圧巻。",
+        "ticketUrl": "https://www.nact.jp",
+        "accentColor": "#0ea5e9"
+      },
+      {
+        "id": "tk-bunraku",
+        "name": "国立劇場 文楽公演",
+        "type": "performance",
+        "dateRange": "2026-05-09 ~ 05-25",
+        "startDate": "2026-05-09",
+        "endDate": "2026-05-25",
+        "venue": "国立劇場",
+        "description": "ユネスコ無形文化遺産の人形浄瑠璃「文楽」。精巧な人形遣いと義太夫節の語り。日本独自の芸術を堪能。",
+        "ticketUrl": "https://www.ntj.jac.go.jp",
+        "accentColor": "#b45309"
+      },
+      {
+        "id": "tk-ueno-mori",
+        "name": "上野の森美術館 特別展",
+        "type": "exhibition",
+        "dateRange": "2026-03-20 ~ 06-15",
+        "startDate": "2026-03-20",
+        "endDate": "2026-06-15",
+        "venue": "上野の森美術館",
+        "description": "上野公園内の美術館で開催の話題の特別展。毎回異なるジャンルの大型企画展で行列ができる人気スポット。",
+        "ticketUrl": "https://www.ueno-mori.org",
+        "accentColor": "#16a34a"
+      },
+      {
+        "id": "tk-shibuya-www",
+        "name": "渋谷WWW / WWW X ライブ",
+        "type": "performance",
+        "dateRange": "毎日開催",
+        "startDate": "2025-01-01",
+        "endDate": "2027-12-31",
+        "venue": "渋谷WWW / WWW X",
+        "description": "渋谷の映画館跡地を改装した人気ライブハウス。インディーロックからエレクトロまで、東京の音楽シーンの最前線。",
+        "ticketUrl": "https://www-shibuya.jp",
+        "accentColor": "#6366f1"
+      },
+      {
+        "id": "tk-mot-spring",
+        "name": "東京都現代美術館 春の企画展",
+        "type": "exhibition",
+        "dateRange": "2026-03-15 ~ 06-22",
+        "startDate": "2026-03-15",
+        "endDate": "2026-06-22",
+        "venue": "東京都現代美術館",
+        "description": "清澄白河の現代美術館で開催の春季企画展。国内外のアーティストによる大規模インスタレーション。",
+        "ticketUrl": "https://www.mot-art-museum.jp",
+        "accentColor": "#14b8a6"
       }
     ]
   }
