@@ -364,7 +364,7 @@ export default function WeatherCinemaPage() {
           </motion.div>
 
           {/* Center: Movie */}
-          <div className="flex-1 flex flex-col items-center justify-center px-6 sm:px-10 -mt-4">
+          <div className="flex-1 flex flex-col items-center justify-center px-6 sm:px-10 mt-2 sm:-mt-4">
             {movie && (
               <>
                 {/* Poster */}
