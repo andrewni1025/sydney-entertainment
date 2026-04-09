@@ -225,11 +225,14 @@ export function pickWeatherMovie(
     const age = currentYear - year;
     const recencyBonus = age <= 5 ? 12 : age <= 10 ? 8 : age <= 15 ? 4 : age <= 20 ? 1 : 0;
 
+    // Classic masterpiece bonus: IMDb + Douban both ≥ 85 = audience-verified classic
+    const classicBonus = (imdb >= 85 && douban >= 85) ? 8 : (imdb >= 80 && douban >= 80) ? 4 : 0;
+
     // Chinese language bonus for Shanghai
     const isChineseFilm = m.language === "zh" || m.language === "cn";
     const langBonus = cityId === "shanghai" && isChineseFilm ? 10 : 0;
 
-    const score = avg + (genreMatch ? 15 : 0) + recencyBonus + langBonus;
+    const score = avg + (genreMatch ? 15 : 0) + recencyBonus + classicBonus + langBonus;
     return { movie: m, score };
   });
 
