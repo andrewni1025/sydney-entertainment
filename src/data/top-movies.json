@@ -19600,5 +19600,1769 @@
     "douban": 75,
     "doubanOriginal": 7.5,
     "providers": []
+  },
+  {
+    "id": 615453,
+    "title": "Ne Zha",
+    "titleZh": "哪吒之魔童降世",
+    "overview": "A young boy is born as the reincarnation of a demonic power, into a society that hates and fears him. Destined by prophecy to bring destruction to the world, Nezha must choose between good and evil to see if he can change his fate.",
+    "overviewZh": "天地灵气孕育出一颗能量巨大的混元珠，元始天尊将混元珠提炼成灵珠和魔丸，灵珠投胎为人，助周伐纣时可堪大用；而魔丸则会诞出魔王，为祸人间。元始天尊启动了天劫咒语，3年后天雷将会降临，摧毁魔丸。太乙受命将灵珠托生于陈塘关李靖家的儿子哪吒身上。然而阴差阳错，灵珠和魔丸竟然被掉包。本应是灵珠英雄的哪吒却成了混世大魔王。调皮捣蛋顽劣不堪的哪吒却徒有一颗做英雄的心。然而面对众人对魔丸的误解和即将来临的天雷的降临，哪吒是否命中注定会立地成魔？他将何去何从？",
+    "posterPath": "/zb8xejiaNR0snSJgDepwFQUIi2e.jpg",
+    "releaseDate": "2019-07-26",
+    "genres": [
+      "Animation",
+      "Fantasy",
+      "Adventure"
+    ],
+    "genreIds": [
+      16,
+      14,
+      12
+    ],
+    "language": "zh",
+    "imdbId": "tt10627720",
+    "tmdbScore": 7.889,
+    "imdb": 73,
+    "rottenTomatoes": 88,
+    "rtFresh": true,
+    "douban": 84,
+    "doubanOriginal": 8.4,
+    "providers": []
+  },
+  {
+    "id": 535167,
+    "title": "The Wandering Earth",
+    "titleZh": "流浪地球",
+    "overview": "When the Sun begins to expand in such a way that it will inevitably engulf and destroy the Earth in a hundred years, united mankind finds a way to avoid extinction by propelling the planet out of the Solar System using gigantic engines, moving it to a new home located four light years away, an epic journey that will last thousands of years.",
+    "overviewZh": "近未来，科学家们发现太阳急速衰老膨胀，短时间内包括地球在内的整个太阳系都将被太阳所吞没。为了自救，人类提出一个名为“流浪地球”的大胆计划，即倾全球之力在地球表面建造上万座发动机和转向发动机，推动地球离开太阳系，用2500年的时间奔往另外一个栖息之地。中国航天员刘培强在儿子刘启四岁那年前往国际空间站，和国际同侪肩负起领航者的重任。转眼刘启长大，他带着妹妹朵朵偷偷跑到地表，偷开外公韩子昂的运输车，结果不仅遭到逮捕，还遭遇了全球发动机停摆的事件。为了修好发动机，阻止地球坠入木星，全球开始展开饱和式营救，连刘启他们的车也被强征加入。在与时间赛跑的过程中，无数的人前仆后继，奋不顾身，只为延续百代子孙生存的希望……",
+    "posterPath": "/tXuQCgx69DxVgeTsU0TkruR3i9O.jpg",
+    "releaseDate": "2019-02-05",
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Drama"
+    ],
+    "genreIds": [
+      878,
+      28,
+      18
+    ],
+    "language": "zh",
+    "imdbId": "tt7605074",
+    "tmdbScore": 6.6,
+    "imdb": 59,
+    "rottenTomatoes": 70,
+    "rtFresh": true,
+    "douban": 79,
+    "doubanOriginal": 7.9,
+    "providers": []
+  },
+  {
+    "id": 758891,
+    "title": "Hi, Mom",
+    "titleZh": "你好，李焕英",
+    "overview": "Devastated after her mom's serious accident and grief-stricken because she hasn't become the daughter she wanted to be for her mother, Jia Xiaoling finds herself transported back in time to the year 1981, where she meets her young mother before she was her mom.",
+    "overviewZh": "2001年的某一天，刚刚考上大学的贾晓玲经历了人生中的一次大起大落。一心想要成为母亲骄傲的她却因母亲突遭严重意外，而悲痛万分。在贾晓玲情绪崩溃的状态下，竟意外的回到了1981年，并与年轻的母亲李焕英相遇，二人形影不离，宛如闺蜜。与此同时，也结识了一群天真善良的好朋友。晓玲以为来到了这片“广阔天地”，她可以凭借自己超前的思维，让母亲“大有作为”，但结果却让晓玲感到意外......",
+    "posterPath": "/31W7qLEMqQKgdCeCtV9EbVi3bwG.jpg",
+    "releaseDate": "2021-02-12",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Fantasy"
+    ],
+    "genreIds": [
+      18,
+      35,
+      14
+    ],
+    "language": "zh",
+    "imdbId": "tt13364790",
+    "tmdbScore": 7.033,
+    "imdb": 69,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 77,
+    "doubanOriginal": 7.7,
+    "providers": []
+  },
+  {
+    "id": 779029,
+    "title": "The Battle at Lake Changjin",
+    "titleZh": "长津湖",
+    "overview": "Korean War, winter 1950. In the frozen and snowy area of Changjin Lake, a bloody battle is about to begin between the elite troops of the United States and China.",
+    "overviewZh": "电影以抗美援朝战争第二次战役中的长津湖战役为背景，讲述了一段波澜壮阔的历史：71年前，中国人民志愿军赴朝作战，在极寒严酷环境下，东线作战部队凭着钢铁意志和英勇无畏的战斗精神一路追击，奋勇杀敌，扭转了战场态势，打出了军威国威。",
+    "posterPath": "/b3BM9liGHm4nvzsDO3frDtiEC6P.jpg",
+    "releaseDate": "2021-09-30",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "genreIds": [
+      18,
+      10752
+    ],
+    "language": "zh",
+    "imdbId": "tt13462900",
+    "tmdbScore": 6.2,
+    "imdb": 55,
+    "rottenTomatoes": 36,
+    "rtFresh": false,
+    "douban": 74,
+    "doubanOriginal": 7.4,
+    "providers": []
+  },
+  {
+    "id": 1066298,
+    "title": "Full River Red",
+    "titleZh": "满江红",
+    "overview": "During China's Song Dynasty, a mysterious murder occurs at Chancellor Quin Hui's palace after meeting delegates from the neighboring Jin Dynasty. The members become embroiled not just in a murder mystery, but a larger conspiracy concerning the fate of the empire.",
+    "overviewZh": "南宋绍兴年间，岳飞死后四年，秦桧率兵与金国会谈。会谈前夜，金国使者死在宰相驻地，所携密信也不翼而飞。一个小兵与亲兵营副统领机缘巧合被裹挟进这巨大阴谋之中，宰相秦桧命两人限一个时辰之内找到凶手，而事情却远没有这么简单……伴随危机四伏的深入调查，案件背后的似乎隐藏着一场更大的阴谋。局中有局、人外有人，人心叵测、生死难料，一夜之间风云变幻，各方势力暗流涌动……",
+    "posterPath": "/eqcH2KZZMJUvpYM1SWhch2XpSyp.jpg",
+    "releaseDate": "2023-01-22",
+    "genres": [
+      "Mystery",
+      "Comedy",
+      "Thriller"
+    ],
+    "genreIds": [
+      9648,
+      35,
+      53,
+      36
+    ],
+    "language": "zh",
+    "imdbId": "tt21148018",
+    "tmdbScore": 5.983,
+    "imdb": 64,
+    "rottenTomatoes": 94,
+    "rtFresh": true,
+    "douban": 70,
+    "doubanOriginal": 7,
+    "providers": []
+  },
+  {
+    "id": 842675,
+    "title": "The Wandering Earth II",
+    "titleZh": "流浪地球2",
+    "overview": "Humans built huge engines on the surface of the earth to find a new home. But the road to the universe is perilous. In order to save earth, young people once again have to step forward to start a race against time for life and death.",
+    "overviewZh": "在并不遥远的未来，太阳急速衰老与膨胀，再过几百年整个太阳系将被它吞噬毁灭。为了应对这场史无前例的危机，地球各国放下芥蒂，成立联合政府，试图寻找人类存续的出路。通过摸索与考量，最终推着地球逃出太阳系的“移山计划”获得压倒性胜利。人们着手建造上万台巨大的行星发动机，带着地球踏上漫漫征程。满腔赤诚的刘培强和韩朵朵历经层层考验成为航天员大队的一员，并由此相知相恋。但是漫漫征途的前方，仿佛有一股神秘的力量不断破坏者人类的自救计划。看似渺小的刘培强、量子科学家图恒宇、联合政府中国代表周喆直以及无数平凡的地球人，构成了这项伟大计划的重要一环……本片根据刘慈欣同名科幻小说改编。",
+    "posterPath": "/cAS2e9hUwu6Ydsx7byXj16H00Ai.jpg",
+    "releaseDate": "2023-01-22",
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Adventure"
+    ],
+    "genreIds": [
+      878,
+      28,
+      12
+    ],
+    "language": "zh",
+    "imdbId": "tt13539646",
+    "tmdbScore": 7.3,
+    "imdb": 67,
+    "rottenTomatoes": 83,
+    "rtFresh": true,
+    "douban": 83,
+    "doubanOriginal": 8.3,
+    "providers": []
+  },
+  {
+    "id": 602666,
+    "title": "Detective Chinatown 3",
+    "titleZh": "唐人街探案3",
+    "overview": "Tang Ren and Qin Feng travel to Japan to investigate the death of a mafia head. As they suspect foul play, they engage in a battle of wits against foreign detectives.",
+    "overviewZh": "继曼谷、纽约之后，东京再出大案。唐人街神探唐仁、秦风受侦探野田昊的邀请前往破案。“CRIMASTER世界侦探排行榜”中的侦探们闻讯后也齐聚东京，加入挑战，而排名第一Q的现身，让这个大案更加扑朔迷离，一场亚洲最强神探之间的较量即将爆笑展开。",
+    "posterPath": "/nbGzncqTJw94LHisdEXKC1dFc3J.jpg",
+    "releaseDate": "2021-02-12",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Mystery"
+    ],
+    "genreIds": [
+      28,
+      35,
+      9648
+    ],
+    "language": "zh",
+    "imdbId": "tt10370822",
+    "tmdbScore": 5.6,
+    "imdb": 56,
+    "rottenTomatoes": 60,
+    "rtFresh": true,
+    "douban": 53,
+    "doubanOriginal": 5.3,
+    "providers": []
+  },
+  {
+    "id": 460555,
+    "title": "Operation Red Sea",
+    "titleZh": "红海行动",
+    "overview": "A squad of the Jiaolong Commando Unit - Sea Dragon, a spec ops team of the Chinese Navy, carries out a hostage rescue operation in the nation of Yewaire, on the Arabian Peninsula, and fiercely fights against local rebel groups and Zaka, a terrorist organization.",
+    "overviewZh": "　　索马里海域外，中国商船遭遇劫持，船员全数沦为阶下囚。蛟龙突击队沉着应对，潜入商船进行突袭，成功解救全部人质。 返航途中，非洲北部伊维亚共和国发生政变，恐怖组织连同叛军攻入首都， 当地华侨面临危险，海军战舰接到上级命令改变航向，前往执行撤侨任务。海军战舰及蛟龙突击队深入伊维亚。前方路途险恶，即将遭遇的，远不止人质营救那么简单。",
+    "posterPath": "/laLQ4SBIoaxWPB9YfGYhIcOV76A.jpg",
+    "releaseDate": "2018-02-16",
+    "genres": [
+      "Action",
+      "Thriller",
+      "War"
+    ],
+    "genreIds": [
+      28,
+      53,
+      10752,
+      12
+    ],
+    "language": "zh",
+    "imdbId": "tt6878882",
+    "tmdbScore": 7.424,
+    "imdb": 66,
+    "rottenTomatoes": 80,
+    "rtFresh": true,
+    "douban": 82,
+    "doubanOriginal": 8.2,
+    "providers": []
+  },
+  {
+    "id": 381890,
+    "title": "The Mermaid",
+    "titleZh": "美人鱼",
+    "overview": "When Xuan's real estate project threatens the home of mermaids, Shan is sent to stop him. When they fall in love, he is encouraged to cancel the project. However, he must save them from bigger danger.",
+    "overviewZh": "　　富豪刘轩的地产计划涉及填海工程，威胁靠海为生的居民。因为人类对大海及生态的破坏，美人鱼只能被赶到了一艘破船里艰难生存，背负家族秘密的珊珊被派遣前往阻止填海计划。刘轩是一个靠自己努力才取得成就的人，虽然表面有钱但实则空虚寂寞的他和美人鱼珊珊在交手过程中互生情愫。刘轩最终因为爱上珊珊而停止填海工作，但珊珊却因意外受伤而消失于大海。",
+    "posterPath": "/iUfIVi1mI9aEyiiJIdqfWehii2i.jpg",
+    "releaseDate": "2016-02-08",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ],
+    "genreIds": [
+      35,
+      14,
+      10749
+    ],
+    "language": "zh",
+    "imdbId": "tt4701660",
+    "tmdbScore": 6.546,
+    "imdb": 62,
+    "rottenTomatoes": 95,
+    "rtFresh": true,
+    "douban": 67,
+    "doubanOriginal": 6.7,
+    "providers": []
+  },
+  {
+    "id": 612845,
+    "title": "My People, My Country",
+    "titleZh": "我和我的祖国",
+    "overview": "Anthology of short films directed by several different directors.",
+    "overviewZh": "七位导演分别取材新中国成立70周年以来，祖国经历的无数个历史性经典瞬间。讲述普通人与国家之间息息相关密不可分的动人故事。聚焦大时代大事件下，小人物和国家之间，看似遥远实则密切的关联，唤醒全球华人共同回忆。《前夜》：1949年10月1日中华人民共和国成立前夕，为保障开国大典国旗顺利升起，电动旗杆设计安装者林治远（黄渤饰）争分夺秒排除万难，用一个惊心动魄的未眠之夜确保立国大事“万无一失”。《相遇》：1964年，由于原子弹研发工作保密度极高，同事之间也互不知姓名，在国防科技战线的科研工作者高远（张译饰）三年未与家人联系，后来因病离岗，在公交车上偶遇曾经的恋人方敏（任素汐饰）。《夺冠》：1984年8月8日，中国女排在奥运会夺冠，首获世界大赛三连冠。《回归》：1997年7月1日，香港回归祖国。为确保五星红旗分秒不差飘扬在香港上空，升旗手朱涛（杜江饰）刻苦训练不懈怠、女港警莲姐（惠英红饰）兢兢业业守平安、外交官安文彬（王洛勇饰）与英国人谈判16轮分秒不让、修表匠华哥（任达华饰）以精湛技术确保中英方代表与女港警手表精准确对。《北京你好》：出租车司机张北京（葛优饰）意外获得一张千金难买的北京奥运会开幕式门票。得意洋洋并开启显摆模式的张北京却没想到因为这张门票遭遇了一系列啼笑皆非的风波。《白昼流星》：迷茫落魄的一对少年流浪兄弟沃德乐（刘昊然饰）与哈扎布（陈飞宇饰）在遇到退休扶贫办主任老李（田壮壮饰）后，在老李善意的引导下，他们见证了神舟十一号飞船成功着陆这一重大历史瞬间，也见到了草原寓言中的“白昼流星”，内心受到了极大冲击和洗礼。《护航》：吕潇然（宋佳饰）作为中国空军飞行队中最优秀的女飞行员，在2015年9月3日纪念抗战胜利70周年阅兵式之前却被意外通知撤出阅兵编排留作替补。",
+    "posterPath": "/dsOn5Wd1AfTTh4TDLn14cIPrgzQ.jpg",
+    "releaseDate": "2019-09-30",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "genreIds": [
+      18,
+      36
+    ],
+    "language": "zh",
+    "imdbId": "tt10147382",
+    "tmdbScore": 6.7,
+    "imdb": 63,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 76,
+    "doubanOriginal": 7.6,
+    "providers": []
+  },
+  {
+    "id": 589712,
+    "title": "The Captain",
+    "titleZh": "中国机长",
+    "overview": "Based on the true story of a pilot who had to ensure the safety of 128 passengers and crew members on the plane when its windshield became damaged mid-flight. The incident is regarded as one of the miracles in aviation history.",
+    "overviewZh": "电影《中国机长》根据2018年5月14日川航3U8633航班成功备降的真实事件改编：机组执行航班任务时，在万米高空突遇驾驶舱风挡玻璃爆裂脱落、座舱释压的极端罕见险情，生死关头，他们临危不乱、果断应对、正确处置，确保了机上全部人员的生命安全，创造了世界民航史上的奇迹。",
+    "posterPath": "/n3H1ggNL2yNC6iTd9sr4PhNkz4H.jpg",
+    "releaseDate": "2019-09-30",
+    "genres": [
+      "Adventure"
+    ],
+    "genreIds": [
+      12
+    ],
+    "language": "zh",
+    "imdbId": "tt10218664",
+    "tmdbScore": 7,
+    "imdb": 63,
+    "rottenTomatoes": 75,
+    "rtFresh": true,
+    "douban": 66,
+    "doubanOriginal": 6.6,
+    "providers": []
+  },
+  {
+    "id": 508935,
+    "title": "The Eight Hundred",
+    "titleZh": "八佰",
+    "overview": "In 1937, eight hundred Chinese soldiers fight under siege from a warehouse in the middle of the Shanghai battlefield, completely surrounded by the Japanese army.",
+    "overviewZh": "1937年，日本帝国主义全面入侵中国。同年，淞沪会战打响。经过三个月激烈交战，上海沦陷在即。值此危亡时刻，中国国民革命军第三战区88师524团团副谢晋元（杜淳 饰）奉命率领一个加强营固守苏州河畔的四行仓库。吊诡的是，苏州河的对岸便是租界，因此租界内的中外人士围观了这场惊心动魄的保卫战。在接下来的4天5夜里，作为“八佰壮士”的一员，羊拐（王千源 饰）、端午（欧豪 饰）、老铁（姜武 饰）、老算盘（张译 饰）在生死考验中各自展现了人性最真实的一面，而他们的功绩注定将在历史上留下浓重的一笔……",
+    "posterPath": "/lujHQzMhzRbmSqtmrO0q0S2bR6c.jpg",
+    "releaseDate": "2020-08-14",
+    "genres": [
+      "War",
+      "History",
+      "Drama"
+    ],
+    "genreIds": [
+      10752,
+      36,
+      18,
+      28
+    ],
+    "language": "zh",
+    "imdbId": "tt7294150",
+    "tmdbScore": 7,
+    "imdb": 67,
+    "rottenTomatoes": 89,
+    "rtFresh": true,
+    "douban": 75,
+    "doubanOriginal": 7.5,
+    "providers": []
+  },
+  {
+    "id": 1108211,
+    "title": "Lost in the Stars",
+    "titleZh": "消失的她",
+    "overview": "He Fei's wife, Li Muzi, disappears during their anniversary trip. When she reappears, he insists that she is not his wife. As Chen Mai, a top lawyer gets involved in this bizarre case, more mysteries start to emerge.",
+    "overviewZh": "东南亚某国，年轻男子何非（朱一龙 饰）疯狂寻找失踪的妻子李木子（黄子琪 饰），然而当地警局视若罔闻，令他出离愤怒。可就在某个清晨，何非突然发现身边躺着一名陌生女子（文咏珊 饰），更令他毛骨悚然的是，女子居然声称是他的妻子李木子。慌乱之余，何找来华人警察郑成（杜江 饰），试图揭穿假冒者的骗局，谁知种种迹象表明，对面的陌生人真实不虚。隐隐之中，何非认为妻子被犯罪团伙绑架，他只得求助干练的金牌律师陈麦（倪妮 饰）追索真相。在调查中过程中，细微线索逐渐浮出水面，而更加黑暗的真相也开始暴露在阳光之下…  本片改编自苏联电影《为单身汉设下的陷阱》。",
+    "posterPath": "/cXUFTBsPif5UqHRc7j569mH7KJ1.jpg",
+    "releaseDate": "2023-06-22",
+    "genres": [
+      "Mystery",
+      "Crime",
+      "Thriller"
+    ],
+    "genreIds": [
+      9648,
+      80,
+      53
+    ],
+    "language": "zh",
+    "imdbId": "tt17507018",
+    "tmdbScore": 6.6,
+    "imdb": 65,
+    "rottenTomatoes": 100,
+    "rtFresh": true,
+    "douban": 62,
+    "doubanOriginal": 6.2,
+    "providers": []
+  },
+  {
+    "id": 1121612,
+    "title": "No More Bets",
+    "titleZh": "孤注一掷",
+    "overview": "A depressed programmer and a model decide to seek gold as a seemingly good job opportunity, but they inadvertently become involved in a well-planned Internet scam.",
+    "overviewZh": "电影取材自上万起真实诈骗案例，境外网络诈骗全产业链骇人内幕将在大银幕上首度被揭秘。南亚某国诈骗团伙头目陆经理张狂傲慢，用诡计和暴力统治着这个血泪王国。程序员潘生离开之前的公司，根据高薪招聘启示走入了陆经理设下的圈套，成为一名利用网络诈骗的“狗推”。因为羡慕闺蜜的生活，模特梁安娜也飞到异国他乡寻找机会，结果护照被没收，成为陆经理手下利用美色诈骗的工具。为了离开，潘生与安娜两人准备向赌徒顾天之和其女友宋雨下手，从他们身上套现、完成业绩…",
+    "posterPath": "/gjyqQD5LsNOiVIXuczw9joqjiKQ.jpg",
+    "releaseDate": "2023-08-05",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "genreIds": [
+      18,
+      80
+    ],
+    "language": "zh",
+    "imdbId": "tt28076784",
+    "tmdbScore": 7.1,
+    "imdb": 68,
+    "rottenTomatoes": 80,
+    "rtFresh": true,
+    "douban": 69,
+    "doubanOriginal": 6.9,
+    "providers": []
+  },
+  {
+    "id": 538331,
+    "title": "Hello Mr. Billionaire",
+    "titleZh": "西虹市首富",
+    "overview": "A pathetic minor league Soccer Goalkeeper was given a task - to spend 1 Billion in thirty days, if successful he will get 30 Billion. However, he's not allowed to tell anyone about the task and he must not own any valuables by end of it.",
+    "overviewZh": "　　西虹市丙级球队大翔队的守门员王多鱼（沈腾 饰）因比赛失利被教练开除，一筹莫展之际王多鱼突然收到神秘人士金老板（张晨光 饰）的邀请，被告知自己竟然是保险大亨王老太爷（李立群 饰）的唯一继承人，遗产高达百亿！但是王老太爷给出了一个非常奇葩的条件，那就是要求王多鱼在一个月内花光十亿，还不能告诉身边人，否则失去继承权。王多鱼毫不犹豫签下了“军令状”，与好友庄强（张一鸣 饰）以及财务夏竹（宋芸桦 饰）一起开启了“挥金之旅”，即将成为西虹市首富的王多鱼，第一次感受到了做富人的快乐，同时也发现想要挥金如土实在没有那么简单！",
+    "posterPath": "/AeAjzra5IvNS1KU7Uxx7ySDb1mW.jpg",
+    "releaseDate": "2018-07-27",
+    "genres": [
+      "Comedy"
+    ],
+    "genreIds": [
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt8529186",
+    "tmdbScore": 6.989,
+    "imdb": 61,
+    "rottenTomatoes": 67,
+    "rtFresh": true,
+    "douban": 66,
+    "doubanOriginal": 6.6,
+    "providers": []
+  },
+  {
+    "id": 575219,
+    "title": "Pegasus",
+    "titleZh": "飞驰人生",
+    "overview": "Zhang Chi, a hubris and dominating six-time racing champion, falls from grace following a crisis. After a five-year suspension from the motorsport, the now single-father to a six-year-old boy throws down the gauntlet once again.",
+    "overviewZh": "曾经叱咤风云的拉力赛车手张驰（沈腾 饰），五年前因私自赛车而被禁赛。从天堂跌落谷底，张驰饱尝生活的艰辛。他忍辱负重，洗心革面，终于争取到了解禁的判决。在此之后，他重新找到亲如兄弟的领航员孙宇强（尹正 饰），决心共同冲击本年度的巴音布鲁克拉力赛。然而在此之前，张驰必须重考驾照，改装赛车，拉到赞助。每一步都充满艰难，他忍受着旁人的奚落嘲讽，忍受着现实的冰冷残酷，无论如何都不改变前进的目标。当他好不容易走到了赛场，还将面对禁赛这几年崛起的新秀林臻东（黄景瑜 饰）的挑战。张驰的时代是否就此远去……",
+    "posterPath": "/h78omzORamuNh8Z8zqLpGbiNTMj.jpg",
+    "releaseDate": "2019-02-05",
+    "genres": [
+      "Comedy",
+      "Action"
+    ],
+    "genreIds": [
+      35,
+      28
+    ],
+    "language": "zh",
+    "imdbId": "tt9597190",
+    "tmdbScore": 6.7,
+    "imdb": 63,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 68,
+    "doubanOriginal": 6.8,
+    "providers": []
+  },
+  {
+    "id": 532753,
+    "title": "Dying to Survive",
+    "titleZh": "我不是药神",
+    "overview": "A Chinese leukaemia patient smuggles cheap but untested pharmaceuticals from India to help hundreds of Chinese people suffering from cancer.",
+    "overviewZh": "一位不速之客的意外到访，打破了神油店老板程勇的平凡人生，他从一个交不起房租的男性保健品商贩，一跃成为印度仿制药“格列宁”的独家代理商。收获巨额利润的他，生活剧烈变化，被病患们冠以“药神”的称号。但是，一场关于救赎的拉锯战也在波涛暗涌中慢慢展开......",
+    "posterPath": "/qrhEWQjR3AyMbyy5l3vFuwA576W.jpg",
+    "releaseDate": "2018-07-06",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "genreIds": [
+      18,
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt7362036",
+    "tmdbScore": 8.189,
+    "imdb": 78,
+    "rottenTomatoes": 86,
+    "rtFresh": true,
+    "douban": 90,
+    "doubanOriginal": 9,
+    "providers": []
+  },
+  {
+    "id": 801803,
+    "title": "Moon Man",
+    "titleZh": "独行月球",
+    "overview": "Working as a maintenance crew member on the moon, Duguyue is left behind after the evacuation mission forgets about him. A meteorite then destroys planet Earth, leaving him as the only man left alive in existence.",
+    "overviewZh": "2033年，为了抵御小行星的撞击，拯救地球，人类在月球部署了月盾计划。全员撤离时，维修工独孤月（沈腾 饰）被领队马蓝星（马丽 饰）落在了月球。不料月盾计划失败，独孤月成为了“宇宙最后的人类”，开始了他在月球上破罐子破摔的生活…",
+    "posterPath": "/jYdSaS1i84Pnx4cIgVCxJt00HDR.jpg",
+    "releaseDate": "2022-07-29",
+    "genres": [
+      "Sci-Fi",
+      "Comedy",
+      "Drama"
+    ],
+    "genreIds": [
+      878,
+      35,
+      18
+    ],
+    "language": "zh",
+    "imdbId": "tt14557302",
+    "tmdbScore": 6.819,
+    "imdb": 64,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 66,
+    "doubanOriginal": 6.6,
+    "providers": []
+  },
+  {
+    "id": 928123,
+    "title": "The Battle at Lake Changjin II: Water Gate Bridge",
+    "titleZh": "长津湖之水门桥",
+    "overview": "Commander Wu Qianli leads the 7th Infantry Company soldiers to Funchilin Pass where they are tasked to destroy a bridge to stop enemy troops from retreating.",
+    "overviewZh": "电影以抗美援朝战争第二次战役中的长津湖战役为背景，讲述了在结束了新兴里和下碣隅里的战斗之后，七连战士们又接到了更艰巨的任务……",
+    "posterPath": "/ugiL6wIhl1OfPyv1gqLkTe45jLl.jpg",
+    "releaseDate": "2022-02-01",
+    "genres": [
+      "War",
+      "History",
+      "Action"
+    ],
+    "genreIds": [
+      10752,
+      36,
+      28
+    ],
+    "language": "zh",
+    "imdbId": "tt16194408",
+    "tmdbScore": 6.3,
+    "imdb": 56,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 72,
+    "doubanOriginal": 7.2,
+    "providers": []
+  },
+  {
+    "id": 505513,
+    "title": "Detective Chinatown 2",
+    "titleZh": "唐人街探案2",
+    "overview": "Driven by the desire for the huge reward, Tang Ren tricked Qin Feng to New York, to attend the World Detective Contest. Later on, behind the crazy competition, Qin and Tang discovered the real hidden facts of this contest.",
+    "overviewZh": "天赋异禀的少年侦探秦风（刘昊然 饰）被表舅唐仁（王宝强 饰）以“结婚”为名骗至纽约，实则卷入了一场世界名侦探的巅峰对决。纽约唐人街教父七叔（曾江 饰）的孙子在灶王庙被离奇杀害并取走心脏，七叔悬下重金，召集全球顶尖侦探齐聚纽约，限时破案。\r 在调查中，秦风与侦探排行榜第三的日本侦探野田昊（妻夫木聪 饰）联手，发现此案与一周前一起丢失肾脏的命案惊人相似，并锁定了一名神秘出现的华人男子宋义（肖央 饰）。然而，秦风通过细致观察，发现宋义是右撇子，而所有证据都指向凶手是左撇子，宋义的嫌疑被暂时排除，但他也因此被警方通缉，不得不与秦风、唐仁捆绑在一起。\r 随着调查深入，秦风在唐仁“风水五行”知识的启发下，震惊地发现凶手是以纽约为祭坛，按照中国道家五行（金、木、水、火、土）的法则进行连环杀人。每一位受害者的生辰八字、遇害地点、时间和被取走的器官，都精准对应五行属性。面对这一超高智商的“顺风车杀人”迷局，秦风必须与时间赛跑，在下一个受害者出现前，揭开凶手的真面目。",
+    "posterPath": "/oD9ECXITcuzDXKQY4rTa2cEoP94.jpg",
+    "releaseDate": "2018-02-16",
+    "genres": [
+      "Comedy",
+      "Mystery"
+    ],
+    "genreIds": [
+      35,
+      9648
+    ],
+    "language": "zh",
+    "imdbId": "tt7752454",
+    "tmdbScore": 6.224,
+    "imdb": 61,
+    "rottenTomatoes": 54,
+    "rtFresh": false,
+    "douban": 66,
+    "doubanOriginal": 6.6,
+    "providers": []
+  },
+  {
+    "id": 856289,
+    "title": "Creation of the Gods I: Kingdom of Storms",
+    "titleZh": "封神第一部：朝歌风云",
+    "overview": "Based on the most well-known classical fantasy novel of China, Fengshenyanyi, the trilogy is a magnificent eastern high fantasy epic that recreates the prolonged mythical wars between humans, immortals and monsters, which happened more than three thousand years ago.",
+    "overviewZh": "天寒地冻，杀气逼人。大商二王子殷寿带领亲手调教的质子旅和殷商大军征讨叛乱的冀州侯苏护，却无意间解除了轩辕坟中妖狐的封印。妖狐附身苏护之女妲己的身上，被殷寿带回朝歌献给父王和王兄。夜宴之上，大王子智乱神迷，拔剑弑父。在此之后，殷寿继承王位，而天降灾异又迫使他做出自焚祭天的决定。与此同时，昆仑仙人姜子牙携封神榜下山，寻找天下共主，以期救拔苍生。在朝歌期间，他觉察到殷寿的残暴，遂匆匆逃离。另一方面，曾视殷寿为明主的王子殷郊以及西伯侯质子姬发也发现了商王的私欲和妲己的诡异之处。阴云密布的朝歌，即将掀起一场血雨腥风……",
+    "posterPath": "/n3Vy8oJEGqvaFurE7e7QJbF4mGs.jpg",
+    "releaseDate": "2023-07-15",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "War"
+    ],
+    "genreIds": [
+      28,
+      14,
+      10752
+    ],
+    "language": "zh",
+    "imdbId": "tt6979756",
+    "tmdbScore": 7.1,
+    "imdb": 67,
+    "rottenTomatoes": 60,
+    "rtFresh": true,
+    "douban": 77,
+    "doubanOriginal": 7.7,
+    "providers": []
+  },
+  {
+    "id": 452557,
+    "title": "Wolf Warrior 2",
+    "titleZh": "战狼2",
+    "overview": "China's deadliest special forces operative settles into a quiet life on the sea. When sadistic mercenaries begin targeting nearby civilians, he must leave his newfound peace behind and return to his duties as a soldier and protector.",
+    "overviewZh": "　　在非洲附近的大海上。主人公冷锋遭遇人生滑铁卢，被“开除军籍”。本想漂泊一生的他却被一场突如其来的意外打破了他的计划，他被卷入了一场非洲国家叛乱。本可以安全撤离却因无法忘记曾经为军人的使命，孤身犯险冲回沦陷区，带领身陷屠杀中的同胞和难民展开生死逃亡。随着斗争的持续，体内的狼性逐渐复苏，最终孤身闯入战乱区域为同胞而战斗。",
+    "posterPath": "/1HGiHGbVNmrc246zbdrVxvs1p9G.jpg",
+    "releaseDate": "2017-07-27",
+    "genres": [
+      "War",
+      "Action"
+    ],
+    "genreIds": [
+      10752,
+      28
+    ],
+    "language": "zh",
+    "imdbId": "tt7131870",
+    "tmdbScore": 6.508,
+    "imdb": 59,
+    "rottenTomatoes": 67,
+    "rtFresh": true,
+    "douban": 71,
+    "doubanOriginal": 7.1,
+    "providers": []
+  },
+  {
+    "id": 494900,
+    "title": "The Ex-File 3: The Return of the Exes",
+    "titleZh": "前任3：再见前任",
+    "overview": "Buddies Meng Yun and Yu Fei break up with their girlfriends and indulge themselves in living the bachelor lifestyle again.  However, as their ex-girlfriends reemerge in their lives, their “Single Plan” starts to unravel!",
+    "overviewZh": "　　一对好基友孟云和余飞跟女友都因为一点小事宣告分手，并且“拒绝挽回，死不认错”。两人在夜店、派对与交友软件上放飞人生第二春，大肆庆祝“黄金单身期”，从而引发了一系列好笑的故事。孟云与女友同甘共苦却难逃“五年之痒”，余飞与女友则棋逢敌手相爱相杀无绝期。然而现实的“打脸”却来得猝不及防：一对推拉纠结零往来，一对纠缠互怼全交代。两对恋人都将面对最终的选择：是再次相见？还是再也不见？",
+    "posterPath": "/fWWGXs2xRLnRSlz95SIw44zqiub.jpg",
+    "releaseDate": "2017-12-29",
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "genreIds": [
+      10749,
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt7830888",
+    "tmdbScore": 7,
+    "imdb": 56,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 55,
+    "doubanOriginal": 5.5,
+    "providers": []
+  },
+  {
+    "id": 9470,
+    "title": "Kung Fu Hustle",
+    "titleZh": "功夫",
+    "overview": "It's the 1940s, and the notorious Axe Gang terrorizes Shanghai. Small-time criminals Sing and Bone hope to join, but they only manage to make lots of very dangerous enemies. Fortunately for them, kung fu masters and hidden strength can be found in unlikely places. Now they just have to take on the entire Axe Gang.",
+    "overviewZh": "1940年代的上海，自小受尽欺辱的街头混混阿星为了能出人头地，可谓窥见机会的缝隙就往里钻，今次他盯上行动日益猖獗的黑道势力“斧头帮”，想借之大名成就大业。阿星假冒“斧头帮”成员试图在一个叫“猪笼城寨”的地方对居民敲诈，不想引来真的“斧头帮”与“猪笼城寨”居民的恩怨。“猪笼城寨”原是藏龙卧虎之处，居民中有许多身怀绝技者，他们隐藏于此本是为远离江湖恩怨，不想麻烦自动上身，躲都躲不及。而在观战正邪两派的斗争中，阿星逐渐领悟功夫的真谛。",
+    "posterPath": "/wv91QM70K9KzF9usPOebYX3LKkp.jpg",
+    "releaseDate": "2004-02-10",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "genreIds": [
+      28,
+      35,
+      80,
+      14
+    ],
+    "language": "cn",
+    "imdbId": "tt0373074",
+    "tmdbScore": 7.489,
+    "imdb": 77,
+    "rottenTomatoes": 90,
+    "rtFresh": true,
+    "douban": 88,
+    "doubanOriginal": 8.8,
+    "providers": []
+  },
+  {
+    "id": 334298,
+    "title": "Monster Hunt",
+    "titleZh": "捉妖记",
+    "overview": "Young monster kids try to make peace between the world of humans and the world of the monsters.",
+    "overviewZh": "　　山雄伟，海辽阔，经奇幻。自古以来人妖共存于世，人欲主天下，妖遂被驱逐入山。其后历朝，妖偶有越界，皆由捉妖天师秘密处理。老妖王辞世，妖界大乱，众妖越界流窜，一时间世间人妖难辨。在偏安深山的永宁村中，村长宋天荫（井柏然 饰）偶遇一路逐妖而来的菜鸟天师霍小岚（白百何 饰），在意外共度一夜后，被妖后托胎，随即生下了小妖王胡巴。为了自己的私心，小岚带着天荫一路同行前往顺天府，保护他躲过各种妖怪，也渐渐与天荫及胡巴产生了感情。然而为时已晚，胡巴已落入坏人之手，为营救胡巴，小岚与天荫在众人的帮助下勇闯登仙楼，与大反派葛千户（钟汉良 饰）展开一场殊死对决……人妖相克，究竟谁主天下？",
+    "posterPath": "/e46sl5n4KZgxitFWNRFmg5gUq99.jpg",
+    "releaseDate": "2015-07-16",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Adventure"
+    ],
+    "genreIds": [
+      35,
+      14,
+      12
+    ],
+    "language": "zh",
+    "imdbId": "tt3781476",
+    "tmdbScore": 6.463,
+    "imdb": 61,
+    "rottenTomatoes": 68,
+    "rtFresh": true,
+    "douban": 67,
+    "doubanOriginal": 6.7,
+    "providers": []
+  },
+  {
+    "id": 479306,
+    "title": "Never Say Die",
+    "titleZh": "羞羞的铁拳",
+    "overview": "A boxer and a journalist accidentally exchange bodies after they are struck by current, embarking a series of adventures.",
+    "overviewZh": "靠打假拳混日子的艾迪生（艾伦 饰），本来和正义感十足的体育记者马小（马丽 饰）是一对冤家，没想到因为一场意外的电击，男女身体互换。性别错乱后，两人互坑互害，引发了拳坛的大地震，也揭开了假拳界的秘密，惹来一堆麻烦，最终两人在“卷莲门”副掌门张茱萸（沈腾 饰）的指点下，向恶势力挥起了羞羞的铁拳。",
+    "posterPath": "/i7lhHL8puIpgxtxBhFj8mKVeB9k.jpg",
+    "releaseDate": "2017-09-30",
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "genreIds": [
+      35,
+      14
+    ],
+    "language": "zh",
+    "imdbId": "tt7431894",
+    "tmdbScore": 6.047,
+    "imdb": 62,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 68,
+    "doubanOriginal": 6.8,
+    "providers": []
+  },
+  {
+    "id": 361613,
+    "title": "Lost in Hong Kong",
+    "titleZh": "港囧",
+    "overview": "When Xu Lai goes on vacation with his wife and extended family, he gets a chance to meet his former lover. However, his brother-in-law foils his plans and he becomes a suspect in a murder case.",
+    "overviewZh": "徐来（徐峥 饰）曾经的梦想是成为一名画家，可如今他早已沦为理想炮灰，在一家广告公司当小老板。广告公司是岳父开的，他是上门女婿。虽然被全家人尊为最有出息人，但他对俗气的一家人很看不上，并把理想的沦陷归咎于他们。徐来对老婆（赵薇 饰）也一肚子意见。 大学同学会上，徐来听到同学们谈论初恋杨伊（杜鹃 饰），顿时心猿意马。 不日，他陪伴老婆及家人来到香港游玩，计划和多年未见的杨伊偷偷会面，不料却被小舅子拉拉（包贝尔 饰）缠住，拉拉一直梦想成为导演。在拍摄一部以家人为主题的纪录片。在约见初恋的过程中，二人不知不觉卷入了一起坠楼命案。甜蜜的约会之旅，变成了一场惊心动魄的历险与逃亡…… 徐来和拉拉，将如何度过香港这难忘的一天？",
+    "posterPath": "/jSlHpB6dgJDGPT3yzLfBhyMYFNx.jpg",
+    "releaseDate": "2015-09-25",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Crime"
+    ],
+    "genreIds": [
+      28,
+      12,
+      80,
+      35,
+      10749
+    ],
+    "language": "zh",
+    "imdbId": "tt4242158",
+    "tmdbScore": 5.662,
+    "imdb": 54,
+    "rottenTomatoes": 60,
+    "rtFresh": true,
+    "douban": 57,
+    "doubanOriginal": 5.7,
+    "providers": []
+  },
+  {
+    "id": 51533,
+    "title": "Let the Bullets Fly",
+    "titleZh": "让子弹飞",
+    "overview": "When circumstances force an outlaw to impersonate a county governor and clean up a corrupt town, the Robin Hood figure finds himself in a showdown with the local godfather.",
+    "overviewZh": "故事发生在1920年北洋年间的南国。买官上任的县长马邦德（葛优 饰）携妻（刘嘉玲 饰）、师爷（冯小刚 饰）及随从在赴任途中，遭遇悍匪张麻子（姜文 饰）伏击。为保命，马邦德谎称自己是师爷，并怂恿张麻子冒充县长，前往油水丰厚的“鹅城”捞钱。  然而，鹅城实际被称霸五代、贩卖鸦片、勾结官府的恶霸黄四郎（周润发 饰）完全掌控。张麻子上任后，非但不与黄四郎同流合污，反而痛打其团练武教头（姜武 饰），并当众宣布追求“公平”。此举激化了双方矛盾。  黄四郎设计陷害，逼死了张麻子的义子小六（张默 饰）。丧子之痛让张麻子下定决心，要为小六报仇，并向黄四郎正式宣战。双方展开了一系列惊心动魄的智谋与武力较量：从“鸿门宴”上的试探，到绑架“黄四郎替身”索要赎金，再到分发银子与枪支试图发动群众。  张麻子最终发现，要战胜黄四郎，不能只靠自己和兄弟的枪，关键是要破除百姓心中的恐惧。他利用黄四郎替身被斩首的契机，成功鼓动民众一举攻陷了黄家碉楼。黄四郎众叛亲离，最终在碉楼自爆而亡。  结局：虽然鹅城重获“公平”，但张麻子的兄弟们在胜利后选择离开，前往象征着新世界的“上海浦东”过轻松的生活。只有张麻子一人，孤独地骑着白马，跟随着远去的火车，留在了这片他曾为之奋斗的土地上。",
+    "posterPath": "/vUvrjRRmC1BeI8QyMaRBdtIqHHn.jpg",
+    "releaseDate": "2010-12-20",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "genreIds": [
+      28,
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt1533117",
+    "tmdbScore": 7.8,
+    "imdb": 73,
+    "rottenTomatoes": 75,
+    "rtFresh": true,
+    "douban": 90,
+    "doubanOriginal": 9,
+    "providers": []
+  },
+  {
+    "id": 575813,
+    "title": "Better Days",
+    "titleZh": "少年的你",
+    "overview": "A bullied teenage girl forms an unlikely friendship with a mysterious young man who protects her from her assailants, while she copes with the pressures of her final examinations.",
+    "overviewZh": "一场高考前夕的校园意外，改变了两个少年的命运。陈念 性格内向，是学校里的优等生，努力复习、考上好大学是高三的她唯一的念头。同班同学的意外坠楼牵扯出一连串不为人知的故事，陈念也被一点点卷入其中…在她最孤独的时刻，一个叫小北 的少年闯入了她的世界…大多数人的18岁都是明媚、快乐的，而他们却在18岁这个夏天提前尝到了成人世界的漠然。一场秘而不宣的“战斗”正在上演，他们将一起守护少年的尊严  。",
+    "posterPath": "/bjhoWPRihKSQNbqxvQgcEkOVN3j.jpg",
+    "releaseDate": "2019-10-25",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Romance"
+    ],
+    "genreIds": [
+      18,
+      80,
+      10749
+    ],
+    "language": "zh",
+    "imdbId": "tt9586294",
+    "tmdbScore": 8.123,
+    "imdb": 76,
+    "rottenTomatoes": 97,
+    "rtFresh": true,
+    "douban": 82,
+    "doubanOriginal": 8.2,
+    "providers": []
+  },
+  {
+    "id": 652783,
+    "title": "Sheep Without a Shepherd",
+    "titleZh": "误杀",
+    "overview": "Li and his wife A Yu run a small business in Thailand and enjoy a happy home life with their two daughters. When their eldest daughter is violently assaulted, blackmailed and left traumatised by another student, her parents intervene, leading to a dead body which needs to be hidden, and every trace of the boy buried to cover up the accident.",
+    "overviewZh": "翻拍自印度神片《误杀瞒天计》。李维杰与妻子阿玉在泰国打拼 17 年，膝下育有两个女儿，年届四十的他靠开设网络公司为生，为人也颇得小镇居民的好感，而这一切美好却被突如其来的不速之客打破。这个充斥走私，贩毒活动的边陲小镇，各种权力交织碾压公平正义。李维杰的大女儿被督察长的儿子强暴，因反抗误杀对方。李维杰曾亲眼 目睹督察长滥用私刑，深知法律无用，为了维护女儿，捍卫家人，李维杰埋尸掩盖一切证据，在时间与空间的交错缝隙中，与警方在身心层面，展开了殊死一搏的较量。",
+    "posterPath": "/ldVRYscSz8pF6Nx7XAaaWgM9Zax.jpg",
+    "releaseDate": "2019-12-13",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "genreIds": [
+      80,
+      9648,
+      53
+    ],
+    "language": "zh",
+    "imdbId": "tt11210032",
+    "tmdbScore": 7.617,
+    "imdb": 68,
+    "rottenTomatoes": 100,
+    "rtFresh": true,
+    "douban": 75,
+    "doubanOriginal": 7.5,
+    "providers": []
+  },
+  {
+    "id": 945664,
+    "title": "Lighting Up the Stars",
+    "titleZh": "人生大事",
+    "overview": "Having been released after serving his sentence, a funeral director accidentally crosses paths with a girl which brings about an unexpected change in his attitude towards life.",
+    "overviewZh": "殡葬师莫三妹（朱一龙 饰）在刑满释放不久后的一次出殡中，遇到了孤儿武小文（杨恩又 饰），小文的出现，意外地改变了莫三妹对职业和生活的态度。",
+    "posterPath": "/bAuR2fjqtuI5uxpJiamUhP3KrzS.jpg",
+    "releaseDate": "2022-06-24",
+    "genres": [
+      "Drama"
+    ],
+    "genreIds": [
+      18
+    ],
+    "language": "zh",
+    "imdbId": "tt15801594",
+    "tmdbScore": 7.5,
+    "imdb": 75,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 73,
+    "doubanOriginal": 7.3,
+    "providers": []
+  },
+  {
+    "id": 716815,
+    "title": "A Little Red Flower",
+    "titleZh": "送你一朵小红花",
+    "overview": "The film tells a warm and realistic story, thinking and facing the ultimate problem that every ordinary person will face-imagining that death may come at any time, the only thing we have to do is love and cherish.",
+    "overviewZh": "　　两个抗癌家庭，两组生活轨迹。影片讲述了一个温情的现实故事，思考和直面了每一个普通人都会面临的终极问题——想象死亡随时可能到来，我们唯一要做的就是爱和珍惜。",
+    "posterPath": "/dunj8LVbJBdUe7np3zlRFAncdTO.jpg",
+    "releaseDate": "2020-12-31",
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "genreIds": [
+      18,
+      10751
+    ],
+    "language": "zh",
+    "imdbId": "tt12497408",
+    "tmdbScore": 6.5,
+    "imdb": 67,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 72,
+    "doubanOriginal": 7.2,
+    "providers": []
+  },
+  {
+    "id": 661579,
+    "title": "Under the Light",
+    "titleZh": "坚如磐石",
+    "overview": "Officers Su Jianming and Li Huilin investigate a crime involving wealthy businessman Li Zhitian. As clues emerge, the investigation becomes more and more like a game of chess.",
+    "overviewZh": "为了调查案情，技术科警察苏见明，不顾父亲——金江市副市长郑刚的劝阻，赶赴富商黎志田的“鸿门宴”，观看了一出黎志田愚弄他人、手入火锅的猖狂戏码。后来，随着墙缝藏尸、扳手砸人、近一百个亿的私相授受和神秘的“老爷子的资源”等伏笔相继扯出，表面单纯的犯罪事件背后暗流涌动…",
+    "posterPath": "/gESv9WPvbmbOwO50vT6yF2OuWwF.jpg",
+    "releaseDate": "2023-09-28",
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "genreIds": [
+      18,
+      28,
+      80
+    ],
+    "language": "zh",
+    "imdbId": "tt11448070",
+    "tmdbScore": 5.702,
+    "imdb": 59,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 60,
+    "doubanOriginal": 6,
+    "providers": []
+  },
+  {
+    "id": 869724,
+    "title": "My Country, My Parents",
+    "titleZh": "我和我的父辈",
+    "overview": "This anthology drama presents four short films honoring Chinese families, spotlighting the struggles of key groups across four pivotal eras: the revolution, construction, reform and opening up, and the new era, while highlighting their perseverance, dedication to ideals, and commitment to passing on the national spirit through generations.",
+    "overviewZh": "继2019年《我和我的祖国》、2020年《我和我的家乡》，国庆三部曲之《我和我的父辈》由《乘风》《诗》《鸭先知》《少年行》四个单元组成，以革命、建设、改革开放和新时代为历史坐标, 通过“家与国”的视角描写几代父辈的奋斗经历，讲述中国人的血脉相连和精神传承，再现中国人努力拼搏的时代记忆。",
+    "posterPath": "/opRlkb2A1L83hawv4vkHTFIFEav.jpg",
+    "releaseDate": "2021-09-30",
+    "genres": [
+      "Drama"
+    ],
+    "genreIds": [
+      18
+    ],
+    "language": "zh",
+    "imdbId": "tt15465312",
+    "tmdbScore": 6,
+    "imdb": null,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 64,
+    "doubanOriginal": 6.4,
+    "providers": []
+  },
+  {
+    "id": 445303,
+    "title": "The Insanity",
+    "titleZh": "你好，疯子！",
+    "overview": "Seven people are confined into a lunatic asylum strangely, everyone tries his/her best to attest his/her normality.",
+    "overviewZh": "七个互不认识的正常人莫名奇妙被关进了疯人院，为了逃脱这七个人费尽了心思：能把“死人说活”的话唠律师马睿（王自健 饰）、出口成章但性格懦弱的历史老师萧乃恩（金士杰 饰）、“混不吝”的记者李正（周一围 饰）、一心只想回家见女儿的兽医韩沐山（刘亮佐 饰）、脾气暴躁的出租司机杨猛（李虹辰 饰）、貌美圆滑的公关莉莉（莫小棋 饰），外加一个失忆了的奇怪女人安希（万茜 饰）。这七个人想方设法证明自己不是疯子，为了逃出疯人院做出了一系列令人捧腹大笑的荒唐事，然而这一切都被疯人院里监控摄像记录下来……",
+    "posterPath": "/vpyzaw4hnyeffmJVgpgcvP5Rz99.jpg",
+    "releaseDate": "2016-12-30",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Mystery"
+    ],
+    "genreIds": [
+      18,
+      35,
+      9648
+    ],
+    "language": "zh",
+    "imdbId": "tt6605830",
+    "tmdbScore": 6.3,
+    "imdb": 63,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": null,
+    "doubanOriginal": null,
+    "providers": []
+  },
+  {
+    "id": 1046090,
+    "title": "The Pig, the Snake and the Pigeon",
+    "titleZh": "周处除三害",
+    "overview": "The arrogant, third most-wanted criminal in Taiwan, decides to get rid of the top two competitors and crowns himself the most-wanted criminal before dying.",
+    "overviewZh": "通缉犯陈桂林（阮经天 饰）生命将尽，却发现自己在通缉榜上只排名第三，他决心查出前两名通缉犯的下落，并将他们一一除掉。陈桂林以为自己已成为当代的周处除三害，却没想到永远参不透的贪嗔痴，才是人生终要面对的罪与罚。  影片引用的“周处除三害”典故，见于《晋书·周处传》和《世说新语》。据记载，少年周处身形魁梧，武力高强，却横行乡里，为邻人所厌。后周处只身斩杀猛虎孽蛟，他自己也浪子回头、改邪归正，至此三害皆除。",
+    "posterPath": "/b5P8eg7u4XgDSYNF6da17CcZy2d.jpg",
+    "releaseDate": "2023-10-06",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "genreIds": [
+      80,
+      18,
+      53
+    ],
+    "language": "zh",
+    "imdbId": "tt29319990",
+    "tmdbScore": 7.285,
+    "imdb": 73,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 81,
+    "doubanOriginal": 8.1,
+    "providers": []
+  },
+  {
+    "id": 1076500,
+    "title": "The Volunteers: To the War",
+    "titleZh": "志愿军：雄兵出击",
+    "overview": "In the early days of the founding of the People's Republic of China in 1949, New China was faced with \"internal and external troubles\". Since the outbreak of the Korean Civil War, the U.S. military has repeatedly provoked the border between China and North Korea, and civilians have been brutally bombed. In order to maintain the hard-won peace and long-term stability for generations, in October 1950, the Chinese People's Volunteers entered North Korea, and the \"Resist US Aid Korea\" war kicked off.",
+    "overviewZh": "1950年，朝鲜南北两个政权发生内战，未过多久，美国宣布参战，并且趁机对我国东北部展开轰炸，还派出舰队封锁台湾海峡，以阻挠中华民族统一大业的完成。危急存亡之时，我方高层展开连番慎重的讨论和推演，并派出周总理前往莫斯科请求斯大林的支援。然而斯大林模棱两可，我方又处于建国之初，百废待兴的艰苦阶段。但是为了保家卫国，御敌于国门之外，毛主席毅然决然派出由彭德怀同志率领的人民志愿军入朝作战。冰天雪地，战火纷飞。志愿军战士们面临的是与自己无论从国力还是装备都有着天壤之别的敌人，可是为了心中的理想，为了子孙后辈的安居乐业，他们甘愿抛头颅洒热血，朝着胜利勇敢前进…",
+    "posterPath": "/pR7DL8qVbebsE4aBdoEbCRv4JjF.jpg",
+    "releaseDate": "2023-09-28",
+    "genres": [
+      "Drama",
+      "War",
+      "History"
+    ],
+    "genreIds": [
+      18,
+      10752,
+      36
+    ],
+    "language": "zh",
+    "imdbId": "tt22185176",
+    "tmdbScore": 6,
+    "imdb": 57,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": null,
+    "doubanOriginal": null,
+    "providers": []
+  },
+  {
+    "id": 1112175,
+    "title": "Never Say Never",
+    "titleZh": "八角笼中",
+    "overview": "A former boxing champion takes decides to break a few rules and train orphans from China's remote countryside in order to give them a future.",
+    "overviewZh": "向腾辉（王宝强 饰）倾注心血想把当地无人照料的孩子培养成才，这让生活本没有出路的孩子们看到了一丝通向未来的曙光。然而，随着往日的表演视频被爆出，这些“残忍、血腥”的画面刺激了不明真相的人们的神经。一夜之间，舆论开始发酵。向腾辉的生活、孩子们的前途都陷入到人们以善良为名编织的大网中，让 他们难以挣脱，重回泥沼，关于未来，他们的“出路”又将在哪……",
+    "posterPath": "/xj8JmcJhqShEm5pdBCpOevAjFzE.jpg",
+    "releaseDate": "2023-07-06",
+    "genres": [
+      "Drama",
+      "Action"
+    ],
+    "genreIds": [
+      18,
+      28
+    ],
+    "language": "zh",
+    "imdbId": "tt20865116",
+    "tmdbScore": 7.116,
+    "imdb": 67,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 73,
+    "doubanOriginal": 7.3,
+    "providers": []
+  },
+  {
+    "id": 667717,
+    "title": "Deep Sea",
+    "titleZh": "深海",
+    "overview": "Shenxiu has felt a deep sadness since her mother left. A storm plunges her into a dreamlike world of swirling colour. Led by the Hyjinx, and joined by inventive underwater chef Nanhe, she embarks on a quest to find solace in the Eye of the Deep Sea.",
+    "overviewZh": "在大海的最深处，藏着所有秘密。一位现代少女（参宿）误入梦幻的深海世界，却因此邂逅了一段独特的生命旅程。",
+    "posterPath": "/yIuyHCFijTkL8oRONSgZHWbFJp9.jpg",
+    "releaseDate": "2023-01-22",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "genreIds": [
+      16,
+      12,
+      18,
+      14,
+      9648
+    ],
+    "language": "zh",
+    "imdbId": "tt25434854",
+    "tmdbScore": 6.963,
+    "imdb": 68,
+    "rottenTomatoes": 88,
+    "rtFresh": true,
+    "douban": 70,
+    "doubanOriginal": 7,
+    "providers": []
+  },
+  {
+    "id": 1228564,
+    "title": "Boonie Bears: Time Twist",
+    "titleZh": "熊出没·逆转时空",
+    "overview": "When Vick gets a chance to start his life again as a logger, he must save his friends by embarking on an adventure through time and space.",
+    "overviewZh": "光头强是一名普通程序员，却常梦见陌生的森林和两头狗熊。直到他跟上司出访大客户，终于想起：他原是森林的小导游，偶然得到一次重新选择人生的机会。为了挽救旧时间线里的熊大熊二，光头强开始一场奇妙的时空冒险。",
+    "posterPath": "/K785l6QmXaulFqo8Judi65nHK8.jpg",
+    "releaseDate": "2024-02-10",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "genreIds": [
+      16,
+      35,
+      878,
+      10751
+    ],
+    "language": "zh",
+    "imdbId": "tt29632994",
+    "tmdbScore": 8,
+    "imdb": 59,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": null,
+    "doubanOriginal": null,
+    "providers": []
+  },
+  {
+    "id": 373200,
+    "title": "Detective Chinatown",
+    "titleZh": "唐人街探案",
+    "overview": "After being rejected from the police college, a mannerly man travels to Bangkok where he and an energetic distant relative must solve a murder case.",
+    "overviewZh": "天赋异禀的结巴少年秦风警校落榜，被姥姥遣送泰国找远房表舅——号称“唐人街第一神探”，实则“猥琐”大叔的唐仁散心。不想一夜花天酒地后，唐仁沦为离奇凶案嫌疑人，不得不和秦风亡命天涯。穷追不舍的警探——“疯狗”黄兰登；无敌幸运的警察 ——“草包”坤泰；穷凶极恶、阴差阳错的“匪帮三人组”；高深莫测的“唐人街教父”；“美艳风骚老板娘”等悉数登场！七天！唐仁、秦风这对“欢喜冤家”、“天作之合”必须取长补短、同仇敌忾！他们能否在躲避警察追捕、匪帮追杀、黑帮围剿的同时，在短短七天内，完成找到失落的黄金、查明真凶、为自己洗清罪名这些逆天的任务？",
+    "posterPath": "/zKQtRG6a53CI2NRi0gkrH3IoZ6D.jpg",
+    "releaseDate": "2015-12-31",
+    "genres": [
+      "Comedy",
+      "Mystery",
+      "Action"
+    ],
+    "genreIds": [
+      35,
+      9648,
+      28,
+      12
+    ],
+    "language": "zh",
+    "imdbId": "tt5290882",
+    "tmdbScore": 6.846,
+    "imdb": 66,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 66,
+    "doubanOriginal": 6.6,
+    "providers": []
+  },
+  {
+    "id": 348595,
+    "title": "Jian Bing Man",
+    "titleZh": "煎饼侠",
+    "overview": "Beijing, the present day. Popular TV personality Da Peng is invited by gangster businessman Wang Hai to make a film in which he will invest. Wang insists that Da Peng's co-star is TV drama actress Du Xiaoxiao. However, after a nightclub scandal involving Da Peng goes viral, he's blackballed by a powerful internet executive and finds himself unable to attract any male co-star. Wang also wants his investment back. Da Peng decides to make his own movie on the cheap, using a script he has about an alien, A Li, who arrives on Earth and has various adventures as a superhero.",
+    "overviewZh": "人气偶像大鹏（董成鹏 饰）遭遇了意外事件，令其跌入人生谷底，女友采洁（郭采洁 饰）也离他而去，只剩助理董成龙（潘斌龙 饰）和红颜知己柳岩（柳岩 饰）对他不离不弃。大鹏草率签下电影合约，却因资金问题一筹莫展，还遭到了黑道大哥王老板（梁超 饰）的威胁。无奈之下大鹏只得找来小 明星杜潇潇（袁姗姗 饰）、群头马涛（衣云鹤 饰）、狗仔摄影师胡来（崔志佳 饰）组成一个临时摄制组，准备拍摄一部全明星阵容的大片，而拍摄方式也是前所未有的尝试，邓超、吴君如、曾志伟、东北F4等一线大咖能否顺利出演？逼入绝境的大鹏将遭遇什么样的困难？",
+    "posterPath": "/rjFVYw6zAIfD6K1GyLDyKIaMuow.jpg",
+    "releaseDate": "2015-07-17",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "genreIds": [
+      28,
+      35,
+      18
+    ],
+    "language": "zh",
+    "imdbId": "tt4818250",
+    "tmdbScore": 5.055,
+    "imdb": 56,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 58,
+    "doubanOriginal": 5.8,
+    "providers": []
+  },
+  {
+    "id": 1328803,
+    "title": "Prisoner of War",
+    "titleZh": "铁拳怒潮",
+    "overview": "British RAF Wing Commander James Wright is captured by the Japanese during WWII and forced to fight in brutal hand-to-hand combat. The Japanese soldiers get more than they bargained for when Wright’s years of martial arts training in Hong Kong prove him to be a formidable opponent.",
+    "overviewZh": "斯科特·阿金斯（Scott Adkins）即将赶赴菲律宾拍摄动作战争片《死亡行军》（暂译，Death March）并与合作过《讨债人》系列（The Debt Collector）的演员路易·曼迪勒（Louis Mandylor）共同主演。故事发生在第二次世界大战期间。 斯科特将扮演英国空军军官詹姆斯·赖特，他被派往东南亚援助美国和菲律宾武装部队。任务失败后，詹姆斯作为唯一的幸存者被日军俘虏。战俘营的负责人伊藤上校负责安排囚犯之间的格斗比赛，当他得知詹姆斯战前在日本接受过训练时，他派出了最好的战士来对付他。然而，詹姆斯在抗争中表现出的无敌意志不仅帮助他赢得了生死之战，也激励了其他战俘。",
+    "posterPath": "/4T4yRG6iskDcfMeoLuUZEJYCrjL.jpg",
+    "releaseDate": "2025-09-19",
+    "genres": [
+      "Action",
+      "War",
+      "Thriller"
+    ],
+    "genreIds": [
+      28,
+      10752,
+      53,
+      36
+    ],
+    "language": "en",
+    "imdbId": "tt33057137",
+    "tmdbScore": 7.126,
+    "imdb": 57,
+    "rottenTomatoes": 67,
+    "rtFresh": true,
+    "douban": null,
+    "doubanOriginal": null,
+    "providers": []
+  },
+  {
+    "id": 923192,
+    "title": "Too Cool to Kill",
+    "titleZh": "这个杀手不太冷静",
+    "overview": "Wei Chenggong, a working actor with big dreams, finally appears to get his big break when actress Milan invites him to play the lead role of \"Killer Karl\" in a new play. Little does Wei Chenggong know, he has fallen into a perilous conspiracy where all the villains are real, and only through his acting skills and good deal of luck will he be able to make it out alive.",
+    "overviewZh": "毕生追求男主梦的魏成功（魏翔 饰）终于得到了女明星米兰（马丽 饰）的“赏识”，被邀请出演她的男一号“杀手卡尔”，他兴致勃勃诠释角色的同时，却没想到已经落入了一场危机四伏的阴谋，但他依然借自己 “精湛”的演技和绝佳的运气化险为夷，而残酷的真相也离他越来越近……",
+    "posterPath": "/6sNoEgjNkfAOlqZ5XsPb9jwdepD.jpg",
+    "releaseDate": "2022-02-01",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "genreIds": [
+      28,
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt16254308",
+    "tmdbScore": 6.373,
+    "imdb": 61,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 61,
+    "doubanOriginal": 6.1,
+    "providers": []
+  },
+  {
+    "id": 803266,
+    "title": "Nice View",
+    "titleZh": "奇迹·笨小孩",
+    "overview": "Desperate to pay for his little sister's surgery, a young man takes part in a risky business venture - only to encounter some serious setbacks.",
+    "overviewZh": "二十岁的景浩（易烊千玺 饰）独自带着年幼的妹妹来到深圳生活，兄妹俩生活温馨却拮据。机缘巧合之下，景浩得到一个机会，本以为美好生活即将来临，却不料遭遇重创。在时间和金钱的双重压力下，毫无退路的景浩决定孤注一掷，而他陷入困境的平凡人生，又能否燃起希望的火花？",
+    "posterPath": "/tQnIsgXkAWH4iLrY79GArjCzMDq.jpg",
+    "releaseDate": "2022-02-01",
+    "genres": [
+      "Drama",
+      "Family",
+      "Comedy"
+    ],
+    "genreIds": [
+      18,
+      10751,
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt15783462",
+    "tmdbScore": 6.449,
+    "imdb": 67,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 74,
+    "doubanOriginal": 7.4,
+    "providers": []
+  },
+  {
+    "id": 734778,
+    "title": "My People, My Homeland",
+    "titleZh": "我和我的家乡",
+    "overview": "In different parts of rural China, various people explore what makes their communities unique.",
+    "overviewZh": "该片延续《我和我的祖国》集体创作的方式，由张艺谋担当总监制，宁浩担任总导演，张一白担任总策划，宁浩、徐峥、陈思诚、闫非&彭大魔、邓超&俞白眉分别执导五个故事。影片通过五个故事单元，讲述了发生在中国东西南北中五大地域的家乡故事。",
+    "posterPath": "/3jyTi0JqHyvfd9dMcsvidXrkcAR.jpg",
+    "releaseDate": "2020-10-01",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "genreIds": [
+      18,
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt12363162",
+    "tmdbScore": 6.1,
+    "imdb": 64,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 70,
+    "doubanOriginal": 7,
+    "providers": []
+  },
+  {
+    "id": 76758,
+    "title": "The Flowers of War",
+    "titleZh": "金陵十三钗",
+    "overview": "A Westerner finds refuge with a group of women in a church during Japan's rape of Nanking in 1937. Posing as a priest, he attempts to lead the women to safety.",
+    "overviewZh": "根据严歌苓小说改编。1937年，日军入侵南京，战火中，六朝古都化为废墟，众多中国军民被困城中。一支十数人的国军德械教导队余部在长官李教官（佟大为 饰）指挥下，从日军手中救出了一批教会学校女学生，而李教官等人，至此丧失了出城的机会。幸免于难的书娟（张歆怡 饰）等学生返回文彻斯特教堂，随她们一 起来到的，还有受雇远道至此收敛神父遗体的美国人约翰·米勒（克里斯蒂安·贝尔 Christian Bale 饰）。此时的南京城中，逃难的人们蜂拥进安全区和教堂寻找庇护，十四名风尘女子强行进入教堂避难，其中精通英语的玉墨（倪妮 饰）希望借助约翰的身份为一行人提供更多保护。教堂的墙壁，并不能阻挡日军的铁蹄，教堂内的人们，将面临孰生孰死的选择……",
+    "posterPath": "/3iJ8eXVd2jAmL5KbnIacDsTUWCn.jpg",
+    "releaseDate": "2011-12-15",
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "genreIds": [
+      18,
+      36,
+      10752
+    ],
+    "language": "zh",
+    "imdbId": "tt1410063",
+    "tmdbScore": 7.43,
+    "imdb": 75,
+    "rottenTomatoes": 41,
+    "rtFresh": false,
+    "douban": 83,
+    "doubanOriginal": 8.3,
+    "providers": []
+  },
+  {
+    "id": 32582,
+    "title": "The Message",
+    "titleZh": "风声",
+    "overview": "After a series of assassinations in Nanking, a Japanese spy master gathers a group of suspects in a mansion, then a tense cat-and-mouse game erupts as the Chinese agent tries to keep his or her identity a secret.",
+    "overviewZh": "1940年春，原中国国民党副主席汪精卫与日本政府媾和，在南京成立新的国民政府，对日抗战进入新的\"三国\"时期－－汪精卫的南京国民政府，蒋介石的重庆国民政府，毛泽东领导的陕甘宁边区政府势成三足鼎立，各自为政，互为掣肘。汪精卫上任后展开三大政策：在势力范围内展开建军，清乡剿共，同时诱招失意蒋派军政要员入阁。1942年10月10日，汪伪政府举办庆祝国民政府成立三十周年的盛大仪式，一名汪伪政府的要员被枪杀，引起了日本方面的高度重视。皇军特务机关长武田怀疑这一系列暗杀行动是北平地区共产党领导人策划的，希望抓住这次机会破获他的组织。",
+    "posterPath": "/hO0x9BVUFErJ1wVwgjSbAaQP1Ol.jpg",
+    "releaseDate": "2009-09-22",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "genreIds": [
+      18,
+      53
+    ],
+    "language": "zh",
+    "imdbId": "tt1434423",
+    "tmdbScore": 7.4,
+    "imdb": 74,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 84,
+    "doubanOriginal": 8.4,
+    "providers": []
+  },
+  {
+    "id": 855483,
+    "title": "Hidden Blade",
+    "titleZh": "无名",
+    "overview": "Follows the story of underground workers who risked their lives to send intelligence and defend the motherland, set after Japan's attack on Pearl Harbor when the Wang Jingwei regime declared war on Britain and the U.S.",
+    "overviewZh": "1941年12月7日，日本偷袭珍珠港。次日，汪伪政府跟随日本对英美宣战，日本象征性占领上海全境。随着太平洋战争全面爆发，中国抗战形势也因此完全改变。中共地下党员冒险送出情报，破坏日蒋媾和，维护祖国。",
+    "posterPath": "/wrl4GLZQ3gwnjO1bhPPVySgd0Mr.jpg",
+    "releaseDate": "2023-01-22",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "History"
+    ],
+    "genreIds": [
+      18,
+      9648,
+      36,
+      28
+    ],
+    "language": "zh",
+    "imdbId": "tt16565742",
+    "tmdbScore": 6.3,
+    "imdb": 63,
+    "rottenTomatoes": 67,
+    "rtFresh": true,
+    "douban": 80,
+    "doubanOriginal": 8,
+    "providers": []
+  },
+  {
+    "id": 10997,
+    "title": "Farewell My Concubine",
+    "titleZh": "霸王别姬",
+    "overview": "In an epic tale of theater, gender, love and class, two Beijing opera actors navigate political turmoil as their friendship evolves over decades.",
+    "overviewZh": "在著名导演陈凯歌这部关于激情、命运与艺术超越性可能的恢弘史诗中，一段令人屏息的缱绻情缘于社会巨变的广阔背景下徐徐展开。影片横跨二十世纪五十载，追随着心怀梦想的京剧艺人程蝶衣与段小楼的人生轨迹——从经受严酷训练的童年，到最终成为京剧名角。蝶衣对小楼未果的痴恋，与时代政治浪潮的翻涌交织，将他们卷入充满嫉妒与背叛的个人悲剧之中，人生如戏，戏若人生。这部首部荣获戛纳电影节金棕榈奖的中国电影，是最高规格的史诗制作——从每一帧精美的画面到深沉的情感冲击，皆令人震撼。",
+    "posterPath": "/vOEkLofQ8N1OdbGs5L87m7Plpw2.jpg",
+    "releaseDate": "1993-01-01",
+    "genres": [
+      "Drama"
+    ],
+    "genreIds": [
+      18
+    ],
+    "language": "zh",
+    "imdbId": "tt0106332",
+    "tmdbScore": 7.9,
+    "imdb": 81,
+    "rottenTomatoes": 90,
+    "rtFresh": true,
+    "douban": 96,
+    "doubanOriginal": 9.6,
+    "providers": []
+  },
+  {
+    "id": 21835,
+    "title": "A Chinese Odyssey Part Two: Cinderella",
+    "titleZh": "大话西游之大圣娶亲",
+    "overview": "This sequel to \"Pandora's Box\" continues director Jeffrey Lau's adaptation of the Buddhism saga \"Journey to the West\". Stranded five centuries in the past, Joker Monkey King must battle a variety of monsters, seductive women and super-powered villains to save the dying Pak Jing-Jing.",
+    "overviewZh": "故事发生在《大话西游》上一集《月光宝盒》之前500年。至尊宝被月光宝盒带回到五百年前，恰巧遇到紫霞仙子（朱茵 饰）。紫霞仙子曾有一誓言，只要谁能拔出她手中的紫青宝剑，就是她的意中人。不想宝剑被至尊宝拔出，紫霞决定以身相许，却遭至尊宝拒绝。 紫霞迷失在沙漠，为牛魔王所救。牛魔王逼紫霞与之成婚。关键时刻，至尊宝转世成为齐天大圣孙悟空，踏着五彩祥云来救紫霞。打斗中，悟空为救师父而放弃了紫霞，紫霞为牛魔王所杀。",
+    "posterPath": "/32UL99Ec3HqbLZhaRPdEWM38IGy.jpg",
+    "releaseDate": "1995-02-04",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "genreIds": [
+      28,
+      12,
+      14,
+      35,
+      10749
+    ],
+    "language": "cn",
+    "imdbId": "tt0114996",
+    "tmdbScore": 7.7,
+    "imdb": 78,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 92,
+    "doubanOriginal": 9.2,
+    "providers": []
+  },
+  {
+    "id": 53168,
+    "title": "King of Comedy",
+    "titleZh": "喜剧之王",
+    "overview": "Wan Tin-Sau is an actor who cannot seem to catch a break, since his only professional jobs are limited to being a movie extra. As well as being an actor, he is also the head of his village's community center.",
+    "overviewZh": "尹天仇（周星驰 饰）一直醉心戏剧，想成为一名演员，平时除了做跑龙套以外，还会在街坊福利会里开设演员训练班。此时舞小姐柳飘飘在妈妈桑的带领下来到这里要求学做戏，原来柳飘飘有一段非常不愉快的经历，在尹天仇对她指导的过程中，柳飘飘对尹天仇渐生情愫，同时她也成为了夜总会里当红的小姐。尹天仇受到了极多白眼之后，终于得到了大明星鹃姐（莫文蔚 饰）的赏识，提携他担演新戏中的男主角，但没想到突然把他的角色换掉了，令他失望不已。在片场当场务的卧底警员（吴孟达 饰）身份被识穿，尹天仇阴差阳错的帮忙破了案。之后尹天仇继续活跃在街坊福利会的演员训练班里。",
+    "posterPath": "/6tHNUo8asDW1jApyEqJMgjfellO.jpg",
+    "releaseDate": "1999-02-08",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "genreIds": [
+      35,
+      18,
+      10749
+    ],
+    "language": "cn",
+    "imdbId": "tt0188766",
+    "tmdbScore": 7.4,
+    "imdb": 72,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 88,
+    "doubanOriginal": 8.8,
+    "providers": []
+  },
+  {
+    "id": 1422,
+    "title": "The Departed",
+    "titleZh": "无间道风云",
+    "overview": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
+    "overviewZh": "这部由马丁·斯科塞斯执导的硬派犯罪剧情片，将我们带入两名警察的人生：科林·沙利文（马特·达蒙 饰）精明而野心勃勃，看似在麻省州警精英特别调查组中拥有快速晋升通道，该部门的首要目标是势力庞大的爱尔兰黑帮头目弗兰克·卡斯特罗（杰克·尼科尔森 饰）。比利·科斯蒂根（莱昂纳多·迪卡普里奥 饰）熟知街头法则且强悍坚韧，却因被指暴力倾向而失去警徽，最终重回南波士顿的混乱街头，并被招募加入卡斯特罗的团伙。然而两人皆隐藏着真实身份，当他们在对立阵营中展开行动时，被迫卷入一场生死攸关的致命猫鼠游戏。[华纳兄弟]",
+    "posterPath": "/aiFgndjUBZA9MiMGAuIVxyNqTE5.jpg",
+    "releaseDate": "2006-10-04",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "genreIds": [
+      18,
+      53,
+      80
+    ],
+    "language": "en",
+    "imdbId": "tt0407887",
+    "tmdbScore": 8.16,
+    "imdb": 85,
+    "rottenTomatoes": 91,
+    "rtFresh": true,
+    "douban": 73,
+    "doubanOriginal": 7.3,
+    "providers": []
+  },
+  {
+    "id": 31439,
+    "title": "To Live",
+    "titleZh": "活着",
+    "overview": "Married couple Fugui and Jiazhen endure tumultuous events in mid-20th century mainland China as their personal fortunes move from wealthy landownership to peasantry.",
+    "overviewZh": "富少福贵（葛优 饰）嗜赌成性，妻子家珍（巩俐 饰）屡劝无果后带着女儿凤霞离开了他。当夜，福贵输光所有家产气死父亲，被迫靠变卖母亲首饰租间破屋过活。一年后，家珍手拉凤霞怀抱刚出世的儿子有庆回到家中，福贵痛改前非，开始靠演皮影戏过起安份守己的日子。但好景不常，内战时期，福贵被国民党抓去当劳工，一番辗转终回到家乡与一家人团圆后，凤霞因病变成哑巴，而在后来的大跃进和文革中，他虽获某些小福，逆境却也一直与他如影相随。\r 根据余华同名小说改编。",
+    "posterPath": "/h45Jc1URohpgUxmfEXB5MqUlHJW.jpg",
+    "releaseDate": "1994-05-18",
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "genreIds": [
+      18,
+      10749,
+      10752
+    ],
+    "language": "zh",
+    "imdbId": "tt0110081",
+    "tmdbScore": 8.07,
+    "imdb": 83,
+    "rottenTomatoes": 87,
+    "rtFresh": true,
+    "douban": 80,
+    "doubanOriginal": 8,
+    "providers": []
+  },
+  {
+    "id": 25838,
+    "title": "Devils on the Doorstep",
+    "titleZh": "鬼子来了",
+    "overview": "During the Japanese occupation of China, two prisoners are dumped in a peasant's home in a small town. The owner is bullied into keeping the prisoners until the next New Year, at which time they will be collected. The village leaders convene to interrogate the prisoners. The townspeople then struggle to accommodate the prisoners. One is a bellicose Japanese nationalist, the other a nervous translator. Will the townspeople manage to keep the prisoners until the New Year?",
+    "overviewZh": "抗日战争末期，在河北山海关附近的一座名为挂甲台的偏僻小村。一天夜里，有人把两个装着俘虏的麻袋押送进了村民马大三（姜文 饰）的家里，其中一个是日本兵（香川照之 饰），另一个是翻译官（袁丁 饰）。本来答应好了八天以后来取人，结果此后再就也没有音讯。这两个俘虏在村子里关的时间一久，村民们便商议将二人处死，以避免麻烦。日本兵花屋小三郎起先决意以死殉国，而翻译董汉臣则利用语言上的障碍争取求生的机会。在多次试图处死两人未果之后，村民们认定他们命不该绝，就一直把这两个俘虏秘密关押在村里。 六个月之后，花屋小三郎决定报答马大三和众村民的不杀之恩，提出与村民完成一笔交易：村民一方把他和翻译送还给宪兵队，而日军方面则以两车粮食作为交换条件。在马大三的主张下，经过一番商议，村民接受了花屋的条件，并且签字订约。众人一并护送两个俘虏返回宪兵队。 到宪兵队后，尽管队长酒冢（泽田谦也 饰）感到有辱武士道精神，还是同意履行那份约定，并率部队将粮食送往挂甲台。粮食运抵村内，日军召集全村老小饮酒欢庆，共享吃喝。当欢庆进行到一半，酒冢突然向部下宣告天皇已经向盟军投降、日本战败的消息，于是形势出现突变，日军开始杀戮无辜民众，整个村落化成屠场，又纵火将这一山村化为灰烬。 在这一灭项之灾中，只有马大三一人幸免于难。不久，国民党军队接管了日军大部俘虏，花屋所在部队也在其中。一个雨天，马大三假扮成烟贩，手持利斧冲进日军俘虏营，见人就砍，鬼子死伤数人。而他最终被国民党士兵所擒，被判处死刑。执行死刑的正是那个与他们曾经朝夕相处花屋小三郎。",
+    "posterPath": "/nL46rg8dFR4plAisxuriYmdU2NP.jpg",
+    "releaseDate": "2001-10-26",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "genreIds": [
+      18,
+      10752
+    ],
+    "language": "zh",
+    "imdbId": "tt0245929",
+    "tmdbScore": 8.2,
+    "imdb": 82,
+    "rottenTomatoes": 91,
+    "rtFresh": true,
+    "douban": 93,
+    "doubanOriginal": 9.3,
+    "providers": []
+  },
+  {
+    "id": 79279,
+    "title": "The Dream Factory",
+    "titleZh": "甲方乙方",
+    "overview": "Four friends come up with an unusual idea to make some money and have fun doing it. For a small fee, they will impersonate and act out any character role for their customers. In the course of executing this novel service, they encounter a whole spectrum of people in society, finding ways to genuinely help them boost their morale and overcome their fears, while gaining unusual and new insights into the human condition.",
+    "overviewZh": "　　四个年轻人姚远(葛优饰)，周北雁(刘蓓饰)，钱康(冯小刚饰)，梁子(何冰饰)是一群自由职业者。他们突发奇想，开办了一个“好梦一日游”业务，承诺帮人们过上梦想成真的一天。人们离奇古怪的愿望接踵而至，似乎人人都想给自己现有的生活来一个180度大转弯。于是，富贵的想尝试贫穷，明星想体验平凡，小平民想做巴顿将军，守不住秘密的厨子想成为守口如瓶的铮铮铁汉……在搞笑荒诞的愿望中，四个年轻人忙碌着扮演各种场景角色，他们把真情融入到了这些故事当中。生活过得充满乐趣，有滋有味。",
+    "posterPath": "/sezBfVtCtanUjwoodc0udW0dro4.jpg",
+    "releaseDate": "1997-02-01",
+    "genres": [
+      "Comedy"
+    ],
+    "genreIds": [
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt0260987",
+    "tmdbScore": 7.1,
+    "imdb": 73,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 85,
+    "doubanOriginal": 8.5,
+    "providers": []
+  },
+  {
+    "id": 161285,
+    "title": "In the Heat of the Sun",
+    "titleZh": "阳光灿烂的日子",
+    "overview": "Beijing, 1970s. The Cultural Revolution has driven most adults to the provinces leaving 14-year-old Monkey and his pals have free reign over the city. They hang around, get up to no good, and discover that unsolvable mystery known as \"girls.\"",
+    "overviewZh": "20世纪70年代初的北京，忙着“闹革命”大人无空理会小孩，加上学校停课无事可做，以军队大院男孩为突出代表的少年人便自找乐子，靠起哄、打架、闹事、拍婆子等方式挥霍过量的荷尔蒙。马小军（夏雨 饰）就是这样的少年，他的嗜好之一是趁别人家无人用万能钥匙将其锁打开，溜进去耍玩一番，正是用这样的方式，少女米兰（宁静 饰）的照片先于其人入了马小军的双眼。通过院里的“头儿”刘忆苦（耿乐 饰），马小军又见到之前在炮局偶然瞥见过一眼的米兰，开始正式将其当作梦中情人，然而在米兰眼中，马小军不过是毛孩一个，她中意的人是成熟、稳重、帅气的刘忆苦。自此，马小军迎来五味混杂的青春期生活。",
+    "posterPath": "/rpgCbEXUxi1iKmSKZQ6RcJaoF6c.jpg",
+    "releaseDate": "1995-06-29",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "genreIds": [
+      18,
+      10749
+    ],
+    "language": "zh",
+    "imdbId": "tt0111786",
+    "tmdbScore": 7.825,
+    "imdb": 81,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 88,
+    "doubanOriginal": 8.8,
+    "providers": []
+  },
+  {
+    "id": 10404,
+    "title": "Raise the Red Lantern",
+    "titleZh": "大红灯笼高高挂",
+    "overview": "In 1920s China, 19-year-old Songlian becomes a concubine of a powerful lord and is forced to compete with his three wives for the privileges gained.",
+    "overviewZh": "　　改编自苏童小说《妻妾成群》。大学刚读半年的颂莲（巩俐）被贪钱的母亲逼迫着嫁进陈家大院，成了老爷的第四房姨太。陈府有老规矩，姨太太们傍晚时分要站在自已的屋子前，等待下人送来的意味被老爷“临幸”的大红灯笼。",
+    "posterPath": "/c8e6H3G3RNRsBQrSPv3yxUhblXZ.jpg",
+    "releaseDate": "1991-12-18",
+    "genres": [
+      "Drama"
+    ],
+    "genreIds": [
+      18
+    ],
+    "language": "zh",
+    "imdbId": "tt0101640",
+    "tmdbScore": 7.9,
+    "imdb": 81,
+    "rottenTomatoes": 97,
+    "rtFresh": true,
+    "douban": 88,
+    "doubanOriginal": 8.8,
+    "providers": []
+  },
+  {
+    "id": 10451,
+    "title": "Eat Drink Man Woman",
+    "titleZh": "饮食男女",
+    "overview": "Retired and widowed Chinese master chef Chu lives in modern day Taipei, with his three attractive daughters, all of whom are unattached. Soon, each daughter encounters a new man in their lives. When these new relationships blossom, stereotypes are broken and the living situation within the family changes.",
+    "overviewZh": "李安执导的这部家庭剧杰作，由郎雄、吴倩莲、杨贵媚、王渝文主演，讲述一位退休名厨与三位成年女儿同住一个屋檐下的故事。随着传统周日家宴的进行，二女儿的人生规划被突如其来的变故与家人的命运转折打乱，在饮食烟火与人间情欲交织中，演绎出中国家庭特有的含蓄波澜与温情裂变。",
+    "posterPath": "/zqGWLZbHdsBgLuSLGXlvvrrpTKw.jpg",
+    "releaseDate": "1994-08-03",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "genreIds": [
+      35,
+      18,
+      10749
+    ],
+    "language": "zh",
+    "imdbId": "tt0111797",
+    "tmdbScore": 7.625,
+    "imdb": 78,
+    "rottenTomatoes": 88,
+    "rtFresh": true,
+    "douban": 92,
+    "doubanOriginal": 9.2,
+    "providers": []
+  },
+  {
+    "id": 29363,
+    "title": "A World Without Thieves",
+    "titleZh": "天下无贼",
+    "overview": "A con-team couple head west after taking a city businessman for his BMW. But an encounter with a naive young carpenter traveling home with his life savings challenges their fate as thieves.",
+    "overviewZh": "王薄（刘德华 饰）和王丽（刘若英 饰）本是一对最佳贼拍档，但因怀了王薄的孩子，王丽决定收手赎罪，两人产生分歧。在火车站遇到刚刚从城市里挣了一笔钱准备回老家用它盖房子娶媳妇的农村娃子傻根（王宝强 饰）后，王丽被他的单纯打动，决定暗中保护不使他的辛苦钱失窃，王薄却寻思找合适机会下手，但 最终因为“夫妻情深”归入了王丽的阵营。 不料傻根的钱早被以黎叔（葛优 饰）为头目的另一著名扒窃团伙盯上，于是一系列围绕傻根书包里的钞票、在王薄、王丽和黎叔团伙之间展开的强强斗争上演。",
+    "posterPath": "/uP7PuGEAa7QDOwS4L5H8xlW02QM.jpg",
+    "releaseDate": "2004-12-09",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genreIds": [
+      28,
+      18
+    ],
+    "language": "zh",
+    "imdbId": "tt0439884",
+    "tmdbScore": 7.3,
+    "imdb": 72,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 82,
+    "doubanOriginal": 8.2,
+    "providers": []
+  },
+  {
+    "id": 45380,
+    "title": "Crazy Stone",
+    "titleZh": "疯狂的石头",
+    "overview": "Three thieves try to steal a valuable jade that is tightly guarded by a security chief. But the security guards are not the only obstacle these thieves are facing. An extremely unlucky internationally known master thief is also trying to get a hand on this piece of precious jade. What would be the final destination of this piece of crazy stone?",
+    "overviewZh": "重庆一间工艺品厂已经濒临倒闭，却不料在拆倒旧厂房的时候，发现了厕所里的一件宝物——一块价值连城的翡翠。厂里决定用这块翡翠举办一个展览，赚些钱发拖欠了几个月的工人工资。期间由工艺品厂保卫科长包世宏（郭涛 饰）负责看守这件宝物。但是，国际大盗麦克与本地一帮小偷却让包世宏一筹莫展，他们各施其技接近翡翠，展览馆开始了一场明争暗斗的较量。黑色幽默也开始幕幕上演。翡翠的价值几何？最后谁是胜出者？事情远没有表面那么简单…",
+    "posterPath": "/4NVNv2sQKZKb1HtGExUqp3Ukd7f.jpg",
+    "releaseDate": "2006-06-30",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "genreIds": [
+      28,
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt0843270",
+    "tmdbScore": 7.6,
+    "imdb": 76,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 86,
+    "doubanOriginal": 8.6,
+    "providers": []
+  },
+  {
+    "id": 14044,
+    "title": "Assembly",
+    "titleZh": "集结号",
+    "overview": "Follows a soldier trying to gain recognition for comrades who died in 1948, at a turning point in the civil war between the communists and the nationalist forces of the Kuomintang.",
+    "overviewZh": "1948年解放战争时期，连长谷子地（张涵予 饰）率领九连47名战士在汶河岸执行掩护大部队撤退的任务，团长刘泽水（胡军 饰）下令，以集结号为令，听见号响就撤退。　　惨烈的战争在炮弹的轰鸣中开始，九连的战士死伤惨重，排长焦大鹏（廖凡 饰），牺牲前说自己听见了集结号，谷子地自己没有听见，他决定死守阵地。九连打退了敌人三次进攻，炸毁二辆坦克，歼敌无数，全连除连长谷子地，47人全部阵亡。　　这场战争改变了谷子地的人生。由于部队改了编号，谷子地找不到组织，九连牺牲的烈士们也被认定为失踪。谷子地开始了艰难的寻找，为九连的兄弟们讨个说法，也为了探明当年集结号的真相。",
+    "posterPath": "/xaWLv99b018LUhaHCbKXQqeKQku.jpg",
+    "releaseDate": "2007-10-09",
+    "genres": [
+      "Action",
+      "History"
+    ],
+    "genreIds": [
+      28,
+      36
+    ],
+    "language": "zh",
+    "imdbId": "tt0881200",
+    "tmdbScore": 6.97,
+    "imdb": 73,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": 82,
+    "doubanOriginal": 8.2,
+    "providers": []
+  },
+  {
+    "id": 658009,
+    "title": "Ip Man: Kung Fu Master",
+    "titleZh": "宗师叶问",
+    "overview": "Ip Man’s promising career as a Policeman is ruined after he is framed for murder and targeted by a mob boss’s daughter.",
+    "overviewZh": "　　日本军方为侵华做准备，派遣日本商会进驻广州，一面贿赂军阀，收集情报，成立杀手组织暗杀反日人士，一面走私鸦片，大肆敛财，叶问继任佛山警察局侦缉队队长，立案侦查，本以为依靠法律可以匡扶正义，却遭受上级和日本商会的打压，叶问只能晚上化身黑衣侠维持正义，然而日本商会已然发现叶问身份，布下天罗地网......",
+    "posterPath": "/usmTsXE83nyhLmft6YvuJ2XLJaa.jpg",
+    "releaseDate": "2019-12-23",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "genreIds": [
+      28,
+      18
+    ],
+    "language": "zh",
+    "imdbId": "tt12567246",
+    "tmdbScore": 6.6,
+    "imdb": 46,
+    "rottenTomatoes": 40,
+    "rtFresh": false,
+    "douban": 68,
+    "doubanOriginal": 6.8,
+    "providers": []
+  },
+  {
+    "id": 1462229,
+    "title": "Pegasus 3",
+    "titleZh": "飞驰人生3",
+    "overview": "Bearing the glory of being the 'King of Bayanbulak', Zhang Chi once again embarks on his racing journey, aiming not only to win the race but also to achieve something beyond the competition itself.",
+    "overviewZh": "巴音布鲁克最后一站收官后，张驰（沈腾 饰）受邀作为车队主教练征战全新赛事“沐尘100拉力赛”，“野生车手”走上国际舞台！面对高手如云的全新赛道，孙宇强（尹正 饰）、记星（张本煜 饰）一如既往协同作战，林臻东（黄景瑜 饰）等实力车手应邀强势集结，一支凝聚了顶配速度与信念的车队就此成立！然而，张驰发现真正的挑战仿佛并非来自比赛本身，赛场之外暗流涌动，让他们飞驰之路充满变数……",
+    "posterPath": "/cL5vAK6bUHYWTOnypi34mzzWI8X.jpg",
+    "releaseDate": "2026-02-17",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "genreIds": [
+      18,
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt38035835",
+    "tmdbScore": 7.1,
+    "imdb": null,
+    "rottenTomatoes": null,
+    "rtFresh": false,
+    "douban": null,
+    "doubanOriginal": null,
+    "providers": []
+  },
+  {
+    "id": 931404,
+    "title": "Boonie Bears: Back to Earth",
+    "titleZh": "熊出没·重返地球",
+    "overview": "When an unknown object from space lands on Earth, Bramble gains new abilities and an extraterrestrial sidekick.",
+    "overviewZh": "有点懒又有点馋的熊二虽然总是各种失误犯错，内心却一直梦想成为一位英雄，以此获得大家特别是哥哥熊大的认可。  一块外星原核的坠落打破了狗熊岭的平静，熊二意外的与外星原核合体，成为了拥有外星智慧能量的熊！随之而来的是“外星人”阿布的抢夺。阿布为了夺回原核，故意制造事端，让熊二众叛亲离。就在阿布将要成功的时候，一支神秘高科技军团的攻击彻底打乱了计划，导致熊强组合甚至整个地球于巨大的危难之中。  阿布隐藏的身份以及来到地球的真正目的到底是什么？神秘的高科技军团背后有何故事？自暴自弃的熊二能否振作起来实现他的英雄梦？他们能否挽救地球的危机？",
+    "posterPath": "/o3qnlWkWc6ANtq98szmZhyz22RP.jpg",
+    "releaseDate": "2022-02-01",
+    "genres": [
+      "Animation",
+      "Family",
+      "Sci-Fi"
+    ],
+    "genreIds": [
+      16,
+      10751,
+      878,
+      12,
+      35
+    ],
+    "language": "zh",
+    "imdbId": "tt17081112",
+    "tmdbScore": 6.8,
+    "imdb": 57,
+    "rottenTomatoes": 67,
+    "rtFresh": true,
+    "douban": null,
+    "doubanOriginal": null,
+    "providers": []
   }
 ]
