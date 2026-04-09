@@ -11,6 +11,7 @@ import { RainEffect, StarsEffect, CloudsEffect } from "@/components/WeatherEffec
 import CitySkyline from "@/components/CitySkyline";
 import RatingRing from "@/components/streaming/RatingRing";
 import { pickWeatherMovie, getPoetryLine, GENRE_ZH, GENRE_JA, type TopMovie } from "@/lib/weather-cinema";
+import topMovies from "@/data/top-movies.json";
 
 /* ── Gradient data — high contrast per city ── */
 const gradients: Record<string, Record<TimeOfDay, string>> = {
@@ -129,6 +130,7 @@ export default function WeatherCinemaPage() {
   const [overrideWeather, setOverrideWeather] = useState<CityWeather["condition"] | null>(null);
   const [overrideTime, setOverrideTime] = useState<TimeOfDay | null>(null);
   const [pickIndex, setPickIndex] = useState(0);
+  const [overrideMovie, setOverrideMovie] = useState<TopMovie | null>(null);
 
   const weather = useCityWeather(city);
   const [timeOfDay, setTimeOfDay] = useState<TimeOfDay>("night");
@@ -143,6 +145,11 @@ export default function WeatherCinemaPage() {
     if (w && ["rain", "storm", "clear", "cloud", "fog", "snow"].includes(w)) setOverrideWeather(w);
     if (t && ["night", "dawn", "day", "dusk"].includes(t)) setOverrideTime(t);
     if (c && cities[c]) setCity(cities[c]);
+    const movieId = params.get("movie");
+    if (movieId) {
+      const found = (topMovies as TopMovie[]).find((m) => String(m.id) === movieId);
+      if (found) setOverrideMovie(found);
+    }
   }, []);
 
   // Update time of day
@@ -173,7 +180,7 @@ export default function WeatherCinemaPage() {
     : (weather?.description ?? (isZh ? "晴" : "Clear"));
 
   // Pick movie
-  const movie = pickWeatherMovie(effectiveCondition, effectiveTime, isAsian, city.id, pickIndex);
+  const movie = overrideMovie ?? pickWeatherMovie(effectiveCondition, effectiveTime, isAsian, city.id, pickIndex);
   const poetryLine = getPoetryLine(effectiveCondition, cityDisplayName, city.locale);
 
   // Background
