@@ -15,7 +15,7 @@ function seededRandom(seed: number) {
 
 export function RainEffect({ intensity = "normal" }: { intensity?: "light" | "normal" | "heavy" }) {
   const mounted = useClientOnly();
-  const count = intensity === "heavy" ? 120 : intensity === "light" ? 30 : 60;
+  const count = intensity === "heavy" ? 180 : intensity === "light" ? 50 : 100;
 
   if (!mounted) return null;
 
@@ -24,8 +24,8 @@ export function RainEffect({ intensity = "normal" }: { intensity?: "light" | "no
     left: `${seededRandom(i * 7 + 1) * 100}%`,
     delay: `${seededRandom(i * 13 + 2) * 2}s`,
     duration: `${0.4 + seededRandom(i * 17 + 3) * 0.3}s`,
-    opacity: 0.2 + seededRandom(i * 23 + 4) * 0.3,
-    width: seededRandom(i * 31 + 5) > 0.7 ? 2 : 1,
+    opacity: 0.3 + seededRandom(i * 23 + 4) * 0.4,
+    width: seededRandom(i * 31 + 5) > 0.6 ? 2 : 1,
   }));
 
   return (
@@ -37,7 +37,7 @@ export function RainEffect({ intensity = "normal" }: { intensity?: "light" | "no
           style={{
             left: drop.left,
             width: `${drop.width}px`,
-            height: "20px",
+            height: "28px",
             background: `linear-gradient(to bottom, transparent, rgba(174, 194, 224, ${drop.opacity}))`,
             animation: `rainFall ${drop.duration} linear ${drop.delay} infinite`,
           }}

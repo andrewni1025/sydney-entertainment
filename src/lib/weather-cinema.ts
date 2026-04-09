@@ -176,7 +176,8 @@ export function pickWeatherMovie(
   condition: CityWeather["condition"],
   timeOfDay: TimeOfDay,
   isZh: boolean,
-  cityId?: string
+  cityId?: string,
+  pickIndex: number = 0
 ): TopMovie | null {
   const key = `${condition}_${timeOfDay}`;
   const preferredGenres = weatherGenreMap[key] ?? weatherGenreMap.clear_night!;
@@ -235,7 +236,9 @@ export function pickWeatherMovie(
     [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
   }
 
-  return candidates[0]?.movie ?? null;
+  // Pick the Nth candidate (wrapping around)
+  const idx = pickIndex % candidates.length;
+  return candidates[idx]?.movie ?? null;
 }
 
 /**

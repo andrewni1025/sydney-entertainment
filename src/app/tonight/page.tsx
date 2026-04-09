@@ -128,6 +128,7 @@ export default function WeatherCinemaPage() {
   const [mounted, setMounted] = useState(false);
   const [overrideWeather, setOverrideWeather] = useState<CityWeather["condition"] | null>(null);
   const [overrideTime, setOverrideTime] = useState<TimeOfDay | null>(null);
+  const [pickIndex, setPickIndex] = useState(0);
 
   const weather = useCityWeather(city);
   const [timeOfDay, setTimeOfDay] = useState<TimeOfDay>("night");
@@ -172,7 +173,7 @@ export default function WeatherCinemaPage() {
     : (weather?.description ?? (isZh ? "晴" : "Clear"));
 
   // Pick movie
-  const movie = pickWeatherMovie(effectiveCondition, effectiveTime, isAsian, city.id);
+  const movie = pickWeatherMovie(effectiveCondition, effectiveTime, isAsian, city.id, pickIndex);
   const poetryLine = getPoetryLine(effectiveCondition, cityDisplayName, city.locale);
 
   // Background
@@ -189,10 +190,16 @@ export default function WeatherCinemaPage() {
 
   const switchCity = useCallback((c: CityConfig) => {
     setCity(c);
+    setPickIndex(0);
     setAnimKey((k) => k + 1);
   }, []);
 
   const replay = useCallback(() => {
+    setAnimKey((k) => k + 1);
+  }, []);
+
+  const swapMovie = useCallback(() => {
+    setPickIndex((i) => i + 1);
     setAnimKey((k) => k + 1);
   }, []);
 
@@ -377,7 +384,7 @@ export default function WeatherCinemaPage() {
                       <img
                         src={posterUrl}
                         alt={movie.title}
-                        className="relative w-40 sm:w-52 rounded-2xl shadow-2xl"
+                        className="relative w-52 sm:w-64 rounded-2xl shadow-2xl"
                         style={{ boxShadow: `0 25px 60px -12px rgba(0,0,0,0.7), 0 0 40px ${city.accentColor}25` }}
                       />
                       {/* Shimmer sweep */}
@@ -500,6 +507,20 @@ export default function WeatherCinemaPage() {
                   {c.emoji}
                 </button>
               ))}
+              {/* Swap movie button */}
+              <button
+                onClick={swapMovie}
+                className="ml-2 text-white/15 hover:text-white/35 text-xs transition-colors cursor-pointer"
+                title="Try another movie"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                  <path d="M16 3h5v5" />
+                  <path d="M4 20L21 3" />
+                  <path d="M21 16v5h-5" />
+                  <path d="M15 15l6 6" />
+                  <path d="M4 4l5 5" />
+                </svg>
+              </button>
               {/* Replay button */}
               <button
                 onClick={replay}
