@@ -183,20 +183,24 @@ export function pickWeatherMovie(
   const preferredGenres = weatherGenreMap[key] ?? weatherGenreMap.clear_night!;
   const langFilter = cityId ? cityLanguageFilter[cityId] ?? null : null;
 
-  // Filter movies with triple ratings
+  // Filter movies: Shanghai allows partial ratings, others need triple
   const allMovies = topMovies as TopMovie[];
-  let pool = allMovies.filter(
-    (m) => m.imdb !== null && m.rottenTomatoes !== null && m.douban !== null
-  );
+  let pool: TopMovie[];
+
+  if (cityId === "shanghai") {
+    // Shanghai: must have titleZh + at least one rating, prefer Chinese films
+    pool = allMovies.filter(
+      (m) => m.titleZh && (m.imdb !== null || m.rottenTomatoes !== null || m.douban !== null)
+    );
+  } else {
+    pool = allMovies.filter(
+      (m) => m.imdb !== null && m.rottenTomatoes !== null && m.douban !== null
+    );
+  }
 
   // Apply language filter if set
   if (langFilter) {
     pool = pool.filter((m) => langFilter.includes(m.language));
-  }
-
-  // Shanghai: must have Chinese title (= has subtitles/localization)
-  if (cityId === "shanghai") {
-    pool = pool.filter((m) => m.titleZh);
   }
 
   const currentYear = new Date().getFullYear();
@@ -207,17 +211,25 @@ export function pickWeatherMovie(
     const imdb = m.imdb ?? 0;
     const rt = m.rottenTomatoes ?? 0;
     const douban = m.douban ?? 0;
-    const avg = isZh
-      ? imdb * 0.3 + rt * 0.3 + douban * 0.4
-      : (imdb + rt + douban) / 3;
+
+    // For movies missing some ratings, average only available ones
+    const ratings = [m.imdb, m.rottenTomatoes, m.douban].filter((r) => r !== null) as number[];
+    const avg = ratings.length > 0
+      ? (isZh && m.douban !== null
+          ? imdb * 0.3 + rt * 0.3 + douban * 0.4
+          : ratings.reduce((a, b) => a + b, 0) / ratings.length)
+      : 0;
 
     // Recency: films from last 15 years get a significant boost
     const year = parseInt(m.releaseDate?.slice(0, 4) ?? "2000");
     const age = currentYear - year;
-    // 0-5 years: +12, 5-10 years: +8, 10-15 years: +4, 15-20: +1, 20+: 0
     const recencyBonus = age <= 5 ? 12 : age <= 10 ? 8 : age <= 15 ? 4 : age <= 20 ? 1 : 0;
 
-    const score = avg + (genreMatch ? 15 : 0) + recencyBonus;
+    // Chinese language bonus for Shanghai
+    const isChineseFilm = m.language === "zh" || m.language === "cn";
+    const langBonus = cityId === "shanghai" && isChineseFilm ? 10 : 0;
+
+    const score = avg + (genreMatch ? 15 : 0) + recencyBonus + langBonus;
     return { movie: m, score };
   });
 
