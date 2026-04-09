@@ -7,7 +7,7 @@ import { cities, type CityConfig } from "@/lib/cities";
 // Only 3 cities for weather-cinema
 const weatherCinemaCities = [cities.sydney, cities.shanghai, cities.tokyo];
 import { useCityWeather, getTimeOfDay, type TimeOfDay, type CityWeather } from "@/lib/weather";
-import { RainEffect, StarsEffect, CloudsEffect } from "@/components/WeatherEffects";
+import { RainEffect, StarsEffect, CloudsEffect, SnowEffect } from "@/components/WeatherEffects";
 import CitySkyline from "@/components/CitySkyline";
 import RatingRing from "@/components/streaming/RatingRing";
 import { pickWeatherMovie, getPoetryLine, GENRE_ZH, GENRE_JA, type TopMovie } from "@/lib/weather-cinema";
@@ -56,6 +56,8 @@ function getWeatherOverlay(condition: string | null): string | null {
     return "radial-gradient(ellipse at 50% 30%, rgba(50,60,90,0.3), transparent 70%)";
   if (condition === "clear")
     return "radial-gradient(ellipse at 75% 15%, rgba(40,60,140,0.2), transparent 55%)";
+  if (condition === "snow")
+    return "linear-gradient(180deg, rgba(180,200,230,0.2) 0%, rgba(150,170,210,0.1) 30%, transparent 60%)";
   return null;
 }
 
@@ -194,6 +196,7 @@ export default function WeatherCinemaPage() {
   const isClear = effectiveCondition === "clear";
   const isRain = effectiveCondition === "rain" || effectiveCondition === "storm";
   const isCloudy = effectiveCondition === "cloud" || effectiveCondition === "fog";
+  const isSnow = effectiveCondition === "snow";
 
   const switchCity = useCallback((c: CityConfig) => {
     setCity(c);
@@ -294,6 +297,16 @@ export default function WeatherCinemaPage() {
           <RainEffect intensity={effectiveCondition === "storm" ? "heavy" : "normal"} />
           <div className="absolute inset-x-0 top-0 h-[40%]" style={{
             background: "linear-gradient(180deg, rgba(15,20,30,0.6), transparent)",
+          }} />
+        </motion.div>
+      )}
+
+      {/* Snow */}
+      {isSnow && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1, duration: 2 }}>
+          <SnowEffect intensity="normal" />
+          <div className="absolute inset-x-0 top-0 h-[30%]" style={{
+            background: "linear-gradient(180deg, rgba(200,210,230,0.15), transparent)",
           }} />
         </motion.div>
       )}

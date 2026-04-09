@@ -93,6 +93,50 @@ export function StarsEffect() {
   );
 }
 
+export function SnowEffect({ intensity = "normal" }: { intensity?: "light" | "normal" | "heavy" }) {
+  const mounted = useClientOnly();
+  const count = intensity === "heavy" ? 120 : intensity === "light" ? 30 : 70;
+
+  if (!mounted) return null;
+
+  const flakes = Array.from({ length: count }, (_, i) => ({
+    id: i,
+    left: `${seededRandom(i * 7 + 200) * 100}%`,
+    delay: `${seededRandom(i * 13 + 201) * 6}s`,
+    duration: `${3 + seededRandom(i * 17 + 202) * 4}s`,
+    opacity: 0.3 + seededRandom(i * 23 + 203) * 0.5,
+    size: 2 + seededRandom(i * 31 + 204) * 4,
+    drift: -20 + seededRandom(i * 37 + 205) * 40,
+  }));
+
+  return (
+    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      {flakes.map((flake) => (
+        <div
+          key={flake.id}
+          className="absolute top-0 rounded-full"
+          style={{
+            left: flake.left,
+            width: `${flake.size}px`,
+            height: `${flake.size}px`,
+            background: `radial-gradient(circle, rgba(255,255,255,${flake.opacity}), rgba(220,230,255,${flake.opacity * 0.5}) 50%, transparent)`,
+            animation: `snowFall ${flake.duration} linear ${flake.delay} infinite`,
+            "--snow-drift": `${flake.drift}px`,
+          } as React.CSSProperties}
+        />
+      ))}
+      <style jsx>{`
+        @keyframes snowFall {
+          0% { transform: translateY(-10px) translateX(0); opacity: 0; }
+          10% { opacity: 1; }
+          90% { opacity: 0.8; }
+          100% { transform: translateY(100vh) translateX(var(--snow-drift)); opacity: 0; }
+        }
+      `}</style>
+    </div>
+  );
+}
+
 export function CloudsEffect() {
   const mounted = useClientOnly();
   if (!mounted) return null;
