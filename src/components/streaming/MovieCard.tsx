@@ -53,19 +53,19 @@ export default function MovieCard({ movie, index }: MovieCardProps) {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 30 }}
+      initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-30px" }}
-      transition={{ duration: 0.4, delay: index * 0.05 }}
-      whileHover={{ y: -6 }}
-      className="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-[0_8px_40px_rgba(167,139,250,0.15)] glass"
+      transition={{ duration: 0.5, delay: index * 0.04 }}
+      whileHover={{ y: -4, transition: { duration: 0.3 } }}
+      className="group relative rounded-xl overflow-hidden bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] transition-all duration-300 hover:shadow-[0_8px_40px_rgba(0,0,0,0.4)]"
     >
-      {/* Poster — clean, no overlay text */}
+      {/* Poster */}
       <div className="relative aspect-[2/3] overflow-hidden">
         <img
           src={movie.posterUrl}
           alt={movie.title}
-          className="w-full h-full object-cover transition-all duration-500 group-hover:scale-105 group-hover:brightness-110"
+          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
           loading="lazy"
         />
 
@@ -103,19 +103,19 @@ export default function MovieCard({ movie, index }: MovieCardProps) {
         </div>
       </div>
 
-      {/* Info section — below poster */}
-      <div className="p-3 sm:p-4 space-y-2 sm:space-y-3">
+      {/* Info section */}
+      <div className="p-3.5 sm:p-4 space-y-2.5">
         {/* Title & meta */}
         <div>
-          <h3 className="font-[family-name:var(--font-heading)] text-[12px] sm:text-sm font-bold text-white leading-tight line-clamp-1">
+          <h3 className="font-[family-name:var(--font-heading)] text-[13px] sm:text-sm font-semibold text-white/95 leading-tight line-clamp-1 tracking-tight">
             {displayTitle}
           </h3>
-          <div className="flex items-center gap-1.5 mt-0.5 sm:mt-1">
-            <span className="text-white/35 text-[10px] sm:text-xs">{year}</span>
+          <div className="flex items-center gap-1.5 mt-1">
+            <span className="text-white/30 text-[10px] sm:text-xs">{year}</span>
             {movie.genres.slice(0, 1).map((g) => (
               <span
                 key={g}
-                className="text-[9px] sm:text-[10px] px-1 sm:px-1.5 py-0.5 rounded-full bg-white/8 text-white/45 hidden sm:inline"
+                className="text-[9px] sm:text-[10px] px-1.5 py-0.5 rounded-full bg-white/[0.05] text-white/35 hidden sm:inline"
               >
                 {isZh ? (GENRE_ZH[g] ?? g) : g}
               </span>
@@ -124,7 +124,7 @@ export default function MovieCard({ movie, index }: MovieCardProps) {
         </div>
 
         {/* Divider */}
-        <div className="h-px bg-white/8" />
+        <div className="h-px bg-white/[0.06]" />
 
         {/* Triple ratings */}
         <div className="flex items-center justify-between">

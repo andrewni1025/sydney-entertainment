@@ -89,15 +89,15 @@ export default function StreamingMode() {
       <DailyPick />
 
       {/* Headline */}
-      <h2 className="font-[family-name:var(--font-heading)] text-2xl sm:text-3xl font-bold text-white text-center mb-1.5">
+      <h2 className="font-[family-name:var(--font-heading)] text-2xl sm:text-3xl font-semibold text-white text-center mb-1.5 tracking-tight" style={{ lineHeight: 1.1 }}>
         {isZh
-          ? <>今晚<span className="text-orange-300/70">看什么</span>？</>
-          : <>What should you watch <span className="text-orange-300/70">tonight</span>?</>
+          ? <>今晚<span className="text-white/50">看什么</span>？</>
+          : <>What should you watch <span className="text-white/50">tonight</span>?</>
         }
       </h2>
 
-      {/* Result promise — readable, trust-building */}
-      <p className="text-white/30 text-xs text-center mb-6 max-w-sm mx-auto leading-relaxed">
+      {/* Result promise */}
+      <p className="text-white/25 text-xs text-center mb-7 max-w-sm mx-auto leading-relaxed tracking-tight">
         {isZh
           ? <>三重评分筛选 · IMDb + 烂番茄 + 豆瓣</>
           : <>Only films streaming in Australia<br className="sm:hidden" />

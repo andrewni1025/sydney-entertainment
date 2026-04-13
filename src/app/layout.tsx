@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { CityProvider } from "@/lib/CityContext";
 import "./globals.css";
-
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 const inter = Inter({
   variable: "--font-inter",
@@ -45,7 +39,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${spaceGrotesk.variable} ${inter.variable} h-full antialiased`}
+      className={`${inter.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col" suppressHydrationWarning><CityProvider>{children}</CityProvider><Analytics /></body>

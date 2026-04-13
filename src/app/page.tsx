@@ -57,12 +57,12 @@ export default function Home() {
       <AmbientBackground mode={mode} />
 
       {/* Hero module */}
-      <header className="relative z-10 w-full max-w-6xl mx-auto px-4 pt-6 pb-2 text-center">
+      <header className="relative z-10 w-full max-w-6xl mx-auto px-5 pt-6 pb-2 text-center">
         {/* Top bar: back + weather */}
-        <div className="flex items-center justify-between mb-2">
+        <div className="flex items-center justify-between mb-3">
           <button
             onClick={clearCity}
-            className="flex items-center gap-1.5 text-white/20 hover:text-white/40 text-[11px] transition-colors cursor-pointer"
+            className="flex items-center gap-1.5 text-white/20 hover:text-white/35 text-[11px] font-medium tracking-tight transition-colors cursor-pointer"
           >
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M15 18l-6-6 6-6" />
@@ -74,20 +74,20 @@ export default function Home() {
 
         {/* Brand */}
         <motion.div
-          className="flex items-center justify-center gap-2.5 mb-3"
+          className="flex items-center justify-center gap-2.5 mb-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.4 }}
         >
-          <span className="text-3xl sm:text-4xl">{city.emoji}</span>
-          <span className="font-[family-name:var(--font-heading)] text-white/25 text-sm sm:text-base font-semibold tracking-[0.15em]">
+          <span className="text-2xl sm:text-3xl">{city.emoji}</span>
+          <span className="font-[family-name:var(--font-heading)] text-white/20 text-[13px] sm:text-sm font-medium tracking-[0.08em]">
             {city.nameZh ? `${city.nameZh} Entertainment` : city.locale === "ja" ? `${city.name} Entertainment` : "Sydney Entertainment Hub"}
           </span>
         </motion.div>
 
-        {/* Toggle — part of hero, tight spacing */}
+        {/* Toggle */}
         <motion.div
-          className="mb-3"
+          className="mb-4"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2, duration: 0.4 }}
