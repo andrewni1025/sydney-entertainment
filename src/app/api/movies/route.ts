@@ -42,8 +42,8 @@ function serveFromLocal(
 ): { movies: unknown[]; hasMore: boolean } | null {
   const isNonEnglish = languageParam && languageParam !== "en";
 
-  // For non-English or trending, fall through to API
-  if (isNonEnglish || sortParam === "trending" || sortParam === "new") return null;
+  // For trending/new, fall through to API
+  if (sortParam === "trending" || sortParam === "new") return null;
 
   let filtered = [...TOP_MOVIES];
 
@@ -59,9 +59,13 @@ function serveFromLocal(
     filtered = filtered.filter(m => m.genreIds.includes(gid));
   }
 
-  // Filter by language
+  // Filter by language (support both zh and cn for Chinese)
   if (languageParam) {
-    filtered = filtered.filter(m => m.language === languageParam);
+    if (languageParam === "zh") {
+      filtered = filtered.filter(m => m.language === "zh" || m.language === "cn");
+    } else {
+      filtered = filtered.filter(m => m.language === languageParam);
+    }
   }
 
   if (filtered.length === 0) return null;

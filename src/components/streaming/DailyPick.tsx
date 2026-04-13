@@ -34,23 +34,31 @@ interface TopMovie {
 
 // Get today's pool of 5 movies (deterministic by date, Douban-weighted for CN)
 function getDailyPool(isZh: boolean): TopMovie[] {
-  const allThree = (topMovies as TopMovie[]).filter(
-    (m) => m.imdb !== null && m.rottenTomatoes !== null && m.douban !== null
-  );
-  if (allThree.length === 0) return [];
+  // Allow movies with at least 2 ratings (not all 3 required)
+  const eligible = (topMovies as TopMovie[]).filter((m) => {
+    const count = [m.imdb, m.rottenTomatoes, m.douban].filter((r) => r !== null).length;
+    return count >= 2;
+  });
+  if (eligible.length === 0) return [];
 
   const currentYear = new Date().getFullYear();
-  const scored = allThree.map((m) => {
+  const scored = eligible.map((m) => {
     const imdb = m.imdb ?? 0;
     const rt = m.rottenTomatoes ?? 0;
     const douban = m.douban ?? 0;
-    // CN cities: weight Douban 40%, others 30% each. EN: equal thirds
-    const avg = isZh
-      ? imdb * 0.3 + rt * 0.3 + douban * 0.4
-      : (imdb + rt + douban) / 3;
+    // Average only available ratings
+    const ratings = [m.imdb, m.rottenTomatoes, m.douban].filter((r) => r !== null) as number[];
+    const avg = ratings.length > 0
+      ? (isZh && m.douban !== null
+          ? imdb * 0.3 + rt * 0.3 + douban * 0.4
+          : ratings.reduce((a, b) => a + b, 0) / ratings.length)
+      : 0;
+
     const year = parseInt(m.releaseDate?.slice(0, 4) ?? "2000");
-    const recency = Math.max(0, Math.min(10, (year - (currentYear - 25)) / 2.5));
-    return { movie: m, score: avg + recency };
+    const age = currentYear - year;
+    const recency = age <= 5 ? 12 : age <= 10 ? 8 : age <= 15 ? 4 : age <= 20 ? 1 : 0;
+    const classic = (imdb >= 85 && douban >= 85) ? 8 : (imdb >= 80 && douban >= 80) ? 4 : 0;
+    return { movie: m, score: avg + recency + classic };
   });
 
   // Sort by score descending, take top 30 as candidates
