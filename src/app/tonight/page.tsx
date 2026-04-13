@@ -220,17 +220,31 @@ export default function WeatherCinemaPage() {
   const captureScreenshot = useCallback(async () => {
     if (!pageRef.current) return;
     setIsCapturing(true);
-    // Wait for UI to hide buttons
-    await new Promise((r) => setTimeout(r, 100));
+    await new Promise((r) => setTimeout(r, 150));
     try {
       const canvas = await html2canvas(pageRef.current, {
         backgroundColor: "#000000",
         scale: 2,
         useCORS: true,
-        allowTaint: true,
+        allowTaint: false,
         logging: false,
+        imageTimeout: 5000,
+        onclone: (doc) => {
+          const ctrls = doc.querySelectorAll("[data-controls]");
+          ctrls.forEach((el) => (el as HTMLElement).style.display = "none");
+        },
       });
       const dataUrl = canvas.toDataURL("image/png");
+      // Try native share first (mobile), fallback to preview
+      if (navigator.share && /Mobi|Android/i.test(navigator.userAgent)) {
+        try {
+          const blob = await (await fetch(dataUrl)).blob();
+          const file = new File([blob], "tonight.png", { type: "image/png" });
+          await navigator.share({ files: [file] });
+          setIsCapturing(false);
+          return;
+        } catch { /* fallback to preview */ }
+      }
       setShareImage(dataUrl);
     } catch (e) {
       console.error("Screenshot failed:", e);
@@ -389,9 +403,9 @@ export default function WeatherCinemaPage() {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.6 }}
         >
-          {/* Top: Weather info */}
+          {/* Top: Weather info + utility buttons */}
           <motion.div
-            className="pt-14 sm:pt-16 px-6 sm:px-10"
+            className="pt-14 sm:pt-16 px-6 sm:px-10 flex items-start justify-between"
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.5, duration: 1 }}
@@ -405,6 +419,45 @@ export default function WeatherCinemaPage() {
               <span className="font-light">{effectiveDesc}</span>
               <span className="text-white/15">·</span>
               <span className="font-light">{effectiveTemp}°C</span>
+            </div>
+
+            {/* Utility buttons — top right */}
+            <div className={`flex items-center gap-3 ${isCapturing ? "opacity-0" : ""}`} data-controls>
+              <button
+                onClick={swapMovie}
+                className="text-white/15 hover:text-white/35 transition-colors cursor-pointer"
+                title="Try another movie"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                  <path d="M16 3h5v5" />
+                  <path d="M4 20L21 3" />
+                  <path d="M21 16v5h-5" />
+                  <path d="M15 15l6 6" />
+                  <path d="M4 4l5 5" />
+                </svg>
+              </button>
+              <button
+                onClick={replay}
+                className="text-white/15 hover:text-white/35 transition-colors cursor-pointer"
+                title="Replay animation"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                  <path d="M1 4v6h6" />
+                  <path d="M23 20v-6h-6" />
+                  <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15" />
+                </svg>
+              </button>
+              <button
+                onClick={captureScreenshot}
+                className="text-white/15 hover:text-white/35 transition-colors cursor-pointer"
+                title="Save screenshot"
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                  <polyline points="16 6 12 2 8 6" />
+                  <line x1="12" y1="2" x2="12" y2="15" />
+                </svg>
+              </button>
             </div>
           </motion.div>
 
@@ -532,12 +585,13 @@ export default function WeatherCinemaPage() {
               &ldquo;{poetryLine}&rdquo;
             </motion.p>
 
-            {/* City switcher */}
+            {/* City switcher — bottom center */}
             <motion.div
-              className={`flex items-center justify-center gap-3 ${isCapturing ? "opacity-0" : ""}`}
+              className={`flex items-center justify-center gap-4 ${isCapturing ? "opacity-0" : ""}`}
               initial={{ opacity: 0 }}
               animate={{ opacity: isCapturing ? 0 : 1 }}
               transition={{ delay: 7.5, duration: 0.8 }}
+              data-controls
             >
               {weatherCinemaCities.map((c) => (
                 <button
@@ -546,51 +600,13 @@ export default function WeatherCinemaPage() {
                   className={`text-xl transition-all duration-300 cursor-pointer ${
                     c.id === city.id
                       ? "opacity-100 scale-110"
-                      : "opacity-25 hover:opacity-50 scale-100"
+                      : "opacity-20 hover:opacity-45 scale-100"
                   }`}
                   title={c.nameZh ?? c.name}
                 >
                   {c.emoji}
                 </button>
               ))}
-              {/* Swap movie button */}
-              <button
-                onClick={swapMovie}
-                className="ml-2 text-white/15 hover:text-white/35 text-xs transition-colors cursor-pointer"
-                title="Try another movie"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-                  <path d="M16 3h5v5" />
-                  <path d="M4 20L21 3" />
-                  <path d="M21 16v5h-5" />
-                  <path d="M15 15l6 6" />
-                  <path d="M4 4l5 5" />
-                </svg>
-              </button>
-              {/* Replay button */}
-              <button
-                onClick={replay}
-                className="ml-4 text-white/15 hover:text-white/35 text-xs transition-colors cursor-pointer"
-                title="Replay animation"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-                  <path d="M1 4v6h6" />
-                  <path d="M23 20v-6h-6" />
-                  <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15" />
-                </svg>
-              </button>
-              {/* Share/Screenshot button */}
-              <button
-                onClick={captureScreenshot}
-                className="ml-4 text-white/15 hover:text-white/35 text-xs transition-colors cursor-pointer"
-                title="Save screenshot"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
-                  <polyline points="16 6 12 2 8 6" />
-                  <line x1="12" y1="2" x2="12" y2="15" />
-                </svg>
-              </button>
             </motion.div>
           </div>
         </motion.div>
