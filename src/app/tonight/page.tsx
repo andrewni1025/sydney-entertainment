@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import html2canvas from "html2canvas";
 import { cities, type CityConfig } from "@/lib/cities";
 
 // Only 3 cities for weather-cinema
@@ -132,6 +133,9 @@ export default function WeatherCinemaPage() {
   const [overrideWeather, setOverrideWeather] = useState<CityWeather["condition"] | null>(null);
   const [overrideTime, setOverrideTime] = useState<TimeOfDay | null>(null);
   const [pickIndex, setPickIndex] = useState(0);
+  const [isCapturing, setIsCapturing] = useState(false);
+  const [shareImage, setShareImage] = useState<string | null>(null);
+  const pageRef = useRef<HTMLDivElement>(null);
   const [overrideMovie, setOverrideMovie] = useState<TopMovie | null>(null);
 
   const weather = useCityWeather(city);
@@ -213,6 +217,27 @@ export default function WeatherCinemaPage() {
     setAnimKey((k) => k + 1);
   }, []);
 
+  const captureScreenshot = useCallback(async () => {
+    if (!pageRef.current) return;
+    setIsCapturing(true);
+    // Wait for UI to hide buttons
+    await new Promise((r) => setTimeout(r, 100));
+    try {
+      const canvas = await html2canvas(pageRef.current, {
+        backgroundColor: "#000000",
+        scale: 2,
+        useCORS: true,
+        allowTaint: true,
+        logging: false,
+      });
+      const dataUrl = canvas.toDataURL("image/png");
+      setShareImage(dataUrl);
+    } catch (e) {
+      console.error("Screenshot failed:", e);
+    }
+    setIsCapturing(false);
+  }, []);
+
   const posterUrl = movie?.posterPath
     ? `https://image.tmdb.org/t/p/w780${movie.posterPath}`
     : null;
@@ -222,7 +247,7 @@ export default function WeatherCinemaPage() {
   }
 
   return (
-    <div className="fixed inset-0 overflow-hidden">
+    <div ref={pageRef} className="fixed inset-0 overflow-hidden">
       {/* ── Background layers ── */}
       <motion.div
         className="absolute inset-0"
@@ -509,9 +534,9 @@ export default function WeatherCinemaPage() {
 
             {/* City switcher */}
             <motion.div
-              className="flex items-center justify-center gap-3"
+              className={`flex items-center justify-center gap-3 ${isCapturing ? "opacity-0" : ""}`}
               initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
+              animate={{ opacity: isCapturing ? 0 : 1 }}
               transition={{ delay: 7.5, duration: 0.8 }}
             >
               {weatherCinemaCities.map((c) => (
@@ -554,9 +579,57 @@ export default function WeatherCinemaPage() {
                   <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15" />
                 </svg>
               </button>
+              {/* Share/Screenshot button */}
+              <button
+                onClick={captureScreenshot}
+                className="ml-4 text-white/15 hover:text-white/35 text-xs transition-colors cursor-pointer"
+                title="Save screenshot"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                  <polyline points="16 6 12 2 8 6" />
+                  <line x1="12" y1="2" x2="12" y2="15" />
+                </svg>
+              </button>
             </motion.div>
           </div>
         </motion.div>
+      </AnimatePresence>
+
+      {/* Screenshot preview modal */}
+      <AnimatePresence>
+        {shareImage && (
+          <motion.div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setShareImage(null)}
+          >
+            <motion.div
+              className="relative max-w-sm mx-4"
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <img
+                src={shareImage}
+                alt="Screenshot"
+                className="w-full rounded-xl shadow-2xl"
+              />
+              <p className="text-white/40 text-[11px] text-center mt-3 tracking-tight">
+                长按图片保存到相册
+              </p>
+              <button
+                onClick={() => setShareImage(null)}
+                className="absolute -top-3 -right-3 w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white/60 text-sm cursor-pointer transition-colors"
+              >
+                ✕
+              </button>
+            </motion.div>
+          </motion.div>
+        )}
       </AnimatePresence>
 
       {/* Shimmer + orb keyframes */}
