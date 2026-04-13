@@ -371,15 +371,15 @@ export default function WeatherCinemaPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.5, duration: 1 }}
           >
-            <div className="flex items-center gap-2 text-white/50 text-sm sm:text-base">
-              <span className="text-lg">{weatherIcon(effectiveCondition, effectiveTime)}</span>
-              <span className="font-[family-name:var(--font-heading)] tracking-wide">
+            <div className="flex items-center gap-2 text-white/45 text-[13px] sm:text-sm">
+              <span className="text-base">{weatherIcon(effectiveCondition, effectiveTime)}</span>
+              <span className="font-[family-name:var(--font-heading)] font-medium tracking-tight">
                 {cityDisplayName}
               </span>
-              <span className="text-white/20">·</span>
-              <span>{effectiveDesc}</span>
-              <span className="text-white/20">·</span>
-              <span>{effectiveTemp}°C</span>
+              <span className="text-white/15">·</span>
+              <span className="font-light">{effectiveDesc}</span>
+              <span className="text-white/15">·</span>
+              <span className="font-light">{effectiveTemp}°C</span>
             </div>
           </motion.div>
 
@@ -404,8 +404,8 @@ export default function WeatherCinemaPage() {
                       <img
                         src={posterUrl}
                         alt={movie.title}
-                        className="relative w-52 sm:w-64 rounded-2xl shadow-2xl"
-                        style={{ boxShadow: `0 25px 60px -12px rgba(0,0,0,0.7), 0 0 40px ${city.accentColor}25` }}
+                        className="relative w-52 sm:w-64 rounded-xl shadow-2xl"
+                        style={{ boxShadow: `0 25px 60px -12px rgba(0,0,0,0.7), 0 0 30px ${city.accentColor}20` }}
                       />
                       {/* Shimmer sweep */}
                       <div className="absolute inset-0 overflow-hidden rounded-2xl">
@@ -424,7 +424,8 @@ export default function WeatherCinemaPage() {
 
                 {/* Title */}
                 <motion.h1
-                  className="font-[family-name:var(--font-heading)] text-2xl sm:text-4xl font-bold text-white text-center leading-tight mb-2"
+                  className="font-[family-name:var(--font-heading)] text-2xl sm:text-4xl font-semibold text-white text-center leading-none mb-2 tracking-tight"
+                  style={{ lineHeight: 1.07 }}
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 5, duration: 0.8 }}
@@ -439,9 +440,9 @@ export default function WeatherCinemaPage() {
                   animate={{ opacity: 1 }}
                   transition={{ delay: 5.5, duration: 0.6 }}
                 >
-                  <span className="text-white/30 text-xs">{movie.releaseDate?.slice(0, 4)}</span>
+                  <span className="text-white/25 text-[11px] tracking-tight">{movie.releaseDate?.slice(0, 4)}</span>
                   {movie.genres.slice(0, 3).map((g) => (
-                    <span key={g} className="text-[10px] px-1.5 py-0.5 rounded bg-white/8 text-white/35">
+                    <span key={g} className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/[0.05] text-white/30 tracking-tight">
                       {isJa ? (GENRE_JA[g] ?? g) : isZh ? (GENRE_ZH[g] ?? g) : g}
                     </span>
                   ))}
@@ -482,7 +483,7 @@ export default function WeatherCinemaPage() {
                 {/* English title if showing Chinese/Japanese */}
                 {isAsian && movie.titleZh && (
                   <motion.p
-                    className="text-white/20 text-xs mb-4 text-center"
+                    className="text-white/15 text-[11px] mb-4 text-center tracking-tight font-light"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 5.3, duration: 0.5 }}
@@ -498,7 +499,7 @@ export default function WeatherCinemaPage() {
           <div className="pb-10 sm:pb-14 px-6 sm:px-10 text-center">
             {/* Poetic line */}
             <motion.p
-              className="text-white/40 text-sm sm:text-base italic mb-8 leading-relaxed"
+              className="text-white/30 text-[13px] sm:text-sm italic mb-8 leading-relaxed tracking-tight font-light"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 6.5, duration: 1 }}
