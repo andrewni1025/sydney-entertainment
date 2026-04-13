@@ -220,7 +220,7 @@ export default function WeatherCinemaPage() {
   const captureScreenshot = useCallback(async () => {
     if (!pageRef.current) return;
     setIsCapturing(true);
-    await new Promise((r) => setTimeout(r, 150));
+    await new Promise((r) => setTimeout(r, 200));
     try {
       const canvas = await html2canvas(pageRef.current, {
         backgroundColor: "#000000",
@@ -228,14 +228,14 @@ export default function WeatherCinemaPage() {
         useCORS: true,
         allowTaint: false,
         logging: false,
-        imageTimeout: 5000,
+        imageTimeout: 8000,
         onclone: (doc) => {
           const ctrls = doc.querySelectorAll("[data-controls]");
           ctrls.forEach((el) => (el as HTMLElement).style.display = "none");
         },
       });
       const dataUrl = canvas.toDataURL("image/png");
-      // Try native share first (mobile), fallback to preview
+      // Mobile: try native share
       if (navigator.share && /Mobi|Android/i.test(navigator.userAgent)) {
         try {
           const blob = await (await fetch(dataUrl)).blob();
@@ -248,6 +248,13 @@ export default function WeatherCinemaPage() {
       setShareImage(dataUrl);
     } catch (e) {
       console.error("Screenshot failed:", e);
+      // Fallback: copy link
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        alert("截图失败，已复制链接到剪贴板");
+      } catch {
+        alert("截图失败，请手动截屏");
+      }
     }
     setIsCapturing(false);
   }, []);
@@ -482,6 +489,7 @@ export default function WeatherCinemaPage() {
                       <img
                         src={posterUrl}
                         alt={movie.title}
+                        crossOrigin="anonymous"
                         className="relative w-52 sm:w-64 rounded-xl shadow-2xl"
                         style={{ boxShadow: `0 25px 60px -12px rgba(0,0,0,0.7), 0 0 30px ${city.accentColor}20` }}
                       />
